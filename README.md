@@ -9,6 +9,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 1: [HTML](lect-1.html) · [Student PDF](lect-1.pdf)
 - Lecture 2: [HTML](lect-2.html) · [Student PDF](lect-2.pdf)
 - Lecture 3: [HTML](lect-3.html) · [Student PDF](lect-3.pdf)
+- [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 
 Homework solutions are not included. Further lectures can be added when their student editions are ready.
@@ -36,13 +37,13 @@ The local repository has a GitHub remote configured, but no publishing workflow 
 
 The sibling `STAT709-html-conversion` repository remains the preparation repository. Make content changes and regenerate student outputs there, then copy the approved HTML/PDF files and any changed runtime assets here. Keep their relative paths.
 
-The course homepage is maintained separately from the lecture build. Add each new lecture or homework assignment to `index.html` when you copy it. Preserve this publishing homepage when refreshing lectures.
+The course homepage is maintained separately from the lecture build in `STAT709-html-conversion/dist/index.html`. Keep this copy synchronized when updating it. Add each new lecture or homework assignment to `index.html` when you copy it. Preserve this publishing homepage when refreshing lectures.
 
-This publishing copy offers HTML and PDF only. Its lecture pages omit the LaTeX-source download link. Repeat that small navigation adjustment when adding or replacing a page with a new build; do not copy author PDFs, source `.tex` files, or standalone HTML containing embedded source downloads into this repository.
+This publishing copy offers student HTML and PDFs, plus the instructor-approved original lecture-note PDFs in `resources/Lectures-STAT709.zip`. Its lecture pages omit the LaTeX-source download link. Repeat that small navigation adjustment when adding or replacing a page with a new build; do not copy author PDFs, source `.tex` files, or standalone HTML containing embedded source downloads into this repository.
 
 The copied student PDFs are unchanged. The selected CSS and application modules come from `dist/assets`. MathJax 3.2.2 uses its combined `tex-chtml.js` renderer, TeX autoload extensions, and CHTML fonts. Recheck dependencies if later pages use another renderer or enable additional MathJax features.
 
-Lecture 1 and 2 comments are currently inactive, matching the preparation repository's configuration; Lecture 3 has no discussion section selected. Setting up GitHub Pages does not activate Disqus.
+Every lecture and the preface now include a Comments section with a separate Disqus thread. Comments remain inactive until the course's registered Disqus shortname is supplied. The single configuration lives in the preparation repository at `config/discussion.json`; update it there, run `npm run build:all` there, and refresh the student pages and changed runtime assets here. Preserve the existing thread identifiers across updates. Setting up GitHub Pages does not activate Disqus.
 
 ## Third-party notices
 

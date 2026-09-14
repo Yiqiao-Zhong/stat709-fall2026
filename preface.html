@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="How to use the STAT 709 Mathematical Statistics lecture notes">
+    <meta name="description" content="Why study mathematical statistics, how to use the STAT 709 notes, and how to learn, present, and ask questions">
     <title>STAT 709 · Preface</title>
     <link rel="stylesheet" href="assets/css/site.css">
     <script src="assets/js/mathjax-config.js"></script>
     <script defer src="assets/vendor/mathjax/tex-chtml.js"></script>
+    <script type="module" src="assets/js/preface.js"></script>
   </head>
   <body class="preface-page">
     <a class="skip-link" href="#preface-content">Skip to preface content</a>
@@ -20,23 +21,44 @@
         </div>
         <dl class="lecture-dates">
           <div><dt>Term</dt><dd>Fall 2026</dd></div>
-          <div><dt>Last updated</dt><dd>July 24, 2026</dd></div>
+          <div><dt>Last updated</dt><dd>September 13, 2026</dd></div>
         </dl>
       </div>
     </header>
 
     <div class="preface-shell">
-      <nav class="preface-nav" aria-label="Start reading">
+      <nav class="preface-nav" aria-label="Preface sections">
         <div class="section-eyebrow">Start here</div>
-        <h2>Using STAT 709</h2>
-        <p>Keep this guide nearby as the shared key for every lecture.</p>
-        <a class="action-link" href="lect-1.html">Open Lecture 1 <span aria-hidden="true">→</span></a>
+        <h2>On this page</h2>
+        <div class="preface-toc"><ul>
+<li><a href="#why-learn-mathematical-statistics">Why do we learn Mathematical Statistics?</a></li>
+<li><a href="#how-to-use-these-notes">How to use these notes</a></li>
+<li><a href="#walking-through-the-webpages">Walking through the webpages</a></li>
+<li><a href="#balance-rigor-and-intuition">Balance rigor and intuition</a></li>
+<li><a href="#self-study-is-expected">Self-study is expected!</a></li>
+<li><a href="#volunteering-in-a-mini-presentation">Volunteering in a mini-presentation</a></li>
+<li><a href="#raise-questions">Raise questions</a></li>
+</ul></div>
+        <div class="preface-actions">
+          <a href="#discussion">Comments</a>
+          <a class="action-link" href="index.html#lecture-notes">Browse lecture notes <span aria-hidden="true">→</span></a>
+          <a href="lect-1.html">Open Lecture 1</a>
+        </div>
       </nav>
 
-      <main id="preface-content" class="lecture-content preface-content">
+      <main id="preface-content" class="lecture-content preface-content" tabindex="-1">
+        <h2 class="unnumbered" id="why-learn-mathematical-statistics">Why do we learn Mathematical Statistics?</h2>
+        <p>Why study mathematics when software can fit models and AI can generate answers? Mathematical statistics helps us understand what those answers mean, when to trust a method, and how to approach unfamiliar problems. Its value lies in both the results and the habits of thought you develop. Learning a proof is also practice deciding which details matter and explaining why a conclusion follows.</p>
+        <ul>
+        <li><p><strong>Sharpen your mind.</strong> Precise definitions, logical arguments, and counterexamples help you distinguish what is known, assumed, or still unproved. Struggling with a proof can reveal exactly where your understanding needs work.</p></li>
+        <li><p><strong>See the benefits of <span class="semantic-term">abstraction</span>.</strong> A common language connects seemingly different problems. Sums, areas, and probability-weighted averages can all be studied through integration: one principle helps explain several kinds of calculation.</p></li>
+        <li><p><strong>Think rigorously about data.</strong> Statistical claims depend on models, assumptions, and measures of success. Mathematics helps you distinguish an observed pattern from a justified conclusion and understand the limits of a guarantee.</p></li>
+        <li><p><strong>Build understanding for research.</strong> Knowing why a method works lets you ask which assumptions could be weakened or how an argument might extend. Such questions help you read papers critically and develop ideas.</p></li>
+        <li><p><strong>Learn deeply and clearly.</strong> Connecting definitions, examples, pictures, and proofs makes ideas easier to recover and use. Aim for understanding you can explain after a lecture’s details have faded.</p></li>
+        </ul>
+        <p>The aim is independent, discerning thinking about uncertainty, evidence, and statistical methods. You do not need to love every technical detail.</p>
         <h2 class="unnumbered" id="how-to-use-these-notes">How to use these notes</h2>
-        <p>These lecture notes are a guided reference for STAT 709 Mathematical Statistics at the University of Wisconsin–Madison. They organize the definitions, calculations, examples, and proofs that support the course, but they are not a substitute for a textbook or for working problems.</p>
-        <p>Each lecture has learning goals, a topic map, priority labels, and exercises. Read the high-priority path first, then use mid-priority material to connect the lecture to other parts of the course. Open low-priority and further-reading blocks when they help your understanding or curiosity.</p>
+        <p>These notes<span id="expectations" class="source-anchor"></span><span id="a-practical-reading-routine" class="source-anchor"></span> guide your study of STAT 709 through definitions, examples, calculations, and proofs. Use them alongside a textbook and your own problem solving. Each lecture has learning goals, a topic map, priority labels, and exercises. Start with high-priority material, then work through mid-priority connections. Explore optional material as your interests and time allow.</p>
         <section class="priority-legend" aria-labelledby="priority-guide-heading">
           <h3 id="priority-guide-heading">Priority guide</h3>
           <ul>
@@ -47,38 +69,68 @@
           </ul>
         </section>
 
-        <h2 class="unnumbered" id="recurring-themes">Recurring themes</h2>
+        <h2 class="unnumbered" id="walking-through-the-webpages">Walking through the webpages</h2>
+        <p>Students bring different backgrounds in probability, analysis, linear algebra, and statistics. <strong>Learn at your own pace</strong> and spend your study time deliberately. You need not open every block in one sitting.</p>
         <dl>
-        <dt>Structure before calculation.</dt>
-        <dd><p>Identify the sample space, parameter space, assumptions, and mathematical object before manipulating formulas.</p>
+        <dt>Choose a reading view.</dt>
+        <dd><p><strong>Core only</strong> shows high-priority material for a first pass. <strong>High + mid</strong>, the default, covers examined reading. <strong>Show all</strong> includes optional material. A core-only pass is not complete exam preparation.</p>
         </dd>
-        <dt>Finite-sample statements and approximations.</dt>
-        <dd><p>Distinguish exact identities and inequalities from asymptotic approximations, and track which quantities are fixed or allowed to grow.</p>
+        <dt>Use help selectively.</dt>
+        <dd><p><strong>Quick Recall</strong> reviews earlier concepts; <strong>Quick Explanation</strong> explains incidental terminology; <strong>Instructor’s Note</strong> adds commentary. Follow their links when you need the full context.</p>
         </dd>
-        <dt>Geometry and linear transformations.</dt>
-        <dd><p>Projections, eigenvectors, singular values, norms, and convex sets turn many statistical calculations into geometric statements.</p>
+        <dt>Use figures actively.</dt>
+        <dd><p>Predict what will happen before moving a slider or changing an example. Connect the result to a definition or theorem. Figures guide intuition but do not prove general claims.</p>
         </dd>
-        <dt>Existence, uniqueness, and optimality.</dt>
-        <dd><p>These are separate questions. Compactness and continuity often establish existence; strict convexity can establish uniqueness; first-order conditions characterize an optimizer.</p>
-        </dd>
-        <dt>Probability bounds and scale.</dt>
-        <dd><p>A useful result should say not only that an event is unlikely, but also how its probability changes with sample size, dimension, and confidence.</p>
+        <dt>Choose practice independently.</dt>
+        <dd><p><strong>Core practice</strong> includes high-priority exercises; <strong>Exam practice</strong>, the default, includes high and mid; <strong>All practice</strong> adds enrichment. Reading views and practice filters operate independently. Solutions stay closed until you choose to open them.</p>
         </dd>
         </dl>
-        <h2 class="unnumbered" id="expectations">Expectations</h2>
-        <p>You are not expected to memorize every displayed result. You should be able to state and use the high-priority ideas, reproduce their central calculations, and recognize when their assumptions apply. Mid-priority material remains in scope of examinations and often supplies connections needed in later lectures. Low-priority material is enrichment and will not be examined.</p>
-        <p>When reading a proof, first identify the claim, the assumptions, and the main tool. Then work through the algebra. When using an approximation or theorem, check its hypotheses explicitly rather than relying on pattern matching.</p>
-        <h2 class="unnumbered" id="why-the-exercises-matter">Why the exercises matter</h2>
-        <p>Exercises are where definitions become usable. They are designed to help you check assumptions, carry out standard calculations, connect several views of the same idea, and diagnose common logical errors. Attempt each problem before opening its solution. A solution is a model of one complete argument, not a replacement for producing your own.</p>
-        <p>Reading and practice filters operate independently. Core practice includes high-priority exercises; Exam practice includes high and mid exercises and is the default. All practice also offers optional enrichment. Revealing all solutions is useful for review only after you have made a serious attempt.</p>
-        <h2 class="unnumbered" id="a-practical-reading-routine">A practical reading routine</h2>
+        <p><strong>Balance time and benefit.</strong> Give high- and mid-priority material regular attention. When stuck, identify the main claim and the step blocking your understanding, then return with a focused question. Learn as much as you can within your available time. Judge progress by what you can explain and use, rather than by the number of pages you click through.</p>
+        <p>You need not understand every optional extension or linked paper. If interested, explore a few advanced ideas deeply instead of skimming everything. Let that exploration build on your command of the required material.</p>
+        <h2 class="unnumbered" id="balance-rigor-and-intuition">Balance rigor and intuition</h2>
+        <p>The notes<span id="recurring-themes" class="source-anchor"></span> combine intuitive explanations and figures with rigorous statements and proofs. Intuition suggests what might be true; proof establishes it under precise assumptions. <strong>Practice translating between the two.</strong></p>
         <ol>
-        <li><p>Read the learning goals and lecture map.</p></li>
-        <li><p>Complete the high-priority path and reproduce its key calculations.</p></li>
-        <li><p>Use the mid-priority path to fill gaps and make connections.</p></li>
-        <li><p>Attempt the exercises without the solutions open.</p></li>
-        <li><p>Return to low-priority or further-reading material selectively.</p></li>
+        <li><p><strong>Start with an idea or picture.</strong> Describe the behavior you expect in ordinary language or a simple example.</p></li>
+        <li><p><strong>Make the claim precise.</strong> Name the objects, assumptions, and conclusion. What exactly does “small” or “converges” mean?</p></li>
+        <li><p><strong>Justify the steps.</strong> Identify the definition, inequality, or theorem behind each move and check its hypotheses. Separate the main idea of an argument from the algebra that implements it.</p></li>
+        <li><p><strong>Translate back.</strong> Interpret the result, try a boundary case, and ask what fails without an assumption.</p></li>
         </ol>
+        <p>A picture may suggest that curves settle down. Before moving a limit through an integral, ask what controls their areas. Convergence theorems turn that intuitive question into conditions you can check and use in a proof.</p>
+        <h2 class="unnumbered" id="self-study-is-expected">Self-study is expected!</h2>
+        <p><strong>Read all high-priority and mid-priority topics on your own</strong>, including material not covered line by line in class. Both tiers are examined. Bring unresolved questions to class or office hours.</p>
+        <h3 class="unnumbered" id="why-the-exercises-matter">Why the exercises matter</h3>
+        <p>Exercises make definitions usable and expose gaps in understanding. <strong>Try several times before consulting books, classmates, AI, or the provided solution.</strong> Draw a picture, check a simpler case, unpack a definition, or try another theorem. Main-text prompts link to complete exercises and solutions in the final section.</p>
+        <p>After seeking help, close the explanation and reconstruct the argument in your own words. Identify the missing move and why it works. Use complete solutions for review after making serious attempts. Try explaining the same idea again without looking at the symbols. A complete solution is a model of an argument, not a replacement for producing your own.</p>
+        <h3 class="unnumbered" id="externalize-your-thoughts">Externalize your thoughts</h3>
+        <p>Write, sketch, or speak your explanation. <span class="semantic-term">Self-explanation</span> makes your reasons and uncertainties visible. Ask:</p>
+        <ul>
+        <li><p>What am I trying to show, and what do I know?</p></li>
+        <li><p>Why choose this definition, example, or theorem?</p></li>
+        <li><p>Which assumption justifies this step? What remains?</p></li>
+        <li><p>Can I explain the conclusion in ordinary words?</p></li>
+        </ul>
+        <p>An analogy is <a href="https://arxiv.org/abs/2201.11903">chain-of-thought prompting in large language models</a>: intermediate reasoning examples can help a model solve a task, as studied by Wei and colleagues. Borrow the habit of making steps explicit and inspectable, without assuming human learning works like a model. Always check the mathematics, even when an explanation sounds fluent.</p>
+        <h2 class="unnumbered" id="volunteering-in-a-mini-presentation">Volunteering in a mini-presentation</h2>
+        <p>Volunteer to explain one topic in about <strong>10 minutes</strong>: an example, a proof step, a connection, or a question you have explored. Contact me to volunteer or discuss a topic. A possible outline is:</p>
+        <ol>
+        <li><p><strong>Two minutes: set up the question.</strong> Introduce the definitions and assumptions your audience needs.</p></li>
+        <li><p><strong>Five minutes: explain the argument.</strong> Externalize your thoughts. Tell classmates why you choose each theorem, example, bound, or rearrangement.</p></li>
+        <li><p><strong>Two minutes: check and interpret.</strong> Try a small example, identify a limitation, or explain why an assumption matters.</p></li>
+        <li><p><strong>One minute: give the takeaway and invite a question.</strong> Leave the class with one idea they can explain or use.</p></li>
+        </ol>
+        <p>Aim for clarity and shared learning. You need not cover an entire lecture or give a perfect performance. Explaining where you were stuck and what helped can be especially useful.</p>
+        <h2 class="unnumbered" id="raise-questions">Raise questions</h2>
+        <p><strong>Questions are welcome in class.</strong> Ask about unclear definitions, assumptions, or derivation steps. Your question need not be polished; others may share the same uncertainty.</p>
+        <p>Finding <strong>typos, inconsistencies, missing assumptions, or confusing explanations</strong> is valuable. Include the lecture and section, quote the relevant statement, and describe your difficulty. For webpage issues, include a link. A proposed correction is welcome but not required.</p>
+        <p><a href="mailto:yiqiao.zhong@wisc.edu">Email a question or correction</a>, or ask during <a href="index.html#course-information">office hours</a>. The webpages also provide a public comments section for each lecture and this preface, available once comments are enabled.</p>
+        <section id="discussion" class="discussion" aria-labelledby="discussion-heading">
+    <h2 id="discussion-heading">Comments</h2>
+    <p>Ask a question, discuss an idea, or report a typo. Include a section or exercise number when relevant.</p>
+    <p class="discussion-status" data-discussion-status role="status">Comments are not open yet.</p>
+    <div class="discussion-controls" data-discussion-controls></div>
+    <p class="discussion-contact"><a href="mailto:yiqiao.zhong@wisc.edu">Email the instructor</a> for a private question or if comments are unavailable.</p>
+
+  </section><script id="discussion-config" type="application/json">{"provider":"disqus","enabled":false,"shortname":null,"pageUrl":"https://yiqiao-zhong.github.io/stat709-fall2026/preface.html","identifier":"stat709-fall2026-preface","title":"STAT 709 · Preface"}</script>
       </main>
     </div>
 
