@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="317.653853 28 265.58399999999995 278.764063" width="265.58399999999995" height="278.764063"><title>Circle law and the choice of reference — panel 2</title><desc>A uniform-angle law has all its probability on the unit circle, a set of zero plane area, so it has no density against area. Against arc-length measure on the circle its density is 1/(2 pi); a quarter-circle arc has probability one-quarter.</desc><defs><style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ <path d="M 0 0  L 0 3.5  " id="m9206b47636" style="stroke:#44515c;stroke-width:0.8;" />
+      <path d="M 0 0  L -3.5 0  " id="m163455e4a3" style="stroke:#44515c;stroke-width:0.8;" />
+      <clipPath id="p0ae1516a66">
+   <rect height="199.584" width="199.584" x="44.094531" y="64.656" />
+  </clipPath>
+  <clipPath id="pa98344feb1">
+   <rect height="199.584" width="199.584" x="365.653853" y="64.656" />
+  </clipPath>
+ </defs><g id="axes_2">
+   <g id="patch_5">
+    <path d="M 365.653853 264.24  L 565.237853 264.24  L 565.237853 64.656  L 365.653853 64.656  z " style="fill:#fffdf8;" />
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_8">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="385.612253" xlink:href="#m9206b47636" y="264.24" />
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 385.612253, 279.598281)" x="385.612253" y="279.598281">−1</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="465.445853" xlink:href="#m9206b47636" y="264.24" />
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 465.445853, 279.598281)" x="465.445853" y="279.598281">0</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_10">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="545.279453" xlink:href="#m9206b47636" y="264.24" />
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 545.279453, 279.598281)" x="545.279453" y="279.598281">1</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="fill:#173753;font-family:Arial, sans-serif;font-size:10px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 465.445853, 293.484375)" x="465.445853" y="293.484375">x</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="365.653853" xlink:href="#m163455e4a3" y="244.2816" />
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 358.653853, 248.460741)" x="358.653853" y="248.460741">−1</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="365.653853" xlink:href="#m163455e4a3" y="164.448" />
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 358.653853, 168.627141)" x="358.653853" y="168.627141">0</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="365.653853" xlink:href="#m163455e4a3" y="84.6144" />
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 358.653853, 88.793541)" x="358.653853" y="88.793541">1</text>
+     </g>
+    </g>
+    <g id="text_18">
+     <text style="fill:#173753;font-family:Arial, sans-serif;font-size:10px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-90, 336.35776, 164.448)" x="336.35776" y="164.448">y</text>
+    </g>
+   </g>
+   <g id="line2d_14">
+    <path clip-path="url(#pa98344feb1)" d="M 545.279453 164.448  L 545.170044 160.269832  L 544.842116 156.103116  L 544.296569 151.959273  L 543.534898 147.849661  L 542.559189 143.785544  L 541.372119 139.778061  L 539.97694 135.838196  L 538.377476 131.97675  L 536.578112 128.204304  L 534.583779 124.5312  L 532.399944 120.967505  L 530.032592 117.522987  L 527.488213 114.207088  L 524.77378 111.028895  L 521.896733 107.99712  L 518.864958 105.120073  L 515.686766 102.40564  L 512.370866 99.861261  L 508.926348 97.493909  L 505.362653 95.310074  L 501.689549 93.315742  L 497.917104 91.516377  L 494.055657 89.916914  L 490.115792 88.521735  L 486.108309 87.334664  L 482.044192 86.358956  L 477.93458 85.597284  L 473.790737 85.051737  L 469.624021 84.723809  L 465.445853 84.6144  L 461.267685 84.723809  L 457.10097 85.051737  L 452.957127 85.597284  L 448.847515 86.358956  L 444.783397 87.334664  L 440.775914 88.521735  L 436.83605 89.916914  L 432.974603 91.516377  L 429.202157 93.315742  L 425.529053 95.310074  L 421.965358 97.493909  L 418.520841 99.861261  L 415.204941 102.40564  L 412.026748 105.120073  L 408.994973 107.99712  L 406.117927 111.028895  L 403.403493 114.207088  L 400.859114 117.522987  L 398.491763 120.967505  L 396.307928 124.5312  L 394.313595 128.204304  L 392.514231 131.97675  L 390.914767 135.838196  L 389.519588 139.778061  L 388.332517 143.785544  L 387.356809 147.849661  L 386.595137 151.959273  L 386.04959 156.103116  L 385.721662 160.269832  L 385.612253 164.448  L 385.721662 168.626168  L 386.04959 172.792884  L 386.595137 176.936727  L 387.356809 181.046339  L 388.332517 185.110456  L 389.519588 189.117939  L 390.914767 193.057804  L 392.514231 196.91925  L 394.313595 200.691696  L 396.307928 204.3648  L 398.491763 207.928495  L 400.859114 211.373013  L 403.403493 214.688912  L 406.117927 217.867105  L 408.994973 220.89888  L 412.026748 223.775927  L 415.204941 226.49036  L 418.520841 229.034739  L 421.965358 231.402091  L 425.529053 233.585926  L 429.202157 235.580258  L 432.974603 237.379623  L 436.83605 238.979086  L 440.775914 240.374265  L 444.783397 241.561336  L 448.847515 242.537044  L 452.957127 243.298716  L 457.10097 243.844263  L 461.267685 244.172191  L 465.445853 244.2816  L 469.624021 244.172191  L 473.790737 243.844263  L 477.93458 243.298716  L 482.044192 242.537044  L 486.108309 241.561336  L 490.115792 240.374265  L 494.055657 238.979086  L 497.917104 237.379623  L 501.689549 235.580258  L 505.362653 233.585926  L 508.926348 231.402091  L 512.370866 229.034739  L 515.686766 226.49036  L 518.864958 223.775927  L 521.896733 220.89888  L 524.77378 217.867105  L 527.488213 214.688912  L 530.032592 211.373013  L 532.399944 207.928495  L 534.583779 204.3648  L 536.578112 200.691696  L 538.377476 196.91925  L 539.97694 193.057804  L 541.372119 189.117939  L 542.559189 185.110456  L 543.534898 181.046339  L 544.296569 176.936727  L 544.842116 172.792884  L 545.170044 168.626168  L 545.279453 164.448  L 545.279453 164.448  " style="fill:none;stroke:#173753;stroke-linecap:square;stroke-width:2;" />
+   </g>
+   <g id="line2d_15">
+    <path clip-path="url(#pa98344feb1)" d="M 545.279453 164.448  L 545.272498 163.39423  L 545.251635 162.340643  L 545.216866 161.287423  L 545.168198 160.234754  L 545.10564 159.182819  L 545.029202 158.131802  L 544.938897 157.081885  L 544.834742 156.033251  L 544.716755 154.986084  L 544.584955 153.940565  L 544.439367 152.896877  L 544.280015 151.855202  L 544.106928 150.81572  L 543.920135 149.778614  L 543.719668 148.744064  L 543.505564 147.712251  L 543.277858 146.683353  L 543.036592 145.65755  L 542.781806 144.635022  L 542.513545 143.615945  L 542.231857 142.600498  L 541.93679 141.588858  L 541.628395 140.581201  L 541.306726 139.577702  L 540.971839 138.578537  L 540.623793 137.583879  L 540.262649 136.593901  L 539.888468 135.608777  L 539.501317 134.628678  L 539.101263 133.653774  L 538.688375 132.684236  L 538.262726 131.720233  L 537.824389 130.761931  L 537.373441 129.809499  L 536.909961 128.863102  L 536.43403 127.922906  L 535.945729 126.989073  L 535.445145 126.061768  L 534.932364 125.14115  L 534.407477 124.227381  L 533.870573 123.32062  L 533.321748 122.421025  L 532.761096 121.528753  L 532.188715 120.643959  L 531.604706 119.766797  L 531.009169 118.89742  L 530.402208 118.035979  L 529.78393 117.182626  L 529.154441 116.337507  L 528.513853 115.500772  L 527.862275 114.672565  L 527.199822 113.85303  L 526.52661 113.042311  L 525.842755 112.240549  L 525.148376 111.447883  L 524.443596 110.664451  L 523.728535 109.890391  L 523.00332 109.125837  L 522.268076 108.370922  L 521.522931 107.625777  L 520.768016 106.890533  L 520.003462 106.165318  L 519.229402 105.450258  L 518.445971 104.745477  L 517.653305 104.051099  L 516.851542 103.367243  L 516.040823 102.694031  L 515.221289 102.031578  L 514.393081 101.380001  L 513.556346 100.739412  L 512.711228 100.109923  L 511.857874 99.491645  L 510.996434 98.884685  L 510.127057 98.289148  L 509.249895 97.705138  L 508.3651 97.132757  L 507.472828 96.572105  L 506.573233 96.02328  L 505.666472 95.486377  L 504.752703 94.961489  L 503.832086 94.448708  L 502.90478 93.948124  L 501.970947 93.459824  L 501.030751 92.983892  L 500.084354 92.520412  L 499.131922 92.069464  L 498.173621 91.631127  L 497.209617 91.205478  L 496.240079 90.79259  L 495.265175 90.392536  L 494.285076 90.005385  L 493.299952 89.631205  L 492.309975 89.27006  L 491.315317 88.922014  L 490.316151 88.587127  L 489.312652 88.265459  L 488.304995 87.957064  L 487.293355 87.661996  L 486.277908 87.380308  L 485.258832 87.112047  L 484.236303 86.857262  L 483.210501 86.615995  L 482.181603 86.38829  L 481.149789 86.174185  L 480.115239 85.973719  L 479.078133 85.786925  L 478.038652 85.613838  L 476.996976 85.454486  L 475.953288 85.308898  L 474.907769 85.177098  L 473.860602 85.059111  L 472.811969 84.954956  L 471.762052 84.864652  L 470.711034 84.788214  L 469.659099 84.725655  L 468.60643 84.676987  L 467.553211 84.642219  L 466.499624 84.621355  L 465.445853 84.6144  " style="fill:none;stroke:#0b626b;stroke-linecap:round;stroke-width:7;" />
+   </g>
+   <g id="patch_6">
+    <path d="M 365.653853 264.24  L 365.653853 64.656  " style="fill:none;stroke:#a5a9ad;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;" />
+   </g>
+   <g id="patch_7">
+    <path d="M 365.653853 264.24  L 565.237853 264.24  " style="fill:none;stroke:#a5a9ad;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;" />
+   </g>
+   <g id="text_19">
+    <text style="fill:#0b626b;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(418.496478 155.165719)">quarter-circle arc</text>
+    <text style="fill:#0b626b;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(437.503275 167.483313)">length π/2</text>
+    <text style="fill:#0b626b;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(425.502963 179.800906)">probability 1/4</text>
+   </g>
+   <g id="text_20">
+    <text style="fill:#173753;font-family:Arial, sans-serif;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 465.445853, 58.656)" x="465.445853" y="58.656">Against arc length: density 1/(2π)</text>
+   </g>
+  </g>
+  </svg>

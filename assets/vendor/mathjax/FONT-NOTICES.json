@@ -1,0 +1,183 @@
+[
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Fraktur.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Size2.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Math.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_SansSerif.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Math-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Math.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2017 The MathJax Consortium"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Caligraphic.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Size4.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2017 The MathJAx Consortium",
+      "Copyright (c) 2017 The MathJax Consortium.",
+      "Copyright (c) 2017, The MathJax Consortium. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Zero.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_SansSerif.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Main.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Math.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Fraktur.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Script.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Size1.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Main.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Size3.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2017 The MathJax Consortium"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_SansSerif.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_AMS.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Main.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Caligraphic.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "file": "es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff",
+    "embedded_notice_text": [
+      "Copyright (c) 2009-2010 Design Science, Inc.",
+      "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Typewriter.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="-3.9054689999999965 28 265.584 278.764063" width="265.584" height="278.764063"><title>Circle law and the choice of reference — panel 1</title><desc>A uniform-angle law has all its probability on the unit circle, a set of zero plane area, so it has no density against area. Against arc-length measure on the circle its density is 1/(2 pi); a quarter-circle arc has probability one-quarter.</desc><defs><style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ <path d="M 0 0  L 0 3.5  " id="m9206b47636" style="stroke:#44515c;stroke-width:0.8;" />
+      <path d="M 0 0  L -3.5 0  " id="m163455e4a3" style="stroke:#44515c;stroke-width:0.8;" />
+      <clipPath id="p0ae1516a66">
+   <rect height="199.584" width="199.584" x="44.094531" y="64.656" />
+  </clipPath>
+  <clipPath id="pa98344feb1">
+   <rect height="199.584" width="199.584" x="365.653853" y="64.656" />
+  </clipPath>
+ </defs><g id="axes_1">
+   <g id="patch_2">
+    <path d="M 44.094531 264.24  L 243.678531 264.24  L 243.678531 64.656  L 44.094531 64.656  z " style="fill:#fffdf8;" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="64.052931" xlink:href="#m9206b47636" y="264.24" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 64.052931, 279.598281)" x="64.052931" y="279.598281">−1</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="143.886531" xlink:href="#m9206b47636" y="264.24" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 143.886531, 279.598281)" x="143.886531" y="279.598281">0</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="223.720131" xlink:href="#m9206b47636" y="264.24" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 223.720131, 279.598281)" x="223.720131" y="279.598281">1</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="fill:#173753;font-family:Arial, sans-serif;font-size:10px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 143.886531, 293.484375)" x="143.886531" y="293.484375">x</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="44.094531" xlink:href="#m163455e4a3" y="244.2816" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 37.094531, 248.460741)" x="37.094531" y="248.460741">−1</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="44.094531" xlink:href="#m163455e4a3" y="164.448" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 37.094531, 168.627141)" x="37.094531" y="168.627141">0</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="44.094531" xlink:href="#m163455e4a3" y="84.6144" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 37.094531, 88.793541)" x="37.094531" y="88.793541">1</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="fill:#173753;font-family:Arial, sans-serif;font-size:10px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-90, 14.798437, 164.448)" x="14.798437" y="164.448">y</text>
+    </g>
+   </g>
+   <g id="line2d_7">
+    <path clip-path="url(#p0ae1516a66)" d="M 223.720131 164.448  L 223.610722 160.269832  L 223.282794 156.103116  L 222.737247 151.959273  L 221.975576 147.849661  L 220.999867 143.785544  L 219.812797 139.778061  L 218.417618 135.838196  L 216.818154 131.97675  L 215.01879 128.204304  L 213.024457 124.5312  L 210.840622 120.967505  L 208.47327 117.522987  L 205.928891 114.207088  L 203.214458 111.028895  L 200.337411 107.99712  L 197.305636 105.120073  L 194.127444 102.40564  L 190.811544 99.861261  L 187.367026 97.493909  L 183.803331 95.310074  L 180.130227 93.315742  L 176.357782 91.516377  L 172.496335 89.916914  L 168.55647 88.521735  L 164.548987 87.334664  L 160.48487 86.358956  L 156.375258 85.597284  L 152.231415 85.051737  L 148.064699 84.723809  L 143.886531 84.6144  L 139.708363 84.723809  L 135.541648 85.051737  L 131.397805 85.597284  L 127.288192 86.358956  L 123.224075 87.334664  L 119.216592 88.521735  L 115.276728 89.916914  L 111.415281 91.516377  L 107.642835 93.315742  L 103.969731 95.310074  L 100.406036 97.493909  L 96.961519 99.861261  L 93.645619 102.40564  L 90.467426 105.120073  L 87.435651 107.99712  L 84.558605 111.028895  L 81.844171 114.207088  L 79.299792 117.522987  L 76.932441 120.967505  L 74.748606 124.5312  L 72.754273 128.204304  L 70.954909 131.97675  L 69.355445 135.838196  L 67.960266 139.778061  L 66.773195 143.785544  L 65.797487 147.849661  L 65.035815 151.959273  L 64.490268 156.103116  L 64.16234 160.269832  L 64.052931 164.448  L 64.16234 168.626168  L 64.490268 172.792884  L 65.035815 176.936727  L 65.797487 181.046339  L 66.773195 185.110456  L 67.960266 189.117939  L 69.355445 193.057804  L 70.954909 196.91925  L 72.754273 200.691696  L 74.748606 204.3648  L 76.932441 207.928495  L 79.299792 211.373013  L 81.844171 214.688912  L 84.558605 217.867105  L 87.435651 220.89888  L 90.467426 223.775927  L 93.645619 226.49036  L 96.961519 229.034739  L 100.406036 231.402091  L 103.969731 233.585926  L 107.642835 235.580258  L 111.415281 237.379623  L 115.276728 238.979086  L 119.216592 240.374265  L 123.224075 241.561336  L 127.288192 242.537044  L 131.397805 243.298716  L 135.541648 243.844263  L 139.708363 244.172191  L 143.886531 244.2816  L 148.064699 244.172191  L 152.231415 243.844263  L 156.375258 243.298716  L 160.48487 242.537044  L 164.548987 241.561336  L 168.55647 240.374265  L 172.496335 238.979086  L 176.357782 237.379623  L 180.130227 235.580258  L 183.803331 233.585926  L 187.367026 231.402091  L 190.811544 229.034739  L 194.127444 226.49036  L 197.305636 223.775927  L 200.337411 220.89888  L 203.214458 217.867105  L 205.928891 214.688912  L 208.47327 211.373013  L 210.840622 207.928495  L 213.024457 204.3648  L 215.01879 200.691696  L 216.818154 196.91925  L 218.417618 193.057804  L 219.812797 189.117939  L 220.999867 185.110456  L 221.975576 181.046339  L 222.737247 176.936727  L 223.282794 172.792884  L 223.610722 168.626168  L 223.720131 164.448  L 223.720131 164.448  " style="fill:none;stroke:#173753;stroke-linecap:square;stroke-width:2;" />
+   </g>
+   <g id="patch_3">
+    <path d="M 44.094531 264.24  L 44.094531 64.656  " style="fill:none;stroke:#a5a9ad;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;" />
+   </g>
+   <g id="patch_4">
+    <path d="M 44.094531 264.24  L 243.678531 264.24  " style="fill:none;stroke:#a5a9ad;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;" />
+   </g>
+   <g id="text_9">
+    <text style="fill:#703b72;font-family:Arial, sans-serif;font-size:14px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(103.604813 160.472656)">area(S) = 0</text>
+    <text style="fill:#703b72;font-family:Arial, sans-serif;font-size:14px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(114.99075 176.149594)">P(S) = 1</text>
+   </g>
+   <g id="text_10">
+    <text style="fill:#173753;font-family:Arial, sans-serif;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 143.886531, 58.656)" x="143.886531" y="58.656">Against plane area: no density</text>
+   </g>
+  </g>
+  </svg>

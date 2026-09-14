@@ -1,0 +1,92 @@
+{
+  "version": "1.0.0",
+  "sourceFile": "source_lectures/lect-3.tex",
+  "generator": "scripts/lecture3-figures.py",
+  "provenance": "Original course figures generated from canonical formulas; no downloaded third-party artwork.",
+  "figures": [
+    {
+      "id": "lec03-fig-measure-family",
+      "title": "One integral, different measures",
+      "sourceLabel": "lec03-measure-figure-caption",
+      "alt": "For h(x)=x on [0,1], equal endpoint atoms and uniform length each give integral one-half; a half atom at zero plus half uniform mass gives one-quarter. Arrows denote point mass; shaded area denotes continuous mass.",
+      "status": "static-asset-prepared",
+      "htmlStatus": "not-mounted",
+      "svg": "assets/figures/lect-3/v1/measure-family.svg",
+      "png": "assets/figures/lect-3/v1/measure-family.png",
+      "sha256": {
+        "svg": "ffc6c384b0dfe70d341081be567a1c90d3528e7cc3d3afffd55969ed09cb6f91",
+        "png": "068d5432382c4eaeb17cb62ba3890b932e8b275123cc99f6d710aee50785627f"
+      }
+    },
+    {
+      "id": "lec03-fig-mct",
+      "title": "Monotone convergence illustrated",
+      "sourceLabel": "lec03-mct-figure-caption",
+      "alt": "On [0,1], u_n(x)=(1-2^(-n))x increases pointwise to x. Curves for n=1,2,4 lie below x. Exact integrals increase from one-quarter toward one-half. This finite illustration does not prove the theorem.",
+      "status": "static-asset-prepared",
+      "htmlStatus": "not-mounted",
+      "svg": "assets/figures/lect-3/v1/mct.svg",
+      "png": "assets/figures/lect-3/v1/mct.png",
+      "sha256": {
+        "svg": "997dc875d6a8394f5fbf86368217ddb4e6972dbd870a2e7c6ed88e16f04baae4",
+        "png": "18dda60c9bfaffb188108ddad26ed77a7c915e47b86d079120dbe6f9ede88d19"
+      }
+    },
+    {
+      "id": "lec03-fig-dct",
+      "title": "Dominated convergence illustrated",
+      "sourceLabel": "lec03-dct-figure-caption",
+      "alt": "The curves x^n/(1+x) for n=1,2,4,8 share the integrable envelope g=1 on [0,1]. The pointwise limit is zero for x<1 and one-half at x=1. The exceptional singleton has measure zero and the limiting integral is zero.",
+      "status": "static-asset-prepared",
+      "htmlStatus": "not-mounted",
+      "svg": "assets/figures/lect-3/v1/dct.svg",
+      "png": "assets/figures/lect-3/v1/dct.png",
+      "sha256": {
+        "svg": "34dca93c7276b6a41d19d46d0d7f63271a75ca1c60739a6047a0c62f5bd111ce",
+        "png": "ff32d8d8cbce2df92eb79b6cf894a4330c18d29702ae93c28330c5ff96c0e6db"
+      }
+    },
+    {
+      "id": "lec03-fig-rn-reweighting",
+      "title": "Radon\u2013Nikodym reweighting",
+      "sourceLabel": "lec03-rn-reweighting",
+      "alt": "Finite reference masses (1,2,3) become (2,1,6) under multipliers (2,1/2,2). On [0,1] with length reference, r(x)=2x assigns mass three-quarters to [1/2,1], whose reference mass is one-half.",
+      "status": "static-asset-prepared",
+      "htmlStatus": "not-mounted",
+      "svg": "assets/figures/lect-3/v1/rn-reweighting.svg",
+      "png": "assets/figures/lect-3/v1/rn-reweighting.png",
+      "sha256": {
+        "svg": "66f9f68aa90bedd3bbb6f3bb87fc0ce65f42aab271136829957e3681ab7d318e",
+        "png": "07b7c7e50d99fdc349710a5f73475f505b69745d4bc0fa9ea7b18e501daeb984"
+      }
+    },
+    {
+      "id": "lec03-fig-rn-mixture",
+      "title": "Mixed Radon\u2013Nikodym derivative",
+      "sourceLabel": "lec03-rn-mixture-caption",
+      "alt": "For rho equal to length plus counting measure on nonnegative integers, display [0,1]: the reference has endpoint atoms of mass one and continuous density one. The weight is one-half at zero and between endpoints but zero at one. The target has a half atom at zero plus half uniform mass and no atom at one. Atomic mass and continuous density use separate rows.",
+      "status": "static-asset-prepared",
+      "htmlStatus": "not-mounted",
+      "svg": "assets/figures/lect-3/v1/rn-mixture.svg",
+      "png": "assets/figures/lect-3/v1/rn-mixture.png",
+      "sha256": {
+        "svg": "611c7f7b94a8aba20601c9091f1da917e47ab1b0a426a574f4d0b8a09aac25ab",
+        "png": "d9690d76c31661d96dec0e2460eadcc63ab43176d121bf0f1ccf44a246f8c4c0"
+      }
+    },
+    {
+      "id": "lec03-fig-rn-reference",
+      "title": "Circle law and the choice of reference",
+      "sourceLabel": "lec03-rn-circle-caption",
+      "alt": "A uniform-angle law has all its probability on the unit circle, a set of zero plane area, so it has no density against area. Against arc-length measure on the circle its density is 1/(2 pi); a quarter-circle arc has probability one-quarter.",
+      "status": "static-asset-prepared",
+      "htmlStatus": "not-mounted",
+      "svg": "assets/figures/lect-3/v1/rn-reference.svg",
+      "png": "assets/figures/lect-3/v1/rn-reference.png",
+      "sha256": {
+        "svg": "b26c872b8dd4b88fcd77ce6bd19282082b466b2f69e491ca54ce1f41e0d7dc06",
+        "png": "0a146b76a516a5fcb6cb66da152f4c3f863c3afd404b6956f33c6faee6602c6e"
+      }
+    }
+  ]
+}

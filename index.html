@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="STAT 709 Mathematical Statistics at UW–Madison: Fall 2026 course information, grading, homework, exams, and lecture notes.">
+  <meta name="theme-color" content="#0c253a">
+  <title>STAT 709 · Mathematical Statistics · Course home</title>
+  <!--
+    Course homepage: place alongside preface.html and lect-1.html.
+    Self-contained styles reproduce the attached pages' shared visual language.
+    No site.js dependency: that script is specific to the lecture interface.
+    Content reference: revised STAT 709 course policy, September 3, 2026.
+    Instructor review before publication:
+      - Participation is 20%, as inferred in the polished policy's 100-point total.
+      - Exam notes are interpreted as two double-sided A4 sheets per exam.
+      - Replace TBA information and the general Canvas sign-in URL when available.
+    The older lecture-by-lecture schedule is intentionally omitted: its numbering
+    does not match the revised lecture notes. No new course policies are added.
+  -->
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17202a;
+      --ink-soft: #4f5d6b;
+      --paper: #fffdf9;
+      --canvas: #f1eee7;
+      --line: #d9d4c9;
+      --navy: #173753;
+      --navy-deep: #0c253a;
+      --high: #125b9a;
+      --mid: #9a5b13;
+      --low: #5f6872;
+      --further: #76518e;
+      --focus: #0b70c9;
+      --shadow: 0 16px 40px rgba(29, 42, 53, .08);
+      --radius: 14px;
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
+    body {
+      margin: 0; color: var(--ink); font-size: 16px; line-height: 1.68;
+      background: radial-gradient(circle at 12% 4%, rgba(18, 91, 154, .07), transparent 25rem), var(--canvas);
+    }
+    a { color: #075f9f; text-underline-offset: .18em; }
+    a:hover { color: #003e6a; }
+    button { font: inherit; }
+    a:focus-visible, button:focus-visible, summary:focus-visible {
+      outline: 3px solid var(--focus); outline-offset: 4px;
+    }
+    [hidden] { display: none !important; }
+    .skip-link {
+      position: fixed; z-index: 100; left: 1rem; top: 1rem;
+      transform: translateY(-180%); padding: .6rem .9rem; border-radius: 8px;
+      background: var(--navy-deep); color: white;
+    }
+    .skip-link:focus { transform: translateY(0); }
+    .course-header {
+      padding: 2.25rem max(1.25rem, calc((100vw - 1280px) / 2));
+      color: white; border-bottom: 5px solid #d5a43a;
+      background: linear-gradient(115deg, rgba(255, 255, 255, .08), transparent 42%), var(--navy-deep);
+    }
+    .course-kicker, .section-eyebrow {
+      color: #f3c963; font-size: .76rem; font-weight: 800;
+      letter-spacing: .15em; text-transform: uppercase;
+    }
+    .lecture-heading { display: flex; align-items: end; justify-content: space-between; gap: 3rem; margin-top: 1.3rem; }
+    .lecture-number { color: #bcd3e7; font-weight: 700; letter-spacing: .05em; }
+    h1 {
+      max-width: 800px; margin: .25rem 0 0; font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.25rem, 5vw, 4.6rem); font-weight: 500;
+      letter-spacing: -.035em; line-height: 1.04;
+    }
+    .lecture-dates { display: grid; min-width: 190px; margin: 0; gap: .7rem; }
+    .lecture-dates dt { color: #9eb8cd; font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .lecture-dates dd { margin: 0; font-weight: 650; }
+    .header-description { max-width: 72ch; color: #d8e4ec; margin: 1.4rem 0 0; font-size: .94rem; }
+    .preface-shell {
+      display: grid; grid-template-columns: minmax(220px, 280px) minmax(0, 900px);
+      align-items: start; justify-content: center; gap: 2rem;
+      max-width: 1280px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+    }
+    .course-sidebar { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow: auto; padding: 4px; margin: -4px; }
+    .reading-panel { padding: 1.3rem; border-radius: var(--radius); background: var(--navy); color: white; box-shadow: var(--shadow); }
+    .reading-panel h2 { font-family: Georgia, "Times New Roman", serif; font-size: 1.6rem; font-weight: 500; margin: .2rem 0; line-height: 1.25; }
+    .reading-panel p { color: #d8e4ec; font-size: .86rem; margin: .65rem 0 1.1rem; }
+    .action-link {
+      display: inline-flex; justify-content: space-between; align-items: center; gap: .6rem;
+      padding: .6rem .85rem; border-radius: 8px; background: white;
+      color: var(--navy-deep); font-weight: 800; text-decoration: none;
+    }
+    .action-link:hover { color: var(--navy-deep); background: #eef5fa; }
+    .reading-panel .action-link { display: flex; }
+    .reading-panel .secondary-link { display: inline-block; color: #e3edf4; font-size: .88rem; margin-top: .9rem; }
+    .page-nav { margin-top: 1.2rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); overflow: hidden; }
+    .page-nav summary { cursor: pointer; padding: 1rem 1.15rem; font-weight: 800; font-size: .8rem; letter-spacing: .09em; text-transform: uppercase; }
+    .page-nav nav { padding: 0 .65rem .8rem; }
+    .page-nav a { display: block; padding: .44rem .6rem; border-left: 3px solid transparent; border-radius: 4px; color: var(--ink-soft); font-size: .88rem; text-decoration: none; }
+    .page-nav a:hover { background: #f1f4f6; color: var(--navy); }
+    .page-nav a[aria-current="location"] { border-left-color: var(--high); background: #eaf3fb; color: var(--navy); font-weight: 750; }
+    .sidebar-tools { display: flex; flex-wrap: wrap; gap: .55rem 1.15rem; margin: 1rem .15rem 0; font-size: .82rem; }
+    .text-button { padding: 0; border: 0; color: #075f9f; background: transparent; cursor: pointer; text-decoration: underline; text-underline-offset: .18em; }
+    .lecture-content { min-width: 0; padding: clamp(1.3rem, 3vw, 3rem); border: 1px solid var(--line); border-radius: 18px; background: var(--paper); box-shadow: var(--shadow); }
+    .content-section + .content-section { margin-top: 3.4rem; padding-top: 1.6rem; border-top: 1px solid var(--line); }
+    .lecture-content h2 { margin: .1rem 0 1.2rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.75rem, 4vw, 2.55rem); font-weight: 500; letter-spacing: -.02em; line-height: 1.15; }
+    .lecture-content h3 { margin: 1.6rem 0 .65rem; font-size: 1.15rem; line-height: 1.35; }
+    .lecture-content p { max-width: 76ch; margin: .85rem 0; }
+    .lecture-content li { margin: .45rem 0; }
+    .lecture-content ul { padding-left: 1.25rem; }
+    .muted { color: var(--ink-soft); }
+    .facts { margin: 0 0 1.3rem; }
+    .facts > div { display: grid; grid-template-columns: 125px minmax(0, 1fr); gap: 1rem; padding: .7rem 0; border-bottom: 1px solid #e8e3d9; }
+    .facts dt { font-weight: 750; color: var(--navy); }
+    .facts dd { margin: 0; }
+    .people { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; margin: 1.5rem 0; }
+    .person { border-left: 3px solid #bacddd; padding-left: 1rem; }
+    .person .role { color: var(--ink-soft); font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .person h3 { font-size: 1.05rem; margin: .2rem 0; }
+    .person p { margin: .35rem 0; font-size: .88rem; }
+    .person a { overflow-wrap: anywhere; }
+    .disclosure { margin: 1.3rem 0 0; border: 1px solid var(--line); border-radius: 10px; background: #f8f6f1; }
+    .disclosure > summary { padding: .85rem 1rem; cursor: pointer; font-weight: 750; color: var(--navy); }
+    .disclosure[open] > summary { border-bottom: 1px solid var(--line); }
+    .disclosure-body { padding: .15rem 1rem .8rem; }
+    .disclosure-body > :last-child { margin-bottom: .4rem; }
+    .table-wrap { margin: 1rem 0 1.3rem; }
+    table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: .94rem; }
+    caption { text-align: left; color: var(--ink-soft); font-size: .83rem; margin-bottom: .65rem; }
+    th, td { padding: .7rem .8rem; border-bottom: 1px solid var(--line); text-align: left; }
+    thead th { color: var(--navy); background: #eef2f4; font-size: .75rem; text-transform: uppercase; letter-spacing: .07em; }
+    tbody th { font-weight: 600; }
+    .number { text-align: right; }
+    tfoot th, tfoot td { font-weight: 800; color: var(--navy); border-bottom: 2px solid var(--navy); }
+    .policy-note { margin: 1.3rem 0; padding: .2rem 1.1rem; border-left: 4px solid var(--mid); border-radius: 0 9px 9px 0; background: #fbf1e5; }
+    .policy-note h3 { margin-top: .8rem; font-size: 1rem; }
+    .exam-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.2rem 0; }
+    .exam { padding: 1rem 1.2rem; border: 1px solid var(--line); border-top: 3px solid var(--high); border-radius: 10px; }
+    .exam h3 { margin: .1rem 0 .7rem; color: var(--navy); }
+    .exam dl { margin: 0; font-size: .9rem; }
+    .exam dt { color: var(--ink-soft); font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; margin-top: .7rem; }
+    .exam dd { margin: .1rem 0 0; }
+    .resource-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.3rem 0; }
+    .map-node { display: flex; flex-direction: column; gap: .6rem; padding: 1rem; border: 1px solid var(--line); border-top: 4px solid var(--high); border-radius: 11px; background: #fffdf9; color: var(--ink); box-shadow: 0 8px 24px rgba(25, 40, 54, .05); text-decoration: none; }
+    .map-node:nth-child(2) { border-top-color: var(--mid); }
+    .map-node:hover { background: #f6f8fa; color: var(--navy); }
+    .map-node strong { font-size: 1.05rem; }
+    .map-node span { color: var(--ink-soft); font-size: .84rem; line-height: 1.5; }
+    .map-node b { color: #075f9f; font-size: .82rem; }
+    .priority-key { list-style: none; padding: 0 !important; }
+    .priority-key li { display: grid; grid-template-columns: 85px minmax(0, 1fr); gap: .7rem; padding: .45rem 0; font-size: .9rem; }
+    .tier { font-weight: 800; }
+    .high { color: var(--high); } .mid { color: var(--mid); }
+    .low { color: var(--low); } .further { color: var(--further); }
+    .source-note { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .79rem; }
+    .course-footer { display: flex; justify-content: space-between; gap: 1rem; padding: 1.5rem max(1.25rem, calc((100vw - 1280px) / 2)); background: var(--navy-deep); color: #cad9e4; font-size: .8rem; }
+    .course-footer p { margin: 0; }
+    .course-footer a { color: #cad9e4; }
+    @media (max-width: 1120px) {
+      .preface-shell { grid-template-columns: minmax(0, 900px); max-width: 940px; }
+      .course-sidebar { position: static; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-height: none; overflow: visible; }
+      .page-nav { margin: 0; align-self: start; }
+      .sidebar-tools { grid-column: 1 / -1; margin: 0; }
+      .lecture-heading { gap: 2rem; }
+    }
+    @media (max-width: 760px) {
+      body { font-size: 15px; }
+      .course-header { padding: 1.8rem 1.15rem; }
+      .lecture-heading { display: block; }
+      .lecture-dates { grid-template-columns: 1fr 1fr; min-width: 0; margin-top: 1.3rem; }
+      .header-description { margin-top: 1.1rem; }
+      .preface-shell { padding: 1.4rem 1rem 2.4rem; gap: 1.4rem; }
+      .course-sidebar { grid-template-columns: minmax(0, 1fr); }
+      .reading-panel { padding: 1.15rem; }
+      .reading-panel h2 { font-size: 1.5rem; }
+      .lecture-content { padding: 1.2rem; border-radius: 13px; }
+      .content-section + .content-section { margin-top: 2.5rem; }
+      .facts > div { grid-template-columns: minmax(0, 1fr); gap: .15rem; }
+      .people, .exam-grid, .resource-grid { grid-template-columns: minmax(0, 1fr); }
+      .people { gap: 1.3rem; }
+      th, td { padding: .65rem .4rem; }
+      table { font-size: .88rem; }
+      thead th { letter-spacing: .02em; }
+      .course-footer { flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print {
+      @page { margin: 16mm; }
+      html { scroll-behavior: auto; }
+      body { background: white; color: black; font-size: 10pt; line-height: 1.45; }
+      .skip-link, .course-sidebar, .course-footer, .header-description { display: none !important; }
+      .course-header { padding: 0 0 1rem; background: white; color: black; border-bottom: 2px solid #173753; }
+      .course-kicker, .lecture-number, .lecture-dates dt { color: #333; }
+      .lecture-heading { display: flex; align-items: start; margin-top: .5rem; }
+      h1 { font-size: 28pt; }
+      .lecture-dates { min-width: 140px; margin: 0; }
+      .preface-shell { display: block; max-width: none; padding: 1.2rem 0 0; }
+      .lecture-content { padding: 0; border: 0; border-radius: 0; box-shadow: none; }
+      .lecture-content h2 { font-size: 20pt; }
+      .lecture-content h3 { font-size: 12pt; }
+      .content-section + .content-section { margin-top: 1.6rem; padding-top: 1rem; }
+      h2, h3, summary { break-after: avoid; }
+      .person, .exam, .map-node, table, .policy-note { break-inside: avoid; }
+      p, li { orphans: 3; widows: 3; }
+      .people, .exam-grid, .resource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .facts > div { grid-template-columns: 110px minmax(0, 1fr); }
+      .disclosure, .exam, .map-node { background: white; box-shadow: none; }
+      details::details-content { content-visibility: visible; height: auto; }
+      details > .disclosure-body { display: block !important; }
+      .source-note { margin-top: 1.3rem; }
+      a { color: #173753; }
+    }
+  </style>
+</head>
+<body class="preface-page course-home">
+  <a class="skip-link" href="#course-content">Skip to course information</a>
+  <header class="course-header" id="top">
+    <div class="course-kicker">STAT 709 · University of Wisconsin–Madison</div>
+    <div class="lecture-heading">
+      <div>
+        <div class="lecture-number">Course information &amp; policy</div>
+        <h1>Mathematical Statistics</h1>
+      </div>
+      <dl class="lecture-dates">
+        <div><dt>Term</dt><dd>Fall 2026</dd></div>
+        <div><dt>Credits &amp; format</dt><dd>4 credits · In person</dd></div>
+      </dl>
+    </div>
+    <p class="header-description">Department of Statistics · Foundations of statistical theory, from mathematical tools to statistical inference.</p>
+  </header>
+
+  <div class="preface-shell">
+    <aside class="course-sidebar" aria-label="Course navigation">
+      <section class="reading-panel" aria-labelledby="start-heading">
+        <div class="section-eyebrow">Start here</div>
+        <h2 id="start-heading">Your course guide</h2>
+        <p>Find the practical details here, then use the preface to navigate the lecture notes.</p>
+        <a class="action-link" href="preface.html">Read the preface <span aria-hidden="true">→</span></a>
+        <a class="secondary-link" href="lect-1.html">Go to Lecture 1 <span aria-hidden="true">→</span></a>
+      </section>
+      <details class="page-nav" id="page-navigation" open>
+        <summary>On this page</summary>
+        <nav aria-label="On this page">
+          <a href="#course-information">Course information</a>
+          <a href="#grading">Grading</a>
+          <a href="#homework">Homework</a>
+          <a href="#examinations">Examinations</a>
+          <a href="#communication">Communication</a>
+          <a href="#course-materials">Notes &amp; references</a>
+        </nav>
+      </details>
+      <div class="sidebar-tools">
+        <a href="https://canvas.wisc.edu/">Canvas sign-in</a>
+        <button class="text-button" id="print-page" type="button" hidden>Print course policy</button>
+      </div>
+    </aside>
+
+    <main id="course-content" class="lecture-content" tabindex="-1">
+      <section class="content-section" id="course-information" aria-labelledby="information-heading">
+        <h2 id="information-heading">Course information</h2>
+        <dl class="facts">
+          <div><dt>Lectures</dt><dd>Mondays &amp; Wednesdays, 11:00 a.m.–12:15 p.m.<br>Van Vleck B211</dd></div>
+          <div><dt>Weekly work</dt><dd>Two 75-minute lectures, one discussion section, assigned readings, and homework.</dd></div>
+          <div><dt>Discussion</dt><dd>One session per week; time and location to be announced.</dd></div>
+          <div><dt>Prerequisite</dt><dd>Graduate or professional standing.</dd></div>
+        </dl>
+        <div class="people">
+          <section class="person" aria-labelledby="instructor-name">
+            <div class="role">Instructor</div>
+            <h3 id="instructor-name">Yiqiao (Joe) Zhong</h3>
+            <p><a href="mailto:yiqiao.zhong@wisc.edu">yiqiao.zhong@wisc.edu</a></p>
+            <p><strong>Office hour</strong><br>Mondays, 12:30–1:30 p.m.<br>5655 Morgridge Hall</p>
+          </section>
+          <section class="person" aria-labelledby="ta-name">
+            <div class="role">Teaching assistant</div>
+            <h3 id="ta-name">Fuxin Wang</h3>
+            <p><a href="mailto:fwang297@wisc.edu">fwang297@wisc.edu</a></p>
+            <p><strong>Office hour</strong><br>One hour per week.<br>Time and location to be announced.</p>
+          </section>
+        </div>
+        <h3>About the course</h3>
+        <p>STAT 709 is a core course in the Statistics Ph.D. curriculum and the first course in the mathematical statistics sequence, followed by STAT 710. It introduces the foundations of statistical theory and prepares doctoral students to read, evaluate, and conduct theoretical statistical research.</p>
+        <details class="disclosure">
+          <summary>Learning outcomes</summary>
+          <div class="disclosure-body">
+            <p>By the end of the course, you should be able to:</p>
+            <ul>
+              <li>Formulate statistical estimation problems using rigorous mathematical language.</li>
+              <li>Derive fundamental properties of estimators, including bias and variance.</li>
+              <li>Compare estimators and explain the strengths and limitations of competing methods.</li>
+              <li>Apply theoretical tools, including concentration inequalities, to new statistical problems and present the resulting arguments as mathematical proofs.</li>
+              <li>Distinguish classical large-sample theory from high-dimensional statistical theory and critically evaluate recent research.</li>
+            </ul>
+          </div>
+        </details>
+      </section>
+
+      <section class="content-section" id="grading" aria-labelledby="grading-heading">
+        <h2 id="grading-heading">Grading</h2>
+        <div class="table-wrap">
+          <table>
+            <caption>Course grade: 100 points in total</caption>
+            <thead><tr><th scope="col">Component</th><th scope="col" class="number">Points</th><th scope="col" class="number">Weight</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Class participation</th><td class="number">20</td><td class="number">20%</td></tr>
+              <tr><th scope="row">Homework assignments</th><td class="number">20</td><td class="number">20%</td></tr>
+              <tr><th scope="row">Midterm examination</th><td class="number">20</td><td class="number">20%</td></tr>
+              <tr><th scope="row">Final examination</th><td class="number">40</td><td class="number">40%</td></tr>
+            </tbody>
+            <tfoot><tr><th scope="row">Total</th><td class="number">100</td><td class="number">100%</td></tr></tfoot>
+          </table>
+        </div>
+        <p><strong>Bonus points.</strong> Details, if any, are to be determined.</p>
+        <h3>Letter grades</h3>
+        <p>Final letter grades will be determined in light of the class’s overall performance. The <a href="https://kb.wisc.edu/luwmad/135037">official UW–Madison Canvas Grading Schemes page</a> explains how numerical scores are converted into letter grades.</p>
+        <p class="muted">The percentages on that page are examples or pre-built Canvas settings, not university-mandated cutoffs. They should not be read as the grading thresholds for STAT 709.</p>
+      </section>
+
+      <section class="content-section" id="homework" aria-labelledby="homework-heading">
+        <h2 id="homework-heading">Homework</h2>
+        <p><a href="homework/HW1.pdf"><strong>Homework 1 — Assignment PDF</strong></a></p>
+        <p>Weekly assignments provide practice with the definitions, calculations, and proofs developed in class. Problems will come from several sources, including Jun Shao’s <cite>Mathematical Statistics</cite>, second edition.</p>
+        <ul>
+          <li><strong>Posting and deadlines.</strong> Homework will normally be posted by Sunday evening and due approximately one week later. Consult Canvas for each assignment’s exact deadline.</li>
+          <li><strong>Submission.</strong> Submit all work through Canvas. LaTeX and legible handwritten solutions are both acceptable.</li>
+        </ul>
+        <div class="policy-note">
+          <h3>Late submissions</h3>
+          <p>A <strong>20% deduction</strong> applies to work submitted after the deadline but before solutions are posted. Work submitted after solutions are posted receives <strong>no credit</strong>.</p>
+        </div>
+      </section>
+
+      <section class="content-section" id="examinations" aria-labelledby="exams-heading">
+        <h2 id="exams-heading">Examinations</h2>
+        <div class="exam-grid">
+          <section class="exam" aria-labelledby="midterm-heading">
+            <h3 id="midterm-heading">Midterm</h3>
+            <dl>
+              <dt>Date</dt><dd>To be announced · In class</dd>
+              <dt>Duration</dt><dd>75 minutes</dd>
+              <dt>Location</dt><dd>Van Vleck B211</dd>
+            </dl>
+          </section>
+          <section class="exam" aria-labelledby="final-heading">
+            <h3 id="final-heading">Final examination</h3>
+            <dl>
+              <dt>Date</dt><dd>To be announced</dd>
+              <dt>Duration</dt><dd>2 hours</dd>
+              <dt>Location</dt><dd>To be announced</dd>
+            </dl>
+          </section>
+        </div>
+        <p><strong>Notes and calculators.</strong> For each exam, you may bring up to two double-sided A4-sized sheets of notes. No calculator is required.</p>
+        <p><strong>Exam scope in the lecture notes.</strong> High- and mid-priority material is in scope for examinations. Low-priority material will not be examined; further reading is optional exploration. See the <a href="preface.html#priority-guide-heading">preface’s priority guide</a> for details.</p>
+      </section>
+
+      <section class="content-section" id="communication" aria-labelledby="communication-heading">
+        <h2 id="communication-heading">Communication</h2>
+        <ul>
+          <li><strong>Office hours.</strong> The instructor and teaching assistant each hold one office hour per week. See the <a href="#course-information">course information above</a> for the current details.</li>
+          <li><strong>General course questions.</strong> Use the Canvas Discussions area. You may post anonymously where that option is enabled.</li>
+          <li><strong>Urgent or private matters.</strong> Email the instructor or teaching assistant, including when illness affects your coursework.</li>
+        </ul>
+        <p><a href="https://canvas.wisc.edu/">Sign in to UW–Madison Canvas</a> for assignment submissions and course discussions.</p>
+      </section>
+
+      <section class="content-section" id="course-materials" aria-labelledby="materials-heading">
+        <h2 id="materials-heading">Notes &amp; references</h2>
+        <p>The lecture notes are the primary source for many course topics. Use them alongside the texts and regular problem-solving practice.</p>
+        <div class="resource-grid">
+          <a class="map-node" href="preface.html">
+            <strong>Preface</strong>
+            <span>The priority system, recurring themes, and a practical reading routine.</span>
+            <b>Read the guide <span aria-hidden="true">→</span></b>
+          </a>
+          <a class="map-node" href="lect-1.html">
+            <strong>Lecture 1</strong>
+            <span>Mathematical foundations, with examples, exercises, and worked solutions.</span>
+            <b>Start the notes <span aria-hidden="true">→</span></b>
+          </a>
+          <a class="map-node" href="lect-2.html">
+            <strong>Lecture 2</strong>
+            <span>Measure spaces, measures, and random variables.</span>
+            <b>Read the notes <span aria-hidden="true">→</span></b>
+          </a>
+          <a class="map-node" href="lect-3.html">
+            <strong>Lecture 3</strong>
+            <span>Integration, convergence theorems, and densities.</span>
+            <b>Read the notes <span aria-hidden="true">→</span></b>
+          </a>
+        </div>
+        <h3>Lecture downloads</h3>
+        <ul>
+          <li>Lecture 1: Mathematical basics for statistics — <a href="lect-1.html">HTML notes</a> · <a href="lect-1.pdf">Student PDF</a></li>
+          <li>Lecture 2: Measure spaces, measures, and random variables — <a href="lect-2.html">HTML notes</a> · <a href="lect-2.pdf">Student PDF</a></li>
+          <li>Lecture 3: Integration, convergence theorems, and densities — <a href="lect-3.html">HTML notes</a> · <a href="lect-3.pdf">Student PDF</a></li>
+        </ul>
+        <details class="disclosure">
+          <summary>How to read the priority tiers</summary>
+          <div class="disclosure-body">
+            <ul class="priority-key">
+              <li><span class="tier high">◆ High</span><span>Core concepts and calculations to master; directly examined.</span></li>
+              <li><span class="tier mid">● Mid</span><span>Supporting concepts and connections; in scope for examinations.</span></li>
+              <li><span class="tier low">◇ Low</span><span>Optional enrichment for understanding; not examined.</span></li>
+              <li><span class="tier further">↗ Further</span><span>Self-study, historical context, and references for exploration.</span></li>
+            </ul>
+            <p>High and mid material is visible by default in the lecture pages. Low-priority material, further reading, and exercise solutions use expandable blocks. Attempt an exercise before opening its solution.</p>
+          </div>
+        </details>
+        <h3>Principal texts</h3>
+        <ul>
+          <li>Peter J. Bickel and Kjell A. Doksum, <cite>Mathematical Statistics: Basic Ideas and Selected Topics</cite>, Volume I, second edition.</li>
+          <li>George Casella and Roger L. Berger, <cite>Statistical Inference</cite>, second edition.</li>
+        </ul>
+        <details class="disclosure">
+          <summary>Additional references</summary>
+          <div class="disclosure-body">
+            <ul>
+              <li>Jun Shao, <cite>Mathematical Statistics</cite>, second edition, and <cite>Mathematical Statistics: Exercises and Solutions</cite>.</li>
+              <li>Roman Vershynin, <cite>High-Dimensional Probability: An Introduction with Applications in Data Science</cite>.</li>
+              <li>Martin J. Wainwright, <cite>High-Dimensional Statistics: A Non-Asymptotic Viewpoint</cite>.</li>
+              <li>Walter Rudin, <cite>Principles of Mathematical Analysis</cite>, third edition.</li>
+              <li>Iain M. Johnstone, <cite>Gaussian Estimation: Sequence and Wavelet Models</cite>.</li>
+            </ul>
+            <p>Additional readings will be assigned as appropriate.</p>
+          </div>
+        </details>
+      </section>
+      <p class="source-note">Course-policy reference: September 3, 2026. Dates and arrangements marked “To be announced” have not yet been specified in the policy document.</p>
+    </main>
+  </div>
+
+  <footer class="course-footer">
+    <p>STAT 709 · Department of Statistics · University of Wisconsin–Madison</p>
+    <p>Fall 2026 · <a href="#top">Back to top ↑</a></p>
+  </footer>
+  <script>
+    (() => {
+      'use strict';
+      // All course content and navigation work without JavaScript.
+      const navPanel = document.getElementById('page-navigation');
+      const narrowScreen = window.matchMedia('(max-width: 760px)');
+      const syncNavigation = () => { navPanel.open = !narrowScreen.matches; };
+      syncNavigation();
+      narrowScreen.addEventListener('change', syncNavigation);
+
+      const links = [...document.querySelectorAll('.page-nav nav a')];
+      const sections = links.map(link => document.querySelector(link.getAttribute('href')));
+      let scheduled = false;
+      function updateCurrentSection() {
+        const threshold = Math.min(180, window.innerHeight * .25);
+        let current = sections[0];
+        for (const section of sections) {
+          if (section.getBoundingClientRect().top <= threshold) current = section;
+        }
+        links.forEach(link => {
+          if (link.getAttribute('href') === '#' + current.id) link.setAttribute('aria-current', 'location');
+          else link.removeAttribute('aria-current');
+        });
+        scheduled = false;
+      }
+      window.addEventListener('scroll', () => {
+        if (!scheduled) { scheduled = true; window.requestAnimationFrame(updateCurrentSection); }
+      }, { passive: true });
+      window.addEventListener('resize', updateCurrentSection);
+      updateCurrentSection();
+
+      // Print all supplementary text; preserve the reader's disclosure state.
+      let printState = null;
+      window.addEventListener('beforeprint', () => {
+        if (printState) return;
+        printState = [...document.querySelectorAll('main details')].map(item => [item, item.open]);
+        printState.forEach(([item]) => { item.open = true; });
+      });
+      window.addEventListener('afterprint', () => {
+        if (!printState) return;
+        printState.forEach(([item, wasOpen]) => { item.open = wasOpen; });
+        printState = null;
+      });
+      const printButton = document.getElementById('print-page');
+      printButton.hidden = false;
+      printButton.addEventListener('click', () => window.print());
+    })();
+  </script>
+</body>
+</html>
