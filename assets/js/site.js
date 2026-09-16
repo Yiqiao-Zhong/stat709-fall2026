@@ -2,6 +2,7 @@ import { mountDiscussion } from './discussion.js';
 import { mountLectureWidgets, addLectureCrossLinks } from './widgets/lect-1.js';
 import { mountLecturePilot } from './widgets/lecture1-pilot.js';
 import { mountLecture2 } from './widgets/lect-2.js';
+import { mountLecture4 } from './widgets/lect-4.js';
 import { mountLecture3 } from './widgets/lect-3.js';
 
 const body = document.body;
@@ -99,6 +100,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   if (body.dataset.lecture === '1') { mountLectureWidgets();mountLecturePilot();addLectureCrossLinks(); }
   if (body.dataset.lecture === '2') mountLecture2();
   if (body.dataset.lecture === '3') mountLecture3();
+  if (body.dataset.lecture === '4') mountLecture4();
   mountDiscussion();
   setPriorityMode('supporting');setExerciseMode('exam');setupPrint();openHashTarget();
   window.addEventListener('hashchange',openHashTarget);

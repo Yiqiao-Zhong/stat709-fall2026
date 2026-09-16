@@ -943,22 +943,22 @@ input[type=number], .answer-check input { padding: .45rem; border: 1px solid var
 
 /* Classroom reading plans: source prose stays complete in the LaTeX/PDF. */
 body[data-lecture="2"] .math-with-punctuation { white-space: nowrap; }
-:is(body[data-lecture="2"], body[data-lecture="3"]) .classroom-points {
+:is(body[data-lecture="2"], body[data-lecture="3"], body[data-lecture="4"]) .classroom-points {
   margin: .85rem 0 1.3rem;
 }
-:is(body[data-lecture="2"], body[data-lecture="3"]) .classroom-points > ul {
+:is(body[data-lecture="2"], body[data-lecture="3"], body[data-lecture="4"]) .classroom-points > ul {
   margin: 0;
   padding-left: 1.35rem;
   list-style-type: disc;
 }
-:is(body[data-lecture="2"], body[data-lecture="3"]) .classroom-points > ul > li {
+:is(body[data-lecture="2"], body[data-lecture="3"], body[data-lecture="4"]) .classroom-points > ul > li {
   margin: .65rem 0;
   padding-left: .25rem;
 }
-:is(body[data-lecture="2"], body[data-lecture="3"]) .classroom-points > ul > li::marker { color: #173753; }
-:is(body[data-lecture="2"], body[data-lecture="3"]) .classroom-points > ul > li > p { margin: .3rem 0; }
-:is(body[data-lecture="2"], body[data-lecture="3"]) .classroom-points > ul > li > p:first-child > strong:first-child,
-:is(body[data-lecture="2"], body[data-lecture="3"]) .classroom-points > ul > li > strong:first-child { color: #173753; }
+:is(body[data-lecture="2"], body[data-lecture="3"], body[data-lecture="4"]) .classroom-points > ul > li::marker { color: #173753; }
+:is(body[data-lecture="2"], body[data-lecture="3"], body[data-lecture="4"]) .classroom-points > ul > li > p { margin: .3rem 0; }
+:is(body[data-lecture="2"], body[data-lecture="3"], body[data-lecture="4"]) .classroom-points > ul > li > p:first-child > strong:first-child,
+:is(body[data-lecture="2"], body[data-lecture="3"], body[data-lecture="4"]) .classroom-points > ul > li > strong:first-child { color: #173753; }
 .term-help-row {
   display: flex;
   align-items: baseline;
@@ -1017,3 +1017,76 @@ body[data-lecture="3"] .integration-step { border-left: 3px solid #527895; }
 .spike-panels svg { width: 100%; height: auto; }
 .figure-note { font-size: .85rem; color: #526071; margin-bottom: 0; }
 @media (max-width: 650px) { .spike-panels { grid-template-columns: 1fr; } }
+
+/* Lecture 4: source illustrations and the selected quadratic chord. */
+.lecture4-panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: .8rem; }
+.lecture4-panels img { min-width: 0; max-width: 440px; justify-self: center; }
+.chord-static { max-width: 540px; margin-inline: auto; }
+.chord-explorer svg { display: block; width: 100%; height: auto; }
+.chord-live svg { touch-action: none; }
+.chord-live [data-chord-endpoint] { cursor: ew-resize; }
+.chord-explorer[data-mounted="true"] .chord-static { display: none; }
+.js-enabled .chord-live { display: none; }
+.js-enabled .chord-explorer[data-mounted="true"] .chord-live { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(210px, 1fr); gap: 1rem; align-items: start; }
+.chord-control { display: grid; grid-template-columns: 1fr 5.5rem; gap: .4rem; margin: .65rem 0; }
+.chord-control label { grid-column: 1 / -1; font-weight: 650; }
+.chord-control input { min-width: 0; width: 100%; }
+.chord-control input[type="number"] { padding: .35rem; border: 1px solid #aab8c3; border-radius: .25rem; }
+.chord-control [aria-invalid="true"] { outline: 2px solid #a33; }
+.chord-error { color: #8a2929; font-size: .85rem; }
+[data-chord-readout] { grid-column: 1 / -1; }
+.chord-readout { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: .3rem; }
+.chord-readout > div { flex: 1 1 180px; }
+.chord-readout dt { font-size: .9rem; }
+.chord-readout dd { margin: .3rem 0; font-weight: 700; font-size: 1.25rem; color: #173753; }
+@media (max-width: 700px) {
+  .js-enabled .chord-explorer[data-mounted="true"] .chord-live { grid-template-columns: minmax(0, 1fr); }
+}
+@media print {
+  .chord-explorer { display: block !important; box-shadow: none; break-inside: avoid; }
+  .chord-explorer .chord-static { display: block !important; }
+  .chord-explorer .chord-live { display: none !important; }
+  .lecture4-panels { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+}
+
+body[data-lecture="4"] .numbered-equation { margin: .5rem 0; }
+body[data-lecture="4"] .numbered-equation > p { margin: 0; }
+body[data-lecture="4"] .numbered-equation .math-pair.display { margin: 0; }
+@media (max-width: 640px) {
+  body[data-lecture="4"] .exercises-shell .collapsible-body,
+  body[data-lecture="4"] .exercises-shell .priority-details-body { padding-inline: .35rem; }
+  body[data-lecture="4"] .exercises-shell div.priority-block { padding-inline: .4rem; }
+  body[data-lecture="4"] .exercises-shell .exercise { padding: .5rem; }
+  body[data-lecture="4"] .exercises-shell .solution-body { padding-inline: .4rem; }
+  body[data-lecture="4"] .solution-body .lecture4-figure { padding: .25rem; margin-inline: -.25rem; }
+}
+
+/* Survival-area proof: retain the source default in print and without scripts. */
+.markov-explorer svg { display: block; width: 100%; height: auto; }
+.markov-static { max-width: 520px; margin-inline: auto; }
+.markov-explorer[data-mounted="true"] .markov-static { display: none; }
+.js-enabled .markov-live { display: none; }
+.js-enabled .markov-explorer[data-mounted="true"] .markov-live { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(180px, 1fr); gap: 1rem; align-items: center; }
+.markov-controls { display: grid; grid-template-columns: 1fr 5.5rem; gap: .5rem; }
+.markov-controls > label:not(.sr-only), .markov-controls > p, .markov-controls > button { grid-column: 1 / -1; }
+.markov-controls > label { font-weight: 650; }
+.markov-controls input { min-width: 0; width: 100%; }
+.markov-controls input[type="number"] { padding: .35rem; border: 1px solid #aab8c3; border-radius: .25rem; }
+.markov-controls [aria-invalid="true"] { outline: 2px solid #a33; }
+.markov-error { color: #8a2929; font-size: .85rem; }
+.markov-error:empty { display: none; }
+[data-markov-readout] { grid-column: 1 / -1; }
+.markov-readout { display: flex; gap: 1rem; flex-wrap: wrap; }
+.markov-readout > div { flex: 1 1 170px; }
+.markov-readout dt { font-size: .88rem; }
+.markov-readout dd { margin: .35rem 0 0; font-weight: 700; font-size: 1.15rem; color: #173753; }
+.markov-area-key,.markov-rectangle-key { display: inline-block; margin-right: .25em; width: .8em; height: .8em; border: 1px solid #0b626b; background: #dbeaf0; }
+.markov-rectangle-key { border: 2px solid #94651c; background: #f1d598; }
+@media (max-width: 700px) {
+ .js-enabled .markov-explorer[data-mounted="true"] .markov-live { grid-template-columns: minmax(0,1fr); }
+}
+@media print {
+ .markov-explorer { display: block !important; box-shadow: none; break-inside: avoid; }
+ .markov-explorer .markov-static { display: block !important; }
+ .markov-explorer .markov-live { display: none !important; }
+}

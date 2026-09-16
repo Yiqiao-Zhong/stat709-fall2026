@@ -1,0 +1,20 @@
+import {chordValues} from './convexity-model.mjs';
+const fmt=n=>Math.abs(n)<1e-10?'0':Number(n.toFixed(4)).toString();
+export const chordCoordinates={left:48,right:432,top:32,bottom:270,xMin:-2.25,xMax:2.25,yMax:4.5};
+export function chordDrawing(x,y,s) {
+ const c=chordCoordinates,X=z=>c.left+(z-c.xMin)*(c.right-c.left)/(c.xMax-c.xMin),Y=v=>c.bottom-v*(c.bottom-c.top)/c.yMax;
+ const {z,A,B,gap}=chordValues(x,y,s),dots=Array.from({length:101},(_,i)=>-2.15+4.3*i/100);
+ const curve=dots.map((v,i)=>`${i?'L':'M'}${X(v).toFixed(2)} ${Y(v*v).toFixed(2)}`).join(' ');
+ const label=(a,b,t,anchor='middle')=>`<text x="${a}" y="${b}" text-anchor="${anchor}">${t}</text>`;
+ return `<svg viewBox="0 0 480 320" role="img" aria-label="Quadratic curve and chord. At the averaged input ${fmt(z)}, circle A is ${fmt(A)}, diamond B is ${fmt(B)}, and gap is ${fmt(gap)}."><g font-family="Arial, sans-serif" font-size="15" fill="#173753"><path d="M${c.left} ${Y(0)}H${c.right}M${X(0)} ${c.top}V${c.bottom}" fill="none" stroke="#8c99a2"/>${[-2,-1,0,1,2].map(v=>label(X(v),292,String(v))).join('')}${[1,2,3,4].map(v=>label(34,Y(v)+5,String(v),'end')).join('')}<path d="${curve}" fill="none" stroke="#173753" stroke-width="3"/><path d="M${X(x)} ${Y(x*x)}L${X(y)} ${Y(y*y)}" fill="none" stroke="#0b626b" stroke-width="3" stroke-dasharray="8 5"/><path d="M${X(z)} ${Y(0)}V${Y(B)}" fill="none" stroke="#8c99a2" stroke-dasharray="3 4"/><path d="M${X(z)} ${Y(A)}V${Y(B)}" stroke="#94651c" stroke-width="4"/>${[['x',x],['y',y]].map(([key,v])=>`<circle data-chord-endpoint="${key}" cx="${X(v)}" cy="${Y(v*v)}" r="10" fill="#fffdf8" stroke="#0b626b" stroke-width="3"><title>Endpoint ${key}; use the matching slider or number field to move it.</title></circle>`).join('')}<circle cx="${X(z)}" cy="${Y(A)}" r="6" fill="#173753"/><path d="M${X(z)} ${Y(B)-7}l7 7 -7 7 -7 -7Z" fill="none" stroke="#94651c" stroke-width="3"/>${label(239,18,'f(z) = z²')}${label(456,292,'z')}${label(X(z)-14,Y(A)-12,'A','end')}${label(X(z)+14,Y(B)-12,'B','start')}</g></svg>`;
+}
+export function chordReadout(x,y,s) {
+ const {z,A,B,gap}=chordValues(x,y,s);
+ return `<dl class="chord-readout"><div><dt>A · average, then evaluate</dt><dd data-chord-value="A">${fmt(A)}</dd></div><div><dt>B · evaluate, then average</dt><dd data-chord-value="B">${fmt(B)}</dd></div><div><dt>Gap B − A</dt><dd data-chord-value="gap">${fmt(gap)}</dd></div></dl><p class="control-note">Averaged input: (1 − s)x + sy = <span data-chord-value="z">${fmt(z)}</span>. Circle A lies on the curve; diamond B lies on the dashed chord.</p>`;
+}
+export function chordMarkup(instance) {
+ const {instanceId:id,settings:s,source}=instance;
+ const controls=[['weight','Mixing weight s',s.weight],['x','Endpoint x',s.x],['y','Endpoint y',s.y]].map(([key,title,v])=>`<div class="chord-control"><label for="${id}-${key}">${title}</label><input type="range" id="${id}-${key}" data-chord-key="${key}" min="${v.min}" max="${v.max}" step="0.01" value="${v.value}"><input type="number" id="${id}-${key}-number" data-chord-key="${key}" aria-label="${title}, number" aria-describedby="${id}-error" min="${v.min}" max="${v.max}" step="any" value="${v.value}"></div>`).join('');
+ const picture=chordDrawing(s.x.value,s.y.value,s.weight.value),readout=chordReadout(s.x.value,s.y.value,s.weight.value);
+ return `<section class="interactive-card chord-explorer" id="${id}" data-component="convexity-chord" aria-labelledby="${id}-title"><h3 id="${id}-title">Jensen: two orders of averaging</h3><p><a href="#${source.promptLabel}">The geometric question</a> · <a href="#${source.explanationLabel}">Read the explanation</a></p><div class="chord-static">${picture}${readout}</div><div class="chord-live requires-js"><div class="chord-drawing">${picture}</div><div class="chord-controls">${controls}<p id="${id}-error" class="chord-error" role="status"></p><button class="reset-button" type="button" data-chord-reset>Reset</button></div><div data-chord-readout aria-live="polite" aria-atomic="true">${readout}</div></div></section>`;
+}

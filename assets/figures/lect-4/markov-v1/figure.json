@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "sourceRevision": "sha256:db71d5f0f02ce0a57a62e2f73034a22f66d3a3900732e55a1d67a0ace681c86d",
+  "sourceLabel": "lec04-markov-area-fallback",
+  "priority": "high",
+  "instanceId": "lec04-markov-rectangle",
+  "defaultThreshold": 4,
+  "distribution": "Y=X\u00b2, X uniform on [0,4]",
+  "provenance": "Original local drawing implementing the instructor's rectangle description; vector PDF generated from the exact browser SVG. No third-party code or artwork copied.",
+  "reference": "https://jeffe.cs.illinois.edu/teaching/algorithms/notes/04-chernoff.pdf",
+  "files": {
+    "markov-default.svg": "f8ab54e89efb47ac5a359bc10df2ac91c9aea7810a0dcf18a64e19f20f7ae952",
+    "markov-default.pdf": "09d2cb2b730a1ba2995c7bf0d36c288ca63b9e4dfbb1b2772e6caeac676084ab"
+  }
+}

@@ -20,6 +20,7 @@ window.MathJax = {
       E: "\\mathbb{E}",
       PR: "\\mathbb{P}",
       F: "\\mathcal{F}",
+      gF: "\\mathcal{F}",
       gB: "\\mathcal{B}",
       gG: "\\mathcal{G}",
       gH: "\\mathcal{H}",
