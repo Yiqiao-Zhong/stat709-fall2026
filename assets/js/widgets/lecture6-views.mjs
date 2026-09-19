@@ -1,0 +1,58 @@
+import {normalReference,sampleSizes,maximaSummary,normalRisks,countGroups} from './lecture6-models.mjs';
+const navy='#18384e',teal='#087e83',gold='#aa7318',plum='#85456d';
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export const format=x=>Number(x.toFixed(4)).toString();
+const text=(x,y,s,attrs='')=>`<text x="${x}" y="${y}" ${attrs}>${esc(s)}</text>`;
+const line=(x1,y1,x2,y2,attrs='')=>`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" ${attrs}/>`;
+const dot=(x,y,color=teal)=>`<circle cx="${x}" cy="${y}" r="4" fill="${color}"/>`;
+const svg=(title,body,w=400,h=340)=>`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(title)}" style="font-family:system-ui,sans-serif;font-size:14px;fill:${navy}"><title>${esc(title)}</title>${body}</svg>`;
+function frame(title,xd,yd,xt,yt,xlabel,ylabel,log=false){
+ const trans=v=>log?Math.log10(v):v,x=v=>58+(trans(v)-trans(xd[0]))*314/(trans(xd[1])-trans(xd[0])),y=v=>282-(v-yd[0])*239/(yd[1]-yd[0]);
+ let body=text(58,22,title,'font-weight="650"')+'<rect x="58" y="43" width="314" height="239" fill="#fffdf8" stroke="#cfd7d8"/>';
+ for(const t of xt)body+=line(x(t),43,x(t),282,'stroke="#e1e5e3"')+text(x(t),304,t,'text-anchor="middle"');
+ for(const t of yt)body+=line(58,y(t),372,y(t),'stroke="#e1e5e3"')+text(49,y(t)+5,t,'text-anchor="end"');
+ body+=text(210,331,xlabel,'text-anchor="middle"')+`<text transform="translate(17 163) rotate(-90)" text-anchor="middle">${esc(ylabel)}</text>`;
+ return{x,y,body};
+}
+const path=(points,x,y)=>points.map(([a,b],i)=>`${i?'L':'M'}${x(a)},${y(b)}`).join(' ');
+export function normalDrawing(bank,n){
+ const s=maximaSummary(bank,n),h=frame('Repeated samples',[-2,3],[0,1],[-2,-1,0,1,2,3],[0,.25,.5,.75,1],'Maximum / √(2 log n)','Fraction of 200 trials');
+ let hb=h.body;
+ for(let i=0;i<50;i++)hb+=`<rect x="${h.x(-2+i*.1)}" y="${h.y(s.bins[i]/200)}" width="${h.x(.1)-h.x(0)-.5}" height="${h.y(0)-h.y(s.bins[i]/200)}" fill="${navy}" opacity=".75"/>`;
+ hb+=line(h.x(1),43,h.x(1),282,`stroke="${plum}" stroke-width="2" stroke-dasharray="5 3"`)+line(h.x(s.median),43,h.x(s.median),282,`stroke="${teal}" stroke-width="2"`);
+ const c=frame('Exact quantiles as n grows',[2,10000],[-2,3],[2,10,100,1000,10000],[-2,-1,0,1,2,3],'Sample size n (log scale)','Maximum / √(2 log n)',true);
+ const band=[...normalReference.map(r=>[r.n,r.q05]),...normalReference.toReversed().map(r=>[r.n,r.q95])];
+ let cb=c.body+`<path d="${path(band,c.x,c.y)} Z" fill="${teal}" opacity=".14"/>`+`<path d="${path(normalReference.map(r=>[r.n,r.median]),c.x,c.y)}" fill="none" stroke="${teal}" stroke-width="2.5"/>`;
+ cb+=line(c.x(2),c.y(1),c.x(10000),c.y(1),`stroke="${plum}" stroke-dasharray="5 3" stroke-width="2"`)+line(c.x(n),c.y(s.q05),c.x(n),c.y(s.q95),`stroke="${gold}" stroke-width="3"`)+dot(c.x(n),c.y(s.median));
+ return `<div class="l6-panels">${svg(`Histogram of ${n}-sample signed normal maxima, normalized. ${s.below} below -2 and ${s.above} above 3.`,hb)}${svg('Exact median and central 90 percent distribution interval for normalized normal maxima; the dashed horizontal reference is 1.',cb)}</div>`;
+}
+export function normalReadout(bank,n,seed){const s=maximaSummary(bank,n);return `<dl class="l6-readout"><div><dt>Sample size</dt><dd>${n}</dd></div><div><dt>Sample median ratio</dt><dd>${format(s.empiricalMedian)}</dd></div><div><dt>Exact median ratio</dt><dd>${format(s.median)}</dd></div><div><dt>Exact central 90% interval</dt><dd>[${format(s.q05)}, ${format(s.q95)}]</dd></div></dl><p class="l6-small">200 trials · Seed ${seed} · Outside the histogram: ${s.below} below −2; ${s.above} above 3. Teal: exact median. Shaded band: 5th–95th quantiles. Dashed: limiting scale 1. Lines connect the displayed sample sizes.</p>`;}
+export function riskDrawing(mu){const r=normalRisks(mu),a=frame('Two rules, crossing risks',[-3,3],[0,9],[-3,-2,-1,0,1,2,3],[0,1,3,6,9],'True mean μ','Squared-error risk');let b=a.body;
+ b+=`<path d="${path(Array.from({length:121},(_,i)=>[-3+i*.05,(-3+i*.05)**2]),a.x,a.y)}" fill="none" stroke="${teal}" stroke-width="3"/>`+line(a.x(-3),a.y(1),a.x(3),a.y(1),`stroke="${plum}" stroke-width="2.5" stroke-dasharray="6 3"`)+line(a.x(mu),a.y(0),a.x(mu),a.y(9),`stroke="${gold}" stroke-width="2"`)+dot(a.x(mu),a.y(r.zero))+dot(a.x(mu),a.y(1),plum)+text(a.x(-2.6),a.y(7.7),'Always 0: μ²')+text(a.x(.3),a.y(1)-10,'Use X: 1');
+ return svg('Squared-error risk of X is 1; risk of the constant-zero rule is the squared true mean. The risks cross at mean -1 and 1.',b);}
+export function riskReadout(mu){const r=normalRisks(mu);return `<dl class="l6-readout"><div><dt>True mean μ</dt><dd>${format(mu)}</dd></div><div><dt>Use X</dt><dd>${r.observed}</dd></div><div><dt>Always output 0</dt><dd>${format(r.zero)}</dd></div></dl>`;}
+export function sufficiencyDrawing(p,count){const s=countGroups(p,count);let b=text(110,23,'Which count occurs?','font-weight="650"');
+ for(let k=0;k<5;k++){const y=50+k*47;b+=text(20,y+19,`s = ${k}`)+`<rect x="85" y="${y}" width="250" height="28" fill="#ecede8"/><rect x="85" y="${y}" width="${250*s.masses[k]}" height="28" fill="${k===count?teal:navy}" opacity="${k===count?1:.55}"/>`+text(344,y+19,format(s.masses[k]));}
+ b+=text(215,312,'Bar length = count probability','text-anchor="middle"');
+ return svg(`Four Bernoulli observations with probability ${p}. Count probabilities ${s.masses.map(format).join(', ')}. Selected count ${count}.`,b,410,335);}
+export function sufficiencyReadout(p,count){const s=countGroups(p,count);return `<dl class="l6-readout"><div><dt>P(S = ${count})</dt><dd>${format(s.selectedMass)}</dd></div><div><dt>Conditional chance of each string</dt><dd>1/${s.sizes[count]}</dd></div></dl><p>Given S = ${count}, these ${s.sizes[count]} strings are equally likely:</p><ul class="l6-strings">${s.strings.map(x=>`<li><code>${x}</code><span>1/${s.sizes[count]}</span></li>`).join('')}</ul>`;}
+const control=(id,key,title,min,max,step,value)=>`<div class="l6-control"><label for="${id}-${key}">${title}</label><input id="${id}-${key}" data-l6-key="${key}" type="range" min="${min}" max="${max}" step="${step}" value="${value}"><label class="sr-only" for="${id}-${key}-number">${title}, numeric value</label><input id="${id}-${key}-number" data-l6-key="${key}" type="number" min="${min}" max="${max}" step="${step}" value="${value}"></div>`;
+export function activityMarkup(i,bank){const id=i.instanceId,s=i.settings;let title,drawing,readout,controls,detail;
+ if(i.component==='normal-sample-maxima'){
+  title='How large is a normal maximum?';drawing=normalDrawing(bank,s.initialSize);readout=normalReadout(bank,s.initialSize,s.seed);detail='lec06-normal-visual-details';
+  controls=`<div class="l6-control"><label for="${id}-n">Sample size n</label><input id="${id}-n" data-l6-key="sizeIndex" type="range" min="0" max="12" step="1" value="5" aria-valuetext="100 observations"><label class="sr-only" for="${id}-size">Sample size, choose a value</label><select id="${id}-size" data-l6-key="n">${sampleSizes.map(n=>`<option value="${n}"${n===100?' selected':''}>${n}</option>`).join('')}</select></div><button class="action-button" type="button" data-l6-new>New sample</button>`;
+ }else if(i.component==='normal-risk-comparison'){title='Compare risks at the same true mean';drawing=riskDrawing(s.mu.value);readout=riskReadout(s.mu.value);controls=control(id,'mu','True mean μ',-3,3,.01,.5);detail='lec06-sol-rules';}
+ else{title='Keep the count; forget the order';drawing=sufficiencyDrawing(s.p.value,s.count.value);readout=sufficiencyReadout(s.p.value,s.count.value);controls=control(id,'p','Bernoulli probability p',.05,.95,.01,.5)+control(id,'count','Condition on count S',0,4,1,2);detail='lec06-sufficiency-visual-details';}
+ return `<section id="${id}" class="lecture6-explorer" data-component="${i.component}" aria-labelledby="${id}-title"><h3 id="${id}-title">${title}</h3><div class="l6-static">${drawing}${readout}</div><div class="l6-live"><div data-l6-drawing>${drawing}</div><div data-l6-readout aria-live="polite" aria-atomic="true">${readout}</div></div><div class="l6-controls requires-js">${controls}<button class="action-button" type="button" data-l6-reset>Reset</button></div><p class="l6-error" role="status"></p><p class="l6-small"><a href="#${detail}">Explanation${i.component==='normal-risk-comparison'?' and complete calculation':''}</a></p></section>`;
+}
+export function staticIllustrations(){
+ const soft=svg('Adding 2 to each of the three scores leaves the three softmax probabilities unchanged.',text(30,30,'Common shift → same probabilities','font-weight="650"')+['0, 1, 2','2, 3, 4'].map((scores,j)=>{let b=text(30,77+j*120,`Scores (${scores})`);[.0900305732,.2447284711,.6652409558].forEach((p,k)=>{const x=210+k*55,y=125+j*120;b+=`<rect x="${x}" y="${y-p*100}" width="35" height="${p*100}" fill="${[navy,teal,gold][k]}"/>`+text(x+17,y+22,format(p),'text-anchor="middle" font-size="12"');});return b;}).join(''),400,300);
+ const factor=svg('Rotating the latent axes leaves BB transpose, and hence the observed covariance, unchanged.',text(30,30,'Rotate latent coordinates','font-weight="650"')+`<ellipse cx="200" cy="155" rx="130" ry="60" fill="none" stroke="${navy}" stroke-width="3"/>`+line(55,155,345,155,`stroke="${teal}" stroke-width="2"`)+line(200,75,200,235,`stroke="${teal}" stroke-width="2"`)+line(130,85,270,225,`stroke="${gold}" stroke-width="2" stroke-dasharray="6 3"`)+line(130,225,270,85,`stroke="${gold}" stroke-width="2" stroke-dasharray="6 3"`)+text(200,280,'(BR)(BR)ᵀ = BBᵀ when R is orthogonal','text-anchor="middle"'),400,310);
+ const order=svg('First-order window picture for the fourth order statistic of six observations: three points left, one near x, two right.',text(24,30,'One point in a small window','font-weight="650"')+`<rect x="216" y="70" width="35" height="80" fill="${gold}" opacity=".2"/>`+line(25,110,375,110,`stroke="${navy}" stroke-width="2"`)+[45,93,160,231,303,349].map(x=>dot(x,110)).join('')+text(90,175,'3 points left')+text(211,200,'x to x + ε')+text(288,175,'2 right')+text(30,237,'n = 6, i = 4 · first-order picture'),400,265);
+ const a=frame('Uniform maximum CDF',[0,1],[0,1],[0,.5,1],[0,.5,1],'Threshold t','P(M ≤ t)');let b=a.body;
+ for(const [i,n] of [1,3,10].entries())b+=`<path d="${path(Array.from({length:101},(_,j)=>[j/100,(j/100)**n]),a.x,a.y)}" fill="none" stroke="${[navy,teal,gold][i]}" stroke-width="2.5" stroke-dasharray="${['none','6 3','2 3'][i]}"/>`+text(80,70+i*23,`n = ${n}`,`fill="${[navy,teal,gold][i]}"`);
+ const processing=svg('Information flows from X to Y to Z. An independent random seed may enter only the last processing step.',text(25,32,'Processing cannot add information','font-weight="650"')+['X','Y','Z'].map((s,i)=>`<rect x="${25+i*135}" y="85" width="85" height="65" rx="7" fill="#e8efef" stroke="${navy}"/>`+text(67+i*135,125,s,'text-anchor="middle" font-size="24"')).join('')+text(124,122,'→')+text(259,122,'→')+text(320,220,'Independent seed','text-anchor="middle"')+text(333,184,'↑','font-size="24"'),400,250);
+ return [
+ ['softmax','lec06-softmax','high','A common score shift',soft],['factor','lec06-factor-model','low','Different latent axes, same covariance',factor],['window','lec06-instructor-order','mid','The order-statistic window',order],['uniform','lec06-sol-maximum','mid','Uniform maxima: compare sample sizes',svg('CDFs t, t cubed and t to the tenth for maxima of uniform samples.',b)],['processing','lec06-instructor-processing','further','An information-processing chain',processing]
+ ].map(([name,sourceLabel,priority,title,drawing])=>({id:'lec06-figure-'+name,sourceLabel,priority,title,drawing}));
+}

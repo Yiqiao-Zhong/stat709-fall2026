@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "sourceRevision": "sha256:2ea3b12266a855d38846066de56407d15d0c731398252ea5c773e8a860d56fa1",
+  "generator": "scripts/lecture6-figures.mjs",
+  "bankRevision": "sha256:f84349b25e46041b177336f311a59bd9b65adb10bde970294c2a9ea632ce33e5",
+  "figures": [
+    {
+      "id": "lec06-figure-softmax",
+      "sourceLabel": "lec06-softmax",
+      "priority": "high",
+      "title": "A common score shift",
+      "path": "assets/figures/lect-6/v1/lec06-figure-softmax.svg",
+      "alt": "Adding 2 to each of the three scores leaves the three softmax probabilities unchanged.",
+      "sha256": "d1df4fb2230e77994fd858fdbab296c46075effeaf8f064cb159c5b80a3188cd"
+    },
+    {
+      "id": "lec06-figure-factor",
+      "sourceLabel": "lec06-factor-model",
+      "priority": "low",
+      "title": "Different latent axes, same covariance",
+      "path": "assets/figures/lect-6/v1/lec06-figure-factor.svg",
+      "alt": "Rotating the latent axes leaves BB transpose, and hence the observed covariance, unchanged.",
+      "sha256": "8dd3a472abd311f461a5fa378394b813f006dc3c216b4f6c2343254454884f2a"
+    },
+    {
+      "id": "lec06-figure-window",
+      "sourceLabel": "lec06-instructor-order",
+      "priority": "mid",
+      "title": "The order-statistic window",
+      "path": "assets/figures/lect-6/v1/lec06-figure-window.svg",
+      "alt": "First-order window picture for the fourth order statistic of six observations: three points left, one near x, two right.",
+      "sha256": "3360fe029def8317026325711795be99db5d063dfae391ecdc93d628d4e04805"
+    },
+    {
+      "id": "lec06-figure-uniform",
+      "sourceLabel": "lec06-sol-maximum",
+      "priority": "mid",
+      "title": "Uniform maxima: compare sample sizes",
+      "path": "assets/figures/lect-6/v1/lec06-figure-uniform.svg",
+      "alt": "CDFs t, t cubed and t to the tenth for maxima of uniform samples.",
+      "sha256": "3a526fee37ae1158ee669d422aafe51d5e7557fbb8f44b4d133eceeb98437958"
+    },
+    {
+      "id": "lec06-figure-processing",
+      "sourceLabel": "lec06-instructor-processing",
+      "priority": "further",
+      "title": "An information-processing chain",
+      "path": "assets/figures/lect-6/v1/lec06-figure-processing.svg",
+      "alt": "Information flows from X to Y to Z. An independent random seed may enter only the last processing step.",
+      "sha256": "1e6e67ef4884ab2b096a65155e5f07cc562147a68367351185d129243a179a46"
+    }
+  ]
+}

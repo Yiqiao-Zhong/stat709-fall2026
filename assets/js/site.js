@@ -4,6 +4,7 @@ import { mountLecturePilot } from './widgets/lecture1-pilot.js';
 import { mountLecture2 } from './widgets/lect-2.js';
 import { mountLecture4 } from './widgets/lect-4.js';
 import { mountLecture3 } from './widgets/lect-3.js';
+import { mountLecture6 } from './widgets/lect-6.js';
 import { mountLecture5 } from './widgets/lect-5.js';
 
 const body = document.body;
@@ -21,6 +22,7 @@ function setPriorityMode(mode) {
   };
   document.getElementById('priority-description').textContent = descriptions[mode];
   document.querySelectorAll('[data-priority-mode]').forEach(button => button.setAttribute('aria-pressed',String(button.dataset.priorityMode===mode)));
+  document.querySelectorAll('[data-summary-priority]').forEach(row=>{row.hidden=mode==='core'?row.dataset.summaryPriority!=='high':mode!=='all'&&!['high','mid'].includes(row.dataset.summaryPriority);});
   readingBlocks().forEach(block => {
     block.classList.toggle('reading-hidden',mode==='core' && block.dataset.priority!=='high');
     if(block.tagName==='DETAILS') block.open=mode==='all';
@@ -29,7 +31,7 @@ function setPriorityMode(mode) {
 
 function setExerciseMode(mode) {
   practiceMode=mode;
-  const visible = priority => mode==='all' || (mode==='exam' && priority!=='low') || priority==='high';
+  const visible = priority => mode==='all' || (mode==='exam' && ['high','mid'].includes(priority)) || priority==='high';
   document.querySelectorAll('[data-exercise-mode]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.exerciseMode===mode)));
   practiceBlocks().forEach(block=>block.classList.toggle('exercise-priority-hidden',!visible(block.dataset.priority)));
   const rows=[...document.querySelectorAll('[data-practice-priority]')];
@@ -44,7 +46,7 @@ function openHashTarget() {
   if(!target) return;
   const priority=target.closest('.priority-block');
   if(target.closest('.exercises-shell')) {
-    if(priority?.dataset.priority==='low' && practiceMode!=='all') setExerciseMode('all');
+    if(['low','further'].includes(priority?.dataset.priority) && practiceMode!=='all') setExerciseMode('all');
     else if(priority?.dataset.priority==='mid' && practiceMode==='core') setExerciseMode('exam');
   } else if(priority && priority.dataset.priority!=='high' && body.dataset.priorityView==='core') setPriorityMode('supporting');
   let node=target;
@@ -103,6 +105,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   if (body.dataset.lecture === '3') mountLecture3();
   if (body.dataset.lecture === '4') mountLecture4();
   if (body.dataset.lecture === '5') mountLecture5();
+  if (body.dataset.lecture === '6') mountLecture6();
   mountDiscussion();
   setPriorityMode('supporting');setExerciseMode('exam');setupPrint();openHashTarget();
   window.addEventListener('hashchange',openHashTarget);
