@@ -1088,5 +1088,67 @@ body[data-lecture="4"] .numbered-equation .math-pair.display { margin: 0; }
 @media print {
  .markov-explorer { display: block !important; box-shadow: none; break-inside: avoid; }
  .markov-explorer .markov-static { display: block !important; }
- .markov-explorer .markov-live { display: none !important; }
+.markov-explorer .markov-live { display: none !important; }
+}
+
+/* Lecture 5 activities share the reading surface and keep useful static views. */
+.lecture5-explorer { margin: 1.1rem 0; padding: 1rem; border: 1px solid #cad5d7; border-radius: .5rem; background: #fbfaf6; }
+.lecture5-explorer h4 { margin: 0 0 .7rem; color: #18384e; font-size: 1.1rem; }
+.l5-panels { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .7rem; }
+.l5-panels.l5-single { grid-template-columns: minmax(0,1fr); }
+.l5-panel { min-width: 0; }
+.l5-panel-caption { margin: 0; min-height: 2.7em; font-size: .85rem; font-weight: 600; }
+.lecture5-explorer svg, .lecture5-figure svg { display: block; width: 100%; height: auto; }
+.l5-live { display: none; }
+.lecture5-explorer[data-mounted="true"] .l5-live { display: block; }
+.lecture5-explorer[data-mounted="true"] .l5-static { display: none; }
+.l5-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .7rem; margin-top: .7rem; }
+.l5-control { display: grid; grid-template-columns: minmax(0,1fr) 5.5rem; gap: .4rem .8rem; width: 100%; }
+.l5-control label:not(.sr-only) { grid-column: 1 / -1; font-weight: 650; }
+.l5-control input { min-width: 0; width: 100%; }
+.l5-control input[type="number"] { padding: .4rem; border: 1px solid #aab8c3; border-radius: .25rem; background: white; }
+.l5-control [aria-invalid="true"] { outline: 2px solid #923a38; }
+.l5-extra { width: 100%; }
+.l5-extra summary { cursor: pointer; font-weight: 600; }
+.l5-choices { display: flex; flex-wrap: wrap; gap: .4rem; }
+.l5-choices button { padding: .5rem .75rem; border: 1px solid #aab8c3; border-radius: .3rem; background: white; color: #18384e; cursor: pointer; }
+.l5-choices button[aria-pressed="true"] { background: #18384e; color: white; border-color: #18384e; }
+.lecture5-explorer button:focus-visible,.lecture5-explorer input:focus-visible { outline: 3px solid #b77b18; outline-offset: 3px; }
+.l5-readout { display: flex; flex-wrap: wrap; gap: .8rem; margin: 1rem 0 .5rem; }
+.l5-readout > div { flex: 1 1 130px; }
+.l5-readout dt { font-size: .86rem; }
+.l5-readout dd { margin: .2rem 0; font-size: 1.17rem; font-weight: 700; color: #18384e; }
+.l5-small,.l5-explanation-link { font-size: .86rem; margin: .6rem 0 0; }
+.l5-error { color: #923a38; font-size: .9rem; }
+.l5-error:empty { display: none; }
+.l5-table-scroll { max-width: 100%; overflow-x: auto; }
+.l5-values { width: 100%; font-size: .82rem; border-collapse: collapse; margin: .8rem 0; }
+.l5-values caption { text-align: left; font-weight: 650; }
+.l5-values th,.l5-values td { padding: .35rem; text-align: center; border-bottom: 1px solid #d6dedc; }
+.l5-values th:first-child { text-align: left; }
+.l5-loss-bar { display: flex; background: #eceee9; height: 14px; border-radius: 3px; overflow: hidden; }
+.l5-noise { background: #087e83; }.l5-excess { background: #85456d; }
+body[data-lecture="5"] .numbered-equation { margin: .5rem 0; }
+body[data-lecture="5"] .numbered-equation > p, body[data-lecture="5"] .numbered-equation .math-pair.display { margin: 0; }
+@media (max-width: 700px) {
+  .l5-panels { grid-template-columns: minmax(0,1fr); }
+  .lecture5-explorer { padding: .55rem; }
+  .l5-panel-caption { min-height: 0; }
+  body[data-lecture="5"] .exercises-shell .collapsible-body,body[data-lecture="5"] .exercises-shell .priority-details-body { padding-inline: .35rem; }
+  body[data-lecture="5"] .exercises-shell .exercise,body[data-lecture="5"] .exercises-shell .solution-body { padding: .45rem; }
+  /* Long inline identities remain readable without widening the page. */
+  body[data-lecture="5"] .math-pair.inline {
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: auto;
+    vertical-align: middle;
+    padding-block: .1em;
+  }
+}
+@media print {
+  .lecture5-explorer .l5-live { display: none !important; }
+  .lecture5-explorer .l5-static { display: block !important; }
+  .l5-panels { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .l5-panel { break-inside: avoid; }
+  .lecture5-explorer { box-shadow: none; }
 }

@@ -12,8 +12,13 @@ export function mountSourceReadingAids() {
     const {wrapper,panel}=create({id:r.id,title:slot.dataset.title,priority:slot.dataset.targetPriority || r.priority,
       content:template.content.cloneNode(true),href:'#'+slot.dataset.target,presentation:r.presentation});
     const trigger=wrapper.querySelector('.recall-trigger');trigger.textContent=slot.dataset.title;
+    const titleTemplate=document.getElementById(r.id+'-title');
+    if(titleTemplate){
+      trigger.replaceChildren(titleTemplate.content.cloneNode(true));
+      panel.querySelector('h4').replaceChildren(titleTemplate.content.cloneNode(true));
+    }
     trigger.setAttribute('aria-label',`${r.kind==='recall'?'Quick Recall':'Quick Explanation'}: ${slot.dataset.title}`);
     slot.append(wrapper);slot.querySelector('.term-source-link').hidden=true;slot.dataset.mounted='true';
-    window.MathJax?.startup?.promise?.then(()=>window.MathJax.typesetPromise?.([panel])).catch(console.error);
+    window.MathJax?.startup?.promise?.then(()=>window.MathJax.typesetPromise?.([wrapper])).catch(console.error);
   }
 }

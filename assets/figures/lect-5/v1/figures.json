@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "sourceRevision": "sha256:54eed420d1af7a756e3cdb19dac01153762168ca5b989358f6f60f8509534444",
+  "figures": [
+    {
+      "id": "lec05-fig-mixture",
+      "sourceLabel": "lec05-mixture-fallback",
+      "solutionLabel": "lec05-sol-mixture",
+      "priority": "mid",
+      "title": "Average the two conditional laws",
+      "alt": "A fair selector gives a discrete law μ₀ or a density h, each with weight one half. Their weighted sum is the marginal law.",
+      "path": "assets/figures/lect-5/v1/lec05-fig-mixture.svg",
+      "sha256": "7a54f0f9783f321e000552cf6b934d20d9dbe407df9492a4c06c1e9ae5a10e12"
+    },
+    {
+      "id": "lec05-fig-partition",
+      "sourceLabel": "lec05-partition-fallback",
+      "solutionLabel": "lec05-sol-partition",
+      "priority": "high",
+      "title": "One conditional mean per observed group",
+      "alt": "Four equally likely outcomes with values 0,2,4,8 are grouped into the first and last pairs. Their conditional predictions are 1,1,6,6.",
+      "path": "assets/figures/lect-5/v1/lec05-fig-partition.svg",
+      "sha256": "130950b2fa9ca14d5672c23906a509463e6d767114e422fc0fce59bc3f1be181"
+    },
+    {
+      "id": "lec05-fig-graph",
+      "sourceLabel": "lec05-graph-fallback",
+      "solutionLabel": "lec05-sol-graph",
+      "priority": "low",
+      "title": "A Gaussian chain after accounting for the middle variable",
+      "alt": "The chain X₁—X₂—X₃ has precision entry Θ₁₃=0. The first and third variables are conditionally independent given the middle variable, although their marginal covariance is 1.",
+      "path": "assets/figures/lect-5/v1/lec05-fig-graph.svg",
+      "sha256": "e0e8167c03269bb4901d7cab25b24b20c98d28edc6f260cdb40bc27e66f5a0d9"
+    }
+  ],
+  "gaussianFixture": {
+    "path": "assets/figures/lect-5/v1/gaussian-points.json",
+    "sha256": "fedd0a19dce82a95477d3475711aad40aa90ccb4a93df53e37b8365d9c5276c9",
+    "seed": "stat709-lec05-direction-v1",
+    "generator": "seedrandom 3.0.5, ARC4; paired Box–Muller",
+    "count": 600
+  }
+}

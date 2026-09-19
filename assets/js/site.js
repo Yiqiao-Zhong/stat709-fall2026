@@ -4,6 +4,7 @@ import { mountLecturePilot } from './widgets/lecture1-pilot.js';
 import { mountLecture2 } from './widgets/lect-2.js';
 import { mountLecture4 } from './widgets/lect-4.js';
 import { mountLecture3 } from './widgets/lect-3.js';
+import { mountLecture5 } from './widgets/lect-5.js';
 
 const body = document.body;
 let practiceMode = 'exam';
@@ -101,6 +102,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   if (body.dataset.lecture === '2') mountLecture2();
   if (body.dataset.lecture === '3') mountLecture3();
   if (body.dataset.lecture === '4') mountLecture4();
+  if (body.dataset.lecture === '5') mountLecture5();
   mountDiscussion();
   setPriorityMode('supporting');setExerciseMode('exam');setupPrint();openHashTarget();
   window.addEventListener('hashchange',openHashTarget);

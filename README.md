@@ -10,6 +10,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 2: [HTML](lect-2.html) · [Student PDF](lect-2.pdf)
 - Lecture 3: [HTML](lect-3.html) · [Student PDF](lect-3.pdf)
 - Lecture 4: [HTML](lect-4.html) · [Student PDF](lect-4.pdf)
+- Lecture 5: [HTML](lect-5.html) · [Student PDF](lect-5.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 
@@ -50,4 +51,4 @@ Every lecture and the preface now include a Comments section with a separate Dis
 
 MathJax's license, font license, font notices, and upstream provenance are retained in `assets/vendor/mathjax/`. Paths beginning with `es5/` inside those upstream records describe the original distribution. The corresponding files here are directly under `assets/vendor/mathjax/`.
 
-Lecture 3's original course illustrations and web derivatives retain their provenance and hash records in `assets/figures/lect-3/`. Lecture 4's illustrations and Markov area-proof figure retain their provenance and hashes in `assets/figures/lect-4/`. Their generation scripts and canonical LaTeX remain in the preparation repository. No new license is assigned to the course materials by this publishing repository.
+Lecture 3's original course illustrations and web derivatives retain their provenance and hash records in `assets/figures/lect-3/`. Lecture 4's illustrations and Markov area-proof figure retain their provenance and hashes in `assets/figures/lect-4/`. Lecture 5's three solution diagrams and fixed Gaussian fixture retain their provenance and hashes in `assets/figures/lect-5/v1/`. Their generation scripts and canonical LaTeX remain in the preparation repository. No new license is assigned to the course materials by this publishing repository.
