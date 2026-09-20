@@ -46,7 +46,7 @@ This publishing copy offers student HTML and PDFs, plus the instructor-approved 
 
 The copied student PDFs are unchanged. The selected CSS and application modules come from `dist/assets`. MathJax 3.2.2 uses its combined `tex-chtml.js` renderer, TeX autoload extensions, and CHTML fonts. Recheck dependencies if later pages use another renderer or enable additional MathJax features.
 
-Every lecture and the preface now include a Comments section with a separate Disqus thread. Comments remain inactive until the course's registered Disqus shortname is supplied. The single configuration lives in the preparation repository at `config/discussion.json`; update it there, run `npm run build:all` there, and refresh the student pages and changed runtime assets here. Preserve the existing thread identifiers across updates. Setting up GitHub Pages does not activate Disqus.
+Every lecture and the preface now include a Comments section with a separate Disqus thread. Comments are configured with the course's Disqus shortname `stat709-fall2026-1`. On a published lecture or preface page, choose **Load comments** to read or join that page's public discussion. Local previews link to the published page. The single configuration lives in the preparation repository at `config/discussion.json`; update it there, run `npm run build:discussion` there, and refresh the student pages and changed runtime assets here. Preserve the existing thread identifiers across updates. Setting up GitHub Pages does not activate Disqus.
 
 ## Third-party notices
 
