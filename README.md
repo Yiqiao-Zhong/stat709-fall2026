@@ -12,8 +12,11 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 4: [HTML](lect-4.html) · [Student PDF](lect-4.pdf)
 - Lecture 5: [HTML](lect-5.html) · [Student PDF](lect-5.pdf)
 - Lecture 6: [HTML](lect-6.html) · [Student PDF](lect-6.pdf)
+- Lecture 7: [HTML](lect-7.html) · [Student PDF](lect-7.pdf)
+- Lecture 8: [HTML](lect-8.html) · [Student PDF](lect-8.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
+- [Homework 2 assignment](homework/HW2.pdf)
 
 Homework solutions are not included. Further lectures can be added when their student editions are ready.
 
@@ -53,3 +56,5 @@ Every lecture and the preface now include a Comments section with a separate Dis
 MathJax's license, font license, font notices, and upstream provenance are retained in `assets/vendor/mathjax/`. Paths beginning with `es5/` inside those upstream records describe the original distribution. The corresponding files here are directly under `assets/vendor/mathjax/`.
 
 Lecture 3's original course illustrations and web derivatives retain their provenance and hash records in `assets/figures/lect-3/`. Lecture 4's illustrations and Markov area-proof figure retain their provenance and hashes in `assets/figures/lect-4/`. Lecture 5's three solution diagrams and fixed Gaussian fixture retain their provenance and hashes in `assets/figures/lect-5/v1/`. Lecture 6's five illustrations and seeded normal-maxima fixture retain their provenance and hashes in `assets/figures/lect-6/v1/`. Their generation scripts and canonical LaTeX remain in the preparation repository. No new license is assigned to the course materials by this publishing repository.
+
+Lecture 7 retains five original course figures, their attribution and source records in `assets/figures/lect-7/original-v1/`; its new diagrams are recorded in `web-v1/`. Lecture 8 retains the original GloVe analogy figure and attribution in `assets/figures/lect-8/language-v1/`. That record does not assert that the GloVe code or vector-data licenses cover the figure. Its five original teaching diagrams are recorded in `assets/figures/lect-8/web-v1/`. The latest Lecture 3 diagrams and provenance are in `assets/figures/lect-3/intuition-v1/`.

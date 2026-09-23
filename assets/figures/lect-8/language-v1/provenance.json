@@ -1,0 +1,18 @@
+{
+  "asset": "glove-man-woman.jpg",
+  "sourceUrl": "https://nlp.stanford.edu/projects/glove/images/man_woman.jpg",
+  "projectUrl": "https://nlp.stanford.edu/projects/glove/",
+  "paperUrl": "https://aclanthology.org/D14-1162/",
+  "authors": [
+    "Jeffrey Pennington",
+    "Richard Socher",
+    "Christopher D. Manning"
+  ],
+  "downloaded": "2026-09-23",
+  "sha256": "d2ff6f50638fe73a22cf8f23fc5cbfb6b747d70d96af5d27e489f769c6fb40e4",
+  "modifications": "None; original downloaded JPEG bytes retained.",
+  "kind": "Published visualization of learned word vectors; not a synthetic course example.",
+  "license": "The official page specifies Apache 2.0 for code and PDDL for word vectors, but states no figure-specific license. Neither license is asserted for this image. Original attribution and provenance are retained for the instructor-requested scholarly illustration.",
+  "sourceLabel": "lec08-fig-word-analogy",
+  "htmlStatus": "Prepared asset only; no Lecture 8 HTML generated."
+}

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "sourceRevision": "sha256:135875b89fcfcf26896b56c50f0acdd7d403e0488d8f497639d3ddfebdba320f",
+  "generator": "scripts/lecture7-figures.mjs",
+  "provenance": "Original course diagrams derived from canonical Lecture 7; no external artwork.",
+  "figures": [
+    {
+      "id": "lec07-geometry-gd",
+      "sourceLabel": "lec07-gd-picture",
+      "priority": "low",
+      "title": "The nearest exact fit lies in the row space",
+      "path": "assets/figures/lect-7/web-v1/lec07-geometry-gd.svg",
+      "sha256": "828896d76a8eb556358973608ee134dda9d596e7c1d3fe09dddcf0400602e9f2"
+    },
+    {
+      "id": "lec07-geometry-margin",
+      "sourceLabel": "lec07-classification",
+      "priority": "low",
+      "title": "Geometric margin: the gap to the nearest observations",
+      "path": "assets/figures/lect-7/web-v1/lec07-geometry-margin.svg",
+      "sha256": "fcb8184e35b86bf6ba317f1479c37d104ea19a052efd94587cd30b350adf4cb5"
+    }
+  ]
+}

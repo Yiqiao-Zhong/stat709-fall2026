@@ -1,0 +1,32 @@
+[
+  {
+    "file": "risk-bickel.png",
+    "original": "../latex/Figs/risk-bickel.png",
+    "sha256": "b1e4c49a1925f3e7b0b68de135a7f90aef53a3d5443025c32d004f6f583bf4c7",
+    "status": "retained original course asset; no new license asserted"
+  },
+  {
+    "file": "esl-u-shape.png",
+    "original": "../latex/Figs/esl-u-shape.png",
+    "sha256": "898d7194a1e681257902f558d8598c226986aa785eba5b33de1b48b8b80a71d3",
+    "status": "retained original course asset; no new license asserted"
+  },
+  {
+    "file": "double-descent.png",
+    "original": "../latex/Figs/double-descent.png",
+    "sha256": "7219e48e87bb096953fba0a900c9afe0fdf4c915beca032606d626d0b69ca159",
+    "status": "retained original course asset; no new license asserted"
+  },
+  {
+    "file": "solution-space.png",
+    "original": "../latex/Figs/solution-space.png",
+    "sha256": "7c0fe4bef4288c8d3d2a0f0f7f25ad637d2f7f741e4c413b659e179179cbb3c4",
+    "status": "retained original course asset; no new license asserted"
+  },
+  {
+    "file": "max-margin.png",
+    "original": "../latex/Figs/max-margin.png",
+    "sha256": "36e2b5abae697dab7ec1320b8915d5459db7149e47fc4bfa47293139524a7434",
+    "status": "retained original course asset; no new license asserted"
+  }
+]

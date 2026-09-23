@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sourceRevision": "sha256:ec6ebeba72c0c503cf5619bfd2c6c42817344ed77e0d50068e258c13d8356813",
+  "generator": "scripts/lecture8-figures.mjs",
+  "provenance": "Original course diagrams derived from canonical Lecture 8; no external artwork.",
+  "figures": [
+    {
+      "id": "lec08-fig-uniform",
+      "sourceLabel": "lec08-uniform",
+      "title": "Moments choose an interval",
+      "caption": "Synthetic observations 1, 2, 3: the empirical variance uses denominator n. The fitted interval has the same mean and variance.",
+      "path": "assets/figures/lect-8/web-v1/lec08-fig-uniform.svg",
+      "sha256": "38001910ba6326cff89831a0fcf66aa052303c86ec832947d81ed3df7c3ae1a5"
+    },
+    {
+      "id": "lec08-fig-counts",
+      "sourceLabel": "lec08-glove",
+      "title": "A pair-count matrix",
+      "caption": "Illustrative counts, not corpus data or a covariance matrix. GloVe fits weighted log co-occurrence counts; these raw counts show the input structure.",
+      "path": "assets/figures/lect-8/web-v1/lec08-fig-counts.svg",
+      "sha256": "559eac09806c043675e44750d2cf5fa47a23661d1ecc1524043231dde60e513e"
+    },
+    {
+      "id": "lec08-fig-topic",
+      "sourceLabel": "lec08-topic-model",
+      "title": "A shared hidden cause",
+      "caption": "Words are independent conditional on the topic. Without conditioning, the shared topic generally makes the words dependent.",
+      "path": "assets/figures/lect-8/web-v1/lec08-fig-topic.svg",
+      "sha256": "5e83b715f1b042fba24381e10496a60be19eca688cee6212ddb5f8cc1178ef04"
+    },
+    {
+      "id": "lec08-fig-whitening",
+      "sourceLabel": "lec08-whitening",
+      "title": "Weighted directions become orthonormal",
+      "caption": "Exact two-topic example: weights (0.25, 0.75), topics (0.8, 0.2) and (0.2, 0.8). Equal axis scales; the transformed weighted vectors have unit length and zero inner product.",
+      "path": "assets/figures/lect-8/web-v1/lec08-fig-whitening.svg",
+      "sha256": "17cae03a905414f864e9474cea394d6f14d6c4f6e47dab9e9df618aabebb05fc"
+    },
+    {
+      "id": "lec08-fig-network-directions",
+      "sourceLabel": "lec08-network-relaxation",
+      "title": "Separate density from communities",
+      "caption": "For balanced communities, the label vector is orthogonal to the constant vector. The population decomposition motivates a constrained spectral relaxation; it does not guarantee recovery from every observed graph.",
+      "path": "assets/figures/lect-8/web-v1/lec08-fig-network-directions.svg",
+      "sha256": "b72e0256626a356cee0faa9d1239ad4eb2ab67acb4b8189019cbadcec55bffbe"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "generator": "scripts/lecture3-intuition-figures.py",
+  "provenance": "Original course diagrams derived from canonical Lecture 3. No external artwork.",
+  "figures": [
+    {
+      "id": "lec03-fig-parts",
+      "title": "Positive and negative parts",
+      "sourceLabel": "lec03-parts-figure-caption",
+      "alt": "For f(x)=sin x on [-pi,pi], f-positive keeps the positive right lobe. f-negative reflects the negative left lobe above zero. Both parts are nonnegative; subtracting them gives f and adding them gives absolute f. Dashed gray curves show the original f for comparison.",
+      "svg": "assets/figures/lect-3/intuition-v1/positive-negative.svg",
+      "png": "assets/figures/lect-3/intuition-v1/positive-negative.png",
+      "sha256": {
+        "svg": "7be13ea73dbea15e61ae26659f8f1cf3bf0769774f6ae1b9e4c77d9f550de8a7",
+        "png": "08a717ed455ec284634e2eac19bbb53809eb9f22d60ac80e1518711be714e8a6"
+      },
+      "panels": [
+        {
+          "path": "assets/figures/lect-3/intuition-v1/positive-negative-panel-1.svg",
+          "sha256": "0e989243865a55112fa79dac822fdc0a950a141394dba3682c72d6e7491afcae"
+        },
+        {
+          "path": "assets/figures/lect-3/intuition-v1/positive-negative-panel-2.svg",
+          "sha256": "fc30e61112f63424d921018cc2d53e2e7059d4101d9bb25c1cc0ce0506f93f19"
+        },
+        {
+          "path": "assets/figures/lect-3/intuition-v1/positive-negative-panel-3.svg",
+          "sha256": "73acac36260d222a2459bca7f71127713057f081421f76ec24f98895802d753d"
+        }
+      ]
+    },
+    {
+      "id": "lec03-fig-truncation",
+      "title": "Truncation: raise the cap and enlarge the domain",
+      "sourceLabel": "lec03-truncation-figure-caption",
+      "alt": "For f(x)=x+1 on [0,infinity), E_n=[0,n] and f_n=min(x+1,n) times the indicator of E_n. The first three curves increase at every fixed x as both the height cap and domain grow. Filled dots include x=n at height n; open circles exclude x=n from the zero segment.",
+      "svg": "assets/figures/lect-3/intuition-v1/truncation.svg",
+      "png": "assets/figures/lect-3/intuition-v1/truncation.png",
+      "sha256": {
+        "svg": "cb47784f4c6d70a2f4b2854243c7fcf7d4d475599c0445896916fb036184c790",
+        "png": "8c49a23e07e2802d23d5b916d68a165ca26a68345c518641aaf88c3b5ba3f2dc"
+      },
+      "panels": [
+        {
+          "path": "assets/figures/lect-3/intuition-v1/truncation-panel-1.svg",
+          "sha256": "2c82a7dbf22fcae8f998ed83f5c358b07763d3ab898b283e302a5edb26e70432"
+        }
+      ]
+    },
+    {
+      "id": "lec03-fig-spike",
+      "title": "Shrinking support, constant integral",
+      "sourceLabel": "lec03-spike",
+      "alt": "The spikes n times the indicator of (0,1/n), for n=1,4,16, have area one on fixed axes. Dashed g(x)=1/x for x>0 dominates every spike, with g(0)=0. Arrows show the curve continuing above the frame as x decreases to zero. Its integral diverges logarithmically, so this envelope does not permit DCT. The sequence is not increasing, so MCT also does not apply.",
+      "svg": "assets/figures/lect-3/intuition-v1/spike-envelope.svg",
+      "png": "assets/figures/lect-3/intuition-v1/spike-envelope.png",
+      "sha256": {
+        "svg": "f093f9e98ce2283dec2877ae74e12e31a3959880c1d9d396ed803b44ec1d9a01",
+        "png": "bc57c26ba4f39155a2d09e63c9fef54d0df61d01b69d7fa8521ede0f43dda146"
+      },
+      "panels": [
+        {
+          "path": "assets/figures/lect-3/intuition-v1/spike-envelope-panel-1.svg",
+          "sha256": "328c5e82882f370c3b23a72123fa1aa7c584bc8090374525ea8e2ee89907fe11"
+        },
+        {
+          "path": "assets/figures/lect-3/intuition-v1/spike-envelope-panel-2.svg",
+          "sha256": "ca07229a625bb31b18b247987a548c359d280189f5b5c53ecd9c1360820d3ca9"
+        },
+        {
+          "path": "assets/figures/lect-3/intuition-v1/spike-envelope-panel-3.svg",
+          "sha256": "fb6874c9a00f3136fdabacf1fe8de9605cbedd5e2b6e6a010740404eeba69aee"
+        }
+      ]
+    }
+  ]
+}

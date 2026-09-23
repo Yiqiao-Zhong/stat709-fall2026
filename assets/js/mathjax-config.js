@@ -18,6 +18,7 @@ window.MathJax = {
       Z: "\\mathbb{Z}",
       C: "\\mathbb{C}",
       E: "\\mathbb{E}",
+      veps: "\\varepsilon",
       PR: "\\mathbb{P}",
       F: "\\mathcal{F}",
       gF: "\\mathcal{F}",
