@@ -28,6 +28,7 @@ window.MathJax = {
       Unif: "\\operatorname{Unif}",
       tr: "\\operatorname{tr}",
       var: "\\operatorname{Var}",
+      Var: "\\mathrm{Var}",
       rank: "\\operatorname{rank}",
       op: "\\mathrm{op}",
       sign: "\\operatorname{sign}",

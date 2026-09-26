@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceRevision": "sha256:135875b89fcfcf26896b56c50f0acdd7d403e0488d8f497639d3ddfebdba320f",
+  "sourceRevision": "sha256:f1e5139c89d914ce0e01bed19c6ff72dbc2f0474b58807323390c864e5f68d62",
   "generator": "scripts/lecture7-figures.mjs",
   "provenance": "Original course diagrams derived from canonical Lecture 7; no external artwork.",
   "figures": [

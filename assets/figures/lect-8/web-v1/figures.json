@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceRevision": "sha256:ec6ebeba72c0c503cf5619bfd2c6c42817344ed77e0d50068e258c13d8356813",
+  "sourceRevision": "sha256:a9e0ebb88d0dd02f72ba9ec67f4c6404086f2e72d0bdbcc9a8565cf2b36a811e",
   "generator": "scripts/lecture8-figures.mjs",
   "provenance": "Original course diagrams derived from canonical Lecture 8; no external artwork.",
   "figures": [

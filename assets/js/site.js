@@ -6,6 +6,7 @@ import { mountLecture4 } from './widgets/lect-4.js';
 import { mountLecture3 } from './widgets/lect-3.js';
 import { mountLecture7 } from './widgets/lect-7.js';
 import { mountLecture8 } from './widgets/lect-8.js';
+import { mountLecture9 } from './widgets/lect-9.js';
 import { mountLecture6 } from './widgets/lect-6.js';
 import { mountLecture5 } from './widgets/lect-5.js';
 
@@ -110,6 +111,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   if (body.dataset.lecture === '6') mountLecture6();
   if (body.dataset.lecture === '7') mountLecture7();
   if (body.dataset.lecture === '8') mountLecture8();
+  if (body.dataset.lecture === '9') mountLecture9();
   mountDiscussion();
   setPriorityMode('supporting');setExerciseMode('exam');setupPrint();openHashTarget();
   window.addEventListener('hashchange',openHashTarget);

@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "sourceRevision": "sha256:8ec442f9f181e4fc50f42de6ba7ef04603c37f5a76ef8b2016da33c0924539ff",
+  "generator": "scripts/lecture9-figures.mjs",
+  "provenance": "Original course diagrams derived from canonical Lecture 9. Synthetic ECDF fixtures, no external artwork or data.",
+  "figures": [
+    {
+      "id": "lec09-fig-paths",
+      "sourceLabel": "lec09-instructor-paths",
+      "title": "Convergence: columns and sample paths",
+      "caption": "In probability: each fixed tolerance is exceeded with probability tending to zero. Almost surely: almost every whole path eventually stays within each fixed tolerance. A finite grid illustrates the quantifiers; it does not prove a limit.",
+      "files": [
+        {
+          "path": "assets/figures/lect-9/web-v1/lec09-fig-paths-1.svg",
+          "sha256": "b6fd057fa875dda5bd7b0a782cb4d12c17b994ef1c347c10f419d9e95fa20bc8"
+        }
+      ]
+    },
+    {
+      "id": "lec09-fig-normal-scales",
+      "sourceLabel": "lec09-sol-gaussian",
+      "title": "Normal errors at three scales",
+      "caption": "The same horizontal and vertical scales show narrowing, unit-scale, and wider Normal distributions. The complete limit calculations remain in this solution; finite curves alone do not specify a sequence.",
+      "files": [
+        {
+          "path": "assets/figures/lect-9/web-v1/lec09-fig-normal-scales-1.svg",
+          "sha256": "ce5d6c409daab6d22350b15a36302bc63718bd27eac829dc87295306664f899a"
+        },
+        {
+          "path": "assets/figures/lect-9/web-v1/lec09-fig-normal-scales-2.svg",
+          "sha256": "1194aa9b409f57341661419198051362ffb329958bcbd3079653dcc24ce19bb0"
+        },
+        {
+          "path": "assets/figures/lect-9/web-v1/lec09-fig-normal-scales-3.svg",
+          "sha256": "8231072dab8581430c563607b047f0e1b463b7381d8ad2f81365ae1598375a13"
+        }
+      ]
+    },
+    {
+      "id": "lec09-fig-tail-prefix",
+      "sourceLabel": "lec09-instructor-tail",
+      "title": "Tail events ignore a finite beginning",
+      "caption": "For the limiting-average event in the text, a finite deleted sum divided by n tends to zero. The limiting question is unchanged.",
+      "files": [
+        {
+          "path": "assets/figures/lect-9/web-v1/lec09-fig-tail-prefix-1.svg",
+          "sha256": "56e0d2b199d2fcc068009b656bef5c2ffacd1928d24db0b7390a6b2783fa666d"
+        }
+      ]
+    },
+    {
+      "id": "lec09-fig-ecdf",
+      "sourceLabel": "lec09-instructor-cdf",
+      "title": "Comparing the empirical and population CDFs",
+      "caption": "Solid: empirical CDF for ten synthetic observations. Dashed: population CDF. The largest vertical discrepancy uses both sides of every jump, including for the discrete example. One finite sample illustrates the comparison, not convergence.",
+      "files": [
+        {
+          "path": "assets/figures/lect-9/web-v1/lec09-fig-ecdf-1.svg",
+          "sha256": "a347b55d6396cb471d0ea287025883246713ea76dd5766b5419b2f4be716f17a"
+        },
+        {
+          "path": "assets/figures/lect-9/web-v1/lec09-fig-ecdf-2.svg",
+          "sha256": "daad249635ae554817a41150989a2caec5688c8cb6a19cbfc61424f455f98a97"
+        }
+      ]
+    },
+    {
+      "id": "lec09-fig-argmin",
+      "sourceLabel": "lec09-instructor-argmin",
+      "title": "Uniform error and a separated minimum",
+      "caption": "Outside |θ| < 0.8 the population gap is at least 0.64. Two errors of size 0.1 leave a positive gap. This is the comparison in the proof; an approximate minimizer also requires its optimization error to vanish.",
+      "files": [
+        {
+          "path": "assets/figures/lect-9/web-v1/lec09-fig-argmin-1.svg",
+          "sha256": "8b1d2ae2aa25e087c8c60672bf13e3ec3295adc25014d60fe01ddac397dbc8bf"
+        }
+      ]
+    },
+    {
+      "id": "lec09-pareto-default",
+      "sourceLabel": "lec09-pareto-picture",
+      "title": "Pareto moment areas at alpha 1.5 and cutoff 10",
+      "files": [
+        {
+          "path": "assets/figures/lect-9/web-v1/lec09-pareto-default-1.svg",
+          "sha256": "af31f013a526532ed24779b74868b3db18dc8d8162ab4254b10b671e023703a9"
+        },
+        {
+          "path": "assets/figures/lect-9/web-v1/lec09-pareto-default-2.svg",
+          "sha256": "58cd8ff39a43438907f982c5197f6324ea5f2339b575507fa8ee3df1e9f8e17c"
+        }
+      ]
+    }
+  ]
+}

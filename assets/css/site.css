@@ -1244,3 +1244,29 @@ body[data-lecture="8"] .numbered-equation > p,body[data-lecture="8"] .numbered-e
 .lecture8-explorer :is(button,input,select):focus-visible,.l8-table-scroll:focus-visible { outline:3px solid #b77b18; outline-offset:3px; }
 .lecture8-explorer [aria-invalid=true] { outline:2px solid #923a38; }
 @media(max-width:700px) { body[data-lecture="8"] .math-pair.inline { display:inline-block; max-width:100%; overflow-x:auto; vertical-align:middle; padding-block:.1em; } }
+
+/* Lecture 9: exact tail areas and source-linked diagrams. */
+.lecture9-explorer,.lecture9-figure { margin:1rem 0; padding:1rem; border:1px solid #bdcfcf; border-radius:12px; background:#fffdf8; }
+.lecture9-explorer h3 { margin:.2rem 0 .6rem; }
+.l9-panels { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+.l9-panels svg,.lecture9-figure > svg { width:100%; height:auto; display:block; }
+.l9-controls { display:flex; flex-wrap:wrap; align-items:end; gap:1rem; margin:.8rem 0; }
+.l9-controls > div { display:grid; grid-template-columns:minmax(100px,1fr) 5.5rem; flex:1 1 250px; gap:.4rem; }
+.l9-controls label:not(.sr-only) { grid-column:1/-1; font-weight:650; }
+.l9-controls input { min-width:0; width:100%; box-sizing:border-box; }
+.l9-controls input[type=number] { padding:.5rem; border:1px solid #8da5ad; border-radius:6px; font:inherit; }
+.l9-readout { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.5rem; margin:.6rem 0; }
+.l9-readout > div { padding:.65rem; border:1px solid #d9dfdb; border-radius:8px; }
+.l9-readout dt { font-size:.88em; } .l9-readout dd { margin:.2rem 0 0; font-weight:700; font-size:1.15em; }
+.l9-small { font-size:.9em; line-height:1.5; } .l9-error { color:#8b2929; }
+.l9-live { display:none; } .lecture9-explorer[data-mounted=true] .l9-live { display:block; }
+.lecture9-explorer[data-mounted=true] .l9-static { display:none; }
+@media(max-width:760px) { .l9-panels { grid-template-columns:1fr; } .l9-readout { grid-template-columns:1fr; } }
+@media print { .l9-live { display:none!important; } .l9-static { display:block!important; } .lecture9-explorer,.lecture9-figure { break-inside:avoid; } }
+@media(max-width:700px) {
+  body[data-lecture="9"] .math-pair.inline { display:inline-block; max-width:100%; overflow-x:auto; vertical-align:middle; padding-block:.1em; }
+}
+@media(max-width:760px) {
+  .l9-panels svg text:not([font-size]), .lecture9-figure > svg text:not([font-size]):not([font-weight]) { font-size:22px; }
+  .l9-panels svg text[font-size="15"], .l9-panels svg text[font-size="16"] { font-size:20px; }
+}
