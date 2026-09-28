@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "sourceRevision": "sha256:fa954bbc01021814f8b22a18fbfb21ce2ee5aa116c744fa12ecd6daa5966b9ee",
+  "generator": "scripts/lecture10-figures.mjs",
+  "provenance": "Original course diagrams derived from canonical Lecture 10. Synthetic sign distributions and illustrative index diagrams, no external artwork or data.",
+  "figures": [
+    {
+      "id": "lec10-fig-point-mass",
+      "sourceLabel": "lec10-sol-dirac",
+      "title": "Moving jumps and continuity points",
+      "caption": "Solid: point mass at 1/n. Dashed: point mass at zero. At the limiting jump x = 0, the CDF values differ for every n.",
+      "files": [
+        {
+          "path": "assets/figures/lect-10/web-v1/lec10-fig-point-mass-1.svg",
+          "sha256": "8ff98456f3a542550b48d7ca6b57c9585f9600e7ed21c476796c27501b2957ed"
+        },
+        {
+          "path": "assets/figures/lect-10/web-v1/lec10-fig-point-mass-2.svg",
+          "sha256": "12f06ad4bf94ffca4f6c6b06d5e27857ad6b6b998eb0eaa4b6f318978d4ae053"
+        },
+        {
+          "path": "assets/figures/lect-10/web-v1/lec10-fig-point-mass-3.svg",
+          "sha256": "e2f733c5dfbda7aaba06d284efaf4d532895131cb01b28ae123c87588c2d9977"
+        }
+      ]
+    },
+    {
+      "id": "lec10-fig-laws",
+      "sourceLabel": "lec10-instructor-laws",
+      "title": "A shuffle preserves the distribution",
+      "caption": "The marginal distribution stays fixed while the pairing changes.",
+      "files": [
+        {
+          "path": "assets/figures/lect-10/web-v1/lec10-fig-laws-1.svg",
+          "sha256": "be46d6cb9481444f2d331609ab6873c11039c0e97cd8edcdf85b299ae9ce1906"
+        }
+      ]
+    },
+    {
+      "id": "lec10-fig-ramps",
+      "sourceLabel": "lec10-sol-tests",
+      "title": "A continuous sandwich for an indicator",
+      "caption": "Solid teal: lower ramp. Dotted gold: indicator of (−∞,0]. Dashed plum: upper ramp. The complete limiting argument is in this solution.",
+      "files": [
+        {
+          "path": "assets/figures/lect-10/web-v1/lec10-fig-ramps-1.svg",
+          "sha256": "3999abf82c773a0bea1b23b1908b2aa9d0e91d8a22f85be00933ea5f8589f781"
+        }
+      ]
+    },
+    {
+      "id": "lec10-fig-quadratic",
+      "sourceLabel": "lec10-instructor-quadratic",
+      "title": "Centering, scaling and the Gaussian exponent",
+      "caption": "This is the expansion of one factor ψ(t/√n). The product of n factors tends to exp(−t²/2).",
+      "files": [
+        {
+          "path": "assets/figures/lect-10/web-v1/lec10-fig-quadratic-1.svg",
+          "sha256": "068c1d83815882ba8d1beff714543ec9dc85004fe2bdbbc60a94e690a4111d66"
+        }
+      ]
+    },
+    {
+      "id": "lec10-fig-pairings",
+      "sourceLabel": "lec10-instructor-pairings",
+      "title": "Pairing six positions",
+      "caption": "For a sixth moment, pairings have three free indices. Their order n³ balances the normalization n⁻³. A singleton would contribute a zero mean.",
+      "files": [
+        {
+          "path": "assets/figures/lect-10/web-v1/lec10-fig-pairings-1.svg",
+          "sha256": "9100085b57d9699fc5b6f5be36a121b68db769f1778aa307f2d42949da6def82"
+        }
+      ]
+    },
+    {
+      "id": "lec10-fig-replacement",
+      "sourceLabel": "lec10-instructor-swapping",
+      "title": "Intermediate sums in the replacement proof",
+      "caption": "The proof runs from all Gaussian inputs to all original inputs. For one replacement, remove the changing slot to form Tₙ,ᵢ; matching means and variances cancels the first two Taylor terms.",
+      "files": [
+        {
+          "path": "assets/figures/lect-10/web-v1/lec10-fig-replacement-1.svg",
+          "sha256": "3aecf7c93b983ee3e5ae232e9e9593cde738a1dbb960e129950a354200cfc2cd"
+        }
+      ]
+    },
+    {
+      "id": "lec10-clt-default",
+      "sourceLabel": "lec10-clt-picture",
+      "title": "Exact sign-sum CDF at n=20",
+      "files": [
+        {
+          "path": "assets/figures/lect-10/web-v1/lec10-clt-default-1.svg",
+          "sha256": "3e796f3742fe389a34f8e41d54331553bf3387ced34a5fa47b368f70f5cbbde4"
+        }
+      ]
+    }
+  ]
+}

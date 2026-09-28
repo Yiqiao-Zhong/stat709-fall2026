@@ -15,6 +15,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 7: [HTML](lect-7.html) · [Student PDF](lect-7.pdf)
 - Lecture 8: [HTML](lect-8.html) · [Student PDF](lect-8.pdf)
 - Lecture 9: [HTML](lect-9.html) · [Student PDF](lect-9.pdf)
+- Lecture 10: [HTML](lect-10.html) · [Student PDF](lect-10.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 - [Homework 2 assignment](homework/HW2.pdf)
@@ -62,3 +63,5 @@ Lecture 3's original course illustrations and web derivatives retain their prove
 Lecture 7 retains five original course figures, their attribution and source records in `assets/figures/lect-7/original-v1/`; its new diagrams are recorded in `web-v1/`. Lecture 8 retains the original GloVe analogy figure and attribution in `assets/figures/lect-8/language-v1/`. That record does not assert that the GloVe code or vector-data licenses cover the figure. Its five original teaching diagrams are recorded in `assets/figures/lect-8/web-v1/`. The latest Lecture 3 diagrams and provenance are in `assets/figures/lect-3/intuition-v1/`.
 
 Lecture 9 retains its original convergence, tail-event, empirical-CDF and minimum-separation diagrams, plus the Pareto moment-area explorer’s static fallback, in `assets/figures/lect-9/web-v1/`. The accompanying hash and provenance record refers to generation scripts and canonical LaTeX in the preparation repository.
+
+Lecture 10 retains its original weak-convergence and CLT diagrams, including the exact sign-sum activity fallback, in `assets/figures/lect-10/web-v1/`. The figure record retains hashes and provenance; generation scripts and canonical LaTeX remain in the preparation repository.
