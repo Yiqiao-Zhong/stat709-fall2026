@@ -17,6 +17,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 9: [HTML](lect-9.html) · [Student PDF](lect-9.pdf)
 - Lecture 10: [HTML](lect-10.html) · [Student PDF](lect-10.pdf)
 - Lecture 11: [HTML](lect-11.html) · [Student PDF](lect-11.pdf)
+- Lecture 12: [HTML](lect-12.html) · [Student PDF](lect-12.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 - [Homework 2 assignment](homework/HW2.pdf)
@@ -45,6 +46,8 @@ Open http://127.0.0.1:8000/ in a browser. A local server lets the lecture JavaSc
 The local repository has a GitHub remote configured, but no publishing workflow is included. Copying files here does not publish them. No build tools, Node dependencies, Pandoc, or LaTeX installation are needed to host these files.
 
 ## Update the materials
+
+“Publish lecture XX” means copying the approved website-related files here, committing the relevant changes in both preparation and hosting repositories, and pushing this hosting repository to GitHub. The preparation PLAN owns the full publication policy.
 
 The sibling `STAT709-html-conversion` repository remains the preparation repository. Make content changes and regenerate student outputs there, then copy the approved HTML/PDF files and any changed runtime assets here. Keep their relative paths.
 

@@ -25,6 +25,8 @@ function setPriorityMode(mode) {
     supporting: 'High and mid reading are visible; both are in examination scope. Optional summaries remain available.',
     all: 'Optional reading is expanded. Practice selection and solution choices are preserved.',
   };
+  const scopeNotice=document.getElementById(body.dataset.examScopeNote)?.closest('p')?.nextElementSibling?.textContent;
+  if(scopeNotice) descriptions[mode]=({core:'High-priority reading only. ',supporting:'High and mid reading are visible. ',all:'All reading tiers are visible. '}[mode]||'')+scopeNotice;
   document.getElementById('priority-description').textContent = descriptions[mode];
   document.querySelectorAll('[data-priority-mode]').forEach(button => button.setAttribute('aria-pressed',String(button.dataset.priorityMode===mode)));
   document.querySelectorAll('[data-summary-priority]').forEach(row=>{row.hidden=mode==='core'?row.dataset.summaryPriority!=='high':mode!=='all'&&!['high','mid'].includes(row.dataset.summaryPriority);});
@@ -36,11 +38,11 @@ function setPriorityMode(mode) {
 
 function setExerciseMode(mode) {
   practiceMode=mode;
-  const visible = priority => mode==='all' || (mode==='exam' && ['high','mid'].includes(priority)) || priority==='high';
+  const visible = (priority,scope) => mode==='all' || (scope!=='study' && ((mode==='exam' && ['high','mid'].includes(priority)) || priority==='high'));
   document.querySelectorAll('[data-exercise-mode]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.exerciseMode===mode)));
-  practiceBlocks().forEach(block=>block.classList.toggle('exercise-priority-hidden',!visible(block.dataset.priority)));
+  practiceBlocks().forEach(block=>block.classList.toggle('exercise-priority-hidden',!visible(block.dataset.priority,block.dataset.examScope)));
   const rows=[...document.querySelectorAll('[data-practice-priority]')];
-  rows.forEach(row=>row.hidden=!visible(row.dataset.practicePriority));
+  rows.forEach(row=>row.hidden=!visible(row.dataset.practicePriority,row.dataset.examScope));
   document.getElementById('practice-count').textContent=`${rows.filter(row=>!row.hidden).length} exercises in ${mode} practice`;
 }
 
@@ -51,7 +53,7 @@ function openHashTarget() {
   if(!target) return;
   const priority=target.closest('.priority-block');
   if(target.closest('.exercises-shell')) {
-    if(['low','further'].includes(priority?.dataset.priority) && practiceMode!=='all') setExerciseMode('all');
+    if((priority?.dataset.examScope==='study'||['low','further'].includes(priority?.dataset.priority)) && practiceMode!=='all') setExerciseMode('all');
     else if(priority?.dataset.priority==='mid' && practiceMode==='core') setExerciseMode('exam');
   } else if(priority && priority.dataset.priority!=='high' && body.dataset.priorityView==='core') setPriorityMode('supporting');
   let node=target;
