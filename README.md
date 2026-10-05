@@ -16,10 +16,12 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 8: [HTML](lect-8.html) · [Student PDF](lect-8.pdf)
 - Lecture 9: [HTML](lect-9.html) · [Student PDF](lect-9.pdf)
 - Lecture 10: [HTML](lect-10.html) · [Student PDF](lect-10.pdf)
+- Lecture 11: [HTML](lect-11.html) · [Student PDF](lect-11.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 - [Homework 2 assignment](homework/HW2.pdf)
 - [Homework 3 assignment](homework/HW3.pdf)
+- [Homework 4 assignment](homework/HW4.pdf)
 
 Homework solutions are not included. Further lectures can be added when their student editions are ready.
 
@@ -65,3 +67,5 @@ Lecture 7 retains five original course figures, their attribution and source rec
 Lecture 9 retains its original convergence, tail-event, empirical-CDF and minimum-separation diagrams, plus the Pareto moment-area explorer’s static fallback, in `assets/figures/lect-9/web-v1/`. The accompanying hash and provenance record refers to generation scripts and canonical LaTeX in the preparation repository.
 
 Lecture 10 retains its original weak-convergence and CLT diagrams, including the exact sign-sum activity fallback, in `assets/figures/lect-10/web-v1/`. The figure record retains hashes and provenance; generation scripts and canonical LaTeX remain in the preparation repository.
+
+Lecture 11 retains its delta-method diagram and curve data in `assets/figures/lect-11/`, together with its provenance record. Canonical sources and author materials remain in preparation.

@@ -1309,3 +1309,29 @@ body[data-lecture="10"] .classroom-points > ul > li > strong:first-child { color
   body[data-lecture="10"] .exercises-shell .exercise,
   body[data-lecture="10"] .exercises-shell .solution-body { padding:.45rem; }
 }
+
+/* Source-selected parameter curves for Lectures 11–20. */
+.batch-activity{margin:1.4rem 0;padding:1rem;border:1px solid #bbcbd4;border-radius:.6rem;background:#fafcfd}
+.batch-activity figcaption{font-weight:700;margin-bottom:.8rem}
+.batch-controls{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;margin:.8rem 0}
+.batch-controls input{flex:1;min-width:150px;max-width:350px}
+.batch-controls button{min-height:44px;padding:.4rem .8rem}
+.batch-graph svg{display:block;width:100%;height:auto}
+.batch-table{overflow:auto}.batch-table table{border-collapse:collapse;width:100%;font-size:.9rem}
+.batch-table caption{text-align:left;margin:.5rem 0}.batch-table th,.batch-table td{padding:.35rem .5rem;border-bottom:1px solid #d6dee4;text-align:right}
+@media print{.batch-controls{display:none!important}.batch-activity{break-inside:avoid}.batch-table{overflow:visible}}
+
+.batch-controls.requires-js{display:none}.js-enabled .batch-controls.requires-js{display:flex}
+.batch-lecture .numbered-equation>p,.batch-lecture .numbered-equation .math-pair.display{margin:0}
+@media(max-width:700px){
+ .batch-lecture .math-pair.inline{display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle;padding-block:.1em}
+ .batch-lecture .exercises-shell .collapsible-body,.batch-lecture .exercises-shell .priority-details-body{padding-inline:.35rem}
+ .batch-lecture .exercises-shell .exercise,.batch-lecture .exercises-shell .solution-body{padding:.45rem}
+ .batch-activity{padding:.55rem}
+}
+
+.batch-lecture .lecture-content figure img{max-width:100%;height:auto;display:block;margin-inline:auto}
+.js-enabled .batch-static-figure{display:none}
+@media print{.batch-activity{display:none!important}.batch-static-figure{display:block!important}}
+.batch-lecture .lecture-content img{max-width:100%;height:auto}
+.batch-lecture .lecture-content a{overflow-wrap:anywhere}

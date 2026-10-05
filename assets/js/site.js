@@ -1,3 +1,4 @@
+import { mountLectureBatch } from './widgets/lect-batch.js';
 import { mountDiscussion } from './discussion.js';
 import { mountLectureWidgets, addLectureCrossLinks } from './widgets/lect-1.js';
 import { mountLecturePilot } from './widgets/lecture1-pilot.js';
@@ -114,6 +115,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   if (body.dataset.lecture === '8') mountLecture8();
   if (body.dataset.lecture === '9') mountLecture9();
   if (body.dataset.lecture === '10') mountLecture10();
+  if (Number(body.dataset.lecture)>=11 && Number(body.dataset.lecture)<=20) mountLectureBatch();
   mountDiscussion();
   setPriorityMode('supporting');setExerciseMode('exam');setupPrint();openHashTarget();
   window.addEventListener('hashchange',openHashTarget);
