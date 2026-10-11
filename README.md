@@ -18,6 +18,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 10: [HTML](lect-10.html) · [Student PDF](lect-10.pdf)
 - Lecture 11: [HTML](lect-11.html) · [Student PDF](lect-11.pdf)
 - Lecture 12: [HTML](lect-12.html) · [Student PDF](lect-12.pdf)
+- Lecture 13: [HTML](lect-13.html) · [Student PDF](lect-13.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 - [Homework 2 assignment](homework/HW2.pdf)
@@ -72,3 +73,5 @@ Lecture 9 retains its original convergence, tail-event, empirical-CDF and minimu
 Lecture 10 retains its original weak-convergence and CLT diagrams, including the exact sign-sum activity fallback, in `assets/figures/lect-10/web-v1/`. The figure record retains hashes and provenance; generation scripts and canonical LaTeX remain in the preparation repository.
 
 Lecture 11 retains its delta-method diagram and curve data in `assets/figures/lect-11/`, together with its provenance record. Canonical sources and author materials remain in preparation.
+
+Lecture 13 retains its original Fisher-information illustrations and Stpasha’s public-domain static projection diagram in `assets/figures/lect-13/`, with source, license and hashes. The removed Gaussian-coordinate diagram is not hosted; its mathematical explanation remains in the lecture.
