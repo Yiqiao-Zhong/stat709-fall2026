@@ -1,0 +1,39 @@
+[
+  {
+    "lecture": 16,
+    "file": "assets/figures/lect-16/literature-v2/cover-pack.png",
+    "author": "Roman Vershynin",
+    "title": "High-Dimensional Probability, first edition, May 20, 2024",
+    "url": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-1.pdf",
+    "figure": "4.1",
+    "pdfPage": 89,
+    "downloadSha256": "681b6f3d947f71c023f3d1090e7aa33fd7e302647a6dfb6e69bd272363b6f462",
+    "cropPixelsOn1400Preview": [
+      214,
+      201,
+      767,
+      385
+    ],
+    "transform": "Diagram-only crop, rasterized at 300 dpi; no redrawing or relabeling.",
+    "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "90e5723afa4d5a3971c825a380637dfee4a2a7440a623a6dc34a9040c6c515b4"
+  },
+  {
+    "lecture": 16,
+    "file": "assets/figures/lect-16/literature-v2/svd-transpose.png",
+    "author": "Georg-Johann; transpose-label adaptation for STAT 709",
+    "title": "Singular value decomposition with transpose notation",
+    "url": "https://commons.wikimedia.org/wiki/File:Singular-Value-Decomposition.svg",
+    "transform": "Changed the two superscript asterisks to T in the original SVG; preserved all geometric paths. Rendered to PNG for PDF/HTML. Displayed at half the previous linear size.",
+    "license": "CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceVector": {
+      "file": "assets/figures/lect-16/literature-v2/svd-original.svg",
+      "sha256": "beb1d33353d4b5fe3f2f375235c18cebcf2d2e1500f55458440ce5258b058e9a"
+    },
+    "adaptedVector": {
+      "file": "assets/figures/lect-16/literature-v2/svd-transpose.svg",
+      "sha256": "039e2c377d69ca3e47943294645d872d63ed93cff96485aed2abd070b9d63a19"
+    },
+    "sha256": "c4341e43752a53984c00144c5dee9e0df78e59cc682f40aa2c3846564a9cd3a1"
+  }
+]

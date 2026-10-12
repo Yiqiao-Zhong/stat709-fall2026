@@ -20,6 +20,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 12: [HTML](lect-12.html) · [Student PDF](lect-12.pdf)
 - Lecture 13: [HTML](lect-13.html) · [Student PDF](lect-13.pdf)
 - Lecture 15: [HTML](lect-15.html) · [Student PDF](lect-15.pdf)
+- Lecture 16: [HTML](lect-16.html) · [Student PDF](lect-16.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 - [Homework 2 assignment](homework/HW2.pdf)
@@ -79,3 +80,5 @@ Lecture 11 retains its delta-method diagram and curve data in `assets/figures/le
 Lecture 13 retains its original Fisher-information illustrations and Stpasha’s public-domain static projection diagram in `assets/figures/lect-13/`, with source, license and hashes. The removed Gaussian-coordinate diagram is not hosted; its mathematical explanation remains in the lecture.
 
 Lecture 15 retains the instructor’s original cloud image and the course Gaussian-shell illustration in `assets/figures/lect-15/`, with mathematical source and provenance. Its removed Figure 2 and rejected replacements are not hosted.
+
+Lecture 16 uses Georg-Johann’s SVD diagram adapted to transpose notation (CC BY-SA 3.0) and an attributed covering/packing excerpt from Vershynin. Selected figures, the original SVD vector and provenance are in `assets/figures/lect-16/literature-v2/`.

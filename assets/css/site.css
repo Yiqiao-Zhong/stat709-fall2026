@@ -1331,6 +1331,7 @@ body[data-lecture="10"] .classroom-points > ul > li > strong:first-child { color
 }
 
 .batch-lecture .lecture-content figure img{max-width:100%;height:auto;display:block;margin-inline:auto}
+.batch-lecture .lecture-content figure img#lec16-fig-svd{width:50%}
 .js-enabled .batch-static-figure{display:none}
 @media print{.batch-activity{display:none!important}.batch-static-figure{display:block!important}}
 .batch-lecture .lecture-content img{max-width:100%;height:auto}
