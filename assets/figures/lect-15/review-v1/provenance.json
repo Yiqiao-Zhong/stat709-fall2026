@@ -1,0 +1,16 @@
+[
+  {
+    "lecture": 15,
+    "name": "gaussian-shell",
+    "path": "../assets/figures/lect-15/review-v1/gaussian-shell.png",
+    "alt": "Exact densities of the relative Gaussian radius for dimensions 2, 10, and 100 concentrate near 1.",
+    "source": "Vershynin, High-Dimensional Probability, Section 3.1; exact chi density.",
+    "provenance": "Original course illustration generated from the formulas in this script; no source figure copied.",
+    "sha256": {
+      "png": "bc2b30f188caf7469f2570df7abb69f4e153b70d778d8d17160ba3cf98c552a7",
+      "svg": "e209bbed7ea81a43455f6d5033e4b18ffb6f1e3bdcbc6ac9f496137ee63b9b64"
+    },
+    "referenceUrl": "https://webapps.math.uci.edu/~rvershyn/papers/HDP-book/HDP-1.pdf",
+    "rights": "Original course illustration; existing course rights apply. No new public license is assigned."
+  }
+]
