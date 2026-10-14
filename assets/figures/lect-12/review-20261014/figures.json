@@ -1,0 +1,19 @@
+{
+  "generator": "scripts/figure-review-20261014.py",
+  "provenance": "Original STAT 709 drawings from canonical examples; synthetic samples are explicitly labeled. No external artwork copied.",
+  "figures": [
+    {
+      "lecture": 12,
+      "name": "rao-blackwell",
+      "title": "Conditioning removes within-group variation",
+      "alt": "For two independent Exponential observations of mean one in this illustration, points show X1 versus the sufficient sum T. Conditional averaging gives T/2, preserving the mean and halving the variance.",
+      "svg": "assets/figures/lect-12/review-20261014/rao-blackwell.svg",
+      "png": "assets/figures/lect-12/review-20261014/rao-blackwell.png",
+      "panels": [],
+      "sha256": {
+        "svg": "ea9a13b744c29ac7476980b64dbca4662e9323f9b89e0b2e00a15298fde426b5",
+        "png": "bfbee998bf595b93764610fa8627aee04f11267ac0ddfdb82405bad538efb9ee"
+      }
+    }
+  ]
+}

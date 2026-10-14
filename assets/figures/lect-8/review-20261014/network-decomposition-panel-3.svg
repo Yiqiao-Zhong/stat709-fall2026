@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="259.2pt" version="1.1" viewBox="0 0 324 259.2" width="324pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Separate density from communities</title><desc>The constant matrix plus the signed community matrix gives the expected adjacency matrix plus p-star times identity, here p-star=0.4 and q-star=0.2. Subtract p-star times identity to restore the zero diagonal in the lecture’s model.</desc>
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.3.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.2 
+L 324 259.2 
+L 324 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 45.61024 252.69976 
+L 278.38976 252.69976 
+L 278.38976 19.92024 
+L 45.61024 19.92024 
+z
+" style="fill:#ffffff;"/>
+   </g>
+   <g clip-path="url(#p6c1c2806ac)">
+    <image height="233.28" id="image670f0e382d" transform="scale(1 -1)translate(0 -233.28)" width="233.28" x="45.61024" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAUQAAAFECAYAAABf6kfGAAAD30lEQVR4nO3WMRECQRREwV2KQg7+dZwGBJCQXHIkDw2foFvBRK9mf96va8Gw49zTE2DdpgcA/AtBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEgggiQ+3Hu6Q2wno9regJ4iAA/gggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIIIIEEEEiCACRBABIogAEUSACCJABBEggggQQQSIIAJEEAEiiAARRIAIIkAEESCCCBBBBIggAkQQASKIABFEgAgiQAQRIF8bBwsfbPZVOgAAAABJRU5ErkJggg==" y="-19.41976"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_1">
+    <path clip-path="url(#p6c1c2806ac)" d="M 45.61024 136.31 
+L 278.38976 136.31 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-width:0.6;"/>
+   </g>
+   <g id="line2d_2">
+    <path clip-path="url(#p6c1c2806ac)" d="M 162 252.69976 
+L 162 19.92024 
+" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-width:0.6;"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 45.61024 252.69976 
+L 45.61024 19.92024 
+" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 45.61024 252.69976 
+L 278.38976 252.69976 
+" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="text_1">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 103.80512, 78.11512)" x="103.80512" y="78.11512">0.4</text>
+   </g>
+   <g id="text_2">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 220.19488, 78.11512)" x="220.19488" y="78.11512">0.2</text>
+   </g>
+   <g id="text_3">
+    <!-- $\mathbb{E}(Y\mid z^*)+p^*I$ -->
+    <g style="fill:#18384e;" transform="translate(120 13.92024)">
+     <text>
+      <tspan style="font-family:STIXNonUnicode;font-size:12px;font-style:italic;font-weight:italic;" x="0" y="-0.171875"></tspan>
+      <tspan style="font-family:DejaVu Sans;font-size:12px;font-style:book;font-weight:book;" x="7.667984 22.017593 44.991422 52.010953" y="-0.171875">(∣)+</tspan>
+      <tspan style="font-family:DejaVu Sans;font-size:12px;font-style:oblique;font-weight:oblique;" x="12.349625 30.355484 64.403531 80.379703" y="-0.171875">YzpI</tspan>
+      <tspan style="font-family:DejaVu Sans;font-size:8.4px;font-style:book;font-weight:book;" x="38.826773 74.215054" y="-4.765625">**</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6c1c2806ac">
+   <rect height="232.77952" width="232.77952" x="45.61024" y="19.92024"/>
+  </clipPath>
+ </defs>
+</svg>

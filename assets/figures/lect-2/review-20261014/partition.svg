@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="259.2pt" version="1.1" viewBox="0 0 633.6 259.2" width="633.6pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Information from coin tosses</title><desc>The same four outcomes HH, HT, TH, TT form two blocks after the first toss and four singleton blocks after both tosses. More information gives a finer partition.</desc>
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.3.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.2 
+L 633.6 259.2 
+L 633.6 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path clip-path="url(#pfcbe590e16)" d="M 14.719536 206.94154 
+L 79.175664 206.94154 
+L 79.175664 105.14122 
+L 14.719536 105.14122 
+z
+" style="fill:#dcedeb;stroke:#87949c;stroke-linejoin:miter;stroke-width:0.6;"/>
+   </g>
+   <g id="patch_3">
+    <path clip-path="url(#pfcbe590e16)" d="M 87.965136 206.94154 
+L 152.421264 206.94154 
+L 152.421264 105.14122 
+L 87.965136 105.14122 
+z
+" style="fill:#dcedeb;stroke:#87949c;stroke-linejoin:miter;stroke-width:0.6;"/>
+   </g>
+   <g id="patch_4">
+    <path clip-path="url(#pfcbe590e16)" d="M 161.210736 206.94154 
+L 225.666864 206.94154 
+L 225.666864 105.14122 
+L 161.210736 105.14122 
+z
+" style="fill:#efe1ec;stroke:#87949c;stroke-linejoin:miter;stroke-width:0.6;"/>
+   </g>
+   <g id="patch_5">
+    <path clip-path="url(#pfcbe590e16)" d="M 234.456336 206.94154 
+L 298.912464 206.94154 
+L 298.912464 105.14122 
+L 234.456336 105.14122 
+z
+" style="fill:#efe1ec;stroke:#87949c;stroke-linejoin:miter;stroke-width:0.6;"/>
+   </g>
+   <g id="patch_6">
+    <path clip-path="url(#pfcbe590e16)" d="M 11.789712 213.509303 
+L 155.351088 213.509303 
+L 155.351088 98.573457 
+L 11.789712 98.573457 
+z
+" style="fill:none;stroke:#087e83;stroke-linejoin:miter;stroke-width:2.5;"/>
+   </g>
+   <g id="patch_7">
+    <path clip-path="url(#pfcbe590e16)" d="M 158.280912 213.509303 
+L 301.842288 213.509303 
+L 301.842288 98.573457 
+L 158.280912 98.573457 
+z
+" style="fill:none;stroke:#85456d;stroke-linejoin:miter;stroke-width:2.5;"/>
+   </g>
+   <g id="text_1">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 46.9476, 160.732318)" x="46.9476" y="160.732318">HH</text>
+   </g>
+   <g id="text_2">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 120.1932, 160.732318)" x="120.1932" y="160.732318">HT</text>
+   </g>
+   <g id="text_3">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 193.4388, 160.732318)" x="193.4388" y="160.732318">TH</text>
+   </g>
+   <g id="text_4">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 266.6844, 160.732318)" x="266.6844" y="160.732318">TT</text>
+   </g>
+   <g id="text_5">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 156.816, 12.118365)" x="156.816" y="12.118365">First toss observed</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path clip-path="url(#p16770e498c)" d="M 334.687536 206.94154 
+L 399.143664 206.94154 
+L 399.143664 105.14122 
+L 334.687536 105.14122 
+z
+" style="fill:#dcedeb;stroke:#87949c;stroke-linejoin:miter;stroke-width:0.6;"/>
+   </g>
+   <g id="patch_9">
+    <path clip-path="url(#p16770e498c)" d="M 407.933136 206.94154 
+L 472.389264 206.94154 
+L 472.389264 105.14122 
+L 407.933136 105.14122 
+z
+" style="fill:#dcedeb;stroke:#87949c;stroke-linejoin:miter;stroke-width:0.6;"/>
+   </g>
+   <g id="patch_10">
+    <path clip-path="url(#p16770e498c)" d="M 481.178736 206.94154 
+L 545.634864 206.94154 
+L 545.634864 105.14122 
+L 481.178736 105.14122 
+z
+" style="fill:#efe1ec;stroke:#87949c;stroke-linejoin:miter;stroke-width:0.6;"/>
+   </g>
+   <g id="patch_11">
+    <path clip-path="url(#p16770e498c)" d="M 554.424336 206.94154 
+L 618.880464 206.94154 
+L 618.880464 105.14122 
+L 554.424336 105.14122 
+z
+" style="fill:#efe1ec;stroke:#87949c;stroke-linejoin:miter;stroke-width:0.6;"/>
+   </g>
+   <g id="patch_12">
+    <path clip-path="url(#p16770e498c)" d="M 331.757712 213.509303 
+L 402.073488 213.509303 
+L 402.073488 98.573457 
+L 331.757712 98.573457 
+z
+" style="fill:none;stroke:#087e83;stroke-linejoin:miter;stroke-width:2.5;"/>
+   </g>
+   <g id="patch_13">
+    <path clip-path="url(#p16770e498c)" d="M 405.003312 213.509303 
+L 475.319088 213.509303 
+L 475.319088 98.573457 
+L 405.003312 98.573457 
+z
+" style="fill:none;stroke:#087e83;stroke-linejoin:miter;stroke-width:2.5;"/>
+   </g>
+   <g id="patch_14">
+    <path clip-path="url(#p16770e498c)" d="M 478.248912 213.509303 
+L 548.564688 213.509303 
+L 548.564688 98.573457 
+L 478.248912 98.573457 
+z
+" style="fill:none;stroke:#85456d;stroke-linejoin:miter;stroke-width:2.5;"/>
+   </g>
+   <g id="patch_15">
+    <path clip-path="url(#p16770e498c)" d="M 551.494512 213.509303 
+L 621.810288 213.509303 
+L 621.810288 98.573457 
+L 551.494512 98.573457 
+z
+" style="fill:none;stroke:#85456d;stroke-linejoin:miter;stroke-width:2.5;"/>
+   </g>
+   <g id="text_6">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 366.9156, 160.732318)" x="366.9156" y="160.732318">HH</text>
+   </g>
+   <g id="text_7">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 440.1612, 160.732318)" x="440.1612" y="160.732318">HT</text>
+   </g>
+   <g id="text_8">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 513.4068, 160.732318)" x="513.4068" y="160.732318">TH</text>
+   </g>
+   <g id="text_9">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 586.6524, 160.732318)" x="586.6524" y="160.732318">TT</text>
+   </g>
+   <g id="text_10">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 476.784, 12.118365)" x="476.784" y="12.118365">Both tosses observed</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pfcbe590e16">
+   <rect height="238.081395" width="307.63152" x="3.00024" y="18.118365"/>
+  </clipPath>
+  <clipPath id="p16770e498c">
+   <rect height="238.081395" width="307.63152" x="322.96824" y="18.118365"/>
+  </clipPath>
+ </defs>
+</svg>

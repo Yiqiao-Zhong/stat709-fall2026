@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="259.2pt" version="1.1" viewBox="0 0 324 259.2" width="324pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Continuity from below</title><desc>Nested disks of radii 1 minus 2 to the minus n fill the open unit disk. Their areas increase to pi. The finite sketch illustrates an infinite sequence.</desc>
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.3.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.2 
+L 324 259.2 
+L 324 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path clip-path="url(#p8bbc3e0266)" d="M 162 228.506062 
+C 188.230194 228.506062 213.389599 218.084696 231.937147 199.537147 
+C 250.484696 180.989599 260.906063 155.830194 260.906063 129.6 
+C 260.906063 103.369806 250.484696 78.210401 231.937147 59.662853 
+C 213.389599 41.115304 188.230194 30.693938 162 30.693938 
+C 135.769806 30.693938 110.610401 41.115304 92.062853 59.662853 
+C 73.515304 78.210401 63.093937 103.369806 63.093937 129.6 
+C 63.093937 155.830194 73.515304 180.989599 92.062853 199.537147 
+C 110.610401 218.084696 135.769806 228.506062 162 228.506062 
+z
+" style="fill:#e7e2ee;stroke:#087e83;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_3">
+    <path clip-path="url(#p8bbc3e0266)" d="M 162 214.376625 
+C 184.483024 214.376625 206.048228 205.444025 221.946126 189.546126 
+C 237.844025 173.648228 246.776625 152.083024 246.776625 129.6 
+C 246.776625 107.116976 237.844025 85.551772 221.946126 69.653874 
+C 206.048228 53.755975 184.483024 44.823375 162 44.823375 
+C 139.516976 44.823375 117.951772 53.755975 102.053874 69.653874 
+C 86.155975 85.551772 77.223375 107.116976 77.223375 129.6 
+C 77.223375 152.083024 86.155975 173.648228 102.053874 189.546126 
+C 117.951772 205.444025 139.516976 214.376625 162 214.376625 
+z
+" style="fill:#d1e4df;stroke:#087e83;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_4">
+    <path clip-path="url(#p8bbc3e0266)" d="M 162 186.11775 
+C 176.988683 186.11775 191.365485 180.162683 201.964084 169.564084 
+C 212.562683 158.965485 218.51775 144.588683 218.51775 129.6 
+C 218.51775 114.611317 212.562683 100.234515 201.964084 89.635916 
+C 191.365485 79.037317 176.988683 73.08225 162 73.08225 
+C 147.011317 73.08225 132.634515 79.037317 122.035916 89.635916 
+C 111.437317 100.234515 105.48225 114.611317 105.48225 129.6 
+C 105.48225 144.588683 111.437317 158.965485 122.035916 169.564084 
+C 132.634515 180.162683 147.011317 186.11775 162 186.11775 
+z
+" style="fill:#8ebfb7;stroke:#087e83;stroke-linejoin:miter;"/>
+   </g>
+   <g id="text_1">
+    <!-- $A_1$ -->
+    <g style="fill:#18384e;" transform="translate(153.3 129.6)">
+     <text>
+      <tspan style="font-family:DejaVu Sans;font-size:15px;font-style:oblique;font-weight:oblique;" x="0" y="-0.0625">A</tspan>
+      <tspan style="font-family:DejaVu Sans;font-size:10.5px;font-style:book;font-weight:book;" x="10.26123" y="2.3984375">1</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- $A_2$ -->
+    <g style="fill:#18384e;" transform="translate(223.38201 118.29645)">
+     <text>
+      <tspan style="font-family:DejaVu Sans;font-size:15px;font-style:oblique;font-weight:oblique;" x="0" y="-0.0625">A</tspan>
+      <tspan style="font-family:DejaVu Sans;font-size:10.5px;font-style:book;font-weight:book;" x="10.26123" y="2.3984375">2</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- $A_3$ -->
+    <g style="fill:#18384e;" transform="translate(241.46769 90.037575)">
+     <text>
+      <tspan style="font-family:DejaVu Sans;font-size:15px;font-style:oblique;font-weight:oblique;" x="0" y="-0.0625">A</tspan>
+      <tspan style="font-family:DejaVu Sans;font-size:10.5px;font-style:book;font-weight:book;" x="10.26123" y="2.3984375">3</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8bbc3e0266">
+   <rect height="253.19952" width="253.19952" x="35.40024" y="3.00024"/>
+  </clipPath>
+ </defs>
+</svg>

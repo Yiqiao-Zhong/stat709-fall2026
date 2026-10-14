@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceRevision": "sha256:071baa868a3cf080ec76cb71178b7039b1696bb506317072f9bc5e153940cb35",
+  "sourceRevision": "sha256:8ed137581363f9a96a74d3aeaf6af12e1c07ced7f2040d59358a08f875dc06c1",
   "provenance": "Original SVG drawings generated in this repository from the labeled canonical Lecture 4 examples; no third-party assets.",
   "figures": [
     {
@@ -13,7 +13,7 @@
         {
           "path": "assets/figures/lect-4/v1/lec04-fig-mixture-atom.svg",
           "alt": "Point mass 1/2 at zero.",
-          "sha256": "483763f28bf5826eec448c889b59b7399e54282e6d0bc0d8d090d5326a365b21"
+          "sha256": "d5e548ef1eaceff40f3056a1d68740dd172652d80159a529e4e805b2110ad8cc"
         },
         {
           "path": "assets/figures/lect-4/v1/lec04-fig-mixture-density.svg",
@@ -23,7 +23,7 @@
         {
           "path": "assets/figures/lect-4/v1/lec04-fig-mixture-cdf.svg",
           "alt": "Right-continuous CDF: jump 1/2 at zero, then linear rise to one at two.",
-          "sha256": "0d43002706447679c7f251d5f688afaf9305a33b9da35e2a0d13b47369f91fc5"
+          "sha256": "a3a822e7a3f22b3a4f54477374a09a5bec8ff13840708d8563f1d0cf040fe7ec"
         }
       ]
     },

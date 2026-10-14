@@ -1,0 +1,59 @@
+name: Course notes or website issue
+description: Report an error or unclear explanation in STAT 709 notes or a website problem.
+title: "[STAT 709] "
+labels: [report]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This report is public. Do not include homework solutions or personal information.**
+        Prefer a private report? [Email the instructor](mailto:yiqiao.zhong@wisc.edu), or use the [private reporting option](https://yiqiao-zhong.github.io/stat709-fall2026/report-issue.html#private).
+        Use Canvas Discussions for questions about the material; public conversation is also welcome in the lecture's Disqus comments.
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Lecture number or page name.
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section or anchor
+      description: Check the prefilled section; add an example, theorem, or exercise number if useful.
+  - type: input
+    id: url
+    attributes:
+      label: Link to the material
+      description: A link to the page or exact section.
+    validations:
+      required: true
+  - type: dropdown
+    id: report-type
+    attributes:
+      label: Type of issue
+      options:
+        - Typo
+        - Mathematical error
+        - Unclear explanation
+        - Figure
+        - Broken link or display problem
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the relevant text or describe the problem and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested fix (optional)
+  - type: input
+    id: device-browser
+    attributes:
+      label: Device and browser (display problems only)
+      description: Optional. For example, iPad with Safari or Windows with Firefox.

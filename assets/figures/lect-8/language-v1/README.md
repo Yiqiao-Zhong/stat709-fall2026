@@ -1,8 +1,5 @@
 # Published GloVe analogy figure
 
-**Student-site copy.** Generator and canonical-source paths below refer to the sibling `STAT709-html-conversion` preparation repository. Rights are described in the [hosting notice](../../../../README.md#third-party-notices).
-
-
 `glove-man-woman.jpg` is the unchanged figure from the official
 [GloVe project](https://nlp.stanford.edu/projects/glove/), under “Linear
 substructures,” by Jeffrey Pennington, Richard Socher, and Christopher D. Manning.

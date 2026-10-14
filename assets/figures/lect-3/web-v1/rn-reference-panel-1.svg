@@ -1,102 +1,40 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="-3.9054689999999965 28 265.584 278.764063" width="265.584" height="278.764063"><title>Circle law and the choice of reference — panel 1</title><desc>A uniform-angle law has all its probability on the unit circle, a set of zero plane area, so it has no density against area. Against arc-length measure on the circle its density is 1/(2 pi); a quarter-circle arc has probability one-quarter.</desc><defs><style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
- <path d="M 0 0  L 0 3.5  " id="m9206b47636" style="stroke:#44515c;stroke-width:0.8;" />
-      <path d="M 0 0  L -3.5 0  " id="m163455e4a3" style="stroke:#44515c;stroke-width:0.8;" />
-      <clipPath id="p0ae1516a66">
-   <rect height="199.584" width="199.584" x="44.094531" y="64.656" />
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-27.121875 0 265.584 242.78025" width="265.584" height="218.78025"><title>Circle law and the choice of reference — panel 1</title><desc>A uniform-angle law has all its probability on the unit circle, a set of zero plane area, so it has no density against area. Against arc-length measure on the circle its density is 1/(2 pi); a quarter-circle arc has probability one-quarter.</desc><defs><style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ <clipPath id="pdaa0c0a4c8">
+   <rect height="199.584" width="199.584" x="20.878125" y="22.318125" />
   </clipPath>
-  <clipPath id="pa98344feb1">
-   <rect height="199.584" width="199.584" x="365.653853" y="64.656" />
+  <clipPath id="p089c38d240">
+   <rect height="199.584" width="199.584" x="342.437447" y="22.318125" />
   </clipPath>
  </defs><g id="axes_1">
    <g id="patch_2">
-    <path d="M 44.094531 264.24  L 243.678531 264.24  L 243.678531 64.656  L 44.094531 64.656  z " style="fill:#fffdf8;" />
+    <path d="M 20.878125 221.902125  L 220.462125 221.902125  L 220.462125 22.318125  L 20.878125 22.318125  z " style="fill:#fffdf8;" />
    </g>
    <g id="matplotlib.axis_1">
-    <g id="xtick_1">
-     <g id="line2d_1">
-      <g>
-       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="64.052931" xlink:href="#m9206b47636" y="264.24" />
-      </g>
-     </g>
-     <g id="text_1">
-      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 64.052931, 279.598281)" x="64.052931" y="279.598281">−1</text>
-     </g>
-    </g>
-    <g id="xtick_2">
-     <g id="line2d_2">
-      <g>
-       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="143.886531" xlink:href="#m9206b47636" y="264.24" />
-      </g>
-     </g>
-     <g id="text_2">
-      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 143.886531, 279.598281)" x="143.886531" y="279.598281">0</text>
-     </g>
-    </g>
-    <g id="xtick_3">
-     <g id="line2d_3">
-      <g>
-       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="223.720131" xlink:href="#m9206b47636" y="264.24" />
-      </g>
-     </g>
-     <g id="text_3">
-      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 223.720131, 279.598281)" x="223.720131" y="279.598281">1</text>
-     </g>
-    </g>
-    <g id="text_4">
-     <text style="fill:#173753;font-family:Arial, sans-serif;font-size:10px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 143.886531, 293.484375)" x="143.886531" y="293.484375">x</text>
+    <g id="text_1">
+     <text style="fill:#173753;font-family:Arial, sans-serif;font-size:10px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 120.670125, 233.500563)" x="120.670125" y="233.500563">x</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
-    <g id="ytick_1">
-     <g id="line2d_4">
-      <g>
-       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="44.094531" xlink:href="#m163455e4a3" y="244.2816" />
-      </g>
-     </g>
-     <g id="text_5">
-      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 37.094531, 248.460741)" x="37.094531" y="248.460741">−1</text>
-     </g>
-    </g>
-    <g id="ytick_2">
-     <g id="line2d_5">
-      <g>
-       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="44.094531" xlink:href="#m163455e4a3" y="164.448" />
-      </g>
-     </g>
-     <g id="text_6">
-      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 37.094531, 168.627141)" x="37.094531" y="168.627141">0</text>
-     </g>
-    </g>
-    <g id="ytick_3">
-     <g id="line2d_6">
-      <g>
-       <use style="fill:#44515c;stroke:#44515c;stroke-width:0.8;" x="44.094531" xlink:href="#m163455e4a3" y="84.6144" />
-      </g>
-     </g>
-     <g id="text_7">
-      <text style="fill:#44515c;font-family:Arial, sans-serif;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 37.094531, 88.793541)" x="37.094531" y="88.793541">1</text>
-     </g>
-    </g>
-    <g id="text_8">
-     <text style="fill:#173753;font-family:Arial, sans-serif;font-size:10px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-90, 14.798437, 164.448)" x="14.798437" y="164.448">y</text>
+    <g id="text_2">
+     <text style="fill:#173753;font-family:Arial, sans-serif;font-size:10px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-90, 14.798438, 122.110125)" x="14.798438" y="122.110125">y</text>
     </g>
    </g>
-   <g id="line2d_7">
-    <path clip-path="url(#p0ae1516a66)" d="M 223.720131 164.448  L 223.610722 160.269832  L 223.282794 156.103116  L 222.737247 151.959273  L 221.975576 147.849661  L 220.999867 143.785544  L 219.812797 139.778061  L 218.417618 135.838196  L 216.818154 131.97675  L 215.01879 128.204304  L 213.024457 124.5312  L 210.840622 120.967505  L 208.47327 117.522987  L 205.928891 114.207088  L 203.214458 111.028895  L 200.337411 107.99712  L 197.305636 105.120073  L 194.127444 102.40564  L 190.811544 99.861261  L 187.367026 97.493909  L 183.803331 95.310074  L 180.130227 93.315742  L 176.357782 91.516377  L 172.496335 89.916914  L 168.55647 88.521735  L 164.548987 87.334664  L 160.48487 86.358956  L 156.375258 85.597284  L 152.231415 85.051737  L 148.064699 84.723809  L 143.886531 84.6144  L 139.708363 84.723809  L 135.541648 85.051737  L 131.397805 85.597284  L 127.288192 86.358956  L 123.224075 87.334664  L 119.216592 88.521735  L 115.276728 89.916914  L 111.415281 91.516377  L 107.642835 93.315742  L 103.969731 95.310074  L 100.406036 97.493909  L 96.961519 99.861261  L 93.645619 102.40564  L 90.467426 105.120073  L 87.435651 107.99712  L 84.558605 111.028895  L 81.844171 114.207088  L 79.299792 117.522987  L 76.932441 120.967505  L 74.748606 124.5312  L 72.754273 128.204304  L 70.954909 131.97675  L 69.355445 135.838196  L 67.960266 139.778061  L 66.773195 143.785544  L 65.797487 147.849661  L 65.035815 151.959273  L 64.490268 156.103116  L 64.16234 160.269832  L 64.052931 164.448  L 64.16234 168.626168  L 64.490268 172.792884  L 65.035815 176.936727  L 65.797487 181.046339  L 66.773195 185.110456  L 67.960266 189.117939  L 69.355445 193.057804  L 70.954909 196.91925  L 72.754273 200.691696  L 74.748606 204.3648  L 76.932441 207.928495  L 79.299792 211.373013  L 81.844171 214.688912  L 84.558605 217.867105  L 87.435651 220.89888  L 90.467426 223.775927  L 93.645619 226.49036  L 96.961519 229.034739  L 100.406036 231.402091  L 103.969731 233.585926  L 107.642835 235.580258  L 111.415281 237.379623  L 115.276728 238.979086  L 119.216592 240.374265  L 123.224075 241.561336  L 127.288192 242.537044  L 131.397805 243.298716  L 135.541648 243.844263  L 139.708363 244.172191  L 143.886531 244.2816  L 148.064699 244.172191  L 152.231415 243.844263  L 156.375258 243.298716  L 160.48487 242.537044  L 164.548987 241.561336  L 168.55647 240.374265  L 172.496335 238.979086  L 176.357782 237.379623  L 180.130227 235.580258  L 183.803331 233.585926  L 187.367026 231.402091  L 190.811544 229.034739  L 194.127444 226.49036  L 197.305636 223.775927  L 200.337411 220.89888  L 203.214458 217.867105  L 205.928891 214.688912  L 208.47327 211.373013  L 210.840622 207.928495  L 213.024457 204.3648  L 215.01879 200.691696  L 216.818154 196.91925  L 218.417618 193.057804  L 219.812797 189.117939  L 220.999867 185.110456  L 221.975576 181.046339  L 222.737247 176.936727  L 223.282794 172.792884  L 223.610722 168.626168  L 223.720131 164.448  L 223.720131 164.448  " style="fill:none;stroke:#173753;stroke-linecap:square;stroke-width:2;" />
+   <g id="line2d_1">
+    <path clip-path="url(#pdaa0c0a4c8)" d="M 200.503725 122.110125  L 200.394316 117.931957  L 200.066388 113.765241  L 199.520841 109.621398  L 198.759169 105.511786  L 197.783461 101.447669  L 196.59639 97.440186  L 195.201211 93.500321  L 193.601748 89.638875  L 191.802383 85.866429  L 189.808051 82.193325  L 187.624216 78.62963  L 185.256864 75.185112  L 182.712485 71.869213  L 179.998052 68.69102  L 177.121005 65.659245  L 174.08923 62.782198  L 170.911037 60.067765  L 167.595138 57.523386  L 164.15062 55.156034  L 160.586925 52.972199  L 156.913821 50.977867  L 153.141375 49.178502  L 149.279929 47.579039  L 145.340064 46.18386  L 141.332581 44.996789  L 137.268464 44.021081  L 133.158852 43.259409  L 129.015009 42.713862  L 124.848293 42.385934  L 120.670125 42.276525  L 116.491957 42.385934  L 112.325241 42.713862  L 108.181398 43.259409  L 104.071786 44.021081  L 100.007669 44.996789  L 96.000186 46.18386  L 92.060321 47.579039  L 88.198875 49.178502  L 84.426429 50.977867  L 80.753325 52.972199  L 77.18963 55.156034  L 73.745112 57.523386  L 70.429213 60.067765  L 67.25102 62.782198  L 64.219245 65.659245  L 61.342198 68.69102  L 58.627765 71.869213  L 56.083386 75.185112  L 53.716034 78.62963  L 51.532199 82.193325  L 49.537867 85.866429  L 47.738502 89.638875  L 46.139039 93.500321  L 44.74386 97.440186  L 43.556789 101.447669  L 42.581081 105.511786  L 41.819409 109.621398  L 41.273862 113.765241  L 40.945934 117.931957  L 40.836525 122.110125  L 40.945934 126.288293  L 41.273862 130.455009  L 41.819409 134.598852  L 42.581081 138.708464  L 43.556789 142.772581  L 44.74386 146.780064  L 46.139039 150.719929  L 47.738502 154.581375  L 49.537867 158.353821  L 51.532199 162.026925  L 53.716034 165.59062  L 56.083386 169.035138  L 58.627765 172.351037  L 61.342198 175.52923  L 64.219245 178.561005  L 67.25102 181.438052  L 70.429213 184.152485  L 73.745112 186.696864  L 77.18963 189.064216  L 80.753325 191.248051  L 84.426429 193.242383  L 88.198875 195.041748  L 92.060321 196.641211  L 96.000186 198.03639  L 100.007669 199.223461  L 104.071786 200.199169  L 108.181398 200.960841  L 112.325241 201.506388  L 116.491957 201.834316  L 120.670125 201.943725  L 124.848293 201.834316  L 129.015009 201.506388  L 133.158852 200.960841  L 137.268464 200.199169  L 141.332581 199.223461  L 145.340064 198.03639  L 149.279929 196.641211  L 153.141375 195.041748  L 156.913821 193.242383  L 160.586925 191.248051  L 164.15062 189.064216  L 167.595138 186.696864  L 170.911037 184.152485  L 174.08923 181.438052  L 177.121005 178.561005  L 179.998052 175.52923  L 182.712485 172.351037  L 185.256864 169.035138  L 187.624216 165.59062  L 189.808051 162.026925  L 191.802383 158.353821  L 193.601748 154.581375  L 195.201211 150.719929  L 196.59639 146.780064  L 197.783461 142.772581  L 198.759169 138.708464  L 199.520841 134.598852  L 200.066388 130.455009  L 200.394316 126.288293  L 200.503725 122.110125  L 200.503725 122.110125  " style="fill:none;stroke:#173753;stroke-linecap:square;stroke-width:2;" />
    </g>
    <g id="patch_3">
-    <path d="M 44.094531 264.24  L 44.094531 64.656  " style="fill:none;stroke:#a5a9ad;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;" />
+    <path d="M 20.878125 221.902125  L 20.878125 22.318125  " style="fill:none;stroke:#a5a9ad;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;" />
    </g>
    <g id="patch_4">
-    <path d="M 44.094531 264.24  L 243.678531 264.24  " style="fill:none;stroke:#a5a9ad;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;" />
+    <path d="M 20.878125 221.902125  L 220.462125 221.902125  " style="fill:none;stroke:#a5a9ad;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;" />
    </g>
-   <g id="text_9">
-    <text style="fill:#703b72;font-family:Arial, sans-serif;font-size:14px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(103.604813 160.472656)">area(S) = 0</text>
-    <text style="fill:#703b72;font-family:Arial, sans-serif;font-size:14px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(114.99075 176.149594)">P(S) = 1</text>
+   <g id="text_3">
+    <text style="fill:#703b72;font-family:Arial, sans-serif;font-size:14px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(80.388406 118.134781)">area(S) = 0</text>
+    <text style="fill:#703b72;font-family:Arial, sans-serif;font-size:14px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(91.774344 133.811719)">P(S) = 1</text>
    </g>
-   <g id="text_10">
-    <text style="fill:#173753;font-family:Arial, sans-serif;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 143.886531, 58.656)" x="143.886531" y="58.656">Against plane area: no density</text>
+   <g id="text_4">
+    <text style="fill:#173753;font-family:Arial, sans-serif;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 120.670125, 16.318125)" x="120.670125" y="16.318125">Against plane area: no density</text>
    </g>
   </g>
   </svg>

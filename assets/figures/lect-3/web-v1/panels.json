@@ -5,110 +5,110 @@
     {
       "id": "lec03-fig-measure-family",
       "source": "assets/figures/lect-3/v1/measure-family.svg",
-      "sourceSha256": "ffc6c384b0dfe70d341081be567a1c90d3528e7cc3d3afffd55969ed09cb6f91",
+      "sourceSha256": "4e92603415602a67324fc317eac2945ec5664dc369861973f3609fca117c8764",
       "full": "assets/figures/lect-3/web-v1/measure-family.svg",
-      "fullSha256": "a75a338f16098ead1cdeffd6e7de6e99bbb1e88f16d7c45b1ae5913ed1462951",
+      "fullSha256": "278b0776824deb0112fb4022182573dd3b0bbc7ecdbe619fba035f7114d928a9",
       "panels": [
         {
           "path": "assets/figures/lect-3/web-v1/measure-family-panel-1.svg",
-          "sha256": "7762a31b0c0ac217ff065e425d8ca577f549f339ce82866a0d5e1ab270c3a491"
+          "sha256": "02b480ef52533c52ea558e3d145f2048e6bd00d0d36e0dfb16c61026081dcb08"
         },
         {
           "path": "assets/figures/lect-3/web-v1/measure-family-panel-2.svg",
-          "sha256": "078f44f5cab969e4f121ef2cab9e0427944b152f46e44febb776539824a41248"
+          "sha256": "554d5064c9766ae41158a6b6d2c0ffe1acc8143c28ab77390c206d4cdff66188"
         },
         {
           "path": "assets/figures/lect-3/web-v1/measure-family-panel-3.svg",
-          "sha256": "784d641efdfdcf4a79b8cbfb98f87c21ff3d3b6f1fd5b7d086d527d2551f8140"
+          "sha256": "0b03f04d57ad55ac092a68cd127794bea2b2a578f5c7e1279f80bab53fc16d85"
         }
       ]
     },
     {
       "id": "lec03-fig-mct",
       "source": "assets/figures/lect-3/v1/mct.svg",
-      "sourceSha256": "997dc875d6a8394f5fbf86368217ddb4e6972dbd870a2e7c6ed88e16f04baae4",
+      "sourceSha256": "5904505f5ce997e6396043045933d97b50da258754f3e4eb7a4b422aa2d9a1e9",
       "full": "assets/figures/lect-3/web-v1/mct.svg",
-      "fullSha256": "1d5369e9a87e86498e2e043c9cefe9503e50c46e6e5bf818c3add1f2cffb8c37",
+      "fullSha256": "c43b5dff0f2e00a526ec7b55a7fde20f6ba2d8a33a43c05cb523a90d54dd95e7",
       "panels": [
         {
           "path": "assets/figures/lect-3/web-v1/mct-panel-1.svg",
-          "sha256": "303a8fe91f3ec12711772e1d71304438586cd444c874353f32c04d78fff0ac15"
+          "sha256": "f27a48517ff60e99ad93235c96ab3dfde64e9f2d8f419ef02d9800a57e726793"
         },
         {
           "path": "assets/figures/lect-3/web-v1/mct-panel-2.svg",
-          "sha256": "15d9af52a89e47062de6875de7435e1123336d7155fd5242ee12d14788a0c6b4"
+          "sha256": "b85fe44d9f67cda89c85b4e7ef80375cf10a4162e818a19a3cc5be8072db71f7"
         }
       ]
     },
     {
       "id": "lec03-fig-dct",
       "source": "assets/figures/lect-3/v1/dct.svg",
-      "sourceSha256": "34dca93c7276b6a41d19d46d0d7f63271a75ca1c60739a6047a0c62f5bd111ce",
+      "sourceSha256": "9431f0a25ed6024f991c13aa28a878e7567f220b60361be8d9526816801079f0",
       "full": "assets/figures/lect-3/web-v1/dct.svg",
-      "fullSha256": "4cb0b20127a3fbd60e9e300452125ddbc0747d8908079463b144e07c7b1e5142",
+      "fullSha256": "8ffb97a774121b0a2e4b29a85dde555644c606c8df19b299a53f2a17a6b5d0f7",
       "panels": [
         {
           "path": "assets/figures/lect-3/web-v1/dct-panel-1.svg",
-          "sha256": "e651176e697f7d85bdcd85ac6f7fd3972f23e9793cf20b8136f055530801ed17"
+          "sha256": "e23dd37bb598183fe8c3b48d5f11b9bd46e02651f4c6b748cd0098de8c1a0b6a"
         },
         {
           "path": "assets/figures/lect-3/web-v1/dct-panel-2.svg",
-          "sha256": "f99d07440e8adeb83b49cb863c8640323e0ebdb38e818ce0a756117a1e4a16c5"
+          "sha256": "e431bd04e622dddcd9d890c7a40475551c7b652f3e06d44ba1e2fa30480c2ad7"
         }
       ]
     },
     {
       "id": "lec03-fig-rn-reweighting",
       "source": "assets/figures/lect-3/v1/rn-reweighting.svg",
-      "sourceSha256": "66f9f68aa90bedd3bbb6f3bb87fc0ce65f42aab271136829957e3681ab7d318e",
+      "sourceSha256": "8c87fc683d0d97327d9cd923d637a7a40debd7332d3e9132c9c6d4c1aacd075d",
       "full": "assets/figures/lect-3/web-v1/rn-reweighting.svg",
-      "fullSha256": "0f7a22987daf80aac27bf1f7c856b0a7701100daac387e1aefa422c02834ec67",
+      "fullSha256": "742a7850f1e3cd24fa068e1ed55291f45c79e101c3ea24b1634f5b15b4892f38",
       "panels": [
         {
           "path": "assets/figures/lect-3/web-v1/rn-reweighting-panel-1.svg",
-          "sha256": "495ab57fc2b5c64f8d8b2f16d2439c14e652f607042c2979b70a0e97c18c23a5"
+          "sha256": "b33a5c3d9a34db7a528dd9fd5d3efdb5d9ce3f9637a221d4a846e746e950565c"
         },
         {
           "path": "assets/figures/lect-3/web-v1/rn-reweighting-panel-2.svg",
-          "sha256": "008608c4e188336af1e587cf345f2d2990ff37caa69cedf8f11cf8d4c214dcb0"
+          "sha256": "26e7aeb992687f44b656a26f7667f5dc8481a6e0c1a5c54dcfed49aff6019905"
         }
       ]
     },
     {
       "id": "lec03-fig-rn-mixture",
       "source": "assets/figures/lect-3/v1/rn-mixture.svg",
-      "sourceSha256": "611c7f7b94a8aba20601c9091f1da917e47ab1b0a426a574f4d0b8a09aac25ab",
+      "sourceSha256": "657b794921b29d9906c4adb5e6c6b2cd9e1096f63159ec7d85802b97b2d51f77",
       "full": "assets/figures/lect-3/web-v1/rn-mixture.svg",
-      "fullSha256": "a2711addee73a976efba921eeffcc9bac794d465ee0722e410b5e06c6c1e6c5c",
+      "fullSha256": "4a74ca4bacb3946256e20449f286eaaa292e5f79187e9a01efdc32322a2729d5",
       "panels": [
         {
           "path": "assets/figures/lect-3/web-v1/rn-mixture-panel-1.svg",
-          "sha256": "1f5d2ac2c890bccd3faab2772433af12520a9b0976e87a178698a8a529facc14"
+          "sha256": "b38e2271db95e3a0134b1a9b16674cab38874580db0325ece1d47c13d9105c52"
         },
         {
           "path": "assets/figures/lect-3/web-v1/rn-mixture-panel-2.svg",
-          "sha256": "391efdbde49037d64bcb2b5ae86a78cb5064b6d951cc97a1b47c7ca0510898d8"
+          "sha256": "78db9bd4fc31b2333232b943c87d245ad8a5203ecf125813390df37037ebca02"
         },
         {
           "path": "assets/figures/lect-3/web-v1/rn-mixture-panel-3.svg",
-          "sha256": "1f4b71f1b95f0b173d48723647d8b4b29ad0f00841ab040729d2c3e7abb833ef"
+          "sha256": "68e29850abdddebdc44b93665cff99c85377a8e3536c75fe07d97f7b12630771"
         }
       ]
     },
     {
       "id": "lec03-fig-rn-reference",
       "source": "assets/figures/lect-3/v1/rn-reference.svg",
-      "sourceSha256": "b26c872b8dd4b88fcd77ce6bd19282082b466b2f69e491ca54ce1f41e0d7dc06",
+      "sourceSha256": "40fea16abe8bfb6a5f62aa38011c48e196380fa3a33c8fcc55148b62031b7e35",
       "full": "assets/figures/lect-3/web-v1/rn-reference.svg",
-      "fullSha256": "3722170ce281ef36ccb3cd1b8e86b214db2d7674b7b42c2f8e6e5f281789594d",
+      "fullSha256": "b3756d1902c1e717ad5c58f558a278910c96bffc9f49189200393df50eb9272b",
       "panels": [
         {
           "path": "assets/figures/lect-3/web-v1/rn-reference-panel-1.svg",
-          "sha256": "60f187eab389bddc792f7a4d7a6c6f0960f2cb58c701ad92b6495b06283f96b9"
+          "sha256": "4d98060da5c0ef9c10ec2beecedfe69d4f6e2865c4aef24a928c2a8fe7d9f7a8"
         },
         {
           "path": "assets/figures/lect-3/web-v1/rn-reference-panel-2.svg",
-          "sha256": "efce7388e8161971bc5637f599fff6f9805842ac6457c95c3b35747bc1f2bd4e"
+          "sha256": "5f0eb56e84ba9303bf79b400536bef3c2fa305b8aa6e2da38599d5236f3c5c9c"
         }
       ]
     }

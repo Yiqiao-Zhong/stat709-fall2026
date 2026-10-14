@@ -1,0 +1,68 @@
+{
+  "generator": "scripts/figure-review-20261014.py",
+  "provenance": "Original STAT 709 drawings from canonical examples; synthetic samples are explicitly labeled. No external artwork copied.",
+  "figures": [
+    {
+      "lecture": 2,
+      "name": "partition",
+      "title": "Information from coin tosses",
+      "alt": "The same four outcomes HH, HT, TH, TT form two blocks after the first toss and four singleton blocks after both tosses. More information gives a finer partition.",
+      "svg": "assets/figures/lect-2/review-20261014/partition.svg",
+      "png": "assets/figures/lect-2/review-20261014/partition.png",
+      "panels": [
+        "assets/figures/lect-2/review-20261014/partition-panel-1.svg",
+        "assets/figures/lect-2/review-20261014/partition-panel-2.svg"
+      ],
+      "sha256": {
+        "svg": "44f5965135c4e3d13572afccc3415b291056ebbac50155fba059f42ab23b3df7",
+        "png": "7b7d9d17d2e7e1d1e01e9067198afd68c99cf4525d817316c794973df1e148df"
+      }
+    },
+    {
+      "lecture": 2,
+      "name": "continuity",
+      "title": "Continuity from below",
+      "alt": "Nested disks of radii 1 minus 2 to the minus n fill the open unit disk. Their areas increase to pi. The finite sketch illustrates an infinite sequence.",
+      "svg": "assets/figures/lect-2/review-20261014/continuity.svg",
+      "png": "assets/figures/lect-2/review-20261014/continuity.png",
+      "panels": [
+        "assets/figures/lect-2/review-20261014/continuity-panel-1.svg",
+        "assets/figures/lect-2/review-20261014/continuity-panel-2.svg"
+      ],
+      "sha256": {
+        "svg": "bba8a11c39bee0651f886d84dd2068f5dd547c35e8a04de2397520748a104612",
+        "png": "a6f45f47de981e42278bd1ba32133d5249c2550e1b8e37ec01f686cf8aa35d53"
+      }
+    },
+    {
+      "lecture": 2,
+      "name": "product",
+      "title": "Rectangles approximate a disk",
+      "alt": "Dyadic squares lying inside the open unit disk give increasingly fine inner approximations. Rectangles generate the product Borel sigma-algebra, which also contains nonrectangular sets.",
+      "svg": "assets/figures/lect-2/review-20261014/product.svg",
+      "png": "assets/figures/lect-2/review-20261014/product.png",
+      "panels": [
+        "assets/figures/lect-2/review-20261014/product-panel-1.svg",
+        "assets/figures/lect-2/review-20261014/product-panel-2.svg",
+        "assets/figures/lect-2/review-20261014/product-panel-3.svg"
+      ],
+      "sha256": {
+        "svg": "972243a3a4c2a84ba59c08988304a75e584f096d02ec2d6b9ea214206b8a5fb6",
+        "png": "7eacc2d8c891a4f3e81c81b2f5f3d057048860dc59e6357edb0c155e94d19d44"
+      }
+    },
+    {
+      "lecture": 2,
+      "name": "maps",
+      "title": "Observations and transformations",
+      "alt": "Solid arrows map outcomes forward through X and h. Dashed arrows pull an event C back through h and then X; the pulled-back event lives in the original sample space.",
+      "svg": "assets/figures/lect-2/review-20261014/maps.svg",
+      "png": "assets/figures/lect-2/review-20261014/maps.png",
+      "panels": [],
+      "sha256": {
+        "svg": "791fc88c906f1cea25ebffd9cac8de91026ede4530d5064037579b3dac155488",
+        "png": "e7e6121fa98d8e11463af162510d6d4ab6684e313dafb91db9e38a6e7784d9f6"
+      }
+    }
+  ]
+}

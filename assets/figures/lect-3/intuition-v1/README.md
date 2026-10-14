@@ -1,8 +1,5 @@
 # Lecture 3 intuition figures, version 1
 
-**Student-site copy.** Generator and canonical-source paths below refer to the sibling `STAT709-html-conversion` preparation repository. Rights are described in the [hosting notice](../../../../README.md#third-party-notices).
-
-
 Original course diagrams authored for the September 22, 2026 revision. No external
 artwork was copied. They follow the course palette and use labeled line styles
 and captions in addition to color. The plotted examples are separate from the

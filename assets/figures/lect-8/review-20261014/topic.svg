@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="223.2pt" version="1.1" viewBox="0 0 432 223.2" width="432pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>A shared hidden cause</title><desc>The three observed words share a latent topic. They are conditionally independent given that topic; the shared cause can make them marginally dependent.</desc>
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.3.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 223.2 
+L 432 223.2 
+L 432 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 214.330252 43.917429 
+Q 136.126012 95.30943 59.79046 145.473421 
+" style="fill:none;stroke:#87949c;stroke-linecap:round;stroke-width:2;"/>
+    <path d="M 64.675752 144.895563 
+L 59.79046 145.473421 
+L 62.259348 141.218472 
+" style="fill:none;stroke:#87949c;stroke-linecap:round;stroke-width:2;"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 216 44.822482 
+Q 216 95.310276 216 143.562002 
+" style="fill:none;stroke:#87949c;stroke-linecap:round;stroke-width:2;"/>
+    <path d="M 218.2 139.162002 
+L 216 143.562002 
+L 213.8 139.162002 
+" style="fill:none;stroke:#87949c;stroke-linecap:round;stroke-width:2;"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 217.669748 43.917429 
+Q 295.873988 95.30943 372.20954 145.473421 
+" style="fill:none;stroke:#87949c;stroke-linecap:round;stroke-width:2;"/>
+    <path d="M 369.740652 141.218472 
+L 372.20954 145.473421 
+L 367.324248 144.895563 
+" style="fill:none;stroke:#87949c;stroke-linecap:round;stroke-width:2;"/>
+   </g>
+   <g id="text_1">
+    <g id="patch_5">
+     <path d="M 195.199688 49.807035 
+L 236.800313 49.807035 
+Q 241.600313 49.807035 241.600313 45.007035 
+L 241.600313 33.393285 
+Q 241.600313 28.593285 236.800313 28.593285 
+L 195.199688 28.593285 
+Q 190.399687 28.593285 190.399687 33.393285 
+L 190.399687 45.007035 
+Q 190.399687 49.807035 195.199688 49.807035 
+z
+" style="fill:#ffffff;stroke:#087e83;stroke-linejoin:miter;"/>
+    </g>
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 216, 42.51141)" x="216" y="42.51141">Topic h</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_6">
+     <path d="M 35.10393 172.886763 
+L 77.39643 172.886763 
+Q 82.19643 172.886763 82.19643 168.086763 
+L 82.19643 156.473013 
+Q 82.19643 151.673013 77.39643 151.673013 
+L 35.10393 151.673013 
+Q 30.30393 151.673013 30.30393 156.473013 
+L 30.30393 168.086763 
+Q 30.30393 172.886763 35.10393 172.886763 
+z
+" style="fill:#ffffff;stroke:#087e83;stroke-linejoin:miter;"/>
+    </g>
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 56.25018, 165.591138)" x="56.25018" y="165.591138">Word 1</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_7">
+     <path d="M 194.85375 172.886763 
+L 237.14625 172.886763 
+Q 241.94625 172.886763 241.94625 168.086763 
+L 241.94625 156.473013 
+Q 241.94625 151.673013 237.14625 151.673013 
+L 194.85375 151.673013 
+Q 190.05375 151.673013 190.05375 156.473013 
+L 190.05375 168.086763 
+Q 190.05375 172.886763 194.85375 172.886763 
+z
+" style="fill:#ffffff;stroke:#087e83;stroke-linejoin:miter;"/>
+    </g>
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 216, 165.591138)" x="216" y="165.591138">Word 2</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_8">
+     <path d="M 354.60357 172.886763 
+L 396.89607 172.886763 
+Q 401.69607 172.886763 401.69607 168.086763 
+L 401.69607 156.473013 
+Q 401.69607 151.673013 396.89607 151.673013 
+L 354.60357 151.673013 
+Q 349.80357 151.673013 349.80357 156.473013 
+L 349.80357 168.086763 
+Q 349.80357 172.886763 354.60357 172.886763 
+z
+" style="fill:#ffffff;stroke:#087e83;stroke-linejoin:miter;"/>
+    </g>
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:12px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 375.74982, 165.591138)" x="375.74982" y="165.591138">Word 3</text>
+   </g>
+  </g>
+ </g>
+</svg>

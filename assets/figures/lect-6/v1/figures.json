@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceRevision": "sha256:bae861f91e611ccfa11a4e6a5b1b2da9c2c6a66aa80367c753ee304d6dd990f1",
+  "sourceRevision": "sha256:e3fae53825ed3d648c917abb1032c550af9a9e4a5f75cb0fa900a93609cf68d8",
   "generator": "scripts/lecture6-figures.mjs",
   "bankRevision": "sha256:f84349b25e46041b177336f311a59bd9b65adb10bde970294c2a9ea632ce33e5",
   "figures": [

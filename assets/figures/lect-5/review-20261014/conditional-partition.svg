@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="259.2pt" version="1.1" viewBox="0 0 504 259.2" width="504pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Conditional expectation averages within each block</title><desc>Bars show the number of heads in two fair tosses. Observing only the first toss gives conditional means 1.5 on HH and HT, and 0.5 on TH and TT.</desc>
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.3.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.2 
+L 504 259.2 
+L 504 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 42.139615 238.553822 
+L 500.99976 238.553822 
+L 500.99976 3.00024 
+L 42.139615 3.00024 
+z
+" style="fill:#ffffff;"/>
+   </g>
+   <g id="patch_3">
+    <path clip-path="url(#pa0059177a7)" d="M 73.97441 238.553822 
+L 139.839502 238.553822 
+L 139.839502 57.358759 
+L 73.97441 57.358759 
+z
+" style="fill:#087e83;opacity:0.3;"/>
+   </g>
+   <g id="patch_4">
+    <path clip-path="url(#pa0059177a7)" d="M 183.749564 238.553822 
+L 249.614657 238.553822 
+L 249.614657 147.956291 
+L 183.749564 147.956291 
+z
+" style="fill:#087e83;opacity:0.3;"/>
+   </g>
+   <g id="patch_5">
+    <path clip-path="url(#pa0059177a7)" d="M 293.524718 238.553822 
+L 359.389811 238.553822 
+L 359.389811 147.956291 
+L 293.524718 147.956291 
+z
+" style="fill:#85456d;opacity:0.3;"/>
+   </g>
+   <g id="patch_6">
+    <path clip-path="url(#pa0059177a7)" d="M 403.299873 238.553822 
+L 469.164965 238.553822 
+L 469.164965 238.553822 
+L 403.299873 238.553822 
+z
+" style="fill:#85456d;opacity:0.3;"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path d="M 0 0 
+L 0 3.5 
+" id="m1983827a68" style="stroke:#18384e;stroke-width:0.8;"/>
+      </defs>
+      <g>
+       <use style="fill:#18384e;stroke:#18384e;stroke-width:0.8;" x="106.906956" xlink:href="#m1983827a68" y="238.553822"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 106.906956, 253.912104)" x="106.906956" y="253.912104">HH</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use style="fill:#18384e;stroke:#18384e;stroke-width:0.8;" x="216.68211" xlink:href="#m1983827a68" y="238.553822"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 216.68211, 253.912104)" x="216.68211" y="253.912104">HT</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use style="fill:#18384e;stroke:#18384e;stroke-width:0.8;" x="326.457265" xlink:href="#m1983827a68" y="238.553822"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 326.457265, 253.912104)" x="326.457265" y="253.912104">TH</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use style="fill:#18384e;stroke:#18384e;stroke-width:0.8;" x="436.232419" xlink:href="#m1983827a68" y="238.553822"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 436.232419, 253.912104)" x="436.232419" y="253.912104">TT</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <defs>
+       <path d="M 0 0 
+L -3.5 0 
+" id="m218746628f" style="stroke:#18384e;stroke-width:0.8;"/>
+      </defs>
+      <g>
+       <use style="fill:#18384e;stroke:#18384e;stroke-width:0.8;" x="42.139615" xlink:href="#m218746628f" y="238.553822"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 35.139615, 242.732963)" x="35.139615" y="242.732963">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <g>
+       <use style="fill:#18384e;stroke:#18384e;stroke-width:0.8;" x="42.139615" xlink:href="#m218746628f" y="193.255057"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 35.139615, 197.434197)" x="35.139615" y="197.434197">0.5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <g>
+       <use style="fill:#18384e;stroke:#18384e;stroke-width:0.8;" x="42.139615" xlink:href="#m218746628f" y="147.956291"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 35.139615, 152.135431)" x="35.139615" y="152.135431">1.0</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8">
+      <g>
+       <use style="fill:#18384e;stroke:#18384e;stroke-width:0.8;" x="42.139615" xlink:href="#m218746628f" y="102.657525"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 35.139615, 106.836666)" x="35.139615" y="106.836666">1.5</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_9">
+      <g>
+       <use style="fill:#18384e;stroke:#18384e;stroke-width:0.8;" x="42.139615" xlink:href="#m218746628f" y="57.358759"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:end;" transform="rotate(-0, 35.139615, 61.5379)" x="35.139615" y="61.5379">2.0</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-90, 11.358521, 120.777031)" x="11.358521" y="120.777031">Number of heads</text>
+    </g>
+   </g>
+   <g id="LineCollection_1">
+    <path clip-path="url(#pa0059177a7)" d="M 62.996894 102.657525 
+L 260.592172 102.657525 
+" style="fill:none;stroke:#087e83;stroke-width:3;"/>
+    <path clip-path="url(#pa0059177a7)" d="M 282.547203 193.255057 
+L 480.142481 193.255057 
+" style="fill:none;stroke:#85456d;stroke-width:3;"/>
+   </g>
+   <g id="line2d_10">
+    <path clip-path="url(#pa0059177a7)" d="M 271.569688 238.553822 
+L 271.569688 3.00024 
+" style="fill:none;stroke:#87949c;stroke-dasharray:1.5,2.475;stroke-dashoffset:0;stroke-width:1.5;"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 42.139615 238.553822 
+L 42.139615 3.00024 
+" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 42.139615 238.553822 
+L 500.99976 238.553822 
+" style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"/>
+   </g>
+   <g id="text_11">
+    <text style="fill:#087e83;font-family:DejaVu Sans;font-size:10px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 161.794533, 90.879846)" x="161.794533" y="90.879846">Conditional mean 1.5</text>
+   </g>
+   <g id="text_12">
+    <text style="fill:#85456d;font-family:DejaVu Sans;font-size:10px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 381.344842, 180.571402)" x="381.344842" y="180.571402">Conditional mean 0.5</text>
+   </g>
+   <g id="text_13">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 161.794533, 30.1795)" x="161.794533" y="30.1795">First toss H</text>
+   </g>
+   <g id="text_14">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:11px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 381.344842, 30.1795)" x="381.344842" y="30.1795">First toss T</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa0059177a7">
+   <rect height="235.553583" width="458.860145" x="42.139615" y="3.00024"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="259.2pt" version="1.1" viewBox="0 0 324 259.2" width="324pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>A Gaussian chain and its matrices</title><desc>The chain has no edge from X1 to X3: precision entry Theta13 is zero. Their covariance Sigma13 is one, so marginal independence does not follow.</desc>
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.3.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.2 
+L 324 259.2 
+L 324 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path clip-path="url(#p58607ec5a1)" d="M 209.699928 106.812043 
+L 273.299832 106.812043 
+L 273.299832 61.23613 
+L 209.699928 61.23613 
+z
+" style="fill:#cde5df;"/>
+   </g>
+   <g id="patch_3">
+    <path clip-path="url(#p58607ec5a1)" d="M 50.700168 223.283822 
+L 114.300072 223.283822 
+L 114.300072 177.707909 
+L 50.700168 177.707909 
+z
+" style="fill:#cde5df;"/>
+   </g>
+   <g id="line2d_1">
+    <path clip-path="url(#p58607ec5a1)" d="M 41.160182 53.640144 
+L 28.440202 53.640144 
+L 28.440202 230.879808 
+L 41.160182 230.879808 
+" style="fill:none;stroke:#18384e;stroke-linecap:square;stroke-width:1.5;"/>
+   </g>
+   <g id="line2d_2">
+    <path clip-path="url(#p58607ec5a1)" d="M 282.839818 53.640144 
+L 295.559798 53.640144 
+L 295.559798 230.879808 
+L 282.839818 230.879808 
+" style="fill:none;stroke:#18384e;stroke-linecap:square;stroke-width:1.5;"/>
+   </g>
+   <g id="text_1">
+    <!-- $\Theta=\Sigma^{-1}$ -->
+    <g style="fill:#18384e;" transform="translate(130.38 28.320192)">
+     <text>
+      <tspan style="font-family:DejaVu Sans;font-size:17px;font-style:book;font-weight:book;" x="0 16.692871 34.249023" y="-0.8187500000000014">Θ=Σ</tspan>
+      <tspan style="font-family:DejaVu Sans;font-size:11.9px;font-style:book;font-weight:book;" x="45.15293 55.123828" y="-7.326562500000001">−1</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_2">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 82.50012, 88.715024)" x="82.50012" y="88.715024">1</text>
+   </g>
+   <g id="text_3">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 162, 88.715024)" x="162" y="88.715024">-1</text>
+   </g>
+   <g id="text_4">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 241.49988, 88.715024)" x="241.49988" y="88.715024">0</text>
+   </g>
+   <g id="text_5">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 82.50012, 146.950913)" x="82.50012" y="146.950913">-1</text>
+   </g>
+   <g id="text_6">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 162, 146.950913)" x="162" y="146.950913">3</text>
+   </g>
+   <g id="text_7">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 241.49988, 146.950913)" x="241.49988" y="146.950913">-1</text>
+   </g>
+   <g id="text_8">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 82.50012, 205.186803)" x="82.50012" y="205.186803">0</text>
+   </g>
+   <g id="text_9">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 162, 205.186803)" x="162" y="205.186803">-1</text>
+   </g>
+   <g id="text_10">
+    <text style="fill:#18384e;font-family:DejaVu Sans;font-size:17px;font-stretch:normal;font-style:normal;font-weight:normal;text-anchor:middle;" transform="rotate(-0, 241.49988, 205.186803)" x="241.49988" y="205.186803">1</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p58607ec5a1">
+   <rect height="253.19952" width="317.99952" x="3.00024" y="3.00024"/>
+  </clipPath>
+ </defs>
+</svg>

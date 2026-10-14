@@ -17,7 +17,8 @@ function frame(title,xd,yd,xt,yt,xlabel,ylabel,square=false){
  return {x,y,body};
 }
 export function ridgeDrawing(lambda){
- const r=ridgeCoordinate(lambda),f=frame('Data fit + penalty',[-2.5,.5],[0,32],[-2,-1,0],[0,8,16,24,32],'Coefficient b','Objective value');let b=f.body;
+ const top=Math.ceil(Math.max(6.25,.25+6.25*lambda,6.25+.25*lambda)/2)*2;
+ const r=ridgeCoordinate(lambda),f=frame('Data fit + penalty',[-2.5,.5],[0,top],[-2,-1,0],Array.from({length:5},(_,j)=>top*j/4),'Coefficient b','Objective value');let b=f.body;
  const grid=Array.from({length:121},(_,i)=>-2.5+i/40);
  for(const [fun,color,dash] of [[v=>(v+2)**2,navy,'7 4'],[v=>lambda*v*v,plum,'2 4'],[v=>(v+2)**2+lambda*v*v,teal,'']])b+=`<path d="${path(grid.map(v=>[v,fun(v)]),f.x,f.y)}" fill="none" stroke="${color}" stroke-width="3" stroke-dasharray="${dash}"/>`;
  b+=line(f.x(r.estimate),f.y(0),f.x(r.estimate),f.y(r.objective),`stroke="${gold}" stroke-width="2"`)+dot(f.x(r.estimate),f.y(r.objective),gold,6)+text(f.x(r.estimate)+10,f.y(r.objective)-14,'Minimum');
@@ -55,9 +56,10 @@ export function staticGeometry(){
  b+=line(f.x(-.2),f.y(.6),f.x(1.2),f.y(-.1),`stroke="${plum}" stroke-width="3"`)+line(f.x(-.1),f.y(-.2),f.x(.6),f.y(1.2),`stroke="${teal}" stroke-width="2" stroke-dasharray="6 3"`);
  for(let t=0;t<5;t++){const a=1-2**(-t);b+=dot(f.x(.2*a),f.y(.4*a),gold,4);}
  b+=dot(f.x(.2),f.y(.4),teal,6)+text(f.x(.23),f.y(.4)+20,'Minimum norm (1/5, 2/5)')+text(f.x(.62),f.y(.16)+25,'Exact fits')+text(f.x(.31),f.y(.9),'Row space');
- let m=text(65,25,'A separator and its margin','font-weight="650"')+line(260,60,260,310,`stroke="${navy}" stroke-width="3"`)+line(190,60,190,310,`stroke="${plum}" stroke-dasharray="5 4"`)+line(330,60,330,310,`stroke="${teal}" stroke-dasharray="5 4"`);
+ let m='<rect x="190" y="60" width="140" height="250" fill="#dcedeb" opacity=".35"/>'+text(65,25,'A separator and its margin','font-weight="650"')+line(260,60,260,310,`stroke="${navy}" stroke-width="3"`)+line(190,60,190,310,`stroke="${plum}" stroke-dasharray="5 4"`)+line(330,60,330,310,`stroke="${teal}" stroke-dasharray="5 4"`);
  for(const [x,y] of [[120,105],[190,205],[145,270]])m+=text(x,y,'−','font-size="30" font-weight="bold" fill="'+plum+'"');
  for(const [x,y] of [[330,110],[405,210],[370,270]])m+=text(x,y,'+','font-size="25" font-weight="bold" fill="'+teal+'"');
+ m+='<circle cx="190" cy="196" r="17" fill="none" stroke="#85456d"/><circle cx="330" cy="103" r="17" fill="none" stroke="#087e83"/>';
  m+=line(260,285,330,285,`stroke="${gold}" stroke-width="3"`)+text(295,310,'margin','text-anchor="middle"')+text(260,350,'Decision line','text-anchor="middle"');
  return [{id:'lec07-geometry-gd',sourceLabel:'lec07-gd-picture',priority:'low',title:'The nearest exact fit lies in the row space',drawing:svg('Exact-fit line b1+2b2=1; zero-initialized GD travels on the row space toward (1/5,2/5).',b)}, {id:'lec07-geometry-margin',sourceLabel:'lec07-classification',priority:'low',title:'Geometric margin: the gap to the nearest observations',drawing:svg('Schematic separable labeled points, decision line, and equal signed-distance margin boundaries.',m)}];
 }

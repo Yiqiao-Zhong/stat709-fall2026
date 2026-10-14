@@ -5,6 +5,8 @@ This repository contains the finished student website for STAT 709 Mathematical 
 ## Available materials
 
 - [Course home](index.html)
+- [Syllabus: authoritative course policies](syllabus.html)
+- [Report an issue](report-issue.html)
 - [Preface and reading guide](preface.html)
 - Lecture 1: [HTML](lect-1.html) · [Student PDF](lect-1.pdf)
 - Lecture 2: [HTML](lect-2.html) · [Student PDF](lect-2.pdf)
@@ -30,7 +32,9 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - [Homework 4 assignment](homework/HW4.pdf)
 - [Homework 5 assignment](homework/HW5.pdf)
 
-Homework solutions are not included. Further lectures can be added when their student editions are ready.
+Homework solutions are not included. The homepage and seven part-overview pages organize Lectures 1–17. Part VI (Lectures 18–20) is optional and contains placeholders only; no Lecture 18–20 notes or downloads are hosted. Part VII has no lecture entries yet.
+
+The website syllabus is authoritative. The homepage links it alongside the preface, part checkpoints and current lecture downloads.
 
 ## Preview locally
 
@@ -88,3 +92,9 @@ Lecture 16 uses Georg-Johann’s SVD diagram adapted to transpose notation (CC B
 Lecture 17 retains the attributed Belkin et al. double-descent schematic, Hastie et al. isotropic prediction-risk plot, and NeuroData community-network image in `assets/figures/lect-17/`. Source credits, notation explanations and provenance accompany the selected figures. Removed figures and complete research papers are not hosted.
 
 Lecture 14 retains the instructor’s original tail-deviation sketch in `assets/figures/lect-14/original/`, with inherited provenance and its checksum. The removed numbered Bernstein-radius plot and explorer are not hosted.
+
+## October 14 website update
+
+The student website includes the revised syllabus, seven-part organization, backward recaps, Key ideas, cross-lecture links, restored inherited figures and public/private issue-reporting routes. Selected new illustrations retain their provenance under the corresponding `review-20261014/` figure folders; restored source figures keep their original credits and licenses.
+
+`report-issue.html` prepares a public GitHub form or a private email draft to the instructor. It never submits a report automatically. Public reports must not include homework solutions or personal information. GitHub form definitions live in `.github/ISSUE_TEMPLATE/`; the form selects the repository label `report`. Disqus remains the separate public conversation channel.

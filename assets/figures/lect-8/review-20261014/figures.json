@@ -1,0 +1,36 @@
+{
+  "generator": "scripts/figure-review-20261014.py",
+  "provenance": "Original STAT 709 drawings from canonical examples; synthetic samples are explicitly labeled. No external artwork copied.",
+  "figures": [
+    {
+      "lecture": 8,
+      "name": "topic",
+      "title": "A shared hidden cause",
+      "alt": "The three observed words share a latent topic. They are conditionally independent given that topic; the shared cause can make them marginally dependent.",
+      "svg": "assets/figures/lect-8/review-20261014/topic.svg",
+      "png": "assets/figures/lect-8/review-20261014/topic.png",
+      "panels": [],
+      "sha256": {
+        "svg": "4fba0f0e94d6fe4d2ad4948fb00d3d88fffa3ea029b02c8036c3eb3b2b1bdce9",
+        "png": "dd718342ba04fa726a13356defc900efa039c985cc62e8c91ed2549b98e53759"
+      }
+    },
+    {
+      "lecture": 8,
+      "name": "network-decomposition",
+      "title": "Separate density from communities",
+      "alt": "The constant matrix plus the signed community matrix gives the expected adjacency matrix plus p-star times identity, here p-star=0.4 and q-star=0.2. Subtract p-star times identity to restore the zero diagonal in the lecture\u2019s model.",
+      "svg": "assets/figures/lect-8/review-20261014/network-decomposition.svg",
+      "png": "assets/figures/lect-8/review-20261014/network-decomposition.png",
+      "panels": [
+        "assets/figures/lect-8/review-20261014/network-decomposition-panel-1.svg",
+        "assets/figures/lect-8/review-20261014/network-decomposition-panel-2.svg",
+        "assets/figures/lect-8/review-20261014/network-decomposition-panel-3.svg"
+      ],
+      "sha256": {
+        "svg": "ea93d4e1fcd85ea7f824af5a9e60da5f54a473e2a182ce3b5033be055197140e",
+        "png": "9cba59338f4f4b7ed1dd9939a6b0d8e63fe0f96ea6416d27bc4a241a12c6990b"
+      }
+    }
+  ]
+}

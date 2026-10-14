@@ -11,21 +11,21 @@
       "svg": "assets/figures/lect-3/intuition-v1/positive-negative.svg",
       "png": "assets/figures/lect-3/intuition-v1/positive-negative.png",
       "sha256": {
-        "svg": "7be13ea73dbea15e61ae26659f8f1cf3bf0769774f6ae1b9e4c77d9f550de8a7",
-        "png": "08a717ed455ec284634e2eac19bbb53809eb9f22d60ac80e1518711be714e8a6"
+        "svg": "cb3ca5bd861b842da8988d763b3826378df964006086d56ac09e1a404297ed29",
+        "png": "902600e9364eab26b9969cc1526517262579bd89356540e863516ae58cc722fd"
       },
       "panels": [
         {
           "path": "assets/figures/lect-3/intuition-v1/positive-negative-panel-1.svg",
-          "sha256": "0e989243865a55112fa79dac822fdc0a950a141394dba3682c72d6e7491afcae"
+          "sha256": "5d3b1b95288b34035d287337f2c75bc3104cf72057b226670d18e91f2b8bbc85"
         },
         {
           "path": "assets/figures/lect-3/intuition-v1/positive-negative-panel-2.svg",
-          "sha256": "fc30e61112f63424d921018cc2d53e2e7059d4101d9bb25c1cc0ce0506f93f19"
+          "sha256": "13b504d58f959714bcc8bb4ac8e327b625d4bdb21800922b0f3a8aa624e55ee5"
         },
         {
           "path": "assets/figures/lect-3/intuition-v1/positive-negative-panel-3.svg",
-          "sha256": "73acac36260d222a2459bca7f71127713057f081421f76ec24f98895802d753d"
+          "sha256": "c60400b837cef9fb8bb1995a223b24fd623c9d03c5e676c98c2935d86b58bab1"
         }
       ]
     },
@@ -37,13 +37,13 @@
       "svg": "assets/figures/lect-3/intuition-v1/truncation.svg",
       "png": "assets/figures/lect-3/intuition-v1/truncation.png",
       "sha256": {
-        "svg": "cb47784f4c6d70a2f4b2854243c7fcf7d4d475599c0445896916fb036184c790",
-        "png": "8c49a23e07e2802d23d5b916d68a165ca26a68345c518641aaf88c3b5ba3f2dc"
+        "svg": "2faa6b2a1f79c669b7d17b3672129547945a1c6657999f7c89c3ed1adf89de13",
+        "png": "8315e8cf65acb9a4a5b9d97e1131194715ee54a3bfb6a8ac41adce62b365eab2"
       },
       "panels": [
         {
           "path": "assets/figures/lect-3/intuition-v1/truncation-panel-1.svg",
-          "sha256": "2c82a7dbf22fcae8f998ed83f5c358b07763d3ab898b283e302a5edb26e70432"
+          "sha256": "d8b00ec55e9050988c3c0efe24594ed92a9e7602e7b1d34cbf3e2d68e97fca14"
         }
       ]
     },
@@ -55,21 +55,21 @@
       "svg": "assets/figures/lect-3/intuition-v1/spike-envelope.svg",
       "png": "assets/figures/lect-3/intuition-v1/spike-envelope.png",
       "sha256": {
-        "svg": "f093f9e98ce2283dec2877ae74e12e31a3959880c1d9d396ed803b44ec1d9a01",
-        "png": "bc57c26ba4f39155a2d09e63c9fef54d0df61d01b69d7fa8521ede0f43dda146"
+        "svg": "e07ad3146fb8ff14cb946acc6260621468ae158acb7a6d4629f3a8869f3f9e0b",
+        "png": "1cc8931494193326ea8d91c6b72c435993e6657e1ef52adff7dc74050b5ea51f"
       },
       "panels": [
         {
           "path": "assets/figures/lect-3/intuition-v1/spike-envelope-panel-1.svg",
-          "sha256": "328c5e82882f370c3b23a72123fa1aa7c584bc8090374525ea8e2ee89907fe11"
+          "sha256": "f76b8e46e3b937a212b5043f46de5befdb21d049f07ab618db19c2ebfb71ca77"
         },
         {
           "path": "assets/figures/lect-3/intuition-v1/spike-envelope-panel-2.svg",
-          "sha256": "ca07229a625bb31b18b247987a548c359d280189f5b5c53ecd9c1360820d3ca9"
+          "sha256": "dd7c83062b7f4d1263d2ec0080a916921361f6003a36ce3f4270a28b63052b2a"
         },
         {
           "path": "assets/figures/lect-3/intuition-v1/spike-envelope-panel-3.svg",
-          "sha256": "fb6874c9a00f3136fdabacf1fe8de9605cbedd5e2b6e6a010740404eeba69aee"
+          "sha256": "70171a8972614aaaf500277f87ebfc2f3119e6adc4f12b92a47f0362e3747fb4"
         }
       ]
     }

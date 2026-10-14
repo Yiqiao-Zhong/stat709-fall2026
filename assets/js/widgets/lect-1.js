@@ -70,10 +70,10 @@ function topologyWidget() {
   );
   body.innerHTML = `
     <div class="tab-list" role="tablist" aria-label="Topology visualization">
-      <button class="tab-button" role="tab" aria-selected="true" aria-controls="topology-ball-panel" id="topology-ball-tab">ε-ball</button>
-      <button class="tab-button" role="tab" aria-selected="false" aria-controls="topology-existence-panel" id="topology-existence-tab" tabindex="-1">Minimum attained?</button>
+      <button class="tab-button" role="tab" aria-selected="false" aria-controls="topology-ball-panel" id="topology-ball-tab" tabindex="-1">ε-ball</button>
+      <button class="tab-button" role="tab" aria-selected="true" aria-controls="topology-existence-panel" id="topology-existence-tab">Minimum attained?</button>
     </div>
-    <div class="tab-panel" role="tabpanel" id="topology-ball-panel" aria-labelledby="topology-ball-tab">
+    <div class="tab-panel" role="tabpanel" id="topology-ball-panel" aria-labelledby="topology-ball-tab" hidden>
       <div class="widget-grid">
         <div class="plot-panel" data-ball-plot></div>
         <div class="widget-controls">
@@ -85,7 +85,7 @@ function topologyWidget() {
         </div>
       </div>
     </div>
-    <div class="tab-panel" role="tabpanel" id="topology-existence-panel" aria-labelledby="topology-existence-tab" hidden>
+    <div class="tab-panel" role="tabpanel" id="topology-existence-panel" aria-labelledby="topology-existence-tab">
       <div class="widget-grid">
         <div class="plot-panel" data-domain-plot></div>
         <div class="widget-controls">
@@ -324,7 +324,7 @@ function gaussianTailWidget() {
       top: 25,
       bottom: 300,
       xFormat: String,
-      yFormat: (v) => `10^${v}`,
+      yFormat: (v) => "10" + String(v).split("").map(c => ({"-":"⁻","0":"⁰","2":"²","4":"⁴","6":"⁶","8":"⁸"}[c] ?? c)).join(""),
       xLabel: "threshold t",
       yLabel: "probability (log scale)",
     });
@@ -1107,6 +1107,9 @@ function convexityWidget() {
       stroke: "#125b9a",
     }));
     const slopes = Math.abs(x) < 0.025 ? [-1, -0.5, 0, 0.5, 1] : [Math.sign(x)];
+    const defs=svgEl("defs");
+    const clip=svgEl("clipPath",{id:"lec01-subgradient-clip"});
+    clip.append(svgEl("rect",{x:52,y:25,width:538,height:275}));defs.append(clip);svg.append(defs);
     slopes.forEach((slope, index) => {
       svg.append(svgEl("line", {
         x1: sx(-2),
@@ -1116,6 +1119,7 @@ function convexityWidget() {
         stroke: "#b77b09",
         "stroke-width": index === 2 ? 2.3 : 1.4,
         opacity: 0.65,
+        "clip-path": "url(#lec01-subgradient-clip)",
       }));
     });
     svg.append(svgEl("circle", { cx: sx(x), cy: sy(Math.abs(x)), r: 7, fill: "#76518e", class: "point" }));
@@ -1145,12 +1149,14 @@ function convexityWidget() {
     );
     const values = range(-4, 4, 180);
     const objective = (value) => (y - value) ** 2 + lambda * Math.abs(value);
-    const maxY = Math.min(25, Math.max(...values.map(objective)));
+    const rawMax = Math.max(...values.map(objective));
+    const tickStep = rawMax <= 20 ? 5 : rawMax <= 40 ? 10 : 20;
+    const maxY = Math.ceil(rawMax / tickStep) * tickStep;
     const sx = scaleLinear(-4, 4, 52, 590);
     const sy = scaleLinear(0, maxY, 300, 25);
     drawAxes(svg, {
       xTicks: [-4, -2, 0, 2, 4],
-      yTicks: range(0, maxY, 5),
+      yTicks: Array.from({length: maxY/tickStep+1},(_,i)=>i*tickStep),
       xScale: sx,
       yScale: sy,
       left: 52,
@@ -1221,6 +1227,8 @@ export function mountLectureWidgets() {
     numeric.value=slider.value;numeric.className='range-number';
     numeric.setAttribute('aria-label',`${document.querySelector(`label[for="${slider.id}"]`).textContent}, numeric`);
     slider.after(numeric);
+    const duplicate=slider.closest(".control-row")?.querySelector("output");
+    if(duplicate)duplicate.hidden=true;
     slider.addEventListener('input',()=>{numeric.value=slider.value;numeric.setCustomValidity('');numeric.removeAttribute('aria-invalid');});
     numeric.addEventListener('input',()=>{
       if(numeric.value==='' || !numeric.checkValidity()) {numeric.setAttribute('aria-invalid','true');numeric.reportValidity();return;}

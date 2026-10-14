@@ -1,0 +1,19 @@
+{
+  "generator": "scripts/figure-review-20261014.py",
+  "provenance": "Original STAT 709 drawings from canonical examples; synthetic samples are explicitly labeled. No external artwork copied.",
+  "figures": [
+    {
+      "lecture": 17,
+      "name": "pca-transition",
+      "title": "PCA overlap across the threshold",
+      "alt": "For aspect ratio gamma=1/2, limiting squared eigenvector overlap is zero through theta=sqrt(gamma), then rises according to the lecture\u2019s formula. Positive overlap is not consistency: the limit stays below one at finite spike strength.",
+      "svg": "assets/figures/lect-17/review-20261014/pca-transition.svg",
+      "png": "assets/figures/lect-17/review-20261014/pca-transition.png",
+      "panels": [],
+      "sha256": {
+        "svg": "e50967bdfe282424fbd8f708bd2839d657e16b211b050a226adf5cc167251114",
+        "png": "4969244843b36264ce38322779037b2895a5b89cd7b6ba12121b8c7773735fc1"
+      }
+    }
+  ]
+}

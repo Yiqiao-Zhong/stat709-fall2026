@@ -1,0 +1,36 @@
+{
+  "generator": "scripts/figure-review-20261014.py",
+  "provenance": "Original STAT 709 drawings from canonical examples; synthetic samples are explicitly labeled. No external artwork copied.",
+  "figures": [
+    {
+      "lecture": 10,
+      "name": "moving-jumps",
+      "title": "Moving jumps and continuity points",
+      "alt": "Solid CDFs jump at 1/n; the dashed limit jumps at zero. At zero the values never agree, although convergence holds at every continuity point of the limit.",
+      "svg": "assets/figures/lect-10/review-20261014/moving-jumps.svg",
+      "png": "assets/figures/lect-10/review-20261014/moving-jumps.png",
+      "panels": [
+        "assets/figures/lect-10/review-20261014/moving-jumps-panel-1.svg",
+        "assets/figures/lect-10/review-20261014/moving-jumps-panel-2.svg",
+        "assets/figures/lect-10/review-20261014/moving-jumps-panel-3.svg"
+      ],
+      "sha256": {
+        "svg": "41a9b7b14c115fe53f23e1d367da6ec3f492e9045eee3786e8cadabdca3b3e7c",
+        "png": "eadf3d7d8d83031309ecf038bc2c8abd10fbb1614e1f9a49345aa626b4aac54f"
+      }
+    },
+    {
+      "lecture": 10,
+      "name": "replacement-rows",
+      "title": "Replace one observation at a time",
+      "alt": "Seven rows show all six replacement steps from Gaussian Y terms to original X terms. The outlined slot is the term just replaced, while the other five terms stay fixed.",
+      "svg": "assets/figures/lect-10/review-20261014/replacement-rows.svg",
+      "png": "assets/figures/lect-10/review-20261014/replacement-rows.png",
+      "panels": [],
+      "sha256": {
+        "svg": "659d997e72c9af62db333b62fb0420ff3843f447b1664249117f96369624e03b",
+        "png": "1702905a2dfa185f5652bc5927ced03aaafaa9b32fc57d05b857fa8fea7d3356"
+      }
+    }
+  ]
+}

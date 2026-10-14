@@ -10,13 +10,13 @@
     Course homepage: place alongside preface.html and lect-1.html.
     Self-contained styles reproduce the attached pages' shared visual language.
     No site.js dependency: that script is specific to the lecture interface.
-    Content reference: revised STAT 709 course policy, September 3, 2026.
+    Full policies: syllabus.html. Homepage policy sections are summaries; preserve their anchors.
     Instructor review before publication:
       - Participation is 20%, as inferred in the polished policy's 100-point total.
       - Exam notes are interpreted as two double-sided A4 sheets per exam.
       - Replace TBA information and the general Canvas sign-in URL when available.
-    The older lecture-by-lecture schedule is intentionally omitted: its numbering
-    does not match the revised lecture notes. No new course policies are added.
+    Seven course parts follow the updated policy and current lecture numbering.
+    Part VI (Lectures 18–20) is optional; Part VII has no lecture entries yet.
   -->
   <style>
     :root {
@@ -140,13 +140,35 @@
     .exam dl { margin: 0; font-size: .9rem; }
     .exam dt { color: var(--ink-soft); font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; margin-top: .7rem; }
     .exam dd { margin: .1rem 0 0; }
-    .resource-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.3rem 0; }
-    .map-node { display: flex; flex-direction: column; gap: .6rem; padding: 1rem; border: 1px solid var(--line); border-top: 4px solid var(--high); border-radius: 11px; background: #fffdf9; color: var(--ink); box-shadow: 0 8px 24px rgba(25, 40, 54, .05); text-decoration: none; }
-    .map-node:nth-child(2) { border-top-color: var(--mid); }
+    .map-node { display: flex; flex-direction: column; gap: .6rem; padding: 1rem; border: 1px solid var(--line); border-top: 4px solid var(--high); border-radius: 11px; color: var(--ink); text-decoration: none; }
     .map-node:hover { background: #f6f8fa; color: var(--navy); }
     .map-node strong { font-size: 1.05rem; }
     .map-node span { color: var(--ink-soft); font-size: .84rem; line-height: 1.5; }
     .map-node b { color: #075f9f; font-size: .82rem; }
+    .part-guide { margin-top: 1rem; border-top: 1px solid #567087; padding-top: .8rem; }
+    .part-guide summary { cursor: pointer; color: #fff; font-size: .88rem; font-weight: 750; line-height: 1.5; }
+    .reading-panel .part-guide .secondary-link { margin-top: .6rem; }
+    .reading-panel .part-guide p { margin-bottom: .2rem; }
+    .course-map { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: .4rem; margin: 1.5rem 0 .6rem; }
+    .course-map a { padding: .6rem .35rem; border: 1px solid var(--line); border-top: 3px solid var(--high); border-radius: 7px; color: var(--navy); background: #f3f6f8; text-align: center; text-decoration: none; }
+    .course-map a:hover { background: #e4eef5; }
+    .course-map strong, .course-map span { display: block; }
+    .course-map strong { font-size: .88rem; }
+    .course-map span { margin-top: .25rem; font-size: .73rem; line-height: 1.3; overflow-wrap: anywhere; }
+    .course-map .map-coming { border-top-color: var(--low); background: #f5f3ee; }
+    .lecture-content .course-connections { font-size: .8rem; color: var(--ink-soft); }
+    .course-part { margin-top: 2rem; padding-top: .5rem; border-top: 1px solid var(--line); }
+    .lecture-content .course-part h3 { margin-top: 1rem; color: var(--navy); }
+    .part-number { display: block; margin-bottom: .35rem; color: var(--ink-soft); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; }
+    .lecture-content .part-question { margin: .6rem 0 .35rem; font-size: .98rem; font-weight: 650; }
+    .lecture-content .part-summary { margin-top: .35rem; font-size: .9rem; color: var(--ink-soft); }
+    .lecture-content .lecture-list { margin: 1rem 0 0; padding: 0; list-style: none; }
+    .lecture-content .lecture-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .5rem 1rem; align-items: center; margin: 0; padding: .9rem 0; border-top: 1px solid #e8e3d9; }
+    .lecture-title { display: block; font-size: .91rem; line-height: 1.5; }
+    .lecture-title strong { color: var(--navy); }
+    .lecture-links { display: flex; gap: .8rem; font-size: .85rem; white-space: nowrap; }
+    .lecture-placeholder { color: var(--ink-soft); }
+    .placeholder-status { font-size: .8rem; }
     .priority-key { list-style: none; padding: 0 !important; }
     .priority-key li { display: grid; grid-template-columns: 85px minmax(0, 1fr); gap: .7rem; padding: .45rem 0; font-size: .9rem; }
     .tier { font-weight: 800; }
@@ -176,7 +198,11 @@
       .lecture-content { padding: 1.2rem; border-radius: 13px; }
       .content-section + .content-section { margin-top: 2.5rem; }
       .facts > div { grid-template-columns: minmax(0, 1fr); gap: .15rem; }
-      .people, .exam-grid, .resource-grid { grid-template-columns: minmax(0, 1fr); }
+      .people, .exam-grid { grid-template-columns: minmax(0, 1fr); }
+      .course-map { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .course-map a { padding: .6rem .2rem; }
+      .course-map span { font-size: .7rem; }
+      .lecture-content .lecture-row { grid-template-columns: minmax(0, 1fr); }
       .people { gap: 1.3rem; }
       th, td { padding: .65rem .4rem; }
       table { font-size: .88rem; }
@@ -199,10 +225,10 @@
       .lecture-content h2 { font-size: 20pt; }
       .lecture-content h3 { font-size: 12pt; }
       .content-section + .content-section { margin-top: 1.6rem; padding-top: 1rem; }
-      h2, h3, summary { break-after: avoid; }
-      .person, .exam, .map-node, table, .policy-note { break-inside: avoid; }
+      h2, h3, summary, .part-question, .part-summary { break-after: avoid; }
+      .person, .exam, .map-node, .lecture-row, .course-map, table, .policy-note { break-inside: avoid; }
       p, li { orphans: 3; widows: 3; }
-      .people, .exam-grid, .resource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .people, .exam-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .facts > div { grid-template-columns: 110px minmax(0, 1fr); }
       .disclosure, .exam, .map-node { background: white; box-shadow: none; }
       details::details-content { content-visibility: visible; height: auto; }
@@ -211,6 +237,9 @@
       a { color: #173753; }
     }
   </style>
+<!--REPORT-ASSETS--><link rel="stylesheet" href="assets/css/report-issue.css">
+<script id="issue-report-config" type="application/json">{"repository":"Yiqiao-Zhong/stat709-fall2026","siteUrl":"https://yiqiao-zhong.github.io/stat709-fall2026/","email":"yiqiao.zhong@wisc.edu","template":"course-report.yml","label":"report","pages":{"index":"Course home","syllabus":"Course syllabus","preface":"Course preface","lect-1":"Lecture 1","lect-2":"Lecture 2","lect-3":"Lecture 3","lect-4":"Lecture 4","lect-5":"Lecture 5","lect-6":"Lecture 6","lect-7":"Lecture 7","lect-8":"Lecture 8","lect-9":"Lecture 9","lect-10":"Lecture 10","lect-11":"Lecture 11","lect-12":"Lecture 12","lect-13":"Lecture 13","lect-14":"Lecture 14","lect-15":"Lecture 15","lect-16":"Lecture 16","lect-17":"Lecture 17","part-1":"Part I: Foundations: the language of probability","part-2":"Part II: Statistical models and estimators","part-3":"Part III: Large-sample theory","part-4":"Part IV: Optimality","part-5":"Part V: High dimensions: tools and phenomena","part-6":"Part VI: Shrinkage and sparsity","part-7":"Part VII: Testing and confidence sets","report-issue":"Report an issue"},"page":"index"}</script>
+<script defer src="assets/js/report-issue.js"></script><!--END-REPORT-->
 </head>
 <body class="preface-page course-home">
   <a class="skip-link" href="#course-content">Skip to course information</a>
@@ -218,7 +247,7 @@
     <div class="course-kicker">STAT 709 · University of Wisconsin–Madison</div>
     <div class="lecture-heading">
       <div>
-        <div class="lecture-number">Course information &amp; policy</div>
+        <div class="lecture-number">Course home &amp; lecture notes</div>
         <h1>Mathematical Statistics</h1>
       </div>
       <dl class="lecture-dates">
@@ -227,7 +256,7 @@
       </dl>
     </div>
     <p class="header-description">Department of Statistics · Foundations of statistical theory, from mathematical tools to statistical inference.</p>
-  </header>
+  <!--REPORT-HEADER--><p class="report-tools"><a data-report-issue href="report-issue.html#page=index">Report an issue</a></p><!--END-REPORT--></header>
 
   <div class="preface-shell">
     <aside class="course-sidebar" aria-label="Course navigation">
@@ -235,28 +264,48 @@
         <div class="section-eyebrow">Start here</div>
         <h2 id="start-heading">Your course guide</h2>
         <p>Find the practical details here, then use the preface to navigate the lecture notes.</p>
+        <a class="secondary-link" href="syllabus.html">Course syllabus <span aria-hidden="true">→</span></a>
         <a class="action-link" href="preface.html">Read the preface <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-1.html"><strong>Lecture 1</strong> — Mathematical basics <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-2.html"><strong>Lecture 2</strong> — Measures and random variables <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-3.html"><strong>Lecture 3</strong> — Integration and convergence <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-4.html"><strong>Lecture 4</strong> — Expectation and inequalities <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-5.html"><strong>Lecture 5</strong> — Independence and conditional expectation <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-6.html"><strong>Lecture 6</strong> — Decision theory and sufficiency <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-7.html"><strong>Lecture 7</strong> — Bias–variance tradeoff and regularization <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-8.html"><strong>Lecture 8</strong> — Moments and maximum likelihood <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-9.html"><strong>Lecture 9</strong> — Convergence, laws of large numbers, and consistency <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-10.html"><strong>Lecture 10</strong> — Weak convergence and the central limit theorem <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-11.html"><strong>Lecture 11</strong> — Asymptotic normality and the delta method <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-12.html"><strong>Lecture 12</strong> — Unbiased estimation and UMVUE <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-13.html"><strong>Lecture 13</strong> — Fisher information and the Cramér–Rao bound <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-14.html"><strong>Lecture 14</strong> — Concentration inequalities <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-15.html"><strong>Lecture 15</strong> — Random vectors in high dimensions <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-16.html"><strong>Lecture 16</strong> — Norms of random matrices <span aria-hidden="true">→</span></a>
-        <a class="secondary-link" href="lect-17.html"><strong>Lecture 17</strong> — High-dimensional statistical phenomena <span aria-hidden="true">→</span></a>
+        <details class="part-guide" data-guide-part="1">
+          <summary>Part I · Foundations: the language of probability</summary>
+          <p>How do we describe randomness precisely enough to prove things about it?</p>
+          <a class="secondary-link" href="#part-1">View lectures 1–5 <span aria-hidden="true">→</span></a>
+        </details>
+        <details class="part-guide" data-guide-part="2">
+          <summary>Part II · Statistical models and estimators</summary>
+          <p>What makes an estimator good, and how do we build one?</p>
+          <a class="secondary-link" href="#part-2">View lectures 6–8 <span aria-hidden="true">→</span></a>
+        </details>
+        <details class="part-guide" data-guide-part="3">
+          <summary>Part III · Large-sample theory</summary>
+          <p>What happens to estimators as the sample size grows?</p>
+          <a class="secondary-link" href="#part-3">View lectures 9–11 <span aria-hidden="true">→</span></a>
+        </details>
+        <details class="part-guide" data-guide-part="4">
+          <summary>Part IV · Optimality</summary>
+          <p>How good can an estimator possibly be?</p>
+          <a class="secondary-link" href="#part-4">View lectures 12–13 <span aria-hidden="true">→</span></a>
+        </details>
+        <details class="part-guide" data-guide-part="5">
+          <summary>Part V · High dimensions: tools and phenomena</summary>
+          <p>What changes when the number of parameters grows with the sample size?</p>
+          <a class="secondary-link" href="#part-5">View lectures 14–17 <span aria-hidden="true">→</span></a>
+        </details>
+        <details class="part-guide" data-guide-part="6">
+          <summary>Part VI · Shrinkage and sparsity* · Optional</summary>
+          <p>How do we estimate well when the dimension is large?</p>
+          <a class="secondary-link" href="#part-6">View lectures 18–20 <span aria-hidden="true">→</span></a>
+        </details>
+        <details class="part-guide" data-guide-part="7">
+          <summary>Part VII · Testing and confidence sets</summary>
+          <p>How do we turn estimates into decisions and uncertainty statements?</p>
+          <a class="secondary-link" href="#part-7">View this part <span aria-hidden="true">→</span></a>
+        </details>
       </section>
       <details class="page-nav" id="page-navigation" open>
         <summary>On this page</summary>
-        <nav aria-label="On this page">
+        <nav aria-label="Course pages and sections">
+          <a href="syllabus.html">Syllabus · Full course policies</a>
           <a href="#course-information">Course information</a>
           <a href="#lecture-notes">Lecture notes</a>
           <a href="#grading">Grading</a>
@@ -268,7 +317,7 @@
       </details>
       <div class="sidebar-tools">
         <a href="https://canvas.wisc.edu/">Canvas sign-in</a>
-        <button class="text-button" id="print-page" type="button" hidden>Print course policy</button>
+        <button class="text-button" id="print-page" type="button" hidden>Print course home</button>
       </div>
     </aside>
 
@@ -279,7 +328,7 @@
           <div><dt>Lectures</dt><dd>Mondays &amp; Wednesdays, 11:00 a.m.–12:15 p.m.<br>Van Vleck B211</dd></div>
           <div><dt>Weekly work</dt><dd>Two 75-minute lectures, one discussion section, assigned readings, and homework.</dd></div>
           <div><dt>Discussion</dt><dd>Friday 11:00am–12:15pm,<br>Morgridge Hall, Room 2533.</dd></div>
-          <div><dt>Prerequisite</dt><dd>Graduate or professional standing.</dd></div>
+          <div><dt>Enrollment</dt><dd>See <a href="syllabus.html#course-credit-details">course designation and UW Guide requisites</a>.</dd></div>
         </dl>
         <div class="people">
           <section class="person" aria-labelledby="instructor-name">
@@ -303,11 +352,11 @@
           <div class="disclosure-body">
             <p>By the end of the course, you should be able to:</p>
             <ul>
-              <li>Formulate statistical estimation problems using rigorous mathematical language.</li>
-              <li>Derive fundamental properties of estimators, including bias and variance.</li>
-              <li>Compare estimators and explain the strengths and limitations of competing methods.</li>
-              <li>Apply theoretical tools, including concentration inequalities, to new statistical problems and present the resulting arguments as mathematical proofs.</li>
-              <li>Distinguish classical large-sample theory from high-dimensional statistical theory and critically evaluate recent research.</li>
+              <li id="outcome-1">Formulate statistical estimation problems using rigorous mathematical language.</li>
+              <li id="outcome-2">Derive fundamental properties of estimators, including bias and variance.</li>
+              <li id="outcome-3">Compare estimators and explain the strengths and limitations of competing methods.</li>
+              <li id="outcome-4">Apply theoretical tools, including concentration inequalities, to new statistical problems and present the resulting arguments as mathematical proofs.</li>
+              <li id="outcome-5">Distinguish classical large-sample theory from high-dimensional statistical theory and critically evaluate recent research.</li>
             </ul>
           </div>
         </details>
@@ -316,119 +365,158 @@
       <section class="content-section" id="lecture-notes" aria-labelledby="lecture-notes-heading">
         <h2 id="lecture-notes-heading">Lecture notes</h2>
         <p>The lecture notes are the primary source for many course topics. Use them alongside the texts and regular problem-solving practice.</p>
-        <p>The course website and lecture notes are powered and edited by Codex. The original lecture notes can be found under <a href="#course-materials">References and resources</a> below.</p>
-        <div class="resource-grid">
-          <a class="map-node" href="preface.html">
-            <strong>Preface</strong>
-            <span>Why study mathematical statistics, how to use the notes, and how to learn independently.</span>
-            <b>Read the guide <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-1.html">
-            <strong>Lecture 1</strong>
-            <span>Mathematical foundations, with examples, exercises, and worked solutions.</span>
-            <b>Start the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-2.html">
-            <strong>Lecture 2</strong>
-            <span>Measure spaces, measures, and random variables.</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-3.html">
-            <strong>Lecture 3</strong>
-            <span>Integration, convergence theorems, and densities.</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-4.html">
-            <strong>Lecture 4</strong>
-            <span>Expectation, probability inequalities, and statistical applications.</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-5.html">
-            <strong>Lecture 5</strong>
-            <span>Independence, conditional expectation, and regression.</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-6.html">
-            <strong>Lecture 6</strong>
-            <span>Statistical models, decision theory, and sufficient statistics.</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-7.html">
-            <strong>Lecture 7</strong>
-            <span>Bias–variance tradeoff, ridge regression, nearest neighbors, and model complexity.</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-8.html">
-            <strong>Lecture 8</strong>
-            <span>Method of moments, maximum likelihood, word embeddings, and next-token prediction.</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-9.html">
-            <strong>Lecture 9</strong>
-            <span>Convergence, stochastic orders, laws of large numbers, and estimator consistency.</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-10.html">
-            <strong>Lecture 10</strong>
-            <span>Weak convergence, the central limit theorem, and three proof approaches.</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-11.html">
-            <strong>Lecture 11</strong>
-            <span>Asymptotic normality and the delta method</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-12.html">
-            <strong>Lecture 12</strong>
-            <span>Unbiased estimation and UMVUE</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-13.html">
-            <strong>Lecture 13</strong>
-            <span>Fisher information and the Cramér–Rao bound</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-14.html">
-            <strong>Lecture 14</strong>
-            <span>Concentration inequalities</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-15.html">
-            <strong>Lecture 15</strong>
-            <span>Random vectors in high dimensions</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-16.html">
-            <strong>Lecture 16</strong>
-            <span>Norms of random matrices</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-          <a class="map-node" href="lect-17.html">
-            <strong>Lecture 17</strong>
-            <span>High-dimensional statistical phenomena</span>
-            <b>Read the notes <span aria-hidden="true">→</span></b>
-          </a>
-        </div>
-        <h3>Lecture downloads</h3>
-        <ul>
-          <li>Lecture 1: Mathematical basics for statistics — <a href="lect-1.html">HTML notes</a> · <a href="lect-1.pdf">Student PDF</a></li>
-          <li>Lecture 2: Measure spaces, measures, and random variables — <a href="lect-2.html">HTML notes</a> · <a href="lect-2.pdf">Student PDF</a></li>
-          <li>Lecture 3: Integration, convergence theorems, and densities — <a href="lect-3.html">HTML notes</a> · <a href="lect-3.pdf">Student PDF</a></li>
-          <li>Lecture 4: Expectation, inequalities, and applications — <a href="lect-4.html">HTML notes</a> · <a href="lect-4.pdf">Student PDF</a></li>
-          <li>Lecture 5: Independence and statistical applications — <a href="lect-5.html">HTML notes</a> · <a href="lect-5.pdf">Student PDF</a></li>
-          <li>Lecture 6: Statistical decision theory and sufficiency — <a href="lect-6.html">HTML notes</a> · <a href="lect-6.pdf">Student PDF</a></li>
-          <li>Lecture 7: Bias–variance tradeoff and regularization — <a href="lect-7.html">HTML notes</a> · <a href="lect-7.pdf">Student PDF</a></li>
-          <li>Lecture 8: Moments and maximum likelihood — <a href="lect-8.html">HTML notes</a> · <a href="lect-8.pdf">Student PDF</a></li>
-          <li>Lecture 9: Convergence, laws of large numbers, and consistency — <a href="lect-9.html">HTML notes</a> · <a href="lect-9.pdf">Student PDF</a></li>
-          <li>Lecture 10: Weak convergence and the central limit theorem — <a href="lect-10.html">HTML notes</a> · <a href="lect-10.pdf">Student PDF</a></li>
-          <li>Lecture 11: Asymptotic normality and the delta method — <a href="lect-11.html">HTML notes</a> · <a href="lect-11.pdf">Student PDF</a></li>
-          <li>Lecture 12: Unbiased estimation and UMVUE — <a href="lect-12.html">HTML notes</a> · <a href="lect-12.pdf">Student PDF</a></li>
-          <li>Lecture 13: Fisher information and the Cramér–Rao bound — <a href="lect-13.html">HTML notes</a> · <a href="lect-13.pdf">Student PDF</a></li>
-          <li>Lecture 14: Concentration inequalities — <a href="lect-14.html">HTML notes</a> · <a href="lect-14.pdf">Student PDF</a></li>
-          <li>Lecture 15: Random vectors in high dimensions — <a href="lect-15.html">HTML notes</a> · <a href="lect-15.pdf">Student PDF</a></li>
-          <li>Lecture 16: Norms of random matrices — <a href="lect-16.html">HTML notes</a> · <a href="lect-16.pdf">Student PDF</a></li>
-          <li>Lecture 17: High-dimensional statistical phenomena — <a href="lect-17.html">HTML notes</a> · <a href="lect-17.pdf">Student PDF</a></li>
-        </ul>
+        <p>The web notes were converted and edited with OpenAI’s Codex from the instructor’s original notes, written without AI. The instructor reviews them, but conversion may introduce errors. See the <a href="syllabus.html#instructor-ai">AI disclosure</a> and <a href="#course-materials">original notes</a>.</p>
+        <a class="map-node" href="preface.html">
+          <strong>Preface</strong>
+          <span>Why study mathematical statistics, how to use the notes, and how to learn independently.</span>
+          <b>Read the guide <span aria-hidden="true">→</span></b>
+        </a>
+        <nav class="course-map" aria-label="Seven course parts">
+          <a href="#part-1" aria-label="Part I: Foundations: the language of probability"><strong>I</strong><span>Foundations</span></a>
+          <a href="#part-2" aria-label="Part II: Statistical models and estimators"><strong>II</strong><span>Models</span></a>
+          <a href="#part-3" aria-label="Part III: Large-sample theory"><strong>III</strong><span>Large samples</span></a>
+          <a href="#part-4" aria-label="Part IV: Optimality"><strong>IV</strong><span>Optimality</span></a>
+          <a href="#part-5" aria-label="Part V: High dimensions: tools and phenomena"><strong>V</strong><span>High dimensions</span></a>
+          <a href="#part-6" aria-label="Part VI: Shrinkage and sparsity; optional"><strong>VI</strong><span>Shrinkage*</span></a>
+          <a href="#part-7" class="map-coming" aria-label="Part VII: Testing and confidence sets; coming later"><strong>VII</strong><span>Testing</span></a>
+        </nav>
+        <p class="course-connections">Connections across parts: I → IV through conditional expectation; I → V through tail bounds; II → VI through bias and variance.</p>
+        <p id="optional-lectures">* Part VI is optional. Lectures 18–20 are optional topics. Their entries are placeholders; notes and downloads will be added later.</p>
+        <p class="muted" id="downloads-heading">Lecture notes and downloads are listed together below: read online (HTML) or download the student PDF.</p>
+        <section class="course-part" id="part-1" data-course-part="1" aria-labelledby="part-1-heading">
+          <h3 id="part-1-heading"><span class="part-number">Part I · Lectures 1–5</span>Foundations: the language of probability</h3>
+          <p class="part-overview-link"><a href="part-1.html">Part overview and checkpoint</a></p>
+          <p class="part-question">How do we describe randomness precisely enough to prove things about it?</p>
+          <p class="part-summary">Build the language of probability, integration, and conditional expectation used throughout statistical theory.</p>
+          <ul class="lecture-list">
+            <li class="lecture-row" data-lecture="1">
+              <span class="lecture-title"><strong>Lecture 1</strong> — Mathematical basics for statistics</span>
+              <span class="lecture-links"><a href="lect-1.html" aria-label="Lecture 1 HTML notes">HTML</a><a href="lect-1.pdf" aria-label="Lecture 1 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="2">
+              <span class="lecture-title"><strong>Lecture 2</strong> — Measure spaces, measures, and random variables</span>
+              <span class="lecture-links"><a href="lect-2.html" aria-label="Lecture 2 HTML notes">HTML</a><a href="lect-2.pdf" aria-label="Lecture 2 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="3">
+              <span class="lecture-title"><strong>Lecture 3</strong> — Integration, convergence theorems, and densities</span>
+              <span class="lecture-links"><a href="lect-3.html" aria-label="Lecture 3 HTML notes">HTML</a><a href="lect-3.pdf" aria-label="Lecture 3 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="4">
+              <span class="lecture-title"><strong>Lecture 4</strong> — Expectation, inequalities, and applications</span>
+              <span class="lecture-links"><a href="lect-4.html" aria-label="Lecture 4 HTML notes">HTML</a><a href="lect-4.pdf" aria-label="Lecture 4 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="5">
+              <span class="lecture-title"><strong>Lecture 5</strong> — Independence and statistical applications</span>
+              <span class="lecture-links"><a href="lect-5.html" aria-label="Lecture 5 HTML notes">HTML</a><a href="lect-5.pdf" aria-label="Lecture 5 student PDF">PDF</a></span>
+            </li>
+          </ul>
+        </section>
+        <section class="course-part" id="part-2" data-course-part="2" aria-labelledby="part-2-heading">
+          <h3 id="part-2-heading"><span class="part-number">Part II · Lectures 6–8</span>Statistical models and estimators</h3>
+          <p class="part-overview-link"><a href="part-2.html">Part overview and checkpoint</a></p>
+          <p class="part-question">What makes an estimator good, and how do we build one?</p>
+          <p class="part-summary">Use models, sufficiency, loss and risk to compare estimators, then construct them through moments and likelihood.</p>
+          <ul class="lecture-list">
+            <li class="lecture-row" data-lecture="6">
+              <span class="lecture-title"><strong>Lecture 6</strong> — Statistical decision theory and sufficiency</span>
+              <span class="lecture-links"><a href="lect-6.html" aria-label="Lecture 6 HTML notes">HTML</a><a href="lect-6.pdf" aria-label="Lecture 6 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="7">
+              <span class="lecture-title"><strong>Lecture 7</strong> — Bias–variance tradeoff and regularization</span>
+              <span class="lecture-links"><a href="lect-7.html" aria-label="Lecture 7 HTML notes">HTML</a><a href="lect-7.pdf" aria-label="Lecture 7 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="8">
+              <span class="lecture-title"><strong>Lecture 8</strong> — Moments and maximum likelihood</span>
+              <span class="lecture-links"><a href="lect-8.html" aria-label="Lecture 8 HTML notes">HTML</a><a href="lect-8.pdf" aria-label="Lecture 8 student PDF">PDF</a></span>
+            </li>
+          </ul>
+        </section>
+        <section class="course-part" id="part-3" data-course-part="3" aria-labelledby="part-3-heading">
+          <h3 id="part-3-heading"><span class="part-number">Part III · Lectures 9–11</span>Large-sample theory</h3>
+          <p class="part-overview-link"><a href="part-3.html">Part overview and checkpoint</a></p>
+          <p class="part-question">What happens to estimators as the sample size grows?</p>
+          <p class="part-summary">Study consistency and Gaussian approximations, and learn when limit theorems justify an approximation.</p>
+          <ul class="lecture-list">
+            <li class="lecture-row" data-lecture="9">
+              <span class="lecture-title"><strong>Lecture 9</strong> — Convergence, laws of large numbers, and consistency</span>
+              <span class="lecture-links"><a href="lect-9.html" aria-label="Lecture 9 HTML notes">HTML</a><a href="lect-9.pdf" aria-label="Lecture 9 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="10">
+              <span class="lecture-title"><strong>Lecture 10</strong> — Weak convergence and the central limit theorem</span>
+              <span class="lecture-links"><a href="lect-10.html" aria-label="Lecture 10 HTML notes">HTML</a><a href="lect-10.pdf" aria-label="Lecture 10 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="11">
+              <span class="lecture-title"><strong>Lecture 11</strong> — Asymptotic normality and the delta method</span>
+              <span class="lecture-links"><a href="lect-11.html" aria-label="Lecture 11 HTML notes">HTML</a><a href="lect-11.pdf" aria-label="Lecture 11 student PDF">PDF</a></span>
+            </li>
+          </ul>
+        </section>
+        <section class="course-part" id="part-4" data-course-part="4" aria-labelledby="part-4-heading">
+          <h3 id="part-4-heading"><span class="part-number">Part IV · Lectures 12–13</span>Optimality</h3>
+          <p class="part-overview-link"><a href="part-4.html">Part overview and checkpoint</a></p>
+          <p class="part-question">How good can an estimator possibly be?</p>
+          <p class="part-summary">Find the best unbiased estimators and use Fisher information to bound the precision of estimation.</p>
+          <ul class="lecture-list">
+            <li class="lecture-row" data-lecture="12">
+              <span class="lecture-title"><strong>Lecture 12</strong> — Unbiased estimation and UMVUE</span>
+              <span class="lecture-links"><a href="lect-12.html" aria-label="Lecture 12 HTML notes">HTML</a><a href="lect-12.pdf" aria-label="Lecture 12 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="13">
+              <span class="lecture-title"><strong>Lecture 13</strong> — Fisher information and the Cramér–Rao bound</span>
+              <span class="lecture-links"><a href="lect-13.html" aria-label="Lecture 13 HTML notes">HTML</a><a href="lect-13.pdf" aria-label="Lecture 13 student PDF">PDF</a></span>
+            </li>
+          </ul>
+        </section>
+        <section class="course-part" id="part-5" data-course-part="5" aria-labelledby="part-5-heading">
+          <h3 id="part-5-heading"><span class="part-number">Part V · Lectures 14–17</span>High dimensions: tools and phenomena</h3>
+          <p class="part-overview-link"><a href="part-5.html">Part overview and checkpoint</a></p>
+          <p class="part-question">What changes when the number of parameters grows with the sample size?</p>
+          <p class="part-summary">Use concentration and random matrix tools to understand high-dimensional estimation, PCA, and regression.</p>
+          <ul class="lecture-list">
+            <li class="lecture-row" data-lecture="14">
+              <span class="lecture-title"><strong>Lecture 14</strong> — Concentration inequalities</span>
+              <span class="lecture-links"><a href="lect-14.html" aria-label="Lecture 14 HTML notes">HTML</a><a href="lect-14.pdf" aria-label="Lecture 14 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="15">
+              <span class="lecture-title"><strong>Lecture 15</strong> — Random vectors in high dimensions</span>
+              <span class="lecture-links"><a href="lect-15.html" aria-label="Lecture 15 HTML notes">HTML</a><a href="lect-15.pdf" aria-label="Lecture 15 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="16">
+              <span class="lecture-title"><strong>Lecture 16</strong> — Norms of random matrices</span>
+              <span class="lecture-links"><a href="lect-16.html" aria-label="Lecture 16 HTML notes">HTML</a><a href="lect-16.pdf" aria-label="Lecture 16 student PDF">PDF</a></span>
+            </li>
+            <li class="lecture-row" data-lecture="17">
+              <span class="lecture-title"><strong>Lecture 17</strong> — High-dimensional statistical phenomena</span>
+              <span class="lecture-links"><a href="lect-17.html" aria-label="Lecture 17 HTML notes">HTML</a><a href="lect-17.pdf" aria-label="Lecture 17 student PDF">PDF</a></span>
+            </li>
+          </ul>
+        </section>
+        <section class="course-part" id="part-6" data-course-part="6" data-optional="true" aria-labelledby="part-6-heading">
+          <h3 id="part-6-heading"><span class="part-number">Part VI · Lectures 18–20</span>Shrinkage and sparsity* (optional)</h3>
+          <p class="part-overview-link"><a href="part-6.html">Part overview</a></p>
+          <p class="part-question">How do we estimate well when the dimension is large?</p>
+          <p class="part-summary">Explore how shrinkage, thresholding, and sparse recovery improve estimation in high dimensions.</p>
+          <ul class="lecture-list">
+            <li class="lecture-row lecture-placeholder" id="lecture-18-placeholder" aria-describedby="optional-lectures" data-lecture="18">
+              <span class="lecture-title"><strong>Lecture 18</strong> — Stein’s phenomenon and shrinkage estimation*</span>
+              <span class="placeholder-status">Optional · Notes forthcoming</span>
+            </li>
+            <li class="lecture-row lecture-placeholder" id="lecture-19-placeholder" aria-describedby="optional-lectures" data-lecture="19">
+              <span class="lecture-title"><strong>Lecture 19</strong> — Denoising via shrinkage*</span>
+              <span class="placeholder-status">Optional · Notes forthcoming</span>
+            </li>
+            <li class="lecture-row lecture-placeholder" id="lecture-20-placeholder" aria-describedby="optional-lectures" data-lecture="20">
+              <span class="lecture-title"><strong>Lecture 20</strong> — Basis pursuit, compressed sensing, and LASSO*</span>
+              <span class="placeholder-status">Optional · Notes forthcoming</span>
+            </li>
+          </ul>
+        </section>
+        <section class="course-part" id="part-7" data-course-part="7" aria-labelledby="part-7-heading">
+          <h3 id="part-7-heading"><span class="part-number">Part VII · Coming later</span>Testing and confidence sets</h3>
+          <p class="part-overview-link"><a href="part-7.html">Part overview</a></p>
+          <p class="part-question">How do we turn estimates into decisions and uncertainty statements?</p>
+          <p class="part-summary">Hypothesis testing and confidence sets. Lecture notes will be added here; no lectures are assigned to this part yet.</p>
+        </section>
         <details class="disclosure">
           <summary>How to read the priority tiers</summary>
           <div class="disclosure-body">
@@ -444,83 +532,26 @@
       </section>
 
       <section class="content-section" id="grading" aria-labelledby="grading-heading">
-        <h2 id="grading-heading">Grading</h2>
-        <div class="table-wrap">
-          <table>
-            <caption>Course grade: 100 points in total</caption>
-            <thead><tr><th scope="col">Component</th><th scope="col" class="number">Points</th><th scope="col" class="number">Weight</th></tr></thead>
-            <tbody>
-              <tr><th scope="row">Class participation</th><td class="number">20</td><td class="number">20%</td></tr>
-              <tr><th scope="row">Homework assignments</th><td class="number">20</td><td class="number">20%</td></tr>
-              <tr><th scope="row">Midterm examination</th><td class="number">20</td><td class="number">20%</td></tr>
-              <tr><th scope="row">Final examination</th><td class="number">40</td><td class="number">40%</td></tr>
-            </tbody>
-            <tfoot><tr><th scope="row">Total</th><td class="number">100</td><td class="number">100%</td></tr></tfoot>
-          </table>
-        </div>
-        <p><strong>Bonus points.</strong> Details, if any, are to be determined.</p>
-        <h3>Letter grades</h3>
-        <p>Final letter grades will be determined in light of the class’s overall performance. The <a href="https://kb.wisc.edu/luwmad/135037">official UW–Madison Canvas Grading Schemes page</a> explains how numerical scores are converted into letter grades.</p>
-        <p class="muted">The percentages on that page are examples or pre-built Canvas settings, not university-mandated cutoffs. They should not be read as the grading thresholds for STAT 709.</p>
+        <h2 id="grading-heading">Grading</h2><p>Participation 20% · Homework 20% · Midterm 20% · Final 40%. See the <a href="syllabus.html#grading">full grading policy</a>.</p>
       </section>
 
       <section class="content-section" id="homework" aria-labelledby="homework-heading">
-        <h2 id="homework-heading">Homework</h2>
-        <p><a href="homework/HW1.pdf"><strong>Homework 1 — Assignment PDF</strong></a></p>
-        <p><a href="homework/HW2.pdf"><strong>Homework 2 — Assignment PDF</strong></a></p>
-        <p><a href="homework/HW3.pdf"><strong>Homework 3 — Assignment PDF</strong></a></p>
-        <p><a href="homework/HW4.pdf"><strong>Homework 4 — Assignment PDF</strong></a></p>
-        <p><a href="homework/HW5.pdf"><strong>Homework 5 — Assignment PDF</strong></a></p>
-        <p>Weekly assignments provide practice with the definitions, calculations, and proofs developed in class. Problems will come from several sources, including Jun Shao’s <cite>Mathematical Statistics</cite>, second edition.</p>
-        <ul>
-          <li><strong>Posting and deadlines.</strong> Homework will normally be posted by Sunday evening and due approximately one week later. Consult Canvas for each assignment’s exact deadline.</li>
-          <li><strong>Submission.</strong> Submit all work through Canvas. LaTeX and legible handwritten solutions are both acceptable.</li>
-        </ul>
-        <div class="policy-note">
-          <h3>Late submissions</h3>
-          <p>A <strong>20% deduction</strong> applies to work submitted after the deadline but before solutions are posted. Work submitted after solutions are posted receives <strong>no credit</strong>.</p>
-        </div>
+        <h2 id="homework-heading">Homework</h2><p>Submit through Canvas; exact deadlines are posted there. Read the <a href="syllabus.html#homework">homework rules</a>, including <a href="syllabus.html#generative-ai">AI disclosure</a> and <a href="syllabus.html#collaboration">collaboration</a>.</p><p><a href="homework/HW1.pdf"><strong>Homework 1 — Assignment PDF</strong></a></p><p><a href="homework/HW2.pdf"><strong>Homework 2 — Assignment PDF</strong></a></p><p><a href="homework/HW3.pdf"><strong>Homework 3 — Assignment PDF</strong></a></p><p><a href="homework/HW4.pdf"><strong>Homework 4 — Assignment PDF</strong></a></p><p><a href="homework/HW5.pdf"><strong>Homework 5 — Assignment PDF</strong></a></p>
       </section>
 
       <section class="content-section" id="examinations" aria-labelledby="exams-heading">
-        <h2 id="exams-heading">Examinations</h2>
-        <div class="exam-grid">
-          <section class="exam" aria-labelledby="midterm-heading">
-            <h3 id="midterm-heading">Midterm</h3>
-            <dl>
-              <dt>Date</dt><dd>To be announced · In class</dd>
-              <dt>Duration</dt><dd>75 minutes</dd>
-              <dt>Location</dt><dd>Van Vleck B211</dd>
-            </dl>
-          </section>
-          <section class="exam" aria-labelledby="final-heading">
-            <h3 id="final-heading">Final examination</h3>
-            <dl>
-              <dt>Date</dt><dd>To be announced</dd>
-              <dt>Duration</dt><dd>2 hours</dd>
-              <dt>Location</dt><dd>To be announced</dd>
-            </dl>
-          </section>
-        </div>
-        <p><strong>Notes and calculators.</strong> For each exam, you may bring up to two double-sided A4-sized sheets of notes. No calculator is required.</p>
-        <p><strong>Exam scope in the lecture notes.</strong> High- and mid-priority material is in scope for examinations. Low-priority material will not be examined; further reading is optional exploration. See the <a href="preface.html#priority-guide-heading">preface’s priority guide</a> for details.</p>
+        <h2 id="exams-heading">Examinations</h2><p><strong id="midterm-heading">Midterm: October 14, 2026</strong> · In class · 75 minutes · Van Vleck B211. <span id="final-heading">The final is two hours; date and location are to be announced.</span> See <a href="syllabus.html#examinations">exam rules and permitted notes</a>.</p>
       </section>
 
       <section class="content-section" id="communication" aria-labelledby="communication-heading">
-        <h2 id="communication-heading">Communication</h2>
-        <ul>
-          <li><strong>Office hours.</strong> The instructor and teaching assistant hold office hours each week. See the <a href="#course-information">course information above</a> for the current details.</li>
-          <li><strong>General course questions.</strong> Use the Canvas Discussions area. You may post anonymously where that option is enabled.</li>
-          <li><strong>Urgent or private matters.</strong> Email the instructor or teaching assistant, including when illness affects your coursework.</li>
-        </ul>
-        <p><a href="https://canvas.wisc.edu/">Sign in to UW–Madison Canvas</a> for assignment submissions and course discussions.</p>
+        <h2 id="communication-heading">Communication</h2><p>Use Canvas Discussions for general questions and email for private or urgent matters. See <a href="syllabus.html#communication">communication details</a> and <a href="syllabus.html#university-policies">student support and accommodations</a>.</p>
       </section>
 
       <section class="content-section" id="course-materials" aria-labelledby="materials-heading">
         <h2 id="materials-heading">References and resources</h2>
         <h3>Original lecture notes</h3>
         <p><a href="resources/Lectures-STAT709.zip" download>Download the original lecture notes (ZIP)</a> — PDF files for Lectures 1–20.</p>
-        <p>These original lecture notes were <strong>100% written by humans</strong>; no AI was used.</p>
+        <p>These are the instructor’s original notes, written without AI. See <a href="syllabus.html#instructor-ai">how AI is used in the web edition</a>.</p>
         <h3>Principal texts</h3>
         <ul>
           <li>Peter J. Bickel and Kjell A. Doksum, <cite>Mathematical Statistics: Basic Ideas and Selected Topics</cite>, Volume I, second edition.</li>
@@ -540,14 +571,14 @@
           </div>
         </details>
       </section>
-      <p class="source-note">Course-policy reference: September 3, 2026. Dates and arrangements marked “To be announced” have not yet been specified in the policy document.</p>
+      <p class="source-note">What changed · October 13, 2026: full course policies, AI and collaboration rules, and UW support information are now gathered in the <a href="syllabus.html">Syllabus</a>. The course has seven parts; Part VI is optional and Part VII awaits lecture notes.</p>
     </main>
   </div>
 
   <footer class="course-footer">
     <p>STAT 709 · Department of Statistics · University of Wisconsin–Madison</p>
     <p>Fall 2026 · <a href="#top">Back to top ↑</a></p>
-  </footer>
+  <!--REPORT-FOOTER--><p class="report-tools"><a data-report-issue href="report-issue.html#page=index">Report an issue</a></p><!--END-REPORT--></footer>
   <script>
     (() => {
       'use strict';
@@ -558,7 +589,7 @@
       syncNavigation();
       narrowScreen.addEventListener('change', syncNavigation);
 
-      const links = [...document.querySelectorAll('.page-nav nav a')];
+      const links = [...document.querySelectorAll('.page-nav nav a[href^="#"]')];
       const sections = links.map(link => document.querySelector(link.getAttribute('href')));
       let scheduled = false;
       function updateCurrentSection() {

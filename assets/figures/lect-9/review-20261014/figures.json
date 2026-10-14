@@ -1,0 +1,35 @@
+{
+  "generator": "scripts/figure-review-20261014.py",
+  "provenance": "Original STAT 709 drawings from canonical examples; synthetic samples are explicitly labeled. No external artwork copied.",
+  "figures": [
+    {
+      "lecture": 9,
+      "name": "convergence-grid",
+      "title": "Convergence in probability and sample paths",
+      "alt": "Gold cells mark errors exceeding a fixed tolerance. A column compares outcomes at one n; each row follows one outcome through time. The finite schematic illustrates the quantifiers, not a proof of convergence.",
+      "svg": "assets/figures/lect-9/review-20261014/convergence-grid.svg",
+      "png": "assets/figures/lect-9/review-20261014/convergence-grid.png",
+      "panels": [
+        "assets/figures/lect-9/review-20261014/convergence-grid-panel-1.svg",
+        "assets/figures/lect-9/review-20261014/convergence-grid-panel-2.svg"
+      ],
+      "sha256": {
+        "svg": "6fd06d462bfd63a855fb0970099c17b7d52259b783cd8510bbda844179492bdb",
+        "png": "fcaeb08b5efb51855338868668023c1944839830d0f30c4ad7a3f5667abf33b8"
+      }
+    },
+    {
+      "lecture": 9,
+      "name": "normal-scales",
+      "title": "Normal errors at three scales",
+      "alt": "Centered Normal densities with standard deviations 0.4, 1 and 2 have unit area. Smaller error scales concentrate probability near zero.",
+      "svg": "assets/figures/lect-9/review-20261014/normal-scales.svg",
+      "png": "assets/figures/lect-9/review-20261014/normal-scales.png",
+      "panels": [],
+      "sha256": {
+        "svg": "3fd66cf194f27a9082a3c9b015891c6d79bb4e6e3a7bc9d1e3658f58aac26ed2",
+        "png": "323865293ce3490f6d9874adbc1f7ab6740363bac2c93b9cbfe3b53132f1888a"
+      }
+    }
+  ]
+}

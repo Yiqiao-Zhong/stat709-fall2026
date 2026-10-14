@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="259.2pt" version="1.1" viewBox="0 0 324 259.2" width="324pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>A Gaussian chain and its matrices</title><desc>The chain has no edge from X1 to X3: precision entry Theta13 is zero. Their covariance Sigma13 is one, so marginal independence does not follow.</desc>
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.3.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 259.2 
+L 324 259.2 
+L 324 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path clip-path="url(#p58607ec5a1)" d="M 53.880163 129.6 
+L 162 129.6 
+L 270.119837 129.6 
+" style="fill:none;stroke:#18384e;stroke-linecap:square;stroke-width:2;"/>
+   </g>
+   <g id="patch_2">
+    <path clip-path="url(#p58607ec5a1)" d="M 53.880163 156.18595 
+C 62.735281 156.18595 71.228909 153.384686 77.490423 148.399105 
+C 83.751937 143.413524 87.270113 136.650676 87.270113 129.6 
+C 87.270113 122.549324 83.751937 115.786476 77.490423 110.800895 
+C 71.228909 105.815314 62.735281 103.01405 53.880163 103.01405 
+C 45.025045 103.01405 36.531418 105.815314 30.269903 110.800895 
+C 24.008389 115.786476 20.490214 122.549324 20.490214 129.6 
+C 20.490214 136.650676 24.008389 143.413524 30.269903 148.399105 
+C 36.531418 153.384686 45.025045 156.18595 53.880163 156.18595 
+z
+" style="fill:#dcedeb;stroke:#087e83;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_3">
+    <path clip-path="url(#p58607ec5a1)" d="M 162 156.18595 
+C 170.855118 156.18595 179.348746 153.384686 185.61026 148.399105 
+C 191.871774 143.413524 195.38995 136.650676 195.38995 129.6 
+C 195.38995 122.549324 191.871774 115.786476 185.61026 110.800895 
+C 179.348746 105.815314 170.855118 103.01405 162 103.01405 
+C 153.144882 103.01405 144.651254 105.815314 138.38974 110.800895 
+C 132.128226 115.786476 128.61005 122.549324 128.61005 129.6 
+C 128.61005 136.650676 132.128226 143.413524 138.38974 148.399105 
+C 144.651254 153.384686 153.144882 156.18595 162 156.18595 
+z
+" style="fill:#dcedeb;stroke:#087e83;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_4">
+    <path clip-path="url(#p58607ec5a1)" d="M 270.119837 156.18595 
+C 278.974955 156.18595 287.468582 153.384686 293.730097 148.399105 
+C 299.991611 143.413524 303.509786 136.650676 303.509786 129.6 
+C 303.509786 122.549324 299.991611 115.786476 293.730097 110.800895 
+C 287.468582 105.815314 278.974955 103.01405 270.119837 103.01405 
+C 261.264719 103.01405 252.771091 105.815314 246.509577 110.800895 
+C 240.248063 115.786476 236.729887 122.549324 236.729887 129.6 
+C 236.729887 136.650676 240.248063 143.413524 246.509577 148.399105 
+C 252.771091 153.384686 261.264719 156.18595 270.119837 156.18595 
+z
+" style="fill:#dcedeb;stroke:#087e83;stroke-linejoin:miter;"/>
+   </g>
+   <g id="text_1">
+    <!-- $X_1$ -->
+    <g style="fill:#18384e;" transform="translate(44.020163 134.290937)">
+     <text>
+      <tspan style="font-family:DejaVu Sans;font-size:17px;font-style:oblique;font-weight:oblique;" x="0" y="-0.609375">X</tspan>
+      <tspan style="font-family:DejaVu Sans;font-size:11.9px;font-style:book;font-weight:book;" x="11.645996" y="2.1796875">1</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- $X_2$ -->
+    <g style="fill:#18384e;" transform="translate(152.14 134.290937)">
+     <text>
+      <tspan style="font-family:DejaVu Sans;font-size:17px;font-style:oblique;font-weight:oblique;" x="0" y="-0.609375">X</tspan>
+      <tspan style="font-family:DejaVu Sans;font-size:11.9px;font-style:book;font-weight:book;" x="11.645996" y="2.1796875">2</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- $X_3$ -->
+    <g style="fill:#18384e;" transform="translate(260.259837 134.290937)">
+     <text>
+      <tspan style="font-family:DejaVu Sans;font-size:17px;font-style:oblique;font-weight:oblique;" x="0" y="-0.609375">X</tspan>
+      <tspan style="font-family:DejaVu Sans;font-size:11.9px;font-style:book;font-weight:book;" x="11.645996" y="2.1796875">3</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p58607ec5a1">
+   <rect height="253.19952" width="317.99952" x="3.00024" y="3.00024"/>
+  </clipPath>
+ </defs>
+</svg>

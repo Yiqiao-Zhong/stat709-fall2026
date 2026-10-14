@@ -1,8 +1,5 @@
 # Original Lecture 7 figures
 
-**Student-site copy.** Generator and canonical-source paths below refer to the sibling `STAT709-html-conversion` preparation repository. Rights are described in the [hosting notice](../../../../README.md#third-party-notices).
-
-
 These five PNGs are byte-for-byte copies of assets referenced by
 `../latex/lect-7.tex`, kept here so the revised canonical source compiles
 independently of that external folder. `provenance.json` records original

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private issue report
+    url: https://yiqiao-zhong.github.io/stat709-fall2026/report-issue.html#private
+    about: Email the instructor privately; no GitHub account required.

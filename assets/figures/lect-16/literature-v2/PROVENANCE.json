@@ -20,6 +20,23 @@
   },
   {
     "lecture": 16,
+    "file": "assets/figures/lect-16/literature-v2/svd.png",
+    "author": "Georg-Johann",
+    "title": "Singular-Value-Decomposition.svg (2010)",
+    "url": "https://commons.wikimedia.org/wiki/File:Singular-Value-Decomposition.svg",
+    "downloadFile": "svd.png",
+    "transform": "Unmodified source image.",
+    "license": "CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/",
+    "sha256": "3905b3e5ab8e85d65713764452cbd396ac72395ef7842e0958ba75e7105e6be9",
+    "sourceVector": {
+      "file": "assets/figures/lect-16/literature-v2/svd-original.svg",
+      "sha256": "beb1d33353d4b5fe3f2f375235c18cebcf2d2e1500f55458440ce5258b058e9a",
+      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Singular-Value-Decomposition.svg"
+    }
+  },
+  {
+    "lecture": 16,
     "file": "assets/figures/lect-16/literature-v2/svd-transpose.png",
     "author": "Georg-Johann; transpose-label adaptation for STAT 709",
     "title": "Singular value decomposition with transpose notation",
