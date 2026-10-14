@@ -1,0 +1,28 @@
+{
+  "sourceUrl": "https://stat.cmu.edu/~ryantibs/papers/ridgeless.pdf",
+  "title": "Surprises in High-Dimensional Ridgeless Least Squares Interpolation",
+  "authors": [
+    "Trevor Hastie",
+    "Andrea Montanari",
+    "Saharon Rosset",
+    "Ryan J. Tibshirani"
+  ],
+  "figure": "2",
+  "pdfPage": 10,
+  "sourcePageCount": 53,
+  "retrieved": "2026-10-13 (downloaded in preceding figure review)",
+  "sourceSha256": "384ebf2261e3f9256718399edf5bb4b550c0fbee4bd93c271af22ae5a92f74c1",
+  "cropPointsBottomLeft": [
+    155,
+    208,
+    457,
+    483
+  ],
+  "transform": "Plot-only PDF excerpt; axes, curves, points, colors and legend unchanged. PNG rendered from this vector excerpt at 300 dpi. Caption and notation key supplied in canonical lecture source.",
+  "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt selected by the instructor for course materials.",
+  "status": "selected for Lecture 17; website publication authorized October 13, 2026",
+  "files": {
+    "isotropic-risk.pdf": "fa8b800152b3aaffd0714780e41ed17eebabc56370d27915233f76587e1ef1b7",
+    "isotropic-risk.png": "491aa8115f74f23e1e93aa2887da6d9999a1ec59331e9e937740699a4df07154"
+  }
+}

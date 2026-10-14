@@ -21,6 +21,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 13: [HTML](lect-13.html) · [Student PDF](lect-13.pdf)
 - Lecture 15: [HTML](lect-15.html) · [Student PDF](lect-15.pdf)
 - Lecture 16: [HTML](lect-16.html) · [Student PDF](lect-16.pdf)
+- Lecture 17: [HTML](lect-17.html) · [Student PDF](lect-17.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 - [Homework 2 assignment](homework/HW2.pdf)
@@ -82,3 +83,5 @@ Lecture 13 retains its original Fisher-information illustrations and Stpasha’s
 Lecture 15 retains the instructor’s original cloud image and the course Gaussian-shell illustration in `assets/figures/lect-15/`, with mathematical source and provenance. Its removed Figure 2 and rejected replacements are not hosted.
 
 Lecture 16 uses Georg-Johann’s SVD diagram adapted to transpose notation (CC BY-SA 3.0) and an attributed covering/packing excerpt from Vershynin. Selected figures, the original SVD vector and provenance are in `assets/figures/lect-16/literature-v2/`.
+
+Lecture 17 retains the attributed Belkin et al. double-descent schematic, Hastie et al. isotropic prediction-risk plot, and NeuroData community-network image in `assets/figures/lect-17/`. Source credits, notation explanations and provenance accompany the selected figures. Removed figures and complete research papers are not hosted.

@@ -1,0 +1,9 @@
+{
+  "file": "sbm.png",
+  "sourceUrl": "https://docs.neurodata.io/graph-stats-book/representations/ch5/single-network-models_SBM.html",
+  "sourceTitle": "NeuroData Graph Statistics book: stochastic block models",
+  "origin": "Inherited from the instructor original Lecture 17 assets; displayed unchanged.",
+  "sha256": "254d21d6c17aad54d6c258114d30f5fa3c61d22e05abf777241306a886965c60",
+  "notation": "Source image uses within-community probabilities 0.6 and 0.4 and between-community probability 0.2; course caption explains the lecture simplification to common within-community probability p.",
+  "license": "Source attribution retained; no new license asserted."
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "lecture": 17,
+    "file": "assets/figures/lect-17/literature-v2/double-descent.png",
+    "author": "Mikhail Belkin, Daniel Hsu, Siyuan Ma and Soumik Mandal",
+    "title": "Reconciling modern machine-learning practice and the classical bias–variance trade-off (2019)",
+    "url": "https://www.cs.columbia.edu/~djhsu/papers/biasvariance-pnas.pdf",
+    "figure": "1",
+    "pdfPage": 2,
+    "downloadSha256": "1a4d726643f2cab1d592f49ff8a595532fd010de4e688ddfb72d6afe126ebf80",
+    "cropPixelsOn1400Preview": [
+      72,
+      89,
+      985,
+      307
+    ],
+    "transform": "Diagram-only crop, rasterized at 300 dpi; no redrawing or relabeling.",
+    "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt for course materials.",
+    "sha256": "f0971a7c99e238550af5304c04d3152e13ea0ccf9a90e58ba261ec2ff3c102c7"
+  }
+]
