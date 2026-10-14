@@ -19,6 +19,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 11: [HTML](lect-11.html) · [Student PDF](lect-11.pdf)
 - Lecture 12: [HTML](lect-12.html) · [Student PDF](lect-12.pdf)
 - Lecture 13: [HTML](lect-13.html) · [Student PDF](lect-13.pdf)
+- Lecture 14: [HTML](lect-14.html) · [Student PDF](lect-14.pdf)
 - Lecture 15: [HTML](lect-15.html) · [Student PDF](lect-15.pdf)
 - Lecture 16: [HTML](lect-16.html) · [Student PDF](lect-16.pdf)
 - Lecture 17: [HTML](lect-17.html) · [Student PDF](lect-17.pdf)
@@ -85,3 +86,5 @@ Lecture 15 retains the instructor’s original cloud image and the course Gaussi
 Lecture 16 uses Georg-Johann’s SVD diagram adapted to transpose notation (CC BY-SA 3.0) and an attributed covering/packing excerpt from Vershynin. Selected figures, the original SVD vector and provenance are in `assets/figures/lect-16/literature-v2/`.
 
 Lecture 17 retains the attributed Belkin et al. double-descent schematic, Hastie et al. isotropic prediction-risk plot, and NeuroData community-network image in `assets/figures/lect-17/`. Source credits, notation explanations and provenance accompany the selected figures. Removed figures and complete research papers are not hosted.
+
+Lecture 14 retains the instructor’s original tail-deviation sketch in `assets/figures/lect-14/original/`, with inherited provenance and its checksum. The removed numbered Bernstein-radius plot and explorer are not hosted.
