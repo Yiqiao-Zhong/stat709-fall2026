@@ -1,0 +1,97 @@
+[
+  {
+    "lecture": 19,
+    "file": "assets/figures/lect-19/literature-v2/norm-balls.png",
+    "author": "Iain M. Johnstone",
+    "title": "Gaussian Estimation: Sequence and Wavelet Models, August 9, 2017",
+    "url": "https://imjohnstone.su.domains/GE_08_09_17.pdf",
+    "figure": "1.5",
+    "pdfPage": 28,
+    "downloadSha256": "50bd4cdfd94bd577c08977b0b63ae4a60e5deea2d4fd863286d316127608764a",
+    "cropPixelsOn1400Preview": [
+      402,
+      206,
+      647,
+      403
+    ],
+    "transform": "Diagram-only crop, rasterized at 300 dpi; no redrawing or relabeling.",
+    "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "ddf90db74536bd9c647059b6677d35ee60069e5e8b59ebb676371690b7ddf05a"
+  },
+  {
+    "lecture": 19,
+    "file": "assets/figures/lect-19/literature-v2/nmr-denoising.png",
+    "author": "Iain M. Johnstone",
+    "title": "Gaussian Estimation: Sequence and Wavelet Models, August 9, 2017",
+    "url": "https://imjohnstone.su.domains/GE_08_09_17.pdf",
+    "figure": "1.2",
+    "pdfPage": 24,
+    "downloadSha256": "50bd4cdfd94bd577c08977b0b63ae4a60e5deea2d4fd863286d316127608764a",
+    "cropPixelsOn1400Preview": [
+      200,
+      208,
+      845,
+      741
+    ],
+    "transform": "Diagram-only crop, rasterized at 300 dpi; no redrawing or relabeling.",
+    "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "1dc6296fe833dab41688811ab40c8d1b5a2d2f3f7e8e181472c42afa90479ad2"
+  },
+  {
+    "lecture": 19,
+    "file": "assets/figures/lect-19/literature-v2/wavelet-basis.png",
+    "author": "Iain M. Johnstone",
+    "title": "Gaussian Estimation: Sequence and Wavelet Models, August 9, 2017",
+    "url": "https://imjohnstone.su.domains/GE_08_09_17.pdf",
+    "figure": "7.1, left panel",
+    "pdfPage": 210,
+    "downloadSha256": "50bd4cdfd94bd577c08977b0b63ae4a60e5deea2d4fd863286d316127608764a",
+    "cropPixelsOn1400Preview": [
+      228,
+      648,
+      526,
+      886
+    ],
+    "transform": "Diagram-only crop, rasterized at 300 dpi; no redrawing or relabeling.",
+    "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "acc0e149ff1c2001797c1e8953d40c83f20bc960d66b323b5afb148385483b3a"
+  },
+  {
+    "lecture": 19,
+    "file": "assets/figures/lect-19/literature-v2/threshold-maps.png",
+    "author": "Iain M. Johnstone",
+    "title": "Gaussian Estimation: Sequence and Wavelet Models, August 9, 2017",
+    "url": "https://imjohnstone.su.domains/GE_08_09_17.pdf",
+    "figure": "2.2",
+    "pdfPage": 45,
+    "downloadSha256": "50bd4cdfd94bd577c08977b0b63ae4a60e5deea2d4fd863286d316127608764a",
+    "cropPixelsOn1400Preview": [
+      281,
+      202,
+      774,
+      431
+    ],
+    "transform": "Diagram-only crop, rasterized at 300 dpi; no redrawing or relabeling.",
+    "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "7d0df622e20b2bc600e1fbda5f9eaa77342250db6d16b525669a32bdfc802081"
+  },
+  {
+    "lecture": 19,
+    "file": "assets/figures/lect-19/literature-v2/penalty-derivatives.png",
+    "author": "Patrick Breheny and Jian Huang",
+    "title": "Coordinate descent algorithms for nonconvex penalized regression (2011)",
+    "url": "https://arxiv.org/pdf/1104.2748",
+    "figure": "1",
+    "pdfPage": 5,
+    "downloadSha256": "de927cb0c32b184e92a52f210cd3f92568e86d66c89e90cd1b05e260854c7474",
+    "cropPixelsOn1400Preview": [
+      275,
+      257,
+      805,
+      520
+    ],
+    "transform": "Diagram-only crop, rasterized at 300 dpi; no redrawing or relabeling.",
+    "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "8b62710b0b6d624e3d4051682481d8db101c9c76db04b505d965ad6a2274d7d0"
+  }
+]

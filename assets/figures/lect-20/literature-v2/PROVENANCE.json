@@ -1,0 +1,40 @@
+[
+  {
+    "lecture": 20,
+    "file": "assets/figures/lect-20/literature-v2/exact-recovery.png",
+    "author": "Roman Vershynin",
+    "title": "High-Dimensional Probability, first edition, May 20, 2024",
+    "url": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-1.pdf",
+    "figure": "10.5",
+    "pdfPage": 269,
+    "downloadSha256": "681b6f3d947f71c023f3d1090e7aa33fd7e302647a6dfb6e69bd272363b6f462",
+    "cropPixelsOn1400Preview": [
+      213,
+      598,
+      764,
+      779
+    ],
+    "transform": "Diagram-only crop, rasterized at 300 dpi; no redrawing or relabeling.",
+    "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "53f155566c370b8d1e8183606af0be8e3a52ce52a5392e21f01ce0f1f4cf4af9"
+  },
+  {
+    "lecture": 20,
+    "file": "assets/figures/lect-20/literature-v2/restricted-curvature.png",
+    "author": "Sahand Negahban, Pradeep Ravikumar, Martin Wainwright and Bin Yu",
+    "title": "A unified framework for high-dimensional analysis of M-estimators with decomposable regularizers, October 2010 draft",
+    "url": "https://www.stat.berkeley.edu/users/binyu/ps/unified-797.pdf",
+    "figure": "3",
+    "pdfPage": 10,
+    "downloadSha256": "46c5a68444feedc6738b8da7c586bb4d11d82cf3e451d1037ad6f35aec31f5d1",
+    "cropPixelsOn1400Preview": [
+      228,
+      118,
+      854,
+      430
+    ],
+    "transform": "Diagram-only crop, rasterized at 300 dpi; no redrawing or relabeling.",
+    "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "9404633bcc2b83731429020d8d428f92e8c73d6b990276effeac5f7448ac35ad"
+  }
+]

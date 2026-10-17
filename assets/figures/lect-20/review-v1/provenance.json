@@ -1,0 +1,10 @@
+[
+  {
+    "lecture": 20,
+    "name": "descent-vs-support",
+    "path": "../assets/figures/lect-20/review-v1/descent-vs-support.png",
+    "alt": "At a fixed target e1, nonincreasing local directions form the left wedge h1 plus absolute h2 at most zero. Uniform recovery on support {1} uses both wedges, absolute h2 at most absolute h1.",
+    "source": "Descent cone calculation for l1; restricted null-space property in Wainwright Chapter 7 and Vershynin Chapter 10.",
+    "provenance": "Original course illustration generated from the formulas in this script; no source figure copied."
+  }
+]

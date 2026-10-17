@@ -1,0 +1,10 @@
+[
+  {
+    "lecture": 18,
+    "name": "tweedie-mixture",
+    "path": "../assets/figures/lect-18/review-v1/tweedie-mixture.png",
+    "alt": "With prior mass one half at each of minus 2 and plus 2 and noise variance 1, the posterior mean is 2 tanh(2x). Score corrections can move observations away from zero toward either mode.",
+    "source": "Tweedie identity; exact Bayes calculation for a two-point prior, no copied plot.",
+    "provenance": "Original course illustration generated from the formulas in this script; no source figure copied."
+  }
+]

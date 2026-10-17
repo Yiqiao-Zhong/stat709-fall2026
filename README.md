@@ -25,6 +25,9 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 15: [HTML](lect-15.html) · [Student PDF](lect-15.pdf)
 - Lecture 16: [HTML](lect-16.html) · [Student PDF](lect-16.pdf)
 - Lecture 17: [HTML](lect-17.html) · [Student PDF](lect-17.pdf)
+- Lecture 18 (optional): [HTML](lect-18.html) · [Student PDF](lect-18.pdf)
+- Lecture 19 (optional): [HTML](lect-19.html) · [Student PDF](lect-19.pdf)
+- Lecture 20 (optional): [HTML](lect-20.html) · [Student PDF](lect-20.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 - [Homework 2 assignment](homework/HW2.pdf)
@@ -32,7 +35,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - [Homework 4 assignment](homework/HW4.pdf)
 - [Homework 5 assignment](homework/HW5.pdf)
 
-Homework solutions are not included. The homepage and seven part-overview pages organize Lectures 1–17. Part VI (Lectures 18–20) is optional and contains placeholders only; no Lecture 18–20 notes or downloads are hosted. Part VII has no lecture entries yet.
+Homework solutions are not included. The homepage and seven part-overview pages organize Lectures 1–20. Part VI (Lectures 18–20) is optional and not examined; its student HTML and PDF notes are available. Part VII has no lecture entries yet.
 
 The website syllabus is authoritative. The homepage links it alongside the preface, part checkpoints and current lecture downloads.
 
@@ -98,3 +101,9 @@ Lecture 14 retains the instructor’s original tail-deviation sketch in `assets/
 The student website includes the revised syllabus, seven-part organization, backward recaps, Key ideas, cross-lecture links, restored inherited figures and public/private issue-reporting routes. Selected new illustrations retain their provenance under the corresponding `review-20261014/` figure folders; restored source figures keep their original credits and licenses.
 
 `report-issue.html` prepares a public GitHub form or a private email draft to the instructor. It never submits a report automatically. Public reports must not include homework solutions or personal information. GitHub form definitions live in `.github/ISSUE_TEMPLATE/`; the form selects the repository label `report`. Disqus remains the separate public conversation channel.
+
+## October 17 optional lectures
+
+Lectures 18–20 are published as optional enrichment, with links on the homepage and Part VI overview, reading navigation, Comments, and Report an issue. High/mid/low tiers within these three lectures describe a study route and do not add exam requirements. Part VII still has no lecture entries.
+
+The 14 selected figures retain credits and provenance under `assets/figures/lect-18/`, `lect-19/` and `lect-20/`. Complete research books, unused images and author materials are not hosted.

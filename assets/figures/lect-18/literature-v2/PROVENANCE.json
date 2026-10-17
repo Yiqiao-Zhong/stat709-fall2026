@@ -1,0 +1,43 @@
+[
+  {
+    "lecture": 18,
+    "file": "assets/figures/lect-18/literature-v2/shrinkage-risk.png",
+    "author": "Iain M. Johnstone",
+    "title": "Gaussian Estimation: Sequence and Wavelet Models, August 9, 2017",
+    "url": "https://imjohnstone.su.domains/GE_08_09_17.pdf",
+    "figure": "2.1",
+    "pdfPage": 42,
+    "downloadSha256": "50bd4cdfd94bd577c08977b0b63ae4a60e5deea2d4fd863286d316127608764a",
+    "cropPixelsOn1400Preview": [
+      301,
+      701,
+      756,
+      930
+    ],
+    "transform": "Diagram-only crop, rasterized at 300 dpi; no redrawing or relabeling.",
+    "license": "Copyright retained by source authors/publisher; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "3afc610b71d4fae6f618b7797f030f07c50272705f1f3e80d8108da603f667a1"
+  },
+  {
+    "lecture": 18,
+    "file": "assets/figures/lect-18/literature-v2/gaussian-noise.jpg",
+    "author": "Yang Song",
+    "title": "Generative Modeling by Estimating Gradients of the Data Distribution (2021)",
+    "url": "https://yang-song.net/blog/2021/score/",
+    "downloadFile": "song-noise.jpg",
+    "transform": "Unmodified source image.",
+    "license": "Copyright retained by source author; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "867381828a71a3d9470019de55ebabd5a4c6872aabbedd2c5222bc5311a5a58f"
+  },
+  {
+    "lecture": 18,
+    "file": "assets/figures/lect-18/literature-v2/score-field.jpg",
+    "author": "Yang Song",
+    "title": "Generative Modeling by Estimating Gradients of the Data Distribution (2021)",
+    "url": "https://yang-song.net/blog/2021/score/",
+    "downloadFile": "score-contour.jpg",
+    "transform": "Unmodified source image.",
+    "license": "Copyright retained by source author; no open license asserted. Attributed figure excerpt for local course review.",
+    "sha256": "f9b45d6748839c48af7c0aff7b1f479b7b2f2e1c815a9856bdfde064bf84ebd7"
+  }
+]

@@ -43,7 +43,8 @@ function setExerciseMode(mode) {
   practiceBlocks().forEach(block=>block.classList.toggle('exercise-priority-hidden',!visible(block.dataset.priority,block.dataset.examScope)));
   const rows=[...document.querySelectorAll('[data-practice-priority]')];
   rows.forEach(row=>row.hidden=!visible(row.dataset.practicePriority,row.dataset.examScope));
-  document.getElementById('practice-count').textContent=`${rows.filter(row=>!row.hidden).length} exercises in ${mode} practice`;
+  const practiceName=body.dataset.optionalLecture==='true'&&mode==='exam'?'main-route':mode;
+  document.getElementById('practice-count').textContent=`${rows.filter(row=>!row.hidden).length} exercises in ${practiceName} practice`;
 }
 
 function openHashTarget() {

@@ -20815,6 +20815,2862 @@
     },
     {
       "id": "issue-report-config",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "issue-report-config",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-map-heading",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Lecture map",
+      "tag": "h2"
+    },
+    {
+      "id": "lecture-map",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "01 · HighMotivationSee the assumptions, proof and examples in this section. 02 · HighShrinkage estimatorsSee the assumptions, proof and examples in this section. 03 · MidTweedie's formulaSee the assum",
+      "tag": "nav"
+    },
+    {
+      "id": "priority-filter-heading",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Reading view",
+      "tag": "h2"
+    },
+    {
+      "id": "priority-description",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "High and mid priority are visible. See the Lecture-specific exam scope.",
+      "tag": "p"
+    },
+    {
+      "id": "goals-heading",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Study links",
+      "tag": "h2"
+    },
+    {
+      "id": "sidebar-goals",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Recap · Learning goals · Key ideas · Practice",
+      "tag": "nav"
+    },
+    {
+      "id": "contents-heading",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "On this page",
+      "tag": "h2"
+    },
+    {
+      "id": "section-navigation",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "MotivationShrinkage estimatorsTweedie’s formulaA modern connection: diffusion modelFurther readingKey ideasLooking aheadPracticeReferencesTerminology notesComments",
+      "tag": "ol"
+    },
+    {
+      "id": "lecture-content",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "tag": "main"
+    },
+    {
+      "id": "lec18-optional-scope",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Optional part.",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-overview",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "On this page",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l18-overview",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Bias. An estimator can be best among unbiased rules and still be improved by allowing bias.Risk identity. We begin with the risk of fixed shrinkage, then use Stein’s identity to verify the James–Stein",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-recap",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Recap from earlier lecturesEarlier ideas used in this lecture · 1 minThese reminders add no exam requirements.Bias and variance. Squared-error risk balances squared bias and variance. Used in the fixe",
+      "tag": "details"
+    },
+    {
+      "id": "learning-goals",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Learning goals",
+      "tag": "h3"
+    },
+    {
+      "id": "sec-lec18-1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "1. Motivation",
+      "tag": "h2"
+    },
+    {
+      "id": "lec18-block-1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "1. Motivation",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec18-2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "1.1. A high-dimensional perspective",
+      "tag": "h3"
+    },
+    {
+      "id": "lec18-block-2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "1.1. A high-dimensional perspective",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec18-3",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "1.2. Bias-variance tradeoff perspective",
+      "tag": "h3"
+    },
+    {
+      "id": "lec18-block-3",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "1.2. Bias-variance tradeoff perspective",
+      "tag": "span"
+    },
+    {
+      "id": "a-homework-problem.",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "A homework problem.",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l18-bernoulli-minimax",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Constant risk. The risk is constant over \\(p\\).A matching prior. To verify minimaxity, put a \\(\\operatorname{Beta}(\\sqrt n/2,\\sqrt n/2)\\) prior on \\(p\\): its posterior mean is exactly \\(T_0\\).Lower bo",
+      "tag": "div"
+    },
+    {
+      "id": "beating-the-constant-risk.",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Beating the constant risk.",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-checkpoint-1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Bias can lower risk.",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-prompt-fixed",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec18-4",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "2. Shrinkage estimators",
+      "tag": "h2"
+    },
+    {
+      "id": "lec18-recall-1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Bias can lower risk",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-recall-1-excerpt",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "2. Shrinkage estimators",
+      "tag": "template"
+    },
+    {
+      "id": "lec18-block-4",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "2. Shrinkage estimators",
+      "tag": "span"
+    },
+    {
+      "id": "JS",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "2. Shrinkage estimators",
+      "tag": "span"
+    },
+    {
+      "id": "js",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "\\[\\hat{\\mu}_{\\mathrm{JS}} = \\left(1 - \\frac{r(p-2)}{\\|X - c\\|^2}\\right)(X - c) + c,\\quad \\hat{\\mu}_{\\mathrm{JS}+} = \\left(1 - \\frac{r(p-2)}{\\|X - c\\|^2}\\right)_+(X - c) + c.\\](1)",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l18-shrink-intuition",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Strong signal. We interpret this result from the signal vs. noise perspective. If we believe signal strength relative to the center, \\(\\|\\mu-c\\|^2\\), is large as evidenced by large \\(\\|X-c\\|^2\\), then",
+      "tag": "div"
+    },
+    {
+      "id": "thm-main",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Theorem 1If \\(\\hat{\\mu}\\) is any of the two shrinkage estimators in Eqn. 1, then for any \\(r \\in (0, 2)\\), when \\(p \\ge 3\\), \\[\\begin{aligned} R_{\\hat{\\mu}}(\\mu) < R_X(\\mu), \\qquad \\text{for every } \\",
+      "tag": "div"
+    },
+    {
+      "id": "eq-main",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "\\[\\begin{aligned} R_{\\hat{\\mu}}(\\mu) = p - (2r-r^2)(p-2)^2 \\mathbb{E}[\\|X - c\\|^{-2}]. \\end{aligned}\\](2)",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-fig-shrink",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "2. Shrinkage estimators",
+      "tag": "img"
+    },
+    {
+      "id": "steins-identity.",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Stein’s identity.",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-theorem-2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Theorem 2Stein’s lemmaIf \\(g \\in C^1(\\mathbb{R}^p)\\) with \\(\\E\\|\\nabla g(Z)\\|<\\infty\\), \\(\\E|Z_i g(Z)|<\\infty\\) for every i, and vanishing boundary terms (or a valid cutoff approximation), where \\(Z \\",
+      "tag": "div"
+    },
+    {
+      "id": "eq-stein2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "\\[\\E[\\nabla\\cdot h(Z)]=\\E[Z^\\top h(Z)],\\](3)",
+      "tag": "div"
+    },
+    {
+      "id": "proof-of-eqn.-2.",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Proof of Eqn. 2.",
+      "tag": "span"
+    },
+    {
+      "id": "eq-1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "\\[\\begin{aligned} R(\\mu) - p &= b^2 \\mathbb{E}\\big[\\frac{\\|X\\|^2}{(a + \\|X\\|^2)^2}\\big] - 2pb \\mathbb{E}\\big[\\frac{1}{a + \\|X\\|^2}\\big] + 4b \\mathbb{E}\\big[\\frac{\\|X\\|^2}{(a + \\|X\\|^2)^2}\\big] \\end{al",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-eq-5",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "\\[\\begin{aligned} &\\le (b^2 - 2pb + 4b) \\mathbb{E}[\\frac{1}{a + \\|X\\|^2}], \\end{aligned}\\](5)",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-origin",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Why the singularity is integrable.",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l18-singularity",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Near the center. For \\(p>2\\), the Gaussian density is bounded near \\(c\\), and the radial volume element is proportional to \\(r^{p-1}dr\\). Thus \\(r^{-2}\\) is locally integrable because \\(\\int_0^1r^{p-3",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-positive-part",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "The positive part also improves risk.",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l18-positive-part",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Where the rules differ. Write \\(b=r(p-2)>0\\) and translate \\(c\\) to zero. The ordinary rule equals \\(t(R)X\\), where \\(R=\\|X\\|\\) and \\(t(R)=1-b/R^2\\). It differs from the positive part only when \\(R^2<",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-checkpoint-2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Stein risk identity.",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-prompt-center",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec18-5",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "3. Tweedie’s formula",
+      "tag": "h2"
+    },
+    {
+      "id": "sec-lec18-6",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "3.1. Bayesian perspective",
+      "tag": "h3"
+    },
+    {
+      "id": "lec18-recall-2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Stein risk identity",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-recall-2-excerpt",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "3.1. Bayesian perspective",
+      "tag": "template"
+    },
+    {
+      "id": "lec18-block-6",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "3.1. Bayesian perspective",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l18-tweedie-derivative",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Which derivative. The gradient is with respect to the observation \\(x\\), not the unknown parameter as in a likelihood score.Interchange. Differentiation under the integral is valid because Gaussian de",
+      "tag": "div"
+    },
+    {
+      "id": "eq-bayes",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "\\[\\phi_\\pi(X) = X + \\nabla \\log f_X(X).\\](6)",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-remark-1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Remark 1From this perspective, shrinkage is a result of a prior \\(\\pi\\) on the unknown mean \\(\\mu\\).",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-note-1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Instructor’s NoteFollow the slope of the noisy densityTweedie’s formula starts at the observation and adds a correction pointing toward where the noisy data distribution becomes denser. For a centered",
+      "tag": "details"
+    },
+    {
+      "id": "lec18-checkpoint-3",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Posterior means and marginal scores.",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l18-prior-picture",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Discrete priors. Tweedie’s identity also applies to a discrete prior: replace its integrals by weighted sums.Example. In the symmetric two-point example below, posterior odds are \\(e^{4x}\\), so \\(\\E[\\",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-fig-score",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "3.1. Bayesian perspective",
+      "tag": "img"
+    },
+    {
+      "id": "lec18-prompt-normalprior",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec18-7",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "3.2. Shrinkage from superharmonic functions",
+      "tag": "h3"
+    },
+    {
+      "id": "lec18-block-7",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "3.2. Shrinkage from superharmonic functions",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l18-superharmonic-scope",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Motivation. Tweedie’s formula suggests considering estimators of the form \\(X+\\nabla\\log f(X)\\) and placing assumptions directly on a positive function \\(f\\).What the construction requires. In this co",
+      "tag": "div"
+    },
+    {
+      "id": "thm-main2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Theorem 3Let \\(f \\in C^2(\\R^p)\\) taking positive values and \\(\\sqrt{f}\\) is superharmonic. Under the regularity conditions \\[\\E\\Big[ \\frac{1}{f(X)} \\sum_{j=1}^p | \\partial_j^2 f(X)| \\Big] < \\infty, \\q",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-remark-2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Remark 2Connection to minimaxThe naive estimator \\(X\\) has constant risk and is a minimax estimator. So this theorem automatically verifies minimaxity for \\(X + \\nabla \\log f(X)\\). Moreover, there is ",
+      "tag": "div"
+    },
+    {
+      "id": "fnref1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "1",
+      "tag": "a"
+    },
+    {
+      "id": "sec-lec18-8",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "4. A modern connection: diffusion model",
+      "tag": "h2"
+    },
+    {
+      "id": "lec18-explain-brownian-control",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Brownian motion",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-explain-brownian-control-excerpt",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "4. A modern connection: diffusion model",
+      "tag": "template"
+    },
+    {
+      "id": "lec18-block-8",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "4. A modern connection: diffusion model",
+      "tag": "span"
+    },
+    {
+      "id": "fig-diffusion",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "4. A modern connection: diffusion model",
+      "tag": "img"
+    },
+    {
+      "id": "lec18-score-figure",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "4. A modern connection: diffusion model",
+      "tag": "img"
+    },
+    {
+      "id": "score-function.",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Score function.",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l18-reverse",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Learn the score. where \\(p_t\\) is the pdf of \\(X_t\\). We don’t know the score function exactly, but estimating it from data gives \\(s_{\\theta}(x_t,t)\\).Approximation. The following update is a schemat",
+      "tag": "div"
+    },
+    {
+      "id": "eq-back",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "\\[\\bar X_{t-1} = \\frac{1}{\\sqrt{1 - \\sigma_{t}^2}} \\bar X_t + \\frac{\\sigma_t^2}{\\sqrt{1 - \\sigma_{t}^2}} s_{\\theta}(\\bar X_t,t) + \\sigma_t Z_t, \\qquad \\text{where}~t=T, T-1,\\ldots,1\\](7)",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l18-score-training",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Unknown target. The score estimate \\(s_\\theta(x_t,t)\\) is obtained from a neural network. The ideal objective compares it with \\(\\nabla\\log p_t\\), but that target is unknown.Observable loss. For the k",
+      "tag": "div"
+    },
+    {
+      "id": "stochastic-differential-equation.",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Stochastic differential equation*.",
+      "tag": "span"
+    },
+    {
+      "id": "fnref2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "2",
+      "tag": "a"
+    },
+    {
+      "id": "classroom-l18-reverse-time",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Time convention. Here \\(t\\) runs from \\(T\\) down to \\(0\\), so \\(dt\\) is negative, and \\(\\bar W\\) is Brownian noise in the reverse-time parameterization.Initial law. Start with \\(\\bar X_T\\sim p_T\\).Tim",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-prompt-noise",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec18-9",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "5. Further reading",
+      "tag": "h2"
+    },
+    {
+      "id": "lec18-block-9",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "5. Further reading",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-key-ideas",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Key ideasFixed shrinkage trades variance against bias; its best amount depends on the unknown mean.James–Stein uses the observed norm to adapt the shrinkage and improves total risk when the dimension ",
+      "tag": "section"
+    },
+    {
+      "id": "lec18-reference",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Detailed referenceDetailed reference◆ High priorityBias can lower riskFor \\(X\\sim N(\\mu,I_p)\\), constant shrinkage \\(aX\\) has risk \\(a^2p+(1-a)^2\\|\\mu\\|^2\\). Reduced variance can outweigh squared bias",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec18-summary",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Detailed reference",
+      "tag": "h2"
+    },
+    {
+      "id": "lec18-looking-ahead",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Looking aheadLecture 19 asks how to improve shrinkage when the signal is sparse in a useful coordinate system. Thresholding adapts coordinate by coordinate rather than using one radial factor. Continu",
+      "tag": "section"
+    },
+    {
+      "id": "practice-index",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "PracticeAll exercises in this lecture are optional. High and mid mark the main reading route; All practice includes the extensions. See the Lecture-specific exam scope. Solutions stay closed until req",
+      "tag": "nav"
+    },
+    {
+      "id": "practice-heading",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "h2"
+    },
+    {
+      "id": "practice-count",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "5 exercises in main-route practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercises-and-complete-solutions",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityWhen does fixed shrinkage beat the data?Exercise 1When does fixed shrinkage beat the data?#For \\(T_a(",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec18-exercises",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise 1When does fixed shrinkage beat the data?#For \\(T_a(X)=aX\\), \\(0<a<1\\), find the set of means for which its squared-error risk is smaller than \\(p\\).Reveal solutionThe risk is \\((1-a)^2\\|\\mu\\",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-ex-fixed",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-sol-fixed",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise 2Translate the shrinkage center#Explain rigorously why the James–Stein risk calculation may assume \\(c=0\\) for a fixed center \\(c\\).Reveal solutionSet \\(Y=X-c\\sim N(\\mu-c,I_p)\\). The centered",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-ex-center",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-sol-center",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-3",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise 3Tweedie with a Gaussian prior#If \\(\\mu\\sim N(0,\\tau^2I_p)\\) and \\(X\\mid\\mu\\sim N(\\mu,I_p)\\), use Tweedie to find the posterior mean.Reveal solutionThe marginal law is \\(N(0,(1+\\tau^2)I_p)\\),",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-ex-normalprior",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-sol-normalprior",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-4",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise 4Tweedie with general Gaussian noise#If \\(Y=aU+\\sigma Z\\) with \\(a>0\\), \\(\\sigma>0\\), \\(\\E\\|U\\|^2<\\infty\\), and standard Gaussian \\(Z\\) independent of \\(U\\), derive \\(\\E[U\\mid Y=y]\\) from the",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-ex-noise",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-sol-noise",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-5",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise 5From coordinate Stein identities to divergence#Prove \\(\\E[Z^\\top h(Z)]=\\E[\\operatorname{div}h(Z)]\\) for a vector field satisfying the coordinate Stein assumptions.Reveal solutionApply the sc",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-ex-stein",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-sol-stein",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-6",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise 6Risk at the shrinkage center#For the ordinary James–Stein rule with \\(r=1\\) and \\(\\mu=c\\), compute the risk exactly for \\(p>2\\).Reveal solutionHere \\(Q=\\|X-c\\|^2\\sim\\chi_p^2\\). Its Gamma den",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-ex-origin",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-sol-origin",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-7",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise 7The superharmonic risk identity#Using Stein, prove \\(R_{X+\\nabla\\log f}(\\mu)=p+4\\E[\\Delta\\sqrt f(X)/\\sqrt f(X)]\\) under the stated assumptions.Reveal solutionFor \\(h=\\nabla\\log f\\), expand t",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-ex-superharmonic",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-sol-superharmonic",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-8",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Exercise 8Why constant Normal risk is minimax#Use priors \\(\\mu\\sim N(0,\\tau^2I_p)\\) to show that the minimax risk for estimating a unit-noise Normal mean is \\(p\\).Reveal solutionFor every rule, its su",
+      "tag": "div"
+    },
+    {
+      "id": "lec18-ex-minimax",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec18-sol-minimax",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "bibliography",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "References",
+      "tag": "h2"
+    },
+    {
+      "id": "refs",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "[1] B. D. Anderson. Reverse-time diffusion equation models. Stochastic Processes and their Applications, 12, 313–326. 1982.[2] Y. Song, J. Sohl-Dickstein, D. P. Kingma, A. Kumar, S. Ermon, and B. Pool",
+      "tag": "div"
+    },
+    {
+      "id": "ref-anderson1982reverse",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "[1] B. D. Anderson. Reverse-time diffusion equation models. Stochastic Processes and their Applications, 12, 313–326. 1982.",
+      "tag": "div"
+    },
+    {
+      "id": "ref-song2020score",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "[2] Y. Song, J. Sohl-Dickstein, D. P. Kingma, A. Kumar, S. Ermon, and B. Poole. Score-based generative modeling through stochastic differential equations. arXiv preprint arXiv:2011.13456. 2020.",
+      "tag": "div"
+    },
+    {
+      "id": "ref-stein1981estimation",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "[3] C. M. Stein. Estimation of the mean of a multivariate normal distribution. The annals of Statistics, 1135–1151. 1981.",
+      "tag": "div"
+    },
+    {
+      "id": "ref-stein1956inadmissibility",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "[4] C. Stein and others. Inadmissibility of the usual estimator for the mean of a multivariate normal distribution. 1956.",
+      "tag": "div"
+    },
+    {
+      "id": "terminology-notes-heading",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Terminology notes",
+      "tag": "h2"
+    },
+    {
+      "id": "fn1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "In particular, for \\(m=p-2\\) it is harmonic away from the origin.↩︎",
+      "tag": "li"
+    },
+    {
+      "id": "lec18-footnote-1",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Terminology notes",
+      "tag": "span"
+    },
+    {
+      "id": "fn2",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Brownian motion · Low — not examinedBrownian motion is a continuous Gaussian process with independent increments: over a time interval of length \\(h\\), its increment has mean zero and covariance \\(hI\\",
+      "tag": "details"
+    },
+    {
+      "id": "lec18-explain-brownian",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Terminology notes",
+      "tag": "span"
+    },
+    {
+      "id": "what-changed",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "What changedOctober 16, 2026: Clarified risk reduction versus error at an individual observation, justified the Bernoulli minimax example, and distinguished a Tweedie-form estimator from a genuine pos",
+      "tag": "details"
+    },
+    {
+      "id": "discussion",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Comments Discuss an idea or ask a public question. Include a section or exercise number when relevant. For errors in the notes or website, Report an issue. Public comments use Disqus. Enable JavaScrip",
+      "tag": "section"
+    },
+    {
+      "id": "discussion-heading",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Comments",
+      "tag": "h2"
+    },
+    {
+      "id": "discussion-config",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-components",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-explanations",
+      "page": "lect-18.html",
+      "lecture": 18,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "issue-report-config",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "issue-report-config",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-map-heading",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Lecture map",
+      "tag": "h2"
+    },
+    {
+      "id": "lecture-map",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "01 · HighSparsity in data analysisSee the assumptions, proof and examples in this section. 02 · LowExample: Wavelet transformSee the assumptions, proof and examples in this section. 03 · HighThreshold",
+      "tag": "nav"
+    },
+    {
+      "id": "priority-filter-heading",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Reading view",
+      "tag": "h2"
+    },
+    {
+      "id": "priority-description",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "High and mid priority are visible. See the Lecture-specific exam scope.",
+      "tag": "p"
+    },
+    {
+      "id": "goals-heading",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Study links",
+      "tag": "h2"
+    },
+    {
+      "id": "sidebar-goals",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Recap · Learning goals · Key ideas · Practice",
+      "tag": "nav"
+    },
+    {
+      "id": "contents-heading",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "On this page",
+      "tag": "h2"
+    },
+    {
+      "id": "section-navigation",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Sparsity in data analysisExample: Wavelet transform*ThresholdingDenoising theoryLASSO with orthogonal designFurther readingKey ideasLooking aheadPracticeReferencesTerminology notesComments",
+      "tag": "ol"
+    },
+    {
+      "id": "lecture-content",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "tag": "main"
+    },
+    {
+      "id": "lec19-optional-scope",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Optional part.",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-overview",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "On this page",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l19-overview",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Structure. Shrinkage becomes more effective when it matches the signal structure.Sparsity. A sparse representation suggests thresholding coordinates rather than shrinking every direction equally.Main ",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-recap",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Recap from earlier lecturesEarlier ideas used in this lecture · 1 minThese reminders add no exam requirements.James–Stein shrinkage. A data-dependent radial correction can lower total Gaussian mean ri",
+      "tag": "details"
+    },
+    {
+      "id": "learning-goals",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Learning goals",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-block-0",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Learning goals",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec19-1",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "1. Sparsity in data analysis",
+      "tag": "h2"
+    },
+    {
+      "id": "sec-lec19-2",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "1.1. Motivation",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-block-2",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "1.1. Motivation",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec19-3",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "1.2. Quantifying sparsity",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-block-3",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "1.2. Quantifying sparsity",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l19-sparsity",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "When q is below one. The radius \\(R>0\\) measures coefficient size; it is not a count of nonzero entries. A few comments are in order. First, when \\(q < 1\\), the above definition is only a quasinorm, s",
+      "tag": "div"
+    },
+    {
+      "id": "fig-ball",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "1.2. Quantifying sparsity",
+      "tag": "img"
+    },
+    {
+      "id": "lec19-checkpoint-1",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Sparse approximation.",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-prompt-sparse",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec19-4",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "1.3. Smoothness and sparse representations",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-block-4",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "1.3. Smoothness and sparse representations",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec19-5",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2. Example: Wavelet transform*",
+      "tag": "h2"
+    },
+    {
+      "id": "lec19-block-5",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2. Example: Wavelet transform*",
+      "tag": "span"
+    },
+    {
+      "id": "fig-nmr",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2. Example: Wavelet transform*",
+      "tag": "img"
+    },
+    {
+      "id": "sec-lec19-6",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2.1. Discrete Fourier transformation",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-block-6",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2.1. Discrete Fourier transformation",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-fig-fourier",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2.1. Discrete Fourier transformation",
+      "tag": "img"
+    },
+    {
+      "id": "sec-lec19-7",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2.2. Wavelet transform",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-explain-fast-wavelet-control",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Fast wavelet transform",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-explain-fast-wavelet-control-excerpt",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2.2. Wavelet transform",
+      "tag": "template"
+    },
+    {
+      "id": "lec19-block-7",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2.2. Wavelet transform",
+      "tag": "span"
+    },
+    {
+      "id": "fig-wavelet",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2.2. Wavelet transform",
+      "tag": "img"
+    },
+    {
+      "id": "fnref1",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "1",
+      "tag": "a"
+    },
+    {
+      "id": "sec-lec19-8",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "3. Thresholding",
+      "tag": "h2"
+    },
+    {
+      "id": "sec-lec19-9",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "3.1. Gaussian sequence model",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-block-9",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "3.1. Gaussian sequence model",
+      "tag": "span"
+    },
+    {
+      "id": "model-1",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "\\[\\begin{aligned} Y_k = \\theta_k + \\sigma Z_k,\\qquad \\text{where}~Z_k \\stackrel{\\iid}{\\sim} \\mathcal{N}(0, 1). \\end{aligned}\\](1)",
+      "tag": "div"
+    },
+    {
+      "id": "model-2",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "\\[\\begin{aligned} Y \\sim \\mathcal{N}(\\theta, \\sigma^2 I_n). \\end{aligned}\\](2)",
+      "tag": "div"
+    },
+    {
+      "id": "assumption.",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Assumption.",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-checkpoint-2",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Orthogonal denoising.",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-prompt-orthogonal",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec19-10",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "3.2. Thresholding functions",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-recall-1",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Sparse approximation",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-recall-1-excerpt",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "3.2. Thresholding functions",
+      "tag": "template"
+    },
+    {
+      "id": "lec19-block-10",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "3.2. Thresholding functions",
+      "tag": "span"
+    },
+    {
+      "id": "determining-thresholding-level-tau.",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Determining thresholding level \\(\\tau\\).",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l19-threshold-confidence",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Chosen confidence. A finite-sample choice makes the confidence level explicit. A Gaussian tail bound and union bound give \\[\\PR\\left(\\max_j|\\sigma Z_j|>\\sigma\\sqrt{2\\log(2n/\\alpha)}\\right)\\le\\alpha,\\q",
+      "tag": "div"
+    },
+    {
+      "id": "summary.",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Summary.",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-note-1",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Instructor’s NoteSpend error where the signal isIf most true coordinates are zero, carrying one unit of noise in every coordinate is wasteful. Thresholding accepts some bias near the cutoff to silence",
+      "tag": "details"
+    },
+    {
+      "id": "lec19-visual",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Picture: hard and soft thresholding.",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-threshold-explorer",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "3.2. Thresholding functions",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-checkpoint-3",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Thresholding and normalization.",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-threshold-fallback",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "3.2. Thresholding functions",
+      "tag": "img"
+    },
+    {
+      "id": "lec19-prompt-threshold",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec19-11",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "4. Denoising theory",
+      "tag": "h2"
+    },
+    {
+      "id": "sec-lec19-12",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "4.1. General oracle inequalities",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-block-12",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "4.1. General oracle inequalities",
+      "tag": "span"
+    },
+    {
+      "id": "thm-main1",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Theorem 1Suppose \\(Y \\sim \\mathcal{N}(\\theta, \\sigma^2I_n)\\). For soft-thresholding estimator \\(\\hat{\\theta}_{\\tau_n} = T_{\\tau_n}(Y)\\) with the level \\(\\tau_n = \\sqrt{2\\sigma^2\\log n}\\), \\[\\begin{ali",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l19-oracle-meaning",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Other threshold rules. Similar bounds hold for hard thresholding.Unknown support. One striking aspect of this result is that we don’t know the indices of large signals among \\(\\theta_1,\\ldots,\\theta_n",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-remark-1",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Remark 1Theorem 1 holds with no assumption on \\(\\theta\\). Without assumption on \\(\\theta\\), this is not improvable due to the following minimax result [1] (Eq. (8.35), Section 8.6). As \\(n \\to \\infty\\",
+      "tag": "div"
+    },
+    {
+      "id": "sec-s-sparse",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "4.2. Oracle Inequalities for \\(S\\)-sparse Signals",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-block-13",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "4.2. Oracle Inequalities for \\(S\\)-sparse Signals",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-theorem-2",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Theorem 2Suppose the integers \\(1\\le S_n<n\\) satisfy \\[\\begin{aligned} \\frac{S_n}{n} \\to 0,\\quad n \\to \\infty. \\end{aligned}\\] Then, as \\(n \\to \\infty\\),The soft-thresholding estimator \\(\\hat{\\theta}_",
+      "tag": "div"
+    },
+    {
+      "id": "improve",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "\\[\\begin{aligned} &\\le \\mathbb{E}[2(T_\\tau(Y_j) - T_\\tau(\\theta_j))^2 + 2(T_\\tau(\\theta_j) - \\theta_j)^2] \\qquad \\text{(since } (a + b)^2 \\le 2a^2 + 2b^2) \\end{aligned}\\](3)",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l19-sparse-constant",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "A weighted square bound. For the sharp leading constant, use \\((a+b)^2\\le(1+\\eta)a^2+(1+\\eta^{-1})b^2\\) with \\(a=T_\\tau(\\theta_j)-\\theta_j\\) and \\(b=T_\\tau(Y_j)-T_\\tau(\\theta_j)\\).Per-coordinate bound",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-explain-ui-control",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Uniform integrability",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-explain-ui-control-excerpt",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "4.2. Oracle Inequalities for \\(S\\)-sparse Signals",
+      "tag": "template"
+    },
+    {
+      "id": "lec19-remark-2",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Remark 2Comparison with James–Stein estimationComparison. Global James–Stein shrinkage does not exploit sparse coordinate structure. For \\(\\sigma=1\\) and \\(\\|\\theta_n\\|^2=n\\), its exact ordinary-JS ri",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l19-js-comparison",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Comparison. Global James–Stein shrinkage does not exploit sparse coordinate structure. For \\(\\sigma=1\\) and \\(\\|\\theta_n\\|^2=n\\), its exact ordinary-JS risk is \\[R_{\\rm JS}(\\theta_n)=n-(n-2)^2\\E\\|Y\\|^",
+      "tag": "div"
+    },
+    {
+      "id": "fnref2",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "2",
+      "tag": "a"
+    },
+    {
+      "id": "classroom-l19-sparse-comparison",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Sparse signal. For an \\(S_n\\)-sparse vector with nonzero magnitude \\(\\sqrt{n/S_n}\\), the same norm condition holds.Thresholding risk. If \\(S_n\\log(n/S_n)=o(n)\\), soft thresholding has risk \\(o(n)\\) by",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-remark-3",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Remark 3Bias-variance tradeoffThe threshold \\(\\sqrt{2\\sigma^2\\log(n/S_n)}\\) is smaller than the universal level \\(\\sqrt{2\\sigma^2\\log n}\\). It has a smaller thresholding level, so many noises are not ",
+      "tag": "div"
+    },
+    {
+      "id": "sec-lec19-14",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "5. LASSO with orthogonal design",
+      "tag": "h2"
+    },
+    {
+      "id": "lec19-recall-2",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Orthogonal denoising",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-recall-2-excerpt",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "5. LASSO with orthogonal design",
+      "tag": "template"
+    },
+    {
+      "id": "lec19-block-14",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "5. LASSO with orthogonal design",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec19-15",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "5.1. Connecting LASSO with denoising",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-block-15",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "5.1. Connecting LASSO with denoising",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l19-design",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Orthogonal decomposition. Assume \\(X^\\top X=I_p\\), with \\(p\\le n\\), and write \\(y\\) for the observed response vector \\(Y\\). Write \\(z=X^\\top y\\in\\R^p\\) and \\(r=(I_n-XX^\\top)y\\). The residual \\(r\\) is ",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l19-normalization",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Standardized columns. Under the alternative convention \\(X^\\top X=nI_p\\), use \\(z=X^\\top y/n\\). Then the objective is a constant plus \\(\\sum_j[\\tfrac12(\\theta_j-z_j)^2+\\lambda|\\theta_j|]\\), and the th",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-prompt-lasso",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec19-16",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "5.2. Reducing shrinkage bias*",
+      "tag": "h3"
+    },
+    {
+      "id": "lec19-block-16",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "5.2. Reducing shrinkage bias*",
+      "tag": "span"
+    },
+    {
+      "id": "two-improvements",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Two improvements:",
+      "tag": "span"
+    },
+    {
+      "id": "fig-scad",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "5.2. Reducing shrinkage bias*",
+      "tag": "img"
+    },
+    {
+      "id": "pros-and-cons.",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Pros and Cons.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec19-17",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "6. Further reading",
+      "tag": "h2"
+    },
+    {
+      "id": "lec19-block-17",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "6. Further reading",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-key-ideas",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Key ideasSparse approximation depends on the representation: many transform coefficients can be small even when the raw signal is not sparse.Orthogonal transformations preserve squared error and spher",
+      "tag": "section"
+    },
+    {
+      "id": "lec19-reference",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Detailed referenceDetailed reference◆ High prioritySparse approximationExact sparsity counts nonzero coordinates. Approximate sparsity instead asks whether retaining a few large coordinates gives smal",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec19-summary",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Detailed reference",
+      "tag": "h2"
+    },
+    {
+      "id": "lec19-looking-ahead",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Looking aheadLecture 20 removes the orthogonal-design simplification. The next question is whether a design preserves enough information about sparse signals to support recovery and estimation. Contin",
+      "tag": "section"
+    },
+    {
+      "id": "practice-index",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "PracticeAll exercises in this lecture are optional. High and mid mark the main reading route; All practice includes the extensions. See the Lecture-specific exam scope. Solutions stay closed until req",
+      "tag": "nav"
+    },
+    {
+      "id": "practice-heading",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "h2"
+    },
+    {
+      "id": "practice-count",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "8 exercises in main-route practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercises-and-complete-solutions",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityA nearly sparse vectorExercise 1A nearly sparse vector#For \\(x=(1,1/2,1/4,1/8)\\), compute its exact s",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec19-exercises",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-1",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise 1A nearly sparse vector#For \\(x=(1,1/2,1/4,1/8)\\), compute its exact sparsity and the squared error from retaining only its two largest coordinates.Reveal solutionEvery coordinate is nonzero,",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-ex-sparse",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-sol-sparse",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-2",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise 2Risk is preserved by an orthogonal transform#If \\(Y=WX\\) and \\(\\theta=Wf\\) for a real orthogonal \\(W\\), show that \\(\\hat f=W^\\top\\hat\\theta\\) has the same squared error as \\(\\hat\\theta\\).Rev",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-ex-orthogonal",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-sol-orthogonal",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-3",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise 3Threshold a new observation vector#For \\(y=(-3,-1,0,1,3)\\) and \\(\\tau=2\\), calculate hard and soft threshold estimates.Reveal solutionHard thresholding retains values with magnitude strictly",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-ex-threshold",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-sol-threshold",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-4",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise 4Check the LASSO normalization#If \\(n=10\\), \\(X^\\top X=I\\), \\(z=X^\\top y=(3,-1)\\) and \\(\\lambda=0.2\\), find the LASSO solution for loss \\(\\|X\\theta-y\\|^2/(2n)\\).Reveal solutionThe threshold i",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-ex-lasso",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-sol-lasso",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-5",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise 5Prove the soft-threshold formula#Minimize \\(\\tfrac12(v-u)^2+\\tau|v|\\) for \\(\\tau\\ge0\\) by elementary calculus.Reveal solutionFor \\(v>0\\), the derivative is \\(v-u+\\tau\\), yielding \\(v=u-\\tau\\",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-ex-soft",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-sol-soft",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-6",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise 6An ideal coordinate choice#For \\(\\theta=(0,\\sigma/2,2\\sigma)\\), compute the oracle risk and compare it with the raw-observation risk.Reveal solutionThe oracle contributions are \\(0\\), \\(\\sig",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-ex-oracle",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-sol-oracle",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-7",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise 7A finite-sample universal threshold#Choose a threshold that removes every coordinate of pure Gaussian noise with probability at least \\(1-\\alpha\\) at a fixed \\(n\\).Reveal solutionA union bou",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-ex-noisebound",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-sol-noisebound",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-8",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Exercise 8Fourier decay and an approximation bound#If \\(|C_k|\\le A k^{-m}\\), identify \\(q>0\\) for which \\(\\sum_{k\\ge1}|C_k|^q<\\infty\\), and bound the squared tail for \\(m>1/2\\).Reveal solutionThe \\(q\\",
+      "tag": "div"
+    },
+    {
+      "id": "lec19-ex-fourier",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec19-sol-fourier",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "bibliography",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "References",
+      "tag": "h2"
+    },
+    {
+      "id": "refs",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "[1] I. Johnstone. Gaussian estimation: Sequence and wavelet models. https://imjohnstone.su.domains/GE_08_09_17.pdf. 2017.",
+      "tag": "div"
+    },
+    {
+      "id": "ref-JohnstoneBook",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "[1] I. Johnstone. Gaussian estimation: Sequence and wavelet models. https://imjohnstone.su.domains/GE_08_09_17.pdf. 2017.",
+      "tag": "div"
+    },
+    {
+      "id": "terminology-notes-heading",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Terminology notes",
+      "tag": "h2"
+    },
+    {
+      "id": "fn1",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Fast wavelet transform · Low — not examinedFor standard compactly supported wavelets, applying the transform can take \\(O(N)\\) operations using a filter algorithm. Storing an arbitrary dense \\(N\\times",
+      "tag": "details"
+    },
+    {
+      "id": "lec19-explain-fast-wavelet",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Terminology notes",
+      "tag": "span"
+    },
+    {
+      "id": "fn2",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Uniform integrability · Low — not examinedUniform integrability means that the contribution of large values to the expectation is uniformly small: \\(\\sup_n\\E[|Z_n|\\mathbf1_{\\{|Z_n|>M\\}}]\\to0\\) as \\(M\\",
+      "tag": "details"
+    },
+    {
+      "id": "lec19-explain-ui",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Terminology notes",
+      "tag": "span"
+    },
+    {
+      "id": "what-changed",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "What changedOctober 16, 2026: Stated the regression noise model and coefficient noise scales, corrected support counting in the sparse-risk proof, and made the Fourier approximation normalization expl",
+      "tag": "details"
+    },
+    {
+      "id": "discussion",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Comments Discuss an idea or ask a public question. Include a section or exercise number when relevant. For errors in the notes or website, Report an issue. Public comments use Disqus. Enable JavaScrip",
+      "tag": "section"
+    },
+    {
+      "id": "discussion-heading",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Comments",
+      "tag": "h2"
+    },
+    {
+      "id": "discussion-config",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-components",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-explanations",
+      "page": "lect-19.html",
+      "lecture": 19,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "issue-report-config",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "issue-report-config",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-map-heading",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Lecture map",
+      "tag": "h2"
+    },
+    {
+      "id": "lecture-map",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "01 · HighBasis PursuitSee the assumptions, proof and examples in this section. 02 · MidCompressed SensingSee the assumptions, proof and examples in this section. 03 · HighStatistical theory for LASSOS",
+      "tag": "nav"
+    },
+    {
+      "id": "priority-filter-heading",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Reading view",
+      "tag": "h2"
+    },
+    {
+      "id": "priority-description",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "High and mid priority are visible. See the Lecture-specific exam scope.",
+      "tag": "p"
+    },
+    {
+      "id": "goals-heading",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Study links",
+      "tag": "h2"
+    },
+    {
+      "id": "sidebar-goals",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Recap · Learning goals · Key ideas · Practice",
+      "tag": "nav"
+    },
+    {
+      "id": "contents-heading",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "On this page",
+      "tag": "h2"
+    },
+    {
+      "id": "section-navigation",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Basis PursuitCompressed SensingStatistical theory for LASSOFurther readingKey ideasLooking aheadPracticeReferencesTerminology notesComments",
+      "tag": "ol"
+    },
+    {
+      "id": "lecture-content",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "tag": "main"
+    },
+    {
+      "id": "lec20-optional-scope",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Optional part.",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-overview",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "On this page",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l20-overview",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Identification. An underdetermined system can identify a sparse signal if its null space avoids the relevant error directions.Optimization. Basis pursuit makes this geometric idea into a convex optimi",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-recap",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Recap from earlier lecturesEarlier ideas used in this lecture · 1 minThese reminders add no exam requirements.Sparsity. Exact sparsity counts nonzero coordinates; the support records their locations. ",
+      "tag": "details"
+    },
+    {
+      "id": "learning-goals",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Learning goals",
+      "tag": "h3"
+    },
+    {
+      "id": "lec20-block-0",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Learning goals",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec20-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1. Basis Pursuit",
+      "tag": "h2"
+    },
+    {
+      "id": "lec20-block-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1. Basis Pursuit",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-eq-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "\\[\\begin{aligned} \\begin{array}{rl} \\min_{\\theta \\in \\R^p} & \\|\\theta\\|_1 \\\\ \\text{subject to} & y = X\\theta, \\end{array} \\end{aligned}\\](BP)",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-prompt-bp",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec20-2",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1.1. Restricted null space property",
+      "tag": "h3"
+    },
+    {
+      "id": "lec20-block-2",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1.1. Restricted null space property",
+      "tag": "span"
+    },
+    {
+      "id": "fig-touch",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1.1. Restricted null space property",
+      "tag": "img"
+    },
+    {
+      "id": "classroom-l20-contact",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Expand the ball. Let \\(B_1(r)=\\{\\theta:\\|\\theta\\|_1\\le r\\}\\). Increase \\(r\\) from zero until this ball first intersects the feasible affine subspace.Optimal value. The first contact radius is the mini",
+      "tag": "div"
+    },
+    {
+      "id": "blessing-of-high-dimensions.",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Blessing of high dimensions.",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-pointy-note",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Instructor’s NotePointy corners and enough measurementsKeep the geometric picture: the \\(\\ell_1\\) ball has corners on coordinate axes, so a feasible set can touch a sparse point first. Each measuremen",
+      "tag": "details"
+    },
+    {
+      "id": "classroom-l20-one-measurement",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Recovery criterion. For one Gaussian measurement, \\(X=a^\\top\\in\\R^{1\\times p}\\), and target \\(e_1\\), basis pursuit recovers \\(e_1\\) uniquely exactly when \\(|a_1|>\\max_{j>1}|a_j|\\).Why. Indeed the chea",
+      "tag": "div"
+    },
+    {
+      "id": "rns-formalizing-geometric-intuitions.",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "RNS: formalizing geometric intuitions.",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-proposition-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Proposition 1If \\(X\\) satisfies the RNS property, then BP recovers \\(\\theta^*\\).",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l20-rns-target",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Descent directions. From an optimization perspective, \\(C(S)\\) contains all displacements that can avoid increasing \\(\\|\\theta^*\\|_1\\), but it can be larger than the descent cone for a fixed sign patt",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-checkpoint-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Restricted null space.",
+      "tag": "span"
+    },
+    {
+      "id": "fig-square",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1.1. Restricted null space property",
+      "tag": "img"
+    },
+    {
+      "id": "sec-lec20-3",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1.2. Pairwise incoherence: a key condition on design matrix",
+      "tag": "h3"
+    },
+    {
+      "id": "lec20-block-3",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1.2. Pairwise incoherence: a key condition on design matrix",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-definition-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Definition 1Pairwise incoherence, aka mutual incoherenceLet \\(X = (X_1, \\ldots, X_p) \\in \\mathbb{R}^{n\\times p}\\). The pairwise incoherence (PI) is \\[\\begin{aligned} \\delta_{\\mathrm{pw}}(X) = \\left\\|\\",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l20-incoherence",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Entrywise error. For every \\(n,p\\), this measures the largest entrywise error in \\(X^\\top X/n\\) from \\(I_p\\).Column normalization. It controls column-length errors as well as correlations; when all co",
+      "tag": "div"
+    },
+    {
+      "id": "prop-PI-ineqn",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1.2. Pairwise incoherence: a key condition on design matrix",
+      "tag": "span"
+    },
+    {
+      "id": "prop-pi-ineqn",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Proposition 2Exponentially many random vectors have small PISuppose \\(X\\in\\R^{n\\times p}\\) has i.i.d. \\(N(0,1)\\) entries, with \\(p\\ge2\\). For \\(0<\\alpha<1\\), let \\(u=\\log(2p^2/\\alpha)\\). With probabil",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-remark-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Remark 1Even exponentially many columns can have small normalized pairwise inner products, provided their exponential growth rate is sufficiently small relative to the requested incoherence tolerance.",
+      "tag": "div"
+    },
+    {
+      "id": "prop-pw",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Theorem 1If \\(X\\) has pairwise incoherence \\(\\delta_{pw}(X) < \\frac{1}{2k}\\), and \\(|S| \\le k\\), then \\(X\\) satisfies RNS property.",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-corollary-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Corollary 1Assume \\(X_{kj}\\stackrel{\\iid}{\\sim}\\mathcal{N}(0, 1)\\) with \\(p\\ge2\\) and \\(1\\le k\\le p\\). Then BP recovers every \\(k\\)-sparse \\(\\theta^*\\) simultaneously with probability at least \\(1-p^{",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-prompt-coherence",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec20-4",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1.3. Proof of Theorem 1",
+      "tag": "h3"
+    },
+    {
+      "id": "lec20-block-4",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1.3. Proof of Theorem 1",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec20-5",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "2. Compressed Sensing",
+      "tag": "h2"
+    },
+    {
+      "id": "lec20-recall-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Restricted null space",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-recall-1-excerpt",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "2. Compressed Sensing",
+      "tag": "template"
+    },
+    {
+      "id": "lec20-block-5",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "2. Compressed Sensing",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-definition-2",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Definition 2Restricted isometryRestricted isometry constant \\(\\delta_k\\) of \\(X\\) is the smallest nonnegative number such that \\[\\begin{aligned} (1 - \\delta_k)\\|u\\|_2^2 \\le \\|Xu\\|_2^2 \\le (1 + \\delta_",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l20-rip-meaning",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Sparse isometry. If \\(\\delta_k = 0\\), \\(\\|Xu\\| = \\|u\\|\\), for every \\(k\\)-sparse \\(u\\); this is an isometry on each coordinate subspace of dimension at most \\(k\\).Scope. It does not imply global isome",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-theorem-2",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Theorem 2Assume \\(y=X\\theta^*\\).Suppose \\(\\theta^*\\) is \\(k\\)-sparse and \\(\\delta_{2k} < 1\\). Then \\(\\theta^*\\) is unique solution to \\[\\begin{aligned} \\min_{\\theta\\in\\mathbb{R}^p}\\|\\theta\\|_0, \\qquad",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-explain-nphard-control",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "NP-hardness",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-explain-nphard-control-excerpt",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "2. Compressed Sensing",
+      "tag": "template"
+    },
+    {
+      "id": "lec20-remark-2",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Remark 2Convex vs. nonconvexRecall \\(\\|\\theta\\|_0 = \\sum_{j=1}^{p}\\mathbb{1}(\\theta_j \\neq 0)\\). The count \\(\\|\\theta\\|_0\\) is nonconvex. Finding the sparsest solution is NP-hard in general1; nonconve",
+      "tag": "div"
+    },
+    {
+      "id": "fnref1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "1",
+      "tag": "a"
+    },
+    {
+      "id": "lec20-theorem-3",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Theorem 3Let \\(0<\\delta<1\\), \\(1\\le k\\le p\\), and \\(X_{ij}\\stackrel{\\iid}{\\sim}\\mathcal N(0,1)\\). With probability at least \\(1-2\\exp(-c\\delta^2 n)\\), the normalized matrix \\(X/\\sqrt n\\) has restricte",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-prompt-rip",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec20-6",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "2.1. Algorithmic perspective*",
+      "tag": "h3"
+    },
+    {
+      "id": "lec20-block-6",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "2.1. Algorithmic perspective*",
+      "tag": "span"
+    },
+    {
+      "id": "convex-relaxation",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Convex relaxation",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec20-7",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "3. Statistical theory for LASSO",
+      "tag": "h2"
+    },
+    {
+      "id": "lec20-block-7",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "3. Statistical theory for LASSO",
+      "tag": "span"
+    },
+    {
+      "id": "opt-lasso",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "\\[\\begin{aligned} \\min_{\\theta\\in\\mathbb{R}^p} \\underbrace{\\frac{1}{2n}\\|y - X\\theta\\|_2^2}_{L_n(\\theta)} + \\underbrace{\\lambda_n\\|\\theta\\|_1}_{p_n(\\theta)} =: \\ell_n(\\theta). \\end{aligned}\\](1)",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-bp-limit",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Why the noiseless limit is basis pursuit.",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l20-bp-limit",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Compare objectives. Let \\(\\theta_{\\rm BP}\\) be any basis-pursuit minimizer for feasible data \\(y\\). For \\(\\lambda>0\\), comparison with that exact fit gives \\[\\frac{\\|y-X\\hat\\theta_\\lambda\\|^2}{2n}+\\la",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-checkpoint-2",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "The basic LASSO inequality.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec20-8",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "3.1. Geometric intuition",
+      "tag": "h3"
+    },
+    {
+      "id": "lec20-block-8",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "3.1. Geometric intuition",
+      "tag": "span"
+    },
+    {
+      "id": "difficulty.",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Difficulty.",
+      "tag": "span"
+    },
+    {
+      "id": "eq-degenerate",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "\\[\\begin{aligned} \\text{rank}(\\nabla_\\theta^2 L_n(\\theta))\\le n < p. \\end{aligned}\\](2)",
+      "tag": "div"
+    },
+    {
+      "id": "fig-lasso-cone",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "3.1. Geometric intuition",
+      "tag": "img"
+    },
+    {
+      "id": "key-insights.",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Key insights.",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l20-recovery-strategy",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Error coordinates. As before, let the support set be \\(S := \\mathrm{supp}(\\theta^*) = \\{j \\le p: \\theta^*_j \\neq 0\\}\\), and denote \\(\\Delta = \\theta - \\theta^*\\).Compare objectives. The question is wh",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-note-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Instructor’s NoteOnly the relevant directions need curvatureA flat valley is a problem only if an estimation error can travel along it. Sparsity and the penalty constrain the possible error directions",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec20-9",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "3.2. Estimation Error of LASSO",
+      "tag": "h3"
+    },
+    {
+      "id": "lec20-recall-2",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "The basic LASSO inequality",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-recall-2-excerpt",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "3.2. Estimation Error of LASSO",
+      "tag": "template"
+    },
+    {
+      "id": "lec20-block-9",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "3.2. Estimation Error of LASSO",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-definition-3",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Definition 3Restricted eigenvalue conditionWe say \\(X\\) satisfies restricted eigenvalue (RE) condition over \\(S\\) with parameter \\(\\kappa>0\\) if \\[\\begin{aligned} \\frac{1}{n}\\|X\\Delta\\|_2^2 \\ge \\kappa",
+      "tag": "div"
+    },
+    {
+      "id": "thm-lasso",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Theorem 4Assume that \\(X\\) satisfies \\(\\kappa\\)-restricted eigenvalue condition, and \\[\\begin{aligned} \\lambda>0,\\qquad\\lambda\\ge2\\left\\|\\frac{X^\\text{T}\\veps}{n}\\right\\|_\\infty. \\end{aligned}\\] Denot",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l20-calibration",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Proof route. The complete argument is in Exercise 6; the optional proof subsection expands the same steps.Condition on the design. For independent Gaussian noise \\(\\veps\\sim N(0,\\sigma^2I_n)\\), condit",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-checkpoint-3",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Error requires scale and curvature.",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-prompt-error",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec20-10",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "3.3. Proof of Theorem 4",
+      "tag": "h3"
+    },
+    {
+      "id": "lec20-block-10",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "3.3. Proof of Theorem 4",
+      "tag": "span"
+    },
+    {
+      "id": "eq-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "\\[\\begin{aligned} \\frac{1}{2n}\\|X\\Delta\\|_2^2 \\le \\frac{1}{n}\\|X^\\text{T}\\veps\\|_\\infty\\|\\Delta\\|_1 - \\lambda\\|\\Delta_{S^c}\\|_1 + \\lambda\\|\\Delta_S\\|_1. \\end{aligned}\\](3)",
+      "tag": "div"
+    },
+    {
+      "id": "sec-lec20-11",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "4. Further reading",
+      "tag": "h2"
+    },
+    {
+      "id": "lec20-block-11",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "4. Further reading",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-key-ideas",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Key ideasExact sparse recovery requires the null space to avoid directions that do not increase the norm.Pairwise incoherence gives a convenient sufficient condition; restricted isometry can use fewer",
+      "tag": "section"
+    },
+    {
+      "id": "lec20-reference",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Detailed referenceDetailed reference◆ High priorityRestricted null spaceIf no nonzero null vector satisfies \\(\\|h_{S^c}\\|_1\\le\\|h_S\\|_1\\), then a signal supported on \\(S\\) is the unique basis-pursuit ",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec20-summary",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Detailed reference",
+      "tag": "h2"
+    },
+    {
+      "id": "lec20-looking-ahead",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Looking aheadThis completes the optional shrinkage and sparsity sequence. The planned Part VII: Testing and confidence sets turns from estimation to decisions and uncertainty; its lecture materials ar",
+      "tag": "section"
+    },
+    {
+      "id": "practice-index",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "PracticeAll exercises in this lecture are optional. High and mid mark the main reading route; All practice includes the extensions. See the Lecture-specific exam scope. Solutions stay closed until req",
+      "tag": "nav"
+    },
+    {
+      "id": "practice-heading",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "h2"
+    },
+    {
+      "id": "practice-count",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "8 exercises in main-route practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercises-and-complete-solutions",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityBasis pursuit with one measurementExercise 1Basis pursuit with one measurement#For \\(X=(1\\ \\ 2)\\) and",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec20-exercises",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise 1Basis pursuit with one measurement#For \\(X=(1\\ \\ 2)\\) and \\(y=2\\), find the unique basis-pursuit solution.Reveal solutionThe constraint is \\(b_1+2b_2=2\\). Since \\(2=|b_1+2b_2|\\le|b_1|+2|b_2|",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-ex-bp",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-sol-bp",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-2",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise 2Use an incoherence certificate#If \\(\\delta_{\\rm pw}(X)=0.04\\), what positive integer sparsity levels are certified by \\(\\delta_{\\rm pw}<1/(2k)\\)?Reveal solutionThe inequality is \\(0.08k<1\\),",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-ex-coherence",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-sol-coherence",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-3",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise 3Sparse injectivity from RIP#Prove that \\(\\delta_{2k}<1\\) rules out two distinct \\(k\\)-sparse vectors with the same measurements.Reveal solutionIf \\(Xu=Xv\\) and \\(u,v\\) are \\(k\\)-sparse, then",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-ex-rip",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-sol-rip",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-4",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise 4Read a LASSO error guarantee#If \\(|S|=4\\), \\(\\kappa=0.5\\), \\(\\lambda=0.1\\), and the noise correlation is at most 0.04, what error bound does the theorem provide?Reveal solutionWe have \\(0.1\\",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-ex-error",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-sol-error",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-5",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise 5A complete incoherence-to-RNS argument#Prove RNS for \\(|S|\\le k\\) when \\(\\delta=\\|X^\\top X/n-I\\|_{\\max}<1/(2k)\\) using a coordinate argument.Reveal solutionLet \\(G=X^\\top X/n\\) and \\(Xh=0\\).",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-ex-rns",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-sol-rns",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-6",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise 6The basic inequality and restricted curvature#Under the assumptions of Theorem 4, prove both the cone inclusion and the Euclidean error bound.Reveal solutionOptimality and expansion of squar",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-ex-basic",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-sol-basic",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-7",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise 7Calibrate lambda conditional on the design#Derive the displayed conditional Gaussian noise-correlation bound when \\(\\|X_j\\|\\le L\\sqrt n\\).Reveal solutionConditional on \\(X\\), each \\(X_j^\\top",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-ex-gaussian",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-sol-gaussian",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-8",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Exercise 8Basis pursuit as a linear program#Express BP using variables \\(u,v\\ge0\\) with \\(\\theta=u-v\\), and justify equivalence.Reveal solutionMinimize \\(\\sum_j(u_j+v_j)\\) subject to \\(X(u-v)=y\\) and ",
+      "tag": "div"
+    },
+    {
+      "id": "lec20-ex-linearprogram",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec20-sol-linearprogram",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "bibliography",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "References",
+      "tag": "h2"
+    },
+    {
+      "id": "refs",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "[1] R. Vershynin. High-dimensional probability: An introduction with applications in data science. Cambridge university press. 2018.[2] M. J. Wainwright. High-dimensional statistics: A non-asymptotic ",
+      "tag": "div"
+    },
+    {
+      "id": "ref-vershynin2018high",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "[1] R. Vershynin. High-dimensional probability: An introduction with applications in data science. Cambridge university press. 2018.",
+      "tag": "div"
+    },
+    {
+      "id": "ref-wainwright2019high",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "[2] M. J. Wainwright. High-dimensional statistics: A non-asymptotic viewpoint. Cambridge university press. 2019.",
+      "tag": "div"
+    },
+    {
+      "id": "terminology-notes-heading",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Terminology notes",
+      "tag": "h2"
+    },
+    {
+      "id": "fn1",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "NP-hard is a worst-case complexity classification: a polynomial-time algorithm for every instance would also solve a broad class of combinatorial search problems efficiently. It does not say that ever",
+      "tag": "li"
+    },
+    {
+      "id": "lec20-explain-nphard",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Terminology notes",
+      "tag": "span"
+    },
+    {
+      "id": "what-changed",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "What changedOctober 16, 2026: Clarified the basis-pursuit limit of LASSO, used the enlarged error set consistently, and separated computational hardness from nonconvexity alone. Added optional-part gu",
+      "tag": "details"
+    },
+    {
+      "id": "discussion",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Comments Discuss an idea or ask a public question. Include a section or exercise number when relevant. For errors in the notes or website, Report an issue. Public comments use Disqus. Enable JavaScrip",
+      "tag": "section"
+    },
+    {
+      "id": "discussion-heading",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Comments",
+      "tag": "h2"
+    },
+    {
+      "id": "discussion-config",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-components",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-explanations",
+      "page": "lect-20.html",
+      "lecture": 20,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "issue-report-config",
       "page": "part-1.html",
       "lecture": null,
       "label": "issue-report-config",
@@ -21167,21 +24023,21 @@
       "id": "lect-18",
       "page": "part-6.html",
       "lecture": null,
-      "label": "Lecture 18: Stein’s phenomenon and shrinkage*",
+      "label": "Lecture 18: Stein’s phenomenon and shrinkage estimation*",
       "tag": "h3"
     },
     {
       "id": "lect-19",
       "page": "part-6.html",
       "lecture": null,
-      "label": "Lecture 19: Thresholding in the Gaussian sequence model*",
+      "label": "Lecture 19: Denoising via shrinkage*",
       "tag": "h3"
     },
     {
       "id": "lect-20",
       "page": "part-6.html",
       "lecture": null,
-      "label": "Lecture 20: Sparse recovery, basis pursuit and LASSO*",
+      "label": "Lecture 20: Basis pursuit, compressed sensing, and LASSO*",
       "tag": "h3"
     },
     {
@@ -21209,7 +24065,7 @@
       "id": "checkpoint",
       "page": "part-6.html",
       "lecture": null,
-      "label": "Checkpoint status",
+      "label": "Optional self-study",
       "tag": "h2"
     },
     {
@@ -21391,7 +24247,7 @@
       "id": "optional-lectures",
       "page": "index.html",
       "lecture": null,
-      "label": "* Part VI is optional. Lectures 18–20 are optional topics. Their entries are placeholders; notes and downloads will be added later.",
+      "label": "* Part VI is optional. Lectures 18–20 are available for enrichment and are not examined.",
       "tag": "p"
     },
     {
@@ -21489,21 +24345,21 @@
       "id": "lecture-18-placeholder",
       "page": "index.html",
       "lecture": null,
-      "label": "Lecture 18 — Stein’s phenomenon and shrinkage estimation* Optional · Notes forthcoming",
+      "label": "Lecture 18 — Stein’s phenomenon and shrinkage estimation* HTMLPDF",
       "tag": "li"
     },
     {
       "id": "lecture-19-placeholder",
       "page": "index.html",
       "lecture": null,
-      "label": "Lecture 19 — Denoising via shrinkage* Optional · Notes forthcoming",
+      "label": "Lecture 19 — Denoising via shrinkage* HTMLPDF",
       "tag": "li"
     },
     {
       "id": "lecture-20-placeholder",
       "page": "index.html",
       "lecture": null,
-      "label": "Lecture 20 — Basis pursuit, compressed sensing, and LASSO* Optional · Notes forthcoming",
+      "label": "Lecture 20 — Basis pursuit, compressed sensing, and LASSO* HTMLPDF",
       "tag": "li"
     },
     {
