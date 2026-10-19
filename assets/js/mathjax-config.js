@@ -3,6 +3,7 @@ window.MathJax = {
     pageReady() {
       return window.MathJax.startup.defaultPageReady().then(() => {
         document.documentElement.classList.add('math-ready');
+        document.dispatchEvent(new Event('stat709:math-ready'));
       });
     }
   },

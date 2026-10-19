@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "date": "2026-10-19",
+  "title": "Gradient descent selects the minimum-norm exact fit",
+  "sourceLabel": "lec07-fig-gd",
+  "provenance": "Original course drawing, prepared with Codex; no third-party image copied. Replaces the inherited sketch whose original source could not be identified.",
+  "mathematics": {
+    "X": [
+      [
+        1,
+        2
+      ]
+    ],
+    "y": [
+      1
+    ],
+    "minimumNorm": [
+      0.2,
+      0.4
+    ],
+    "loss": "||y-X beta||^2",
+    "stepSize": 0.05,
+    "iterate": "beta_t=(1-2^(-t))(1/5,2/5)",
+    "exactFitSet": "beta_1+2 beta_2=1"
+  },
+  "references": [
+    {
+      "title": "Cornell CS 3/5780, Spring 2026, Linear Regression, sections 4\u20135",
+      "url": "https://www.cs.cornell.edu/courses/cs3780/2026sp/slides/lec12.pdf",
+      "use": "Supporting derivation: affine solution set, row/null-space decomposition, zero-initialized gradient descent. Cornell uses data vectors as columns; STAT 709 uses rows."
+    }
+  ],
+  "alt": "The blue line beta1+2 beta2=1 contains every exact fit. Green iterates from the origin approach (1/5,2/5) along the perpendicular row-space line. The other fit (1,0) is farther from the origin.",
+  "files": {
+    "minimum-norm.png": "36d2139966df29b68b9609c3f00ef88098ddd9225218238fea44579e45aad6ba",
+    "minimum-norm.pdf": "fbc0481646d47bb4d6fbb3a9e7ab9f1079eb7f2fbae509ff09d12137289ea826",
+    "minimum-norm.svg": "785fddde05596ce2f29d784a54fee217e2f662fc27bef95809c699a4a6ba896f"
+  }
+}

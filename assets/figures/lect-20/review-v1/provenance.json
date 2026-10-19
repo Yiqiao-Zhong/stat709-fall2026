@@ -1,6 +1,14 @@
 [
   {
     "lecture": 20,
+    "name": "bp-contact",
+    "path": "../assets/figures/lect-20/review-v1/bp-contact.png",
+    "alt": "An expanding l1 diamond first meets the line theta1 plus theta2 over 2 equals 1 at the single vertex (1,0), while theta1 plus theta2 equals 1 touches a full edge of minimizers.",
+    "source": "Vershynin, Chapter 10; exact two-dimensional BP geometry.",
+    "provenance": "Original course illustration generated from the formulas in this script; no source figure copied."
+  },
+  {
+    "lecture": 20,
     "name": "descent-vs-support",
     "path": "../assets/figures/lect-20/review-v1/descent-vs-support.png",
     "alt": "At a fixed target e1, nonincreasing local directions form the left wedge h1 plus absolute h2 at most zero. Uniform recovery on support {1} uses both wedges, absolute h2 at most absolute h1.",

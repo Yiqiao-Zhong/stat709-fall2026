@@ -1,6 +1,14 @@
 [
   {
     "lecture": 18,
+    "name": "radial-shrinkage",
+    "path": "../assets/figures/lect-18/review-v1/radial-shrinkage.png",
+    "alt": "A two-coordinate slice of the five-dimensional positive-part James\u2013Stein rule: observations inside radius square root of 3 map to zero; outside observations move inward without reversing direction.",
+    "source": "Stein risk identity and positive-part rule; Wasserman Stein notes. This is an estimator map, not a pointwise loss comparison.",
+    "provenance": "Original course illustration generated from the formulas in this script; no source figure copied."
+  },
+  {
+    "lecture": 18,
     "name": "tweedie-mixture",
     "path": "../assets/figures/lect-18/review-v1/tweedie-mixture.png",
     "alt": "With prior mass one half at each of minus 2 and plus 2 and noise variance 1, the posterior mean is 2 tanh(2x). Score corrections can move observations away from zero toward either mode.",

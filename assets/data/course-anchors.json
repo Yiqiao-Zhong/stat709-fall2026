@@ -69,7 +69,7 @@
       "id": "lecture-content",
       "page": "lect-1.html",
       "lecture": 1,
-      "label": "Original lecture date: September 3, 2025. Course edition: Fall 2026.Disclaimer: These notes are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison. They are intended as",
+      "label": "Original lecture date: September 3, 2025. Course edition: Fall 2026.These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questio",
       "tag": "main"
     },
     {
@@ -1021,7 +1021,7 @@
       "id": "what-changed",
       "page": "lect-1.html",
       "lecture": 1,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -1182,7 +1182,7 @@
       "id": "lecture-content",
       "page": "lect-2.html",
       "lecture": 2,
-      "label": "Disclaimer: These notes are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison. They are a learning aid rather than a substitute for a textbook, and corrections are wel",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome.Familiar tools. Do we need measure theory for every c",
       "tag": "main"
     },
     {
@@ -2386,7 +2386,7 @@
       "id": "ref-shao2003mathematical",
       "page": "lect-2.html",
       "lecture": 2,
-      "label": "[4] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[4] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
@@ -2407,7 +2407,7 @@
       "id": "what-changed",
       "page": "lect-2.html",
       "lecture": 2,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -2505,7 +2505,7 @@
       "id": "lecture-content",
       "page": "lect-3.html",
       "lecture": 3,
-      "label": "Disclaimer: These notes are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison. They are a learning aid rather than a substitute for a textbook, and corrections are wel",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. Lecture 2 supplied measurable sets, measures, and ra",
       "tag": "main"
     },
     {
@@ -3247,7 +3247,7 @@
       "id": "classroom-l3-circle",
       "page": "lect-3.html",
       "lecture": 3,
-      "label": "Law and support. Return to Lecture 2’s circle example: if \\(U\\) is uniform on \\([0,2\\pi]\\), then \\((\\cos U,\\sin U)\\) lies on the unit circle \\(S\\) with probability one.Plane area. Its law is not absol",
+      "label": "Law and support. Return to Lecture 2’s circle example: if \\(U\\) is uniform on \\([0,2\\pi)\\), then \\((\\cos U,\\sin U)\\) lies on the unit circle \\(S\\) with probability one.Plane area. Its law is not absol",
       "tag": "div"
     },
     {
@@ -3275,7 +3275,7 @@
       "id": "lec03-explain-diffeomorphism-control",
       "page": "lect-3.html",
       "lecture": 3,
-      "label": "C1 diffeomorphism",
+      "label": "C¹ diffeomorphism",
       "tag": "div"
     },
     {
@@ -3492,7 +3492,7 @@
       "id": "exercise-4",
       "page": "lect-3.html",
       "lecture": 3,
-      "label": "Exercise 4Area below the diagonal# Let \\(f(x,y)=\\mathbf 1\\{0\\le x\\le y\\le1\\}\\).Evaluate \\(\\int_0^1\\int_0^1f(x,y)\\,dx\\,dy\\).Reverse the order and verify the same value.State precisely why the exchange ",
+      "label": "Exercise 4Area above the diagonal# Let \\(f(x,y)=\\mathbf 1\\{0\\le x\\le y\\le1\\}\\).Evaluate \\(\\int_0^1\\int_0^1f(x,y)\\,dx\\,dy\\).Reverse the order and verify the same value.State precisely why the exchange ",
       "tag": "div"
     },
     {
@@ -3688,7 +3688,7 @@
       "id": "ref-shao2003mathematical",
       "page": "lect-3.html",
       "lecture": 3,
-      "label": "[4] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[4] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
@@ -3758,7 +3758,7 @@
       "id": "fn5",
       "page": "lect-3.html",
       "lecture": 3,
-      "label": "C1 diffeomorphism · Low — not examined A \\(C^1\\) diffeomorphism is a change of coordinates whose forward and inverse maps are continuously differentiable. The Jacobian is the matrix of first partial d",
+      "label": "C¹ diffeomorphism · Low — not examined A \\(C^1\\) diffeomorphism is a change of coordinates whose forward and inverse maps are continuously differentiable. The Jacobian is the matrix of first partial d",
       "tag": "details"
     },
     {
@@ -3814,7 +3814,7 @@
       "id": "what-changed",
       "page": "lect-3.html",
       "lecture": 3,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -3919,7 +3919,7 @@
       "id": "lecture-content",
       "page": "lect-4.html",
       "lecture": 4,
-      "label": "These notes are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison. They are a learning aid rather than a substitute for a textbook; corrections and questions are welco",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome.◆ High priorityFrom integration to probabilityPurpose",
       "tag": "main"
     },
     {
@@ -4738,7 +4738,7 @@
       "id": "practice-index",
       "page": "lect-4.html",
       "lecture": 4,
-      "label": "PracticeHigh and mid exercises are both in examination scope. Select a problem to open its statement; solutions stay closed until requested.Core practiceExam practiceAll practice8 exercises in exam pr",
+      "label": "PracticeHigh and mid exercises are both in examination scope. Select a problem to open its statement; solutions stay closed until requested.Core practiceExam practiceAll practice7 exercises in exam pr",
       "tag": "nav"
     },
     {
@@ -4752,14 +4752,14 @@
       "id": "practice-count",
       "page": "lect-4.html",
       "lecture": 4,
-      "label": "8 exercises in exam practice",
+      "label": "7 exercises in exam practice",
       "tag": "span"
     },
     {
       "id": "exercises-and-complete-solutions",
       "page": "lect-4.html",
       "lecture": 4,
-      "label": "5. Exercises and complete solutions10 exercises · complete solutionsReveal all solutions◆ High priorityPractice using a lawExercise 1Change of variables through the law# For a real random variable \\(X",
+      "label": "5. Exercises and complete solutions9 exercises · complete solutionsReveal all solutions◆ High priorityPractice using a lawExercise 1Change of variables through the law# For a real random variable \\(X\\",
       "tag": "details"
     },
     {
@@ -4938,52 +4938,10 @@
       "tag": "span"
     },
     {
-      "id": "exercise-8",
-      "page": "lect-4.html",
-      "lecture": 4,
-      "label": "Exercise 8A justified zero mean for the spatial log-gradient# Let \\(f\\ge0\\) be a \\(C^1\\) density on \\(\\R^d\\), zero outside a compact set. Define \\(S(x)=\\nabla f(x)/f(x)\\) if \\(f(x)>0\\) and \\(S(x)=0\\) ",
-      "tag": "div"
-    },
-    {
-      "id": "lec04-ex-score",
-      "page": "lect-4.html",
-      "lecture": 4,
-      "label": "Practice",
-      "tag": "span"
-    },
-    {
-      "id": "lec04-fig-boundary",
-      "page": "lect-4.html",
-      "lecture": 4,
-      "label": "Boundary heights account for the average log-slope Explanation",
-      "tag": "figure"
-    },
-    {
-      "id": "lec04-fig-boundary-title",
-      "page": "lect-4.html",
-      "lecture": 4,
-      "label": "Boundary heights account for the average log-slope Explanation",
-      "tag": "figcaption"
-    },
-    {
-      "id": "lec04-sol-score",
-      "page": "lect-4.html",
-      "lecture": 4,
-      "label": "Practice",
-      "tag": "span"
-    },
-    {
-      "id": "lec04-score-fallback",
-      "page": "lect-4.html",
-      "lecture": 4,
-      "label": "Practice",
-      "tag": "span"
-    },
-    {
       "id": "exercise-9",
       "page": "lect-4.html",
       "lecture": 4,
-      "label": "Exercise 9The missing second-moment argument# For \\(G\\sim\\mathcal G(n,p_n)\\), let \\(N\\) count triangles. Compute its variance and use it to show \\(P(N=0)\\to0\\) if \\(p_n=n^{-\\alpha}\\), \\(0<\\alpha<1\\).R",
+      "label": "Exercise 8The missing second-moment argument# For \\(G\\sim\\mathcal G(n,p_n)\\), let \\(N\\) count triangles. Compute its variance and use it to show \\(P(N=0)\\to0\\) if \\(p_n=n^{-\\alpha}\\), \\(0<\\alpha<1\\).R",
       "tag": "div"
     },
     {
@@ -5004,7 +4962,7 @@
       "id": "exercise-10",
       "page": "lect-4.html",
       "lecture": 4,
-      "label": "Exercise 10Affine concentration and centered empirical covariance# Under the finite-second-moment and eigendecomposition assumptions of Section 3.3, prove \\(X=m+UU^\\top(X-m)\\) a.s. Check the empirical",
+      "label": "Exercise 9Affine concentration and centered empirical covariance# Under the finite-second-moment and eigendecomposition assumptions of Section 3.3, prove \\(X=m+UU^\\top(X-m)\\) a.s. Check the empirical ",
       "tag": "div"
     },
     {
@@ -5074,7 +5032,7 @@
       "id": "ref-shao2003mathematical",
       "page": "lect-4.html",
       "lecture": 4,
-      "label": "[3] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[3] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
@@ -5130,7 +5088,7 @@
       "id": "what-changed",
       "page": "lect-4.html",
       "lecture": 4,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026 (instructor follow-up). Removed the spatial log-gradient exercise, its solution and boundary diagram at the instructor’s request. Nine complete exercises remain.October 19",
       "tag": "details"
     },
     {
@@ -5228,14 +5186,14 @@
       "id": "section-navigation",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "IndependenceSome examplesConditional expectationExamplesFurther reading*Key ideasLooking aheadPracticeReferencesTerminology notesComments",
+      "label": "IndependenceExamples of independenceConditional expectationApplications of conditional expectationFurther reading*Key ideasLooking aheadPracticeReferencesTerminology notesComments",
       "tag": "ol"
     },
     {
       "id": "lecture-content",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "These notes are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison. They are a learning aid rather than a substitute for a textbook; corrections and questions are welco",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome.◆ High priorityWhen observations change what we knowW",
       "tag": "main"
     },
     {
@@ -5256,7 +5214,7 @@
       "id": "lec05-recap",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "Recap from earlier lecturesFrom Lectures 2–4: laws, expectations, products · 1 minReminder only: this block introduces no new exam requirements.Expectation through a law. \\(\\mathbb E g(X)=\\int g\\,dP_X",
+      "label": "Recap from earlier lecturesFrom Lectures 2–4: laws, expectations, products · 1 minReminder only: this block introduces no new exam requirements.Expectation through a law. \\(\\mathbb E g(X)=\\int g\\,d\\mu",
       "tag": "details"
     },
     {
@@ -5564,7 +5522,7 @@
       "id": "sec-lec05-applications",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "2. Some examples",
+      "label": "2. Examples of independence",
       "tag": "h2"
     },
     {
@@ -5781,7 +5739,7 @@
       "id": "sec-simple",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "3.2. Regular conditional probabilities",
+      "label": "3.2. Regular conditional distributions",
       "tag": "h3"
     },
     {
@@ -5795,7 +5753,7 @@
       "id": "lec05-explain-version-control-excerpt",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "3.2. Regular conditional probabilities",
+      "label": "3.2. Regular conditional distributions",
       "tag": "template"
     },
     {
@@ -6103,7 +6061,7 @@
       "id": "sec-lec05-examples",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "4. Examples",
+      "label": "4. Applications of conditional expectation",
       "tag": "h2"
     },
     {
@@ -6866,14 +6824,14 @@
       "id": "refs",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, volumes i-II package. Chapman; Hall/CRC. 2015.[2] R. Durrett. Probability: Theory and examples. Cambridge u",
+      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, Volumes I–II. Chapman & Hall/CRC. 2015.[2] R. Durrett. Probability: Theory and examples. Cambridge universi",
       "tag": "div"
     },
     {
       "id": "ref-bickel",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, volumes i-II package. Chapman; Hall/CRC. 2015.",
+      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, Volumes I–II. Chapman & Hall/CRC. 2015.",
       "tag": "div"
     },
     {
@@ -6887,7 +6845,7 @@
       "id": "ref-shao2003mathematical",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "[3] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[3] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
@@ -6957,7 +6915,7 @@
       "id": "what-changed",
       "page": "lect-5.html",
       "lecture": 5,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -7069,7 +7027,7 @@
       "id": "lecture-content",
       "page": "lect-6.html",
       "lecture": 6,
-      "label": "These notes are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison. They are a learning aid rather than a substitute for a textbook; corrections and questions are welco",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome.◆ High priorityFrom probability to statistical questi",
       "tag": "main"
     },
     {
@@ -7454,7 +7412,7 @@
       "id": "lec06-normal-maxima",
       "page": "lect-6.html",
       "lecture": 6,
-      "label": "Remark 1Normal maximaThe earlier Gaussian-tail calculation suggests that the largest of \\(n\\) i.i.d. standard normal observations is about \\(\\sqrt{2\\log n}\\). Precisely, if \\(M_n=\\max_{j\\le n}X_j\\) an",
+      "label": "Remark 1Normal maximaThe Gaussian-tail calculation in Lecture 1 suggests that the largest of \\(n\\) i.i.d. standard normal observations is about \\(\\sqrt{2\\log n}\\). Precisely, if \\(M_n=\\max_{j\\le n}X_j",
       "tag": "div"
     },
     {
@@ -7811,7 +7769,7 @@
       "id": "classroom-l6-sufficiency-intro",
       "page": "lect-6.html",
       "lecture": 6,
-      "label": "Recall. Recall the definition of a statistic.Sufficiency question. A summary uses no new information, but it may retain everything relevant to the unknown population within a specified model. Sufficie",
+      "label": "Statistic. Recall the definition of a statistic.Sufficiency question. A summary uses no new information, but it may retain everything relevant to the unknown population within a specified model. Suffi",
       "tag": "div"
     },
     {
@@ -8427,14 +8385,14 @@
       "id": "refs",
       "page": "lect-6.html",
       "lecture": 6,
-      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, volumes i-II package. Chapman; Hall/CRC. 2015.[2] T. M. Cover and J. A. Thomas. Elements of information the",
+      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, Volumes I–II. Chapman & Hall/CRC. 2015.[2] T. M. Cover and J. A. Thomas. Elements of information theory. Wi",
       "tag": "div"
     },
     {
       "id": "ref-bickel",
       "page": "lect-6.html",
       "lecture": 6,
-      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, volumes i-II package. Chapman; Hall/CRC. 2015.",
+      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, Volumes I–II. Chapman & Hall/CRC. 2015.",
       "tag": "div"
     },
     {
@@ -8455,7 +8413,7 @@
       "id": "ref-shao2003mathematical",
       "page": "lect-6.html",
       "lecture": 6,
-      "label": "[4] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[4] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
@@ -8525,7 +8483,7 @@
       "id": "what-changed",
       "page": "lect-6.html",
       "lecture": 6,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -8637,7 +8595,7 @@
       "id": "lecture-content",
       "page": "lect-7.html",
       "lecture": 7,
-      "label": "These notes are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison. They are a learning aid rather than a substitute for a textbook; corrections and questions are welco",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome.◆ High priorityWhy allow an estimator to be biased?Ov",
       "tag": "main"
     },
     {
@@ -9827,7 +9785,7 @@
       "id": "exercise-12",
       "page": "lect-7.html",
       "lecture": 7,
-      "label": "Exercise 12The GD selection theorem# Prove Theorem 2. Show convergence for \\(0<\\eta<1/\\lambda_{\\max}(XX^\\top)\\) and describe the limit from an arbitrary initialization \\(b_0\\).Reveal solution Let \\(r_",
+      "label": "Exercise 12The GD selection theorem# Prove Theorem 2. Show convergence for \\(0<\\eta<1/\\lambda_{\\max}(XX^\\top)\\) and describe the limit from an arbitrary initialization \\(b_0:=\\beta^{(0)}\\).Reveal solu",
       "tag": "div"
     },
     {
@@ -9855,14 +9813,14 @@
       "id": "refs",
       "page": "lect-7.html",
       "lecture": 7,
-      "label": "[1] P. L. Bartlett, A. Montanari, and A. Rakhlin. Deep learning: A statistical viewpoint. Acta numerica, 30, 87–201. 2021.[2] M. Belkin, D. J. Hsu, S. Ma, and S. Mandal. Reconciling modern machine-lea",
+      "label": "[1] P. L. Bartlett, A. Montanari, and A. Rakhlin. Deep learning: A statistical viewpoint. Acta Numerica, 30, 87–201. 2021.[2] M. Belkin, D. J. Hsu, S. Ma, and S. Mandal. Reconciling modern machine-lea",
       "tag": "div"
     },
     {
       "id": "ref-bartlett2021deep",
       "page": "lect-7.html",
       "lecture": 7,
-      "label": "[1] P. L. Bartlett, A. Montanari, and A. Rakhlin. Deep learning: A statistical viewpoint. Acta numerica, 30, 87–201. 2021.",
+      "label": "[1] P. L. Bartlett, A. Montanari, and A. Rakhlin. Deep learning: A statistical viewpoint. Acta Numerica, 30, 87–201. 2021.",
       "tag": "div"
     },
     {
@@ -9876,14 +9834,14 @@
       "id": "ref-bickel",
       "page": "lect-7.html",
       "lecture": 7,
-      "label": "[3] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, volumes i-II package. Chapman; Hall/CRC. 2015.",
+      "label": "[3] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, Volumes I–II. Chapman & Hall/CRC. 2015.",
       "tag": "div"
     },
     {
       "id": "ref-hastie2009elements",
       "page": "lect-7.html",
       "lecture": 7,
-      "label": "[4] T. Hastie, R. Tibshirani, J. H. Friedman, and J. H. Friedman. The elements of statistical learning: Data mining, inference, and prediction. Springer. 2009.",
+      "label": "[4] T. Hastie, R. Tibshirani, and J. H. Friedman. The elements of statistical learning: Data mining, inference, and prediction. Springer. 2009.",
       "tag": "div"
     },
     {
@@ -9953,7 +9911,7 @@
       "id": "what-changed",
       "page": "lect-7.html",
       "lecture": 7,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.October 14, 2026 (figure follow-up). Restored th",
+      "label": "What changedOctober 19, 2026 (instructor follow-up). Replaced the unattributed solution-selection sketch with an original affine minimum-norm drawing, keeping the figure label and all other selected f",
       "tag": "details"
     },
     {
@@ -10058,7 +10016,7 @@
       "id": "lecture-content",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "These notes are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison. They are a learning aid rather than a substitute for a textbook; corrections and questions are welco",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome.◆ High priorityFrom a model to an estimatorOverview.R",
       "tag": "main"
     },
     {
@@ -10142,7 +10100,7 @@
       "id": "lec08-moment-inverse",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "\\[\\hat\\theta=h^{-1}(\\hat\\mu).\\](1)",
+      "label": "\\[\\hat\\theta=h^{-1}(\\hat m).\\](1)",
       "tag": "div"
     },
     {
@@ -10492,7 +10450,7 @@
       "id": "classroom-l8-topic",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "Hidden topic and conditional sampling. Consider the single-topic document model of [1]. A document has an unobserved topic \\(h\\in\\{1,\\ldots,K\\}\\) with \\(\\Pr(h=j)=w_j>0\\) and \\(\\sum_j w_j=1\\). Conditio",
+      "label": "Hidden topic and conditional sampling. Consider the single-topic document model of [2]. A document has an unobserved topic \\(h\\in\\{1,\\ldots,K\\}\\) with \\(\\Pr(h=j)=w_j>0\\) and \\(\\sum_j w_j=1\\). Conditio",
       "tag": "div"
     },
     {
@@ -11430,98 +11388,105 @@
       "id": "refs",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[1] A. Anandkumar, R. Ge, D. J. Hsu, S. M. Kakade, M. Telgarsky, and others. Tensor decompositions for learning latent variable models. J. Mach. Learn. Res., 15, 2773–2832. 2014.[2] Y. Bengio, R. Duch",
+      "label": "[1] E. Abbe, A. S. Bandeira, and G. Hall. Exact recovery in the stochastic block model. IEEE Transactions on Information Theory, 62, 471–487. 2016.[2] A. Anandkumar, R. Ge, D. J. Hsu, S. M. Kakade, M.",
+      "tag": "div"
+    },
+    {
+      "id": "ref-abbe2016exact",
+      "page": "lect-8.html",
+      "lecture": 8,
+      "label": "[1] E. Abbe, A. S. Bandeira, and G. Hall. Exact recovery in the stochastic block model. IEEE Transactions on Information Theory, 62, 471–487. 2016.",
       "tag": "div"
     },
     {
       "id": "ref-anandkumar2014tensor",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[1] A. Anandkumar, R. Ge, D. J. Hsu, S. M. Kakade, M. Telgarsky, and others. Tensor decompositions for learning latent variable models. J. Mach. Learn. Res., 15, 2773–2832. 2014.",
+      "label": "[2] A. Anandkumar, R. Ge, D. J. Hsu, S. M. Kakade, M. Telgarsky, and others. Tensor decompositions for learning latent variable models. J. Mach. Learn. Res., 15, 2773–2832. 2014.",
       "tag": "div"
     },
     {
       "id": "ref-bengio2003neural",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[2] Y. Bengio, R. Ducharme, P. Vincent, and C. Jauvin. A neural probabilistic language model. Journal of Machine Learning Research, 3, 1137–1155. 2003.",
+      "label": "[3] Y. Bengio, R. Ducharme, P. Vincent, and C. Jauvin. A neural probabilistic language model. Journal of Machine Learning Research, 3, 1137–1155. 2003.",
       "tag": "div"
     },
     {
       "id": "ref-breiman2001statistical",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[3] L. Breiman. Statistical modeling: The two cultures (with comments and a rejoinder by the author). Statistical science, 16, 199–231. 2001.",
+      "label": "[4] L. Breiman. Statistical modeling: The two cultures (with comments and a rejoinder by the author). Statistical science, 16, 199–231. 2001.",
       "tag": "div"
     },
     {
       "id": "ref-brown1992class",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[4] P. F. Brown, V. J. Della Pietra, P. V. deSouza, J. C. Lai, and R. L. Mercer. Class-based n-gram models of natural language. Computational Linguistics, 18, 467–480. 1992.",
+      "label": "[5] P. F. Brown, V. J. Della Pietra, P. V. deSouza, J. C. Lai, and R. L. Mercer. Class-based n-gram models of natural language. Computational Linguistics, 18, 467–480. 1992.",
       "tag": "div"
     },
     {
       "id": "ref-brown2020fewshot",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[5] T. B. Brown, B. Mann, N. Ryder, M. Subbiah, J. Kaplan, and others. Language models are few-shot learners. Advances in Neural Information Processing Systems, 33, 1877–1901. 2020.",
+      "label": "[6] T. B. Brown, B. Mann, N. Ryder, M. Subbiah, J. Kaplan, and others. Language models are few-shot learners. Advances in Neural Information Processing Systems, 33, 1877–1901. 2020.",
       "tag": "div"
     },
     {
       "id": "ref-goodfellow2016deep",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[6] I. Goodfellow, Y. Bengio, and A. Courville. Deep learning. MIT Press. 2016.",
+      "label": "[7] I. Goodfellow, Y. Bengio, and A. Courville. Deep learning. MIT Press. 2016.",
       "tag": "div"
     },
     {
       "id": "ref-hall2005generalized",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[7] A. R. Hall. Generalized method of moments. Oxford University Press. 2005.",
+      "label": "[8] A. R. Hall. Generalized method of moments. Oxford University Press. 2005.",
       "tag": "div"
     },
     {
       "id": "ref-hansen1982",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[8] L. P. Hansen. Large sample properties of generalized method of moments estimators. Econometrica, 50, 1029–1054. 1982.",
+      "label": "[9] L. P. Hansen. Large sample properties of generalized method of moments estimators. Econometrica, 50, 1029–1054. 1982.",
       "tag": "div"
     },
     {
       "id": "ref-hoffmann2022compute",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[9] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, and others. Training compute-optimal large language models. arXiv preprint arXiv:2203.15556. 2022.",
+      "label": "[10] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, and others. Training compute-optimal large language models. arXiv preprint arXiv:2203.15556. 2022.",
       "tag": "div"
     },
     {
       "id": "ref-kaplan2020scaling",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[10] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child, S. Gray, A. Radford, J. Wu, and D. Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361. 2020.",
+      "label": "[11] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess, R. Child, S. Gray, A. Radford, J. Wu, and D. Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361. 2020.",
       "tag": "div"
     },
     {
       "id": "ref-pennington-etal-2014-glove",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[11] J. Pennington, R. Socher, and C. Manning. GloVe: Global vectors for word representation. Association for Computational Linguistics, Doha, Qatar. 2014.",
+      "label": "[12] J. Pennington, R. Socher, and C. Manning. GloVe: Global vectors for word representation. Association for Computational Linguistics, Doha, Qatar. 2014.",
       "tag": "div"
     },
     {
       "id": "ref-shannon1948communication",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[12] C. E. Shannon. A mathematical theory of communication. Bell System Technical Journal, 27, 379-423 and 623-656. 1948.",
+      "label": "[13] C. E. Shannon. A mathematical theory of communication. Bell System Technical Journal, 27, 379-423 and 623-656. 1948.",
       "tag": "div"
     },
     {
       "id": "ref-shao2003mathematical",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "[13] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[14] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
@@ -11591,7 +11556,7 @@
       "id": "what-changed",
       "page": "lect-8.html",
       "lecture": 8,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -11696,7 +11661,7 @@
       "id": "lecture-content",
       "page": "lect-9.html",
       "lecture": 9,
-      "label": "These notes are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison. They are a learning aid rather than a substitute for a textbook; corrections and questions are welco",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome.◆ High priorityAsymptotic properties of estimatorsOve",
       "tag": "main"
     },
     {
@@ -12568,6 +12533,20 @@
       "tag": "details"
     },
     {
+      "id": "lec09-reference",
+      "page": "lect-9.html",
+      "lecture": 9,
+      "label": "Detailed reference8. Detailed referenceNotion (linked)Meaning or useful conditionPriorityConvergence in probabilityEach fixed error tolerance is exceeded with probability tending to zero.HighAlmost-su",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec09-summary",
+      "page": "lect-9.html",
+      "lecture": 9,
+      "label": "8. Detailed reference",
+      "tag": "h2"
+    },
+    {
       "id": "sec-lec09-further",
       "page": "lect-9.html",
       "lecture": 9,
@@ -12587,20 +12566,6 @@
       "lecture": 9,
       "label": "Key ideasAlmost-sure convergence implies convergence in probability; the converse can fail.The first Borel–Cantelli lemma turns summable error probabilities into eventual pathwise control.Finite-mean ",
       "tag": "section"
-    },
-    {
-      "id": "lec09-reference",
-      "page": "lect-9.html",
-      "lecture": 9,
-      "label": "Detailed reference8. Detailed referenceNotion (linked)Meaning or useful conditionPriorityConvergence in probabilityEach fixed error tolerance is exceeded with probability tending to zero.HighAlmost-su",
-      "tag": "details"
-    },
-    {
-      "id": "sec-lec09-summary",
-      "page": "lect-9.html",
-      "lecture": 9,
-      "label": "8. Detailed reference",
-      "tag": "h2"
     },
     {
       "id": "lec09-looking-ahead",
@@ -12991,7 +12956,7 @@
       "id": "ref-shao2003mathematical",
       "page": "lect-9.html",
       "lecture": 9,
-      "label": "[3] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[3] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
@@ -13047,7 +13012,7 @@
       "id": "what-changed",
       "page": "lect-9.html",
       "lecture": 9,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026 (instructor follow-up). Changed Section 7.1’s main results and linked sample-variance exercise to mid priority; retained the optional strong-consistency extension.October ",
       "tag": "details"
     },
     {
@@ -13152,7 +13117,7 @@
       "id": "lecture-content",
       "page": "lect-10.html",
       "lecture": 10,
-      "label": "These notes are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison. They are a learning aid rather than a substitute for a textbook; corrections and questions are welco",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome.● Mid priorityFrom consistency to uncertaintyOverview",
       "tag": "main"
     },
     {
@@ -13348,7 +13313,7 @@
       "id": "lec10-criteria-theorem",
       "page": "lect-10.html",
       "lecture": 10,
-      "label": "Theorem 2Equivalent criteria for weak convergenceLet \\(X_n,X\\) be random vectors in \\(\\R^d\\). Each of the following is equivalent to \\(X_n\\Rightarrow X\\):For every \\(h\\in C_b(\\R^d)\\),\\[\\E h(X_n)\\longr",
+      "label": "Theorem 2Equivalent criteria for weak convergenceLet \\(X_n,X\\) be random vectors in \\(\\R^d\\). Each of the following is equivalent to \\(X_n\\Rightarrow X\\):(i) For every \\(h\\in C_b(\\R^d)\\),\\[\\E h(X_n)\\l",
       "tag": "div"
     },
     {
@@ -13835,6 +13800,27 @@
       "tag": "div"
     },
     {
+      "id": "lec10-reference",
+      "page": "lect-10.html",
+      "lecture": 10,
+      "label": "Detailed reference4. Detailed reference◆ High priorityA guide to the main definitions and results The table links back to each definition or statement. High and mid material are in exam scope; low mat",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec10-summary",
+      "page": "lect-10.html",
+      "lecture": 10,
+      "label": "4. Detailed reference",
+      "tag": "h2"
+    },
+    {
+      "id": "lec10-summary-intro",
+      "page": "lect-10.html",
+      "lecture": 10,
+      "label": "4. Detailed reference",
+      "tag": "span"
+    },
+    {
       "id": "sec-lec10-further",
       "page": "lect-10.html",
       "lecture": 10,
@@ -13889,27 +13875,6 @@
       "lecture": 10,
       "label": "Key ideasWeak convergence concerns distributions, not a chosen pairing of observations.The CLT needs the correct centering, normalization and assumptions.Bounded-continuous tests, distribution functio",
       "tag": "section"
-    },
-    {
-      "id": "lec10-reference",
-      "page": "lect-10.html",
-      "lecture": 10,
-      "label": "Detailed reference4. Detailed reference◆ High priorityA guide to the main definitions and results The table links back to each definition or statement. High and mid material are in exam scope; low mat",
-      "tag": "details"
-    },
-    {
-      "id": "sec-lec10-summary",
-      "page": "lect-10.html",
-      "lecture": 10,
-      "label": "4. Detailed reference",
-      "tag": "h2"
-    },
-    {
-      "id": "lec10-summary-intro",
-      "page": "lect-10.html",
-      "lecture": 10,
-      "label": "4. Detailed reference",
-      "tag": "span"
     },
     {
       "id": "lec10-looking-ahead",
@@ -14251,7 +14216,7 @@
       "id": "refs",
       "page": "lect-10.html",
       "lecture": 10,
-      "label": "[1] R. Durrett. Probability: Theory and examples. Cambridge university press. 2019.[2] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.[3] T. Tao. Topics in random matrix the",
+      "label": "[1] R. Durrett. Probability: Theory and examples. Cambridge university press. 2019.[2] J. Shao. Mathematical Statistics. Springer. 2003.[3] T. Tao. Topics in random matrix theory. American Mathematica",
       "tag": "div"
     },
     {
@@ -14265,7 +14230,7 @@
       "id": "ref-shao2003mathematical",
       "page": "lect-10.html",
       "lecture": 10,
-      "label": "[2] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[2] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
@@ -14328,7 +14293,7 @@
       "id": "what-changed",
       "page": "lect-10.html",
       "lecture": 10,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -14384,7 +14349,7 @@
       "id": "lecture-map",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "01 · High / mid / optionalConvergence of transformationsSee the assumptions, proof and examples in this section. 02 · High / midDelta methodSee the assumptions, proof and examples in this section. 03 ",
+      "label": "01 · High / mid / optionalConvergence of transformationsContinuous mapping and Slutsky transfer known limiting laws. 02 · High / midDelta methodLinearize a smooth transformation and track its limiting",
       "tag": "nav"
     },
     {
@@ -14426,14 +14391,14 @@
       "id": "section-navigation",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "Convergence of transformationsDelta methodPrevalence of asymptotic normalityLimitations of asymptotic approachFurther readingKey ideasLooking aheadPracticeReferencesTerminology notesComments",
+      "label": "Convergence of transformationsDelta methodPrevalence of asymptotic normalityLimitations of the asymptotic approachFurther readingKey ideasLooking aheadPracticeReferencesTerminology notesComments",
       "tag": "ol"
     },
     {
       "id": "lecture-content",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. ● Mid priorityOverviewPurpose. A large-sample distri",
       "tag": "main"
     },
     {
@@ -14615,7 +14580,7 @@
       "id": "lec11-corollary-1",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "Corollary 1delta method for asymptotic normalityAssume the weak convergence of Eqn. 1. If \\(Y\\sim N(0,\\Sigma)\\), then\\[a_{n}[g(X_{n})-g(c)]\\stackrel{d}\\longrightarrow \\mathcal{N}(0,[\\nabla g(c)]^{\\top",
+      "label": "Corollary 1delta method for asymptotic normalityAssume the weak convergence of Equation 1. If \\(Y\\sim N(0,\\Sigma)\\), then\\[a_{n}[g(X_{n})-g(c)]\\stackrel{d}\\longrightarrow \\mathcal{N}(0,[\\nabla g(c)]^{",
       "tag": "div"
     },
     {
@@ -14692,7 +14657,7 @@
       "id": "asymptotic-variance.",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "Asymptotic Variance.",
+      "label": "Asymptotic variance.",
       "tag": "span"
     },
     {
@@ -14720,7 +14685,7 @@
       "id": "lec11-remark-1",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "Remark 1Intuitively, convergence in distribution does not control the tail behavior. That is why the second moment of the limiting distribution is bounded by the liminf of the scaled second moments. A",
+      "label": "Remark 1Intuitively, convergence in distribution does not control the tail behavior. That is why the second moment of the limiting distribution is bounded by the liminf of the scaled second moments. T",
       "tag": "div"
     },
     {
@@ -14881,7 +14846,7 @@
       "id": "lec11-remark-2",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "Remark 2Condition (1) is necessary, because we need to make sure the population minimizer is unique. Otherwise, \\(g\\) may be just duplicates of a single moment equation.",
+      "label": "Remark 2Condition (1) is necessary, because we need to make sure the population minimizer is unique. Without identifiability, different parameter values can satisfy the same population moment equation",
       "tag": "div"
     },
     {
@@ -14909,14 +14874,14 @@
       "id": "sec-lec11-7",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "4. Limitations of asymptotic approach",
+      "label": "4. Limitations of the asymptotic approach",
       "tag": "h2"
     },
     {
       "id": "lec11-block-7",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "4. Limitations of asymptotic approach",
+      "label": "4. Limitations of the asymptotic approach",
       "tag": "span"
     },
     {
@@ -14951,7 +14916,7 @@
       "id": "lec11-example-3",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "Example 3Dimension troubles in mean estimationSuppose that \\(X_1, X_2,\\ldots,X_n \\stackrel{\\iid}{\\sim} N(\\mu, I_d)\\). Our goal is to estimate the unknown mean vector \\(\\mu\\). Imagine that a sequence o",
+      "label": "Example 3Dimension troubles in mean estimationSuppose that \\(X_1, X_2,\\ldots,X_n \\stackrel{\\iid}{\\sim} N(\\mu, I_d)\\). Our goal is to estimate the unknown mean vector \\(\\mu\\). Imagine a sequence of est",
       "tag": "div"
     },
     {
@@ -15028,7 +14993,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "Exercises and complete solutions9 exercises · complete solutionsReveal all solutions● Mid priorityNormalizationExercise 1Normalization#If \\(\\sqrt n(T_n-\\theta)\\Rightarrow N(0,4)\\) and \\(V_n\\to_p2\\), f",
+      "label": "7. Exercises and complete solutions9 exercises · complete solutionsReveal all solutions● Mid priorityNormalizationExercise 1Normalization#If \\(\\sqrt n(T_n-\\theta)\\Rightarrow N(0,4)\\) and \\(V_n\\to_p2\\)",
       "tag": "details"
     },
     {
@@ -15238,14 +15203,14 @@
       "id": "refs",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, volumes i-II package. Chapman; Hall/CRC. 2015.[2] R. Durrett. Probability: Theory and examples. Cambridge u",
+      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, Volumes I–II. Chapman & Hall/CRC. 2015.[2] R. Durrett. Probability: Theory and examples. Cambridge universi",
       "tag": "div"
     },
     {
       "id": "ref-bickel",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, volumes i-II package. Chapman; Hall/CRC. 2015.",
+      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, Volumes I–II. Chapman & Hall/CRC. 2015.",
       "tag": "div"
     },
     {
@@ -15273,7 +15238,7 @@
       "id": "ref-shao2003mathematical",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "[5] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[5] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
@@ -15287,7 +15252,7 @@
       "id": "fn1",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "As before, we suppress the dependence on \\(n\\), we should have written \\(\\hat \\theta_n\\), but normally it is clear from context that we view \\(n \\to \\infty\\).↩︎",
+      "label": "As before, we suppress the dependence on \\(n\\); we could write \\(\\hat \\theta_n\\), but normally it is clear from context that we view \\(n \\to \\infty\\).↩︎",
       "tag": "li"
     },
     {
@@ -15315,7 +15280,7 @@
       "id": "what-changed",
       "page": "lect-11.html",
       "lecture": 11,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -15371,7 +15336,7 @@
       "id": "lecture-map",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "01 · High / midMotivationsSee the assumptions, proof and examples in this section. 02 · MidComplete statisticsSee the assumptions, proof and examples in this section. 03 · HighUMVUESee the assumptions",
+      "label": "01 · High / midMotivationsConditioning reduces risk; sufficiency removes unknown parameters. 02 · MidComplete statisticsCompleteness makes unbiased functions unique. 03 · HighUMVUEUse Lehmann–Scheffé ",
       "tag": "nav"
     },
     {
@@ -15420,7 +15385,7 @@
       "id": "lecture-content",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. Exam scope for this lecture.Section 4 and its linked",
       "tag": "main"
     },
     {
@@ -15581,7 +15546,7 @@
       "id": "lec12-definition-1",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Definition 1Complete Statistics\\(T(X)\\) is complete for \\(P \\in \\mathcal{P}\\) if and only if for all Borel functions \\(f\\) with \\(\\E_P|f(T)|<\\infty\\) for every \\(P\\in\\mathcal P\\), \\(\\mathbb{E}_P[f(T)]",
+      "label": "Definition 1Complete Statistics\\(T(X)\\) is complete for the family \\(\\mathcal{P}\\) if and only if for all Borel functions \\(f\\) with \\(\\E_P|f(T)|<\\infty\\) for every \\(P\\in\\mathcal P\\), \\(\\mathbb{E}_P[",
       "tag": "div"
     },
     {
@@ -15595,7 +15560,7 @@
       "id": "lec12-proposition-1",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Proposition 1Let \\(\\mathcal{P} = \\{P_\\eta: \\eta \\in \\Xi\\}\\) be an exponential family of full rank (contains an open set) with p.d.f. given by \\[f_\\eta(x) = \\exp\\{\\eta^{\\text{T}}T(X) - \\xi(\\eta)\\}h(x).",
+      "label": "Proposition 1Let \\(\\mathcal{P} = \\{P_\\eta: \\eta \\in \\Xi\\}\\) be an exponential family of full rank (contains an open set) with p.d.f. given by \\[f_\\eta(x) = \\exp\\{\\eta^{\\text{T}}T(x) - \\xi(\\eta)\\}h(x).",
       "tag": "div"
     },
     {
@@ -15616,7 +15581,7 @@
       "id": "lec12-example-3",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Example 3Let \\(\\mathcal{P}\\) be a family of distributions on \\(\\mathbb{R}\\) having Lebesgue p.d.f. Then \\(T(X) = (X_{(1)}, \\ldots, X_{(n)})\\) is complete for \\(\\mathcal{P}\\).",
+      "label": "Example 3Let \\(\\mathcal{P}\\) be the family of all distributions on \\(\\mathbb{R}\\) having a Lebesgue p.d.f., and let the sample be i.i.d. Then \\(T(X) = (X_{(1)}, \\ldots, X_{(n)})\\) is complete for \\(\\m",
       "tag": "div"
     },
     {
@@ -15672,21 +15637,21 @@
       "id": "lec12-definition-2",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Definition 2UMVUESuppose that \\(T(X)\\) is unbiased for \\(\\nu(P)\\) for every \\(P\\in\\mathcal P\\) and has a finite second moment under every such \\(P\\). We say \\(T(X)\\) of \\(\\nu\\) is a uniformly minimum ",
+      "label": "Definition 2UMVUESuppose that \\(T(X)\\) is unbiased for \\(\\nu(P)\\) for every \\(P\\in\\mathcal P\\) and has a finite second moment under every such \\(P\\). We say \\(T(X)\\) is a uniformly minimum variance un",
       "tag": "div"
     },
     {
       "id": "lec12-remark-1",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Remark 1UMVUE does not always exist a priori. For fixed \\(P \\in \\mathcal{P}\\), we can solve \\[\\begin{aligned} \\min_{\\text{unbiased }T} \\mathrm{Var}(T(X)), \\end{aligned}\\] but not guaranteed to be unif",
+      "label": "Remark 1UMVUE does not always exist a priori. For fixed \\(P \\in \\mathcal{P}\\), we can solve \\[\\begin{aligned} \\min_{\\text{unbiased }T} \\mathrm{Var}(T(X)), \\end{aligned}\\] but the minimizer is not guar",
       "tag": "div"
     },
     {
       "id": "lec12-theorem-1",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Theorem 1Lehmann-SchefféSuppose that there exists a sufficient and complete statistic \\(T(X)\\) for \\(\\mathcal{P}\\). If \\(\\nu\\) admits an unbiased estimator with finite second moment under every \\(P\\in",
+      "label": "Theorem 1Lehmann–SchefféSuppose that there exists a sufficient and complete statistic \\(T(X)\\) for \\(\\mathcal{P}\\). If \\(\\nu\\) admits an unbiased estimator with finite second moment under every \\(P\\in",
       "tag": "div"
     },
     {
@@ -15777,7 +15742,7 @@
       "id": "lec12-example-6",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Example 6Example 3.6Let \\(X_1, \\ldots, X_n \\stackrel{i.i.d.}{\\sim} P \\in \\mathcal{P}\\), where \\(\\mathcal{P}\\) is nonparametric family with distributions having Lebesgue p.d.f. Let \\(T = (X_{(1)}, \\ldo",
+      "label": "Example 6Example 3.6Let \\(X_1, \\ldots, X_n \\stackrel{i.i.d.}{\\sim} P \\in \\mathcal{P}\\), where \\(\\mathcal{P}\\) is the family of all distributions with a Lebesgue p.d.f. satisfying the moment conditions",
       "tag": "div"
     },
     {
@@ -15812,7 +15777,7 @@
       "id": "lec12-example-8",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Example 8(Example 3.3) Let \\(X_1,\\ldots,X_n\\stackrel{\\iid}{\\sim} E(\\theta)\\) with \\(n\\ge2\\) and take \\(t\\ge0\\). We know that \\[\\begin{aligned} F_\\theta(X) = (1-e^{-x/\\theta})I_{(0, \\infty)}(x). \\end{a",
+      "label": "Example 8(Shao, [1] (Example 3.3)) Let \\(X_1,\\ldots,X_n\\stackrel{\\iid}{\\sim} \\mathcal E(\\theta)\\) with \\(n\\ge2\\) and take \\(t\\ge0\\). We know that \\[\\begin{aligned} F_\\theta(x) = (1-e^{-x/\\theta})I_{(0",
       "tag": "div"
     },
     {
@@ -15903,14 +15868,14 @@
       "id": "lec12-example-11",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Example 11If \\(X_1, \\ldots, X_n \\sim \\mathcal{N}(\\mu, 1)\\), then \\(X_i - X_j\\) is ancillary.",
+      "label": "Example 11If \\(X_1, \\ldots, X_n \\stackrel{\\iid}{\\sim} \\mathcal{N}(\\mu, 1)\\), then \\(X_i - X_j\\) is ancillary.",
       "tag": "div"
     },
     {
       "id": "lec12-example-12",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Example 12If \\(X_1, \\ldots, X_n \\sim \\mathcal{N}(0, \\sigma^2)\\), then \\(\\frac{X_i}{X_j}\\) and \\(\\frac{X_{(i)}}{X_{(j)}}\\) are both ancillary.",
+      "label": "Example 12If \\(X_1, \\ldots, X_n \\stackrel{\\iid}{\\sim} \\mathcal{N}(0, \\sigma^2)\\), then \\(\\frac{X_i}{X_j}\\) and \\(\\frac{X_{(i)}}{X_{(j)}}\\) are both ancillary.",
       "tag": "div"
     },
     {
@@ -15924,7 +15889,7 @@
       "id": "lec12-example-13",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Example 13Let \\(X_1, \\ldots, X_n \\sim \\mathcal{N}(\\mu, 1)\\). \\(\\bar{X}\\) is complete and sufficient, and \\(S^2 = \\frac{1}{n-1}\\sum_{i=1}^{n} (X_i - \\bar{X})^2\\) is ancillary. This implies \\(\\bar{X} \\p",
+      "label": "Example 13Let \\(X_1, \\ldots, X_n \\stackrel{\\iid}{\\sim} \\mathcal{N}(\\mu, 1)\\). \\(\\bar{X}\\) is complete and sufficient, and \\(S^2 = \\frac{1}{n-1}\\sum_{i=1}^{n} (X_i - \\bar{X})^2\\) is ancillary. This imp",
       "tag": "div"
     },
     {
@@ -15938,7 +15903,7 @@
       "id": "lec12-reference",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Detailed referenceDetailed reference◆ High priorityConditioning and varianceFor square-integrable Y, \\(\\Var(Y)=\\Var(\\E[Y\\mid T])+\\E\\Var(Y\\mid T)\\). Conditioning removes the second nonnegative term whi",
+      "label": "Detailed referenceDetailed reference◆ High priorityConditioning and varianceFor square-integrable \\(Y\\), \\(\\Var(Y)=\\Var(\\E[Y\\mid T])+\\E\\Var(Y\\mid T)\\). Conditioning removes the second nonnegative term",
       "tag": "details"
     },
     {
@@ -15980,7 +15945,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions● Mid priorityWeighting two independent server meansExercise 1Weighting two independent server means#For the two-ser",
+      "label": "7. Exercises and complete solutions8 exercises · complete solutionsReveal all solutions● Mid priorityWeighting two independent server meansExercise 1Weighting two independent server means#For the two-",
       "tag": "details"
     },
     {
@@ -16169,14 +16134,14 @@
       "id": "refs",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "[1] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[1] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
       "id": "ref-shao2003mathematical",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "[1] J. Shao. Mathematical Statistics. Springer Science & Business Media. 2013.",
+      "label": "[1] J. Shao. Mathematical Statistics. Springer. 2003.",
       "tag": "div"
     },
     {
@@ -16204,7 +16169,7 @@
       "id": "fn2",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "Up to a.s., \\(\\forall P \\in \\mathcal{P}\\).↩︎",
+      "label": "Unique up to \\(P\\)-null sets for every \\(P\\in\\mathcal P\\).↩︎",
       "tag": "li"
     },
     {
@@ -16218,7 +16183,7 @@
       "id": "what-changed",
       "page": "lect-12.html",
       "lecture": 12,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -16274,7 +16239,7 @@
       "id": "lecture-map",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "01 · HighFisher InformationSee the assumptions, proof and examples in this section. 02 · HighCramér–Rao Lower BoundSee the assumptions, proof and examples in this section. 03 · MidTwo interpretations ",
+      "label": "01 · HighFisher informationMeasure the variability of the score under a statistical model. 02 · HighCramér–Rao lower boundBound unbiased variance using information and a target derivative. 03 · MidTwo",
       "tag": "nav"
     },
     {
@@ -16316,14 +16281,14 @@
       "id": "section-navigation",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Fisher InformationCramér–Rao Lower BoundTwo interpretations of Fisher informationCramér–Rao lower bound may not be attainedExamples of Cramér–Rao Lower BoundFurther readingKey ideasLooking aheadPracti",
+      "label": "Fisher informationCramér–Rao lower boundTwo interpretations of Fisher informationCramér–Rao lower bound may not be attainedExamples of Cramér–Rao lower boundFurther readingKey ideasLooking aheadPracti",
       "tag": "ol"
     },
     {
       "id": "lecture-content",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. ◆ High priorityOverviewScore. The score measures how",
       "tag": "main"
     },
     {
@@ -16337,7 +16302,7 @@
       "id": "classroom-l13-overview",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Score. The score measures how a likelihood responds to a parameter change.Information. Its variance, Fisher information, gives a lower bound on the variance of unbiased estimators.Main route. We prove",
+      "label": "Score. The score measures how a likelihood responds to a parameter change.Information. Under the usual regularity conditions, its covariance is Fisher information; the inverse information bounds the c",
       "tag": "div"
     },
     {
@@ -16365,14 +16330,14 @@
       "id": "sec-lec13-1",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "1. Fisher Information",
+      "label": "1. Fisher information",
       "tag": "h2"
     },
     {
       "id": "lec13-block-1",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "1. Fisher Information",
+      "label": "1. Fisher information",
       "tag": "span"
     },
     {
@@ -16386,14 +16351,14 @@
       "id": "lec13-definition-1",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Definition 1Fisher InformationFor the parametric family \\(\\{P_\\theta: \\theta\\in\\Theta\\}\\), the Fisher information (matrix) is defined as \\[\\begin{aligned} I(\\theta) = \\mathbb{E}\\left[\\frac{\\partial}{\\",
+      "label": "Definition 1Fisher informationFor the parametric family \\(\\{P_\\theta: \\theta\\in\\Theta\\}\\), the Fisher information (matrix) is defined as \\[\\begin{aligned} I(\\theta) = \\mathbb{E}\\left[\\frac{\\partial}{\\",
       "tag": "div"
     },
     {
       "id": "lec13-proposition-1",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Proposition 1If \\(X\\) and \\(Y\\) are independent and their scores have mean zero and finite second moments, then the Fisher information about \\(\\theta\\) in \\((X, Y)\\) is \\[\\begin{aligned} I_{(X, Y)}(\\t",
+      "label": "Proposition 1(i) If \\(X\\) and \\(Y\\) are independent and their scores have mean zero and finite second moments, then the Fisher information about \\(\\theta\\) in \\((X, Y)\\) is \\[\\begin{aligned} I_{(X, Y)",
       "tag": "div"
     },
     {
@@ -16428,14 +16393,14 @@
       "id": "sec-lec13-2",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "2. Cramér–Rao Lower Bound",
+      "label": "2. Cramér–Rao lower bound",
       "tag": "h2"
     },
     {
       "id": "lec13-block-2",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "2. Cramér–Rao Lower Bound",
+      "label": "2. Cramér–Rao lower bound",
       "tag": "span"
     },
     {
@@ -16463,7 +16428,7 @@
       "id": "sec-1",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "2. Cramér–Rao Lower Bound",
+      "label": "2. Cramér–Rao lower bound",
       "tag": "span"
     },
     {
@@ -16477,7 +16442,7 @@
       "id": "classroom-l13-bound-meaning",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Lower bound. Fisher Information provides a lower bound on variance (and thus MSE) of unbiased estimators for a parametric family.When it proves optimality. It may not always be achievable, but if we c",
+      "label": "Lower bound. Fisher information provides a lower bound on variance (and thus MSE) of unbiased estimators for a parametric family.When it proves optimality. It may not always be achievable, but if we c",
       "tag": "div"
     },
     {
@@ -16519,7 +16484,7 @@
       "id": "rem-mle",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Remark 2Asymptotic optimality of MLEUnder the regularity and consistency conditions discussed in Lecture 11, the MLE has asymptotic variance \\((nI_X(\\theta))^{-1}\\), which matches the lower bound asym",
+      "label": "Remark 2Asymptotic optimality of MLEUnder the regularity and consistency conditions discussed in Lecture 11, the MLE has asymptotic variance \\((nI_{X_1}(\\theta))^{-1}\\), which matches the lower bound ",
       "tag": "div"
     },
     {
@@ -16680,28 +16645,28 @@
       "id": "sec-lec13-7",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "5. Examples of Cramér–Rao Lower Bound",
+      "label": "5. Examples of Cramér–Rao lower bound",
       "tag": "h2"
     },
     {
       "id": "sec-lec13-8",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "5.1. Exponential Family",
+      "label": "5.1. Exponential family",
       "tag": "h3"
     },
     {
       "id": "lec13-block-8",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "5.1. Exponential Family",
+      "label": "5.1. Exponential family",
       "tag": "span"
     },
     {
       "id": "lec13-proposition-2",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Proposition 2Regularity conditions in Eqn. 1 are satisfied for any measurable \\(h\\) with \\[\\begin{aligned} \\E_\\eta|h(X)| < \\infty \\end{aligned}\\] throughout an open neighborhood of the parameter.Consi",
+      "label": "Proposition 2(i) Regularity conditions in Equation 1 are satisfied for any measurable \\(h\\) with \\[\\begin{aligned} \\E_\\eta|h(X)| < \\infty \\end{aligned}\\] throughout an open neighborhood of the paramet",
       "tag": "div"
     },
     {
@@ -16764,7 +16729,7 @@
       "id": "classroom-l13-regression-design",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Design variables. Here \\(Z_i\\) can be random or nonrandom.Working assumption. For simplicity, we will treat \\(Z_i\\) as fixed (If \\(Z_i\\) is random and independent with other random variables, we condi",
+      "label": "Design variables. Here \\(Z_i\\) can be random or nonrandom.Working assumption. For simplicity, we will treat \\(Z_i\\) as fixed (If \\(Z_i\\) is random and independent of the other random variables, we con",
       "tag": "div"
     },
     {
@@ -16827,7 +16792,7 @@
       "id": "classroom-l13-projection-distance",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Pythagoras. For any coefficient \\(b\\), the two terms in \\(X-Zb=r+(\\widehat X-Zb)\\) are orthogonal. Pythagoras gives \\[\\|X-Zb\\|^2=\\|r\\|^2+\\|\\widehat X-Zb\\|^2\\ge\\|r\\|^2.\\]Numerical illustration. For a n",
+      "label": "Pythagoras. For any coefficient \\(b\\), the two terms in \\(X-Zb=r+(\\widehat X-Zb)\\) are orthogonal. Pythagoras gives \\[\\|X-Zb\\|^2=\\|r\\|^2+\\|\\widehat X-Zb\\|^2\\ge\\|r\\|^2.\\]Example. For a numerical illust",
       "tag": "div"
     },
     {
@@ -16876,7 +16841,7 @@
       "id": "lec13-theorem-2",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Theorem 2 Under the above assumption, if \\(Z\\) has full column rank and \\(n>p\\), then\\(\\ell^\\top\\hat{\\beta}\\) is UMVUE of \\(\\ell^\\top\\beta\\).\\(\\hat{\\sigma}^2 = \\frac{1}{n-p} \\|X - Z\\hat{\\beta}\\|^2\\) i",
+      "label": "Theorem 2 Under the above assumption, if \\(Z\\) has full column rank and \\(n>p\\), then(i) \\(\\ell^\\top\\hat{\\beta}\\) is UMVUE of \\(\\ell^\\top\\beta\\).(ii) \\(\\hat{\\sigma}^2 = \\frac{1}{n-p} \\|X - Z\\hat{\\beta",
       "tag": "div"
     },
     {
@@ -16918,7 +16883,7 @@
       "id": "fisher-information.",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Fisher Information.",
+      "label": "Fisher information.",
       "tag": "span"
     },
     {
@@ -16981,7 +16946,7 @@
       "id": "lec13-key-ideas",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Key ideasFisher information measures local likelihood sensitivity and depends on parametrization.The Cramér–Rao bound requires regularity and can fail to be attained.Sufficient complete statistics and",
+      "label": "Key ideasFisher information measures local likelihood sensitivity and depends on parametrization.The Cramér–Rao bound requires regularity and can fail to be attained.Complete sufficient statistics and",
       "tag": "section"
     },
     {
@@ -17030,7 +16995,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityInformation in Bernoulli observationsExercise 1Information in Bernoulli observations#For \\(n\\) indepe",
+      "label": "8. Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityInformation in Bernoulli observationsExercise 1Information in Bernoulli observations#For \\(n\\) ind",
       "tag": "details"
     },
     {
@@ -17128,7 +17093,7 @@
       "id": "exercise-5",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Exercise 5Why Uniform support breaks the regular bound#For one Uniform\\((0,\\theta)\\) observation, explain why differentiating the log density on its interior does not justify the regular CR bound.Reve",
+      "label": "Exercise 5Why Uniform support breaks the regular bound#For one Uniform\\((0,\\theta)\\) observation, explain why differentiating the log density on its interior does not justify the regular Cramér–Rao bo",
       "tag": "div"
     },
     {
@@ -17149,7 +17114,7 @@
       "id": "exercise-6",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "Exercise 6The vector information bound#Prove the vector CR bound from \\(\\E s=0\\), \\(\\E ss^\\top=I\\) and \\(\\E[(T-g)s^\\top]=Dg\\).Reveal solutionLet \\(R=T-g-Dg\\,I^{-1}s\\). Expanding its covariance and usi",
+      "label": "Exercise 6The vector information bound#Prove the vector Cramér–Rao bound from \\(\\E s=0\\), \\(\\E ss^\\top=I\\) and \\(\\E[(T-g)s^\\top]=Dg\\).Reveal solutionLet \\(R=T-g-Dg\\,I^{-1}s\\). Expanding its covariance",
       "tag": "div"
     },
     {
@@ -17254,7 +17219,7 @@
       "id": "what-changed",
       "page": "lect-13.html",
       "lecture": 13,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.October 14, 2026 (figure follow-up). Restored th",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -17310,7 +17275,7 @@
       "id": "lecture-map",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "01 · MidMotivation for concentration inequalitiesSee the assumptions, proof and examples in this section. 02 · HighSubgaussian variables and Hoeffding's InequalitySee the assumptions, proof and exampl",
+      "label": "01 · MidMotivation for concentration inequalitiesCompare asymptotic limits with finite-sample tail guarantees. 02 · HighSubgaussian variables and Hoeffding's inequalityUse Gaussian-type moment growth ",
       "tag": "nav"
     },
     {
@@ -17352,14 +17317,14 @@
       "id": "section-navigation",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "Motivation for concentration inequalitiesSubgaussian variables and Hoeffding’s InequalitySubexponential variables and Bernstein’s InequalityUnderstanding the two tail probabilitiesFurther readingKey i",
+      "label": "Motivation for concentration inequalitiesSubgaussian variables and Hoeffding’s inequalitySubexponential variables and Bernstein’s inequalityUnderstanding the two tail probabilitiesFurther readingKey i",
       "tag": "ol"
     },
     {
       "id": "lecture-content",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. ◆ High priorityOverviewLimits. A limit theorem descr",
       "tag": "main"
     },
     {
@@ -17436,7 +17401,7 @@
       "id": "lec14-example-1",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "Example 1Let \\(X_1, X_2, \\ldots X_n \\stackrel{\\iid}{\\sim} \\mathrm{Bernoulli}(\\frac{1}{2})\\), where \\(n\\) is an even integer, then \\[\\mathbb{P}\\left(\\sum_{i=1}^{n}X_i = \\frac{n}{2}\\right) = 2^{-n} \\bin",
+      "label": "Example 1Let \\(X_1, X_2, \\ldots, X_n \\stackrel{\\iid}{\\sim} \\mathrm{Bernoulli}(\\frac{1}{2})\\), where \\(n\\) is an even integer, then \\[\\mathbb{P}\\left(\\sum_{i=1}^{n}X_i = \\frac{n}{2}\\right) = 2^{-n} \\bi",
       "tag": "div"
     },
     {
@@ -17450,21 +17415,21 @@
       "id": "sec-lec14-2",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "2. Subgaussian variables and Hoeffding’s Inequality",
+      "label": "2. Subgaussian variables and Hoeffding’s inequality",
       "tag": "h2"
     },
     {
       "id": "lec14-block-2",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "2. Subgaussian variables and Hoeffding’s Inequality",
+      "label": "2. Subgaussian variables and Hoeffding’s inequality",
       "tag": "span"
     },
     {
       "id": "thm-subg",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "Theorem 1Subgaussian random variablesLet \\(X\\) be a random variable with \\(\\mathbb{E}X = 0\\). Consider three conditions.\\(\\mathbb{P}(|X| \\ge t) \\le 2e^{-t^2/K_1^2},~\\forall\\;t \\ge 0\\).\\(\\sup_{p\\ge 1}\\",
+      "label": "Theorem 1Subgaussian random variablesLet \\(X\\) be a random variable with \\(\\mathbb{E}X = 0\\). Consider three conditions.(i) \\(\\mathbb{P}(|X| \\ge t) \\le 2e^{-t^2/K_1^2},~\\forall\\;t \\ge 0\\).(ii) \\(\\sup_",
       "tag": "div"
     },
     {
@@ -17499,14 +17464,14 @@
       "id": "thm-Hoeff",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "2. Subgaussian variables and Hoeffding’s Inequality",
+      "label": "2. Subgaussian variables and Hoeffding’s inequality",
       "tag": "span"
     },
     {
       "id": "thm-hoeff",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "Theorem 2Hoeffding’s InequalityLet \\(X_1, X_2, \\ldots, X_n\\) be independent random variables, such that \\(\\mathbb{E} X_i = 0\\) and each \\(X_i\\) is subgaussian. Let \\(a = (a_1,\\ldots, a_n)\\) be a nonra",
+      "label": "Theorem 2Hoeffding’s inequalityLet \\(X_1, X_2, \\ldots, X_n\\) be independent random variables, such that \\(\\mathbb{E} X_i = 0\\) and each \\(X_i\\) is subgaussian. Let \\(a = (a_1,\\ldots, a_n)\\) be a nonra",
       "tag": "div"
     },
     {
@@ -17534,7 +17499,7 @@
       "id": "sec-lec14-3",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "3. Subexponential variables and Bernstein’s Inequality",
+      "label": "3. Subexponential variables and Bernstein’s inequality",
       "tag": "h2"
     },
     {
@@ -17548,21 +17513,21 @@
       "id": "lec14-explain-constant-factors-control-excerpt",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "3. Subexponential variables and Bernstein’s Inequality",
+      "label": "3. Subexponential variables and Bernstein’s inequality",
       "tag": "template"
     },
     {
       "id": "lec14-block-3",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "3. Subexponential variables and Bernstein’s Inequality",
+      "label": "3. Subexponential variables and Bernstein’s inequality",
       "tag": "span"
     },
     {
       "id": "thm-subexp",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "Theorem 3Subexponential random variablesLet \\(X\\) be a random variable with \\(\\mathbb{E}X = 0\\).\\(\\mathbb{P}(|X| \\ge t) \\le 2e^{-t/K_1},~\\forall\\;t \\ge 0\\).\\(\\sup_{p\\ge 1}\\frac{1}{p}(\\mathbb{E}|X|^p)^",
+      "label": "Theorem 3Subexponential random variablesLet \\(X\\) be a random variable with \\(\\mathbb{E}X = 0\\).(i) \\(\\mathbb{P}(|X| \\ge t) \\le 2e^{-t/K_1},~\\forall\\;t \\ge 0\\).(ii) \\(\\sup_{p\\ge 1}\\frac{1}{p}(\\mathbb{",
       "tag": "div"
     },
     {
@@ -17604,7 +17569,7 @@
       "id": "lec14-theorem-4",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "Theorem 4Bernstein’s InequalityLet \\(X_1, \\ldots, X_n\\) be independent random variables, such that \\(\\mathbb{E} X_i = 0\\) and each \\(X_i\\) is subexponential. Let \\(a = (a_1,\\ldots,a_n)\\) be a nonrando",
+      "label": "Theorem 4Bernstein’s inequalityLet \\(X_1, \\ldots, X_n\\) be independent random variables, such that \\(\\mathbb{E} X_i = 0\\) and each \\(X_i\\) is subexponential. Let \\(a = (a_1,\\ldots,a_n)\\) be a nonrando",
       "tag": "div"
     },
     {
@@ -17625,14 +17590,14 @@
       "id": "thm-Bern",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "3. Subexponential variables and Bernstein’s Inequality",
+      "label": "3. Subexponential variables and Bernstein’s inequality",
       "tag": "span"
     },
     {
       "id": "thm-bern",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "Theorem 5Bernstein’s Inequality for bounded random variablesLet \\(X_1, \\ldots, X_n\\) be independent random variables, such that \\(\\mathbb{E} X_i = 0\\) and \\(\\max_{1\\le i \\le n}|X_i| \\le M\\) a.s.. Then",
+      "label": "Theorem 5Bernstein’s inequality for bounded random variablesLet \\(X_1, \\ldots, X_n\\) be independent random variables, such that \\(\\mathbb{E} X_i = 0\\) and \\(\\max_{1\\le i \\le n}|X_i| \\le M\\) a.s. Then ",
       "tag": "div"
     },
     {
@@ -17786,7 +17751,7 @@
       "id": "lec14-key-ideas",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "Key ideasSub-Gaussian and sub-exponential scales describe different tail behaviors.Chernoff bounds combine Markov with control of exponential moments.Hoeffding and Bernstein bound independent sums at ",
+      "label": "Key ideasSubgaussian and subexponential scales describe different tail behaviors.Chernoff bounds combine Markov with control of exponential moments.Hoeffding and Bernstein bound independent sums at fi",
       "tag": "section"
     },
     {
@@ -17835,7 +17800,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions● Mid priorityA continuous CDF cannot match a jumpExercise 1A continuous CDF cannot match a jump#If a CDF \\(F\\) has ",
+      "label": "7. Exercises and complete solutions8 exercises · complete solutionsReveal all solutions● Mid priorityA continuous CDF cannot match a jumpExercise 1A continuous CDF cannot match a jump#If a CDF \\(F\\) h",
       "tag": "details"
     },
     {
@@ -18073,7 +18038,7 @@
       "id": "what-changed",
       "page": "lect-14.html",
       "lecture": 14,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.October 14, 2026 (figure follow-up). Restored th",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -18129,7 +18094,7 @@
       "id": "lecture-map",
       "page": "lect-15.html",
       "lecture": 15,
-      "label": "01 · HighExamples of concentration inequalitiesSee the assumptions, proof and examples in this section. 02 · Mid statements / low detailsTwo general concentration inequalitiesSee the assumptions, proo",
+      "label": "01 · HighExamples of concentration inequalitiesApply concentration to counts and other independent sums. 02 · Mid statements / low detailsTwo general concentration inequalitiesOptional concentration s",
       "tag": "nav"
     },
     {
@@ -18178,7 +18143,7 @@
       "id": "lecture-content",
       "page": "lect-15.html",
       "lecture": 15,
-      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. ◆ High priorityOverviewTargets. Scalar concentration",
       "tag": "main"
     },
     {
@@ -18199,7 +18164,7 @@
       "id": "lec15-recap",
       "page": "lect-15.html",
       "lecture": 15,
-      "label": "Recap from earlier lecturesFrom Lecture 14: exponential tail bounds · 1 minReminder only: this block introduces no new exam requirements.Sub-Gaussian variables. The \\(\\psi_2\\) norm controls Gaussian-t",
+      "label": "Recap from earlier lecturesFrom Lecture 14: exponential tail bounds · 1 minReminder only: this block introduces no new exam requirements.Subgaussian variables. The \\(\\psi_2\\) norm controls Gaussian-ty",
       "tag": "details"
     },
     {
@@ -18514,7 +18479,7 @@
       "id": "classroom-l15-projection",
       "page": "lect-15.html",
       "lecture": 15,
-      "label": "Low-dimensional structure. If we have a large collection of high-dimensional points \\(Q: = \\{x_i\\}_{i \\le N} \\subset \\R^d\\), we can reduce dimensionality if the points are approximately in a low-dimen",
+      "label": "Low-dimensional structure. If we have a large collection of high-dimensional points \\(Q:= \\{x_i\\}_{i \\le N} \\subset \\R^d\\), we can reduce dimensionality if the points are approximately in a low-dimens",
       "tag": "div"
     },
     {
@@ -18619,7 +18584,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-15.html",
       "lecture": 15,
-      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityA sharper degree requirementExercise 1A sharper degree requirement#Use bounded Bernstein directly to ",
+      "label": "7. Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityA sharper degree requirementExercise 1A sharper degree requirement#Use bounded Bernstein directly ",
       "tag": "details"
     },
     {
@@ -18850,7 +18815,7 @@
       "id": "what-changed",
       "page": "lect-15.html",
       "lecture": 15,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.October 14, 2026 (figure follow-up). Restored th",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -18906,7 +18871,7 @@
       "id": "lecture-map",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "01 · High / mid / optionalSome Linear AlgebraSee the assumptions, proof and examples in this section. 02 · HighOperator Norm of Subgaussian Random MatrixSee the assumptions, proof and examples in this",
+      "label": "01 · High / mid / optionalSome linear algebraCompare matrix norms and approximate directions with finite nets. 02 · HighOperator norm of a subgaussian random matrixCombine scalar concentration with a ",
       "tag": "nav"
     },
     {
@@ -18948,14 +18913,14 @@
       "id": "section-navigation",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Some Linear AlgebraOperator norm of a subgaussian random matrixStatistical application: Covariance estimationGordon’s theorem*Further readingKey ideasLooking aheadPracticeReferencesComments",
+      "label": "Some linear algebraOperator norm of a subgaussian random matrixStatistical application: covariance estimationGordon’s theorem*Further readingKey ideasLooking aheadPracticeReferencesComments",
       "tag": "ol"
     },
     {
       "id": "lecture-content",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. ◆ High priorityOverviewFinite directions. A matrix a",
       "tag": "main"
     },
     {
@@ -18997,7 +18962,7 @@
       "id": "sec-lec16-1",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "1. Some Linear Algebra",
+      "label": "1. Some linear algebra",
       "tag": "h2"
     },
     {
@@ -19025,7 +18990,7 @@
       "id": "lec16-fact-1",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Fact 1\\(\\sigma_i=\\sqrt{\\lambda_i(AA^{\\top})}= \\sqrt{\\lambda_i(A^\\top A)}\\), i.e., the square root of \\(i\\)-th largest eigenvalue of \\(AA^\\top\\) or \\(A^\\top A\\); \\(u_i\\) and \\(v_i\\) are corresponding e",
+      "label": "Fact 1\\(\\sigma_i=\\sqrt{\\lambda_i(AA^{\\top})}= \\sqrt{\\lambda_i(A^\\top A)}\\), i.e., the square root of the \\(i\\)-th largest eigenvalue of \\(AA^\\top\\) or \\(A^\\top A\\); \\(u_i\\) and \\(v_i\\) are correspondi",
       "tag": "div"
     },
     {
@@ -19095,7 +19060,7 @@
       "id": "lec16-definition-1",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Definition 1\\(\\epsilon\\)-netLet \\((T,d)\\) be a metric space, then consider a subset \\(K\\subset T\\) and some \\(\\epsilon>0\\), then a subset \\(\\mathcal{N}\\subset K\\) is called \\(\\epsilon\\)-net of \\(K\\) i",
+      "label": "Definition 1\\(\\epsilon\\)-netLet \\((T,d)\\) be a metric space, then consider a subset \\(K\\subset T\\) and some \\(\\epsilon>0\\), then a subset \\(\\mathcal{N}\\subset K\\) is called an \\(\\epsilon\\)-net of \\(K\\",
       "tag": "div"
     },
     {
@@ -19116,7 +19081,7 @@
       "id": "lem-net",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Lemma 1\\(\\forall \\epsilon\\in (0,1)\\), \\(\\mathcal{N}\\) is an \\(\\epsilon\\)-net of unit sphere \\(\\mathbb{S}^{n-1}\\), then \\[\\sup\\limits_{x\\in \\mathcal{N}} \\left\\|Ax\\right\\|_{2}\\le \\left\\|A\\right\\|\\le \\fr",
+      "label": "Lemma 1If \\(0<\\epsilon<1\\) and \\(\\mathcal{N}\\) is an \\(\\epsilon\\)-net of the unit sphere \\(\\mathbb{S}^{n-1}\\), then \\[\\sup\\limits_{x\\in \\mathcal{N}} \\left\\|Ax\\right\\|_{2}\\le \\left\\|A\\right\\|\\le \\frac{",
       "tag": "div"
     },
     {
@@ -19200,7 +19165,7 @@
       "id": "sec-lec16-6",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "3. Statistical application: Covariance estimation",
+      "label": "3. Statistical application: covariance estimation",
       "tag": "h2"
     },
     {
@@ -19214,7 +19179,7 @@
       "id": "lec16-recall-1-excerpt",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "3. Statistical application: Covariance estimation",
+      "label": "3. Statistical application: covariance estimation",
       "tag": "template"
     },
     {
@@ -19228,14 +19193,14 @@
       "id": "lec16-recall-2-excerpt",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "3. Statistical application: Covariance estimation",
+      "label": "3. Statistical application: covariance estimation",
       "tag": "template"
     },
     {
       "id": "lec16-block-6",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "3. Statistical application: Covariance estimation",
+      "label": "3. Statistical application: covariance estimation",
       "tag": "span"
     },
     {
@@ -19312,7 +19277,7 @@
       "id": "lec16-remark-4",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Remark 4Usually, \\(p_{n}/n\\rightarrow0\\) is often considered “low-dimensional\" regime where consistency generally holds under regularity conditions. In particular, \\(p_{n}\\equiv p\\) is the classical “",
+      "label": "Remark 4Usually, \\(p_{n}/n\\rightarrow0\\) is often considered the “low-dimensional” regime where consistency generally holds under regularity conditions. In particular, \\(p_{n}\\equiv p\\) is the classic",
       "tag": "div"
     },
     {
@@ -19445,7 +19410,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityCompare three matrix normsExercise 1Compare three matrix norms#For \\(A=\\operatorname{diag}(3,4)\\), co",
+      "label": "7. Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityCompare three matrix normsExercise 1Compare three matrix norms#For \\(A=\\operatorname{diag}(3,4)\\),",
       "tag": "details"
     },
     {
@@ -19459,7 +19424,7 @@
       "id": "exercise-1",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Exercise 1Compare three matrix norms#For \\(A=\\operatorname{diag}(3,4)\\), compute \\(\\|A\\|_{\\rm op}\\), \\(\\|A\\|_F\\), and \\(\\|A\\|_{\\max}\\). Explain why they differ.Reveal solutionThe singular values are 4",
+      "label": "Exercise 1Compare three matrix norms#For \\(A=\\operatorname{diag}(3,4)\\), compute \\(\\|A\\|_{\\rm op}\\), \\(\\|A\\|_F\\), and \\(\\|A\\|_{\\max}\\). Explain what each norm measures and which values coincide.Reveal",
       "tag": "div"
     },
     {
@@ -19543,7 +19508,7 @@
       "id": "exercise-5",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Exercise 5A net for a symmetric quadratic form#If B is symmetric and N is an epsilon-net of the unit sphere with \\(\\epsilon<1/2\\), prove \\[\\|B\\|\\le(1-2\\epsilon)^{-1}\\max_{v\\in N}|v^\\top Bv|.\\]Reveal s",
+      "label": "Exercise 5A net for a symmetric quadratic form#If \\(B\\) is symmetric and \\(\\mathcal N\\) is an \\(\\epsilon\\)-net of the unit sphere with \\(\\epsilon<1/2\\), prove \\[\\|B\\|\\le(1-2\\epsilon)^{-1}\\max_{v\\in\\ma",
       "tag": "div"
     },
     {
@@ -19564,7 +19529,7 @@
       "id": "exercise-6",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Exercise 6A volumetric covering argument#Prove an epsilon-net of the Euclidean unit ball can be chosen with at most \\((1+2/\\epsilon)^p\\) points.Reveal solutionTake a maximal epsilon-separated set in t",
+      "label": "Exercise 6A volumetric covering argument#Prove that an \\(\\epsilon\\)-net of the Euclidean unit ball in \\(\\R^n\\) can be chosen with at most \\((1+2/\\epsilon)^n\\) points.Reveal solutionTake a maximal \\(\\e",
       "tag": "div"
     },
     {
@@ -19585,7 +19550,7 @@
       "id": "exercise-7",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "Exercise 7The smallest singular value is Lipschitz#For matrices A and B of the same size, define \\(s_{\\min}(A)=\\inf_{\\|x\\|=1}\\|Ax\\|\\). Show \\(|s_{\\min}(A)-s_{\\min}(B)|\\le\\|A-B\\|_F\\).Reveal solutionFor",
+      "label": "Exercise 7The smallest singular value is Lipschitz#For matrices A and B of the same size, define \\(\\sigma_{\\min}(A)=\\inf_{\\|x\\|=1}\\|Ax\\|\\). Show \\(|\\sigma_{\\min}(A)-\\sigma_{\\min}(B)|\\le\\|A-B\\|_F\\).Rev",
       "tag": "div"
     },
     {
@@ -19655,7 +19620,7 @@
       "id": "what-changed",
       "page": "lect-16.html",
       "lecture": 16,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 14, 2026. Added issue-reporting l",
       "tag": "details"
     },
     {
@@ -19711,7 +19676,7 @@
       "id": "lecture-map",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "01 · HighPrincipal component analysisSee the assumptions, proof and examples in this section. 02 · MidLinear regression in high dimensionsSee the assumptions, proof and examples in this section. 03 · ",
+      "label": "01 · HighPrincipal component analysisRelate covariance error and eigengaps to PCA accuracy. 02 · MidLinear regression in high dimensionsCompare coefficient error and prediction across dimension regime",
       "tag": "nav"
     },
     {
@@ -19725,7 +19690,7 @@
       "id": "priority-description",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "High and mid priority are visible; both are in examination scope.",
+      "label": "High and mid priority are visible. See the Lecture-specific exam scope.",
       "tag": "p"
     },
     {
@@ -19753,15 +19718,22 @@
       "id": "section-navigation",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "Principal component analysisLinear regression in high dimensionsCommunity detectionFurther readingKey ideasLooking aheadPracticeReferencesTerminology notesComments",
+      "label": "Principal component analysisLinear regression in high dimensionsCommunity detection (optional)Further readingKey ideasLooking aheadPracticeReferencesTerminology notesComments",
       "tag": "ol"
     },
     {
       "id": "lecture-content",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. Exam scope for this lecture.Section 3 (community det",
       "tag": "main"
+    },
+    {
+      "id": "lec17-exam-scope",
+      "page": "lect-17.html",
+      "lecture": 17,
+      "label": "Exam scope for this lecture.",
+      "tag": "span"
     },
     {
       "id": "lec17-overview",
@@ -19998,14 +19970,14 @@
       "id": "sec-lec17-6",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.1. Regime 1: Low dimensions.",
+      "label": "2.1. Regime 1: low dimensions",
       "tag": "h3"
     },
     {
       "id": "lec17-block-6",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.1. Regime 1: Low dimensions.",
+      "label": "2.1. Regime 1: low dimensions",
       "tag": "span"
     },
     {
@@ -20054,21 +20026,21 @@
       "id": "sec-lec17-7",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.2. Regime 2: high dimensions before the spike.",
+      "label": "2.2. Regime 2: high dimensions before the spike",
       "tag": "h3"
     },
     {
       "id": "lec17-block-7",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.2. Regime 2: high dimensions before the spike.",
+      "label": "2.2. Regime 2: high dimensions before the spike",
       "tag": "span"
     },
     {
       "id": "sec-lec17-8",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.3. Regime 3: high dimensions after the spike.",
+      "label": "2.3. Regime 3: high dimensions after the spike",
       "tag": "h3"
     },
     {
@@ -20082,14 +20054,14 @@
       "id": "lec17-recall-2-excerpt",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.3. Regime 3: high dimensions after the spike.",
+      "label": "2.3. Regime 3: high dimensions after the spike",
       "tag": "template"
     },
     {
       "id": "lec17-block-8",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.3. Regime 3: high dimensions after the spike.",
+      "label": "2.3. Regime 3: high dimensions after the spike",
       "tag": "span"
     },
     {
@@ -20117,7 +20089,7 @@
       "id": "lec17-fig-minnorm",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.3. Regime 3: high dimensions after the spike.",
+      "label": "2.3. Regime 3: high dimensions after the spike",
       "tag": "span"
     },
     {
@@ -20152,7 +20124,7 @@
       "id": "lec17-risk-curves",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.3. Regime 3: high dimensions after the spike.",
+      "label": "2.3. Regime 3: high dimensions after the spike",
       "tag": "span"
     },
     {
@@ -20173,7 +20145,7 @@
       "id": "lec17-fig-hastie-risk",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.3. Regime 3: high dimensions after the spike.",
+      "label": "2.3. Regime 3: high dimensions after the spike",
       "tag": "img"
     },
     {
@@ -20187,21 +20159,21 @@
       "id": "instructor-note-2",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "Instructor’s NoteWhere the name double descent comes fromThe dashed curve is training risk; the solid curve is test risk. The right panel extends the classical picture past interpolation, where a seco",
+      "label": "Instructor’s NoteWhere the name double descent comes fromFigure 2. The dashed curve is training risk; the solid curve is test risk. The right panel extends the classical picture past interpolation, wh",
       "tag": "details"
     },
     {
       "id": "fig-double-descent",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.3. Regime 3: high dimensions after the spike.",
+      "label": "2.3. Regime 3: high dimensions after the spike",
       "tag": "img"
     },
     {
       "id": "sec-lec17-9",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.4. Regime 4: very high dimensions.",
+      "label": "2.4. Regime 4: very high dimensions",
       "tag": "h3"
     },
     {
@@ -20215,14 +20187,14 @@
       "id": "lec17-explain-haar-control-excerpt",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.4. Regime 4: very high dimensions.",
+      "label": "2.4. Regime 4: very high dimensions",
       "tag": "template"
     },
     {
       "id": "lec17-block-9",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "2.4. Regime 4: very high dimensions.",
+      "label": "2.4. Regime 4: very high dimensions",
       "tag": "span"
     },
     {
@@ -20257,21 +20229,21 @@
       "id": "sec-lec17-10",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "3. Community detection",
+      "label": "3. Community detection (optional)",
       "tag": "h2"
     },
     {
       "id": "lec17-block-10",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "3. Community detection",
+      "label": "3. Community detection (optional)",
       "tag": "span"
     },
     {
       "id": "lec17-fig-sbm",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "3. Community detection",
+      "label": "3. Community detection (optional)",
       "tag": "img"
     },
     {
@@ -20453,7 +20425,7 @@
       "id": "practice-index",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "PracticeHigh and mid exercises are both in examination scope. Select a problem to open its statement; solutions stay closed until requested.Core practiceExam practiceAll practice6 exercises in exam pr",
+      "label": "PracticeExam practice follows the Lecture-specific exam scope. Choose All practice for the optional community-detection exercises and other extensions. Solutions stay closed until requested.Core pract",
       "tag": "nav"
     },
     {
@@ -20467,14 +20439,14 @@
       "id": "practice-count",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "6 exercises in exam practice",
+      "label": "5 exercises in exam practice",
       "tag": "span"
     },
     {
       "id": "exercises-and-complete-solutions",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityWhat does an eigengap control?Exercise 1What does an eigengap control?#For \\(\\Sigma=\\operatorname{dia",
+      "label": "6. Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityWhat does an eigengap control?Exercise 1What does an eigengap control?#For \\(\\Sigma=\\operatorname{",
       "tag": "details"
     },
     {
@@ -20551,7 +20523,7 @@
       "id": "exercise-4",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "Exercise 4Count sign errors from vector error#If \\(v=z^*/\\sqrt n\\), \\(z^*\\in\\{\\pm1\\}^n\\), and \\(\\|su-v\\|\\le r\\), bound the fraction of sign mismatches after thresholding \\(u\\) with \\(z_i=1\\) for \\(u_i",
+      "label": "Exercise 4Count sign errors from vector error#Optional practice for Section 3; not tested in exams.If \\(v=z^*/\\sqrt n\\), \\(z^*\\in\\{\\pm1\\}^n\\), and \\(\\|su-v\\|\\le r\\), bound the fraction of sign mismatc",
       "tag": "div"
     },
     {
@@ -20572,7 +20544,7 @@
       "id": "exercise-5",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "Exercise 5The population community eigenvectors#Derive the mean adjacency matrix and its two nonzero eigenpairs in the balanced two-community model with Bernoulli self-loops.Reveal solutionFor each pa",
+      "label": "Exercise 5The population community eigenvectors#Optional practice for Section 3; not tested in exams.Derive the mean adjacency matrix and its two nonzero eigenpairs in the balanced two-community model",
       "tag": "div"
     },
     {
@@ -20593,7 +20565,7 @@
       "id": "exercise-6",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "Exercise 6Conditional bias of an interpolator#For full-row-rank \\(X\\), prove the min-norm conditional risk is \\(\\|(I-H)\\beta\\|^2+\\sigma^2\\operatorname{Tr}((XX^\\top)^{-1})\\), where \\(H=X^\\top(XX^\\top)^",
+      "label": "Exercise 6Conditional risk of an interpolator#For full-row-rank \\(X\\), prove the min-norm conditional risk is \\(\\|(I-H)\\beta\\|^2+\\sigma^2\\operatorname{Tr}((XX^\\top)^{-1})\\), where \\(H=X^\\top(XX^\\top)^",
       "tag": "div"
     },
     {
@@ -20775,7 +20747,7 @@
       "id": "what-changed",
       "page": "lect-17.html",
       "lecture": 17,
-      "label": "What changedOctober 14, 2026. Added issue-reporting links to the webpage and PDF. The mathematics and priority assignments are unchanged in this update.October 14, 2026 (figure follow-up). Restored th",
+      "label": "What changedOctober 19, 2026 (instructor follow-up). Marked all of Section 3 (community detection) and its linked exercises optional, while preserving their reading priorities.October 19, 2026: Correc",
       "tag": "details"
     },
     {
@@ -20831,7 +20803,7 @@
       "id": "lecture-map",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "01 · HighMotivationSee the assumptions, proof and examples in this section. 02 · HighShrinkage estimatorsSee the assumptions, proof and examples in this section. 03 · MidTweedie's formulaSee the assum",
+      "label": "01 · Optional · HighMotivationCompare coordinatewise optimality with total estimation risk. 02 · Optional · HighShrinkage estimatorsDerive fixed and data-dependent Gaussian shrinkage rules. 03 · Optio",
       "tag": "nav"
     },
     {
@@ -20880,7 +20852,7 @@
       "id": "lecture-content",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. Optional part.This lecture belongs to optional Part ",
       "tag": "main"
     },
     {
@@ -20908,7 +20880,7 @@
       "id": "lec18-recap",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "Recap from earlier lecturesEarlier ideas used in this lecture · 1 minThese reminders add no exam requirements.Bias and variance. Squared-error risk balances squared bias and variance. Used in the fixe",
+      "label": "Recap from earlier lecturesFrom Lectures 1, 5 and 7: earlier ideas used here · 1 minReminder only: this block introduces no new exam requirements.Bias and variance. Squared-error risk balances squared",
       "tag": "details"
     },
     {
@@ -21048,7 +21020,7 @@
       "id": "thm-main",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "Theorem 1If \\(\\hat{\\mu}\\) is any of the two shrinkage estimators in Eqn. 1, then for any \\(r \\in (0, 2)\\), when \\(p \\ge 3\\), \\[\\begin{aligned} R_{\\hat{\\mu}}(\\mu) < R_X(\\mu), \\qquad \\text{for every } \\",
+      "label": "Theorem 1If \\(\\hat{\\mu}\\) is either of the two shrinkage estimators in Equation 1, then for any \\(r \\in (0, 2)\\), when \\(p \\ge 3\\), \\[\\begin{aligned} R_{\\hat{\\mu}}(\\mu) < R_X(\\mu), \\qquad \\text{for ev",
       "tag": "div"
     },
     {
@@ -21076,7 +21048,7 @@
       "id": "lec18-theorem-2",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "Theorem 2Stein’s lemmaIf \\(g \\in C^1(\\mathbb{R}^p)\\) with \\(\\E\\|\\nabla g(Z)\\|<\\infty\\), \\(\\E|Z_i g(Z)|<\\infty\\) for every i, and vanishing boundary terms (or a valid cutoff approximation), where \\(Z \\",
+      "label": "Theorem 2Stein’s lemmaIf \\(g \\in C^1(\\mathbb{R}^p)\\) with \\(\\E\\|\\nabla g(Z)\\|<\\infty\\), \\(\\E|Z_i g(Z)|<\\infty\\) for every \\(i\\), and vanishing boundary terms (or a valid cutoff approximation), where \\",
       "tag": "div"
     },
     {
@@ -21087,10 +21059,10 @@
       "tag": "div"
     },
     {
-      "id": "proof-of-eqn.-2.",
+      "id": "proof-of-equation-2.",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "Proof of Eqn. 2.",
+      "label": "Proof of Equation 2.",
       "tag": "span"
     },
     {
@@ -21118,7 +21090,7 @@
       "id": "classroom-l18-singularity",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "Near the center. For \\(p>2\\), the Gaussian density is bounded near \\(c\\), and the radial volume element is proportional to \\(r^{p-1}dr\\). Thus \\(r^{-2}\\) is locally integrable because \\(\\int_0^1r^{p-3",
+      "label": "Near the center. For \\(p>2\\), the Gaussian density is bounded near \\(c\\), and the radial volume element is proportional to \\(\\rho^{p-1}d\\rho\\). Thus \\(\\rho^{-2}\\) is locally integrable because \\(\\int_",
       "tag": "div"
     },
     {
@@ -21223,7 +21195,7 @@
       "id": "classroom-l18-prior-picture",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "Discrete priors. Tweedie’s identity also applies to a discrete prior: replace its integrals by weighted sums.Example. In the symmetric two-point example below, posterior odds are \\(e^{4x}\\), so \\(\\E[\\",
+      "label": "Discrete priors. Tweedie’s formula also applies to a discrete prior: replace its integrals by weighted sums.Example. In the symmetric two-point example below, posterior odds are \\(e^{4x}\\), so \\(\\E[\\m",
       "tag": "div"
     },
     {
@@ -21265,7 +21237,7 @@
       "id": "thm-main2",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "Theorem 3Let \\(f \\in C^2(\\R^p)\\) taking positive values and \\(\\sqrt{f}\\) is superharmonic. Under the regularity conditions \\[\\E\\Big[ \\frac{1}{f(X)} \\sum_{j=1}^p | \\partial_j^2 f(X)| \\Big] < \\infty, \\q",
+      "label": "Theorem 3Let \\(f \\in C^2(\\R^p)\\) take positive values and suppose \\(\\sqrt{f}\\) is superharmonic. Under the regularity conditions \\[\\E\\Big[ \\frac{1}{f(X)} \\sum_{j=1}^p | \\partial_j^2 f(X)| \\Big] < \\inf",
       "tag": "div"
     },
     {
@@ -21447,7 +21419,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityWhen does fixed shrinkage beat the data?Exercise 1When does fixed shrinkage beat the data?#For \\(T_a(",
+      "label": "7. Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityWhen does fixed shrinkage beat the data?Exercise 1When does fixed shrinkage beat the data?#For \\(T",
       "tag": "details"
     },
     {
@@ -21706,7 +21678,7 @@
       "id": "what-changed",
       "page": "lect-18.html",
       "lecture": 18,
-      "label": "What changedOctober 16, 2026: Clarified risk reduction versus error at an individual observation, justified the Bernoulli minimax example, and distinguished a Tweedie-form estimator from a genuine pos",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 16, 2026: Clarified risk reductio",
       "tag": "details"
     },
     {
@@ -21762,7 +21734,7 @@
       "id": "lecture-map",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "01 · HighSparsity in data analysisSee the assumptions, proof and examples in this section. 02 · LowExample: Wavelet transformSee the assumptions, proof and examples in this section. 03 · HighThreshold",
+      "label": "01 · Optional · HighSparsity in data analysisDescribe exact and approximate sparsity in useful coordinates. 02 · Optional · LowExample: wavelet transformUse wavelet coordinates to expose localized str",
       "tag": "nav"
     },
     {
@@ -21811,7 +21783,7 @@
       "id": "lecture-content",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. Optional part.This lecture belongs to optional Part ",
       "tag": "main"
     },
     {
@@ -21839,7 +21811,7 @@
       "id": "lec19-recap",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "Recap from earlier lecturesEarlier ideas used in this lecture · 1 minThese reminders add no exam requirements.James–Stein shrinkage. A data-dependent radial correction can lower total Gaussian mean ri",
+      "label": "Recap from earlier lecturesFrom Lectures 1 and 18: earlier ideas used here · 1 minReminder only: this block introduces no new exam requirements.James–Stein shrinkage. A data-dependent radial correctio",
       "tag": "details"
     },
     {
@@ -21895,7 +21867,7 @@
       "id": "classroom-l19-sparsity",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "When q is below one. The radius \\(R>0\\) measures coefficient size; it is not a count of nonzero entries. A few comments are in order. First, when \\(q < 1\\), the above definition is only a quasinorm, s",
+      "label": "When q is below one. First, when \\(q < 1\\), the above definition is only a quasinorm, since it does not satisfy the triangle inequality, but people often call it \\(\\ell_q\\) norm anyway.Unit-region geo",
       "tag": "div"
     },
     {
@@ -21958,21 +21930,21 @@
       "id": "sec-lec19-6",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "2.1. Discrete Fourier transformation",
+      "label": "2.1. Discrete Fourier transform",
       "tag": "h3"
     },
     {
       "id": "lec19-block-6",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "2.1. Discrete Fourier transformation",
+      "label": "2.1. Discrete Fourier transform",
       "tag": "span"
     },
     {
       "id": "lec19-fig-fourier",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "2.1. Discrete Fourier transformation",
+      "label": "2.1. Discrete Fourier transform",
       "tag": "img"
     },
     {
@@ -22189,7 +22161,7 @@
       "id": "thm-main1",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "Theorem 1Suppose \\(Y \\sim \\mathcal{N}(\\theta, \\sigma^2I_n)\\). For soft-thresholding estimator \\(\\hat{\\theta}_{\\tau_n} = T_{\\tau_n}(Y)\\) with the level \\(\\tau_n = \\sqrt{2\\sigma^2\\log n}\\), \\[\\begin{ali",
+      "label": "Theorem 1Suppose \\(Y \\sim \\mathcal{N}(\\theta, \\sigma^2I_n)\\). For the soft-thresholding estimator \\(\\hat{\\theta}_{\\tau_n} = T_{\\tau_n}(Y)\\) with the level \\(\\tau_n = \\sqrt{2\\sigma^2\\log n}\\), \\[\\begin",
       "tag": "div"
     },
     {
@@ -22210,21 +22182,21 @@
       "id": "sec-s-sparse",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "4.2. Oracle Inequalities for \\(S\\)-sparse Signals",
+      "label": "4.2. Oracle inequalities for \\(S\\)-sparse signals",
       "tag": "h3"
     },
     {
       "id": "lec19-block-13",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "4.2. Oracle Inequalities for \\(S\\)-sparse Signals",
+      "label": "4.2. Oracle inequalities for \\(S\\)-sparse signals",
       "tag": "span"
     },
     {
       "id": "lec19-theorem-2",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "Theorem 2Suppose the integers \\(1\\le S_n<n\\) satisfy \\[\\begin{aligned} \\frac{S_n}{n} \\to 0,\\quad n \\to \\infty. \\end{aligned}\\] Then, as \\(n \\to \\infty\\),The soft-thresholding estimator \\(\\hat{\\theta}_",
+      "label": "Theorem 2Suppose the integers \\(1\\le S_n<n\\) satisfy \\[\\begin{aligned} \\frac{S_n}{n} \\to 0,\\quad n \\to \\infty. \\end{aligned}\\] Then, as \\(n \\to \\infty\\),(1) The soft-thresholding estimator \\(\\hat{\\the",
       "tag": "div"
     },
     {
@@ -22252,21 +22224,21 @@
       "id": "lec19-explain-ui-control-excerpt",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "4.2. Oracle Inequalities for \\(S\\)-sparse Signals",
+      "label": "4.2. Oracle inequalities for \\(S\\)-sparse signals",
       "tag": "template"
     },
     {
       "id": "lec19-remark-2",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "Remark 2Comparison with James–Stein estimationComparison. Global James–Stein shrinkage does not exploit sparse coordinate structure. For \\(\\sigma=1\\) and \\(\\|\\theta_n\\|^2=n\\), its exact ordinary-JS ri",
+      "label": "Remark 2Comparison with James–Stein estimationChange of observations. Global James–Stein shrinkage does not exploit sparse coordinate structure. For \\(\\sigma=1\\) and \\(\\|\\theta_n\\|^2=n\\), its exact or",
       "tag": "div"
     },
     {
       "id": "classroom-l19-js-comparison",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "Comparison. Global James–Stein shrinkage does not exploit sparse coordinate structure. For \\(\\sigma=1\\) and \\(\\|\\theta_n\\|^2=n\\), its exact ordinary-JS risk is \\[R_{\\rm JS}(\\theta_n)=n-(n-2)^2\\E\\|Y\\|^",
+      "label": "Change of observations. Global James–Stein shrinkage does not exploit sparse coordinate structure. For \\(\\sigma=1\\) and \\(\\|\\theta_n\\|^2=n\\), its exact ordinary-JS risk is \\[R_{\\rm JS}(\\theta_n)=n-(n-",
       "tag": "div"
     },
     {
@@ -22287,7 +22259,7 @@
       "id": "lec19-remark-3",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "Remark 3Bias-variance tradeoffThe threshold \\(\\sqrt{2\\sigma^2\\log(n/S_n)}\\) is smaller than the universal level \\(\\sqrt{2\\sigma^2\\log n}\\). It has a smaller thresholding level, so many noises are not ",
+      "label": "Remark 3Bias-variance tradeoffThe threshold \\(\\sqrt{2\\sigma^2\\log(n/S_n)}\\) is smaller than the universal level \\(\\sqrt{2\\sigma^2\\log n}\\). It has a smaller thresholding level, so many noise coordinat",
       "tag": "div"
     },
     {
@@ -22455,7 +22427,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityA nearly sparse vectorExercise 1A nearly sparse vector#For \\(x=(1,1/2,1/4,1/8)\\), compute its exact s",
+      "label": "8. Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityA nearly sparse vectorExercise 1A nearly sparse vector#For \\(x=(1,1/2,1/4,1/8)\\), compute its exac",
       "tag": "details"
     },
     {
@@ -22693,7 +22665,7 @@
       "id": "what-changed",
       "page": "lect-19.html",
       "lecture": 19,
-      "label": "What changedOctober 16, 2026: Stated the regression noise model and coefficient noise scales, corrected support counting in the sparse-risk proof, and made the Fourier approximation normalization expl",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 16, 2026: Stated the regression n",
       "tag": "details"
     },
     {
@@ -22749,7 +22721,7 @@
       "id": "lecture-map",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "01 · HighBasis PursuitSee the assumptions, proof and examples in this section. 02 · MidCompressed SensingSee the assumptions, proof and examples in this section. 03 · HighStatistical theory for LASSOS",
+      "label": "01 · Optional · HighBasis pursuitRecover sparse coefficients with an absolute-value penalty. 02 · Optional · MidCompressed sensingCompare null-space, incoherence and isometry guarantees. 03 · Optional",
       "tag": "nav"
     },
     {
@@ -22791,14 +22763,14 @@
       "id": "section-navigation",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "Basis PursuitCompressed SensingStatistical theory for LASSOFurther readingKey ideasLooking aheadPracticeReferencesTerminology notesComments",
+      "label": "Basis pursuitCompressed sensingStatistical theory for LASSOFurther readingKey ideasLooking aheadPracticeReferencesTerminology notesComments",
       "tag": "ol"
     },
     {
       "id": "lecture-content",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "Disclaimer: materials in this pdf are used for STAT 709 “Mathematical Statistics” at the University of Wisconsin–Madison, but they are not guaranteed to be accurate. Consult textbooks whenever possibl",
+      "label": "These notes support STAT 709 at the University of Wisconsin–Madison. Use them alongside the cited textbooks; corrections and questions are welcome. Optional part.This lecture belongs to optional Part ",
       "tag": "main"
     },
     {
@@ -22826,7 +22798,7 @@
       "id": "lec20-recap",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "Recap from earlier lecturesEarlier ideas used in this lecture · 1 minThese reminders add no exam requirements.Sparsity. Exact sparsity counts nonzero coordinates; the support records their locations. ",
+      "label": "Recap from earlier lecturesFrom Lectures 13, 14 and 19: earlier ideas used here · 1 minReminder only: this block introduces no new exam requirements.Sparsity. Exact sparsity counts nonzero coordinates",
       "tag": "details"
     },
     {
@@ -22847,14 +22819,14 @@
       "id": "sec-lec20-1",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "1. Basis Pursuit",
+      "label": "1. Basis pursuit",
       "tag": "h2"
     },
     {
       "id": "lec20-block-1",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "1. Basis Pursuit",
+      "label": "1. Basis pursuit",
       "tag": "span"
     },
     {
@@ -22959,14 +22931,14 @@
       "id": "sec-lec20-3",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "1.2. Pairwise incoherence: a key condition on design matrix",
+      "label": "1.2. Pairwise incoherence: a key condition on the design matrix",
       "tag": "h3"
     },
     {
       "id": "lec20-block-3",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "1.2. Pairwise incoherence: a key condition on design matrix",
+      "label": "1.2. Pairwise incoherence: a key condition on the design matrix",
       "tag": "span"
     },
     {
@@ -22987,7 +22959,7 @@
       "id": "prop-PI-ineqn",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "1.2. Pairwise incoherence: a key condition on design matrix",
+      "label": "1.2. Pairwise incoherence: a key condition on the design matrix",
       "tag": "span"
     },
     {
@@ -23008,14 +22980,14 @@
       "id": "prop-pw",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "Theorem 1If \\(X\\) has pairwise incoherence \\(\\delta_{pw}(X) < \\frac{1}{2k}\\), and \\(|S| \\le k\\), then \\(X\\) satisfies RNS property.",
+      "label": "Theorem 1If \\(X\\) has pairwise incoherence \\(\\delta_{pw}(X) < \\frac{1}{2k}\\), and \\(|S| \\le k\\), then \\(X\\) satisfies the RNS property.",
       "tag": "div"
     },
     {
       "id": "lec20-corollary-1",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "Corollary 1Assume \\(X_{kj}\\stackrel{\\iid}{\\sim}\\mathcal{N}(0, 1)\\) with \\(p\\ge2\\) and \\(1\\le k\\le p\\). Then BP recovers every \\(k\\)-sparse \\(\\theta^*\\) simultaneously with probability at least \\(1-p^{",
+      "label": "Corollary 1Assume \\(X_{ij}\\stackrel{\\iid}{\\sim}\\mathcal{N}(0, 1)\\) with \\(p\\ge2\\) and \\(1\\le k\\le p\\). Then BP recovers every \\(k\\)-sparse \\(\\theta^*\\) simultaneously with probability at least \\(1-p^{",
       "tag": "div"
     },
     {
@@ -23043,7 +23015,7 @@
       "id": "sec-lec20-5",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "2. Compressed Sensing",
+      "label": "2. Compressed sensing",
       "tag": "h2"
     },
     {
@@ -23057,21 +23029,21 @@
       "id": "lec20-recall-1-excerpt",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "2. Compressed Sensing",
+      "label": "2. Compressed sensing",
       "tag": "template"
     },
     {
       "id": "lec20-block-5",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "2. Compressed Sensing",
+      "label": "2. Compressed sensing",
       "tag": "span"
     },
     {
       "id": "lec20-definition-2",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "Definition 2Restricted isometryRestricted isometry constant \\(\\delta_k\\) of \\(X\\) is the smallest nonnegative number such that \\[\\begin{aligned} (1 - \\delta_k)\\|u\\|_2^2 \\le \\|Xu\\|_2^2 \\le (1 + \\delta_",
+      "label": "Definition 2Restricted isometryThe restricted isometry constant \\(\\delta_k\\) of \\(X\\) is the smallest nonnegative number such that \\[\\begin{aligned} (1 - \\delta_k)\\|u\\|_2^2 \\le \\|Xu\\|_2^2 \\le (1 + \\de",
       "tag": "div"
     },
     {
@@ -23085,7 +23057,7 @@
       "id": "lec20-theorem-2",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "Theorem 2Assume \\(y=X\\theta^*\\).Suppose \\(\\theta^*\\) is \\(k\\)-sparse and \\(\\delta_{2k} < 1\\). Then \\(\\theta^*\\) is unique solution to \\[\\begin{aligned} \\min_{\\theta\\in\\mathbb{R}^p}\\|\\theta\\|_0, \\qquad",
+      "label": "Theorem 2Assume \\(y=X\\theta^*\\).(1) Suppose \\(\\theta^*\\) is \\(k\\)-sparse and \\(\\delta_{2k} < 1\\). Then \\(\\theta^*\\) is the unique solution to \\[\\begin{aligned} \\min_{\\theta\\in\\mathbb{R}^p}\\|\\theta\\|_0",
       "tag": "div"
     },
     {
@@ -23099,14 +23071,14 @@
       "id": "lec20-explain-nphard-control-excerpt",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "2. Compressed Sensing",
+      "label": "2. Compressed sensing",
       "tag": "template"
     },
     {
       "id": "lec20-remark-2",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "Remark 2Convex vs. nonconvexRecall \\(\\|\\theta\\|_0 = \\sum_{j=1}^{p}\\mathbb{1}(\\theta_j \\neq 0)\\). The count \\(\\|\\theta\\|_0\\) is nonconvex. Finding the sparsest solution is NP-hard in general1; nonconve",
+      "label": "Remark 2Convex vs. nonconvex(1) Recall \\(\\|\\theta\\|_0 = \\sum_{j=1}^{p}\\mathbb{1}(\\theta_j \\neq 0)\\). The count \\(\\|\\theta\\|_0\\) is nonconvex. Finding the sparsest solution is NP-hard in general1; nonc",
       "tag": "div"
     },
     {
@@ -23253,7 +23225,7 @@
       "id": "sec-lec20-9",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "3.2. Estimation Error of LASSO",
+      "label": "3.2. Estimation error of LASSO",
       "tag": "h3"
     },
     {
@@ -23267,21 +23239,21 @@
       "id": "lec20-recall-2-excerpt",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "3.2. Estimation Error of LASSO",
+      "label": "3.2. Estimation error of LASSO",
       "tag": "template"
     },
     {
       "id": "lec20-block-9",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "3.2. Estimation Error of LASSO",
+      "label": "3.2. Estimation error of LASSO",
       "tag": "span"
     },
     {
       "id": "lec20-definition-3",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "Definition 3Restricted eigenvalue conditionWe say \\(X\\) satisfies restricted eigenvalue (RE) condition over \\(S\\) with parameter \\(\\kappa>0\\) if \\[\\begin{aligned} \\frac{1}{n}\\|X\\Delta\\|_2^2 \\ge \\kappa",
+      "label": "Definition 3Restricted eigenvalue conditionWe say \\(X\\) satisfies the restricted eigenvalue (RE) condition over \\(S\\) with parameter \\(\\kappa>0\\) if \\[\\begin{aligned} \\frac{1}{n}\\|X\\Delta\\|_2^2 \\ge \\k",
       "tag": "div"
     },
     {
@@ -23400,7 +23372,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityBasis pursuit with one measurementExercise 1Basis pursuit with one measurement#For \\(X=(1\\ \\ 2)\\) and",
+      "label": "6. Exercises and complete solutions8 exercises · complete solutionsReveal all solutions◆ High priorityBasis pursuit with one measurementExercise 1Basis pursuit with one measurement#For \\(X=(1\\ \\ 2)\\) ",
       "tag": "details"
     },
     {
@@ -23631,7 +23603,7 @@
       "id": "what-changed",
       "page": "lect-20.html",
       "lecture": 20,
-      "label": "What changedOctober 16, 2026: Clarified the basis-pursuit limit of LASSO, used the enlarged error set consistently, and separated computational hardness from nonconvexity alone. Added optional-part gu",
+      "label": "What changedOctober 19, 2026: Corrected notation, wording and cross-references after the course-wide errata review; refreshed the linked HTML and PDF editions.October 16, 2026: Clarified the basis-pur",
       "tag": "details"
     },
     {
@@ -23705,10 +23677,10 @@
       "tag": "h2"
     },
     {
-      "id": "what-you-need-from-earlier-lectures",
+      "id": "what-you-need-from-lecture-1",
       "page": "part-1.html",
       "lecture": null,
-      "label": "What you need from earlier lectures",
+      "label": "What you need from Lecture 1",
       "tag": "h2"
     },
     {
@@ -24023,22 +23995,22 @@
       "id": "lect-18",
       "page": "part-6.html",
       "lecture": null,
-      "label": "Lecture 18: Stein’s phenomenon and shrinkage estimation*",
-      "tag": "h3"
+      "label": "Roadmap",
+      "tag": "span"
     },
     {
       "id": "lect-19",
       "page": "part-6.html",
       "lecture": null,
-      "label": "Lecture 19: Denoising via shrinkage*",
-      "tag": "h3"
+      "label": "Roadmap",
+      "tag": "span"
     },
     {
       "id": "lect-20",
       "page": "part-6.html",
       "lecture": null,
-      "label": "Lecture 20: Basis pursuit, compressed sensing, and LASSO*",
-      "tag": "h3"
+      "label": "Roadmap",
+      "tag": "span"
     },
     {
       "id": "what-you-need-from-earlier-lectures",
@@ -24163,14 +24135,14 @@
       "id": "course-content",
       "page": "index.html",
       "lecture": null,
-      "label": "Course information LecturesMondays & Wednesdays, 11:00 a.m.–12:15 p.m.Van Vleck B211 Weekly workTwo 75-minute lectures, one discussion section, assigned readings, and homework. DiscussionFriday 11:00a",
+      "label": "Course information LecturesMondays & Wednesdays, 11:00 a.m.–12:15 p.m.Van Vleck B211 Weekly workTwo 75-minute lectures, one discussion section, assigned readings, and homework. DiscussionFridays, 11:0",
       "tag": "main"
     },
     {
       "id": "course-information",
       "page": "index.html",
       "lecture": null,
-      "label": "Course information LecturesMondays & Wednesdays, 11:00 a.m.–12:15 p.m.Van Vleck B211 Weekly workTwo 75-minute lectures, one discussion section, assigned readings, and homework. DiscussionFriday 11:00a",
+      "label": "Course information LecturesMondays & Wednesdays, 11:00 a.m.–12:15 p.m.Van Vleck B211 Weekly workTwo 75-minute lectures, one discussion section, assigned readings, and homework. DiscussionFridays, 11:0",
       "tag": "section"
     },
     {
@@ -24492,21 +24464,21 @@
       "id": "course-content",
       "page": "syllabus.html",
       "lecture": null,
-      "label": "Updated October 13, 2026. This webpage is the authoritative course syllabus; the Word document is a dated snapshot. Policy changes are announced on Canvas. Canvas holds assignment deadlines, submissio",
+      "label": "Updated October 19, 2026. This webpage is the authoritative course syllabus; the Word document is a dated snapshot. Policy changes are announced on Canvas. Canvas holds assignment deadlines, submissio",
       "tag": "main"
     },
     {
       "id": "syllabus-version",
       "page": "syllabus.html",
       "lecture": null,
-      "label": "Updated October 13, 2026. This webpage is the authoritative course syllabus; the Word document is a dated snapshot. Policy changes are announced on Canvas. Canvas holds assignment deadlines, submissio",
+      "label": "Updated October 19, 2026. This webpage is the authoritative course syllabus; the Word document is a dated snapshot. Policy changes are announced on Canvas. Canvas holds assignment deadlines, submissio",
       "tag": "p"
     },
     {
       "id": "course-information",
       "page": "syllabus.html",
       "lecture": null,
-      "label": "Course information LecturesMondays & Wednesdays, 11:00 a.m.–12:15 p.m.Van Vleck B211 Weekly workTwo 75-minute lectures, one discussion section, assigned readings, and homework. DiscussionFriday 11:00a",
+      "label": "Course information LecturesMondays & Wednesdays, 11:00 a.m.–12:15 p.m.Van Vleck B211 Weekly workTwo 75-minute lectures, one discussion section, assigned readings, and homework. DiscussionFridays, 11:0",
       "tag": "section"
     },
     {
@@ -24625,7 +24597,7 @@
       "id": "ai-homework",
       "page": "syllabus.html",
       "lecture": null,
-      "label": "Homework",
+      "label": "AI use on homework",
       "tag": "h3"
     },
     {
@@ -24737,7 +24709,7 @@
       "id": "course-outline",
       "page": "syllabus.html",
       "lecture": null,
-      "label": "Course outline and readingsThe homepage lecture list has the current notes and downloads, organized into seven parts. Lecture numbers are unchanged.Part I · Foundations: the language of probability — ",
+      "label": "Course outline and readingsThe homepage lecture list has the current notes and downloads, organized into seven parts.Part I · Foundations: the language of probability — Lectures 1–5.Part II · Statisti",
       "tag": "section"
     },
     {
@@ -24842,7 +24814,7 @@
       "id": "volunteering-in-a-mini-presentation",
       "page": "preface.html",
       "lecture": null,
-      "label": "Volunteering in a mini-presentation",
+      "label": "Volunteering for a mini-presentation",
       "tag": "h2"
     },
     {
@@ -24884,7 +24856,7 @@
       "id": "report-content",
       "page": "report-issue.html",
       "lecture": null,
-      "label": "Found a typo, a mathematical error, an unclear explanation, or a problem with a figure or link? Describe what you noticed. A suggested fix is welcome, but not required. Local preview: the public form ",
+      "label": "Found a typo, a mathematical error, an unclear explanation, or a problem with a figure or link? Describe what you noticed. A suggested fix is welcome but not required. Local preview: the public form w",
       "tag": "main"
     },
     {

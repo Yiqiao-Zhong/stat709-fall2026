@@ -34,6 +34,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - [Homework 3 assignment](homework/HW3.pdf)
 - [Homework 4 assignment](homework/HW4.pdf)
 - [Homework 5 assignment](homework/HW5.pdf)
+- [Homework 6 assignment](homework/HW6.pdf)
 
 Homework solutions are not included. The homepage and seven part-overview pages organize Lectures 1–20. Part VI (Lectures 18–20) is optional and not examined; its student HTML and PDF notes are available. Part VII has no lecture entries yet.
 
@@ -107,3 +108,7 @@ The student website includes the revised syllabus, seven-part organization, back
 Lectures 18–20 are published as optional enrichment, with links on the homepage and Part VI overview, reading navigation, Comments, and Report an issue. High/mid/low tiers within these three lectures describe a study route and do not add exam requirements. Part VII still has no lecture entries.
 
 The 14 selected figures retain credits and provenance under `assets/figures/lect-18/`, `lect-19/` and `lect-20/`. Complete research books, unused images and author materials are not hosted.
+
+## October 19 corrections
+
+The current student pages and PDFs include the approved course-wide errata and policy follow-up. The TA office hour is Friday, 1:00–2:00 p.m., Morgridge Hall 2517. Lecture 4 omits the spatial log-gradient exercise; Lecture 7 uses an original minimum-norm drawing with its provenance in `assets/figures/lect-7/minimum-norm-v2/`; Lecture 9 Section 7.1 is mid priority; and Lecture 17 community detection is optional and not examined, retaining its reading tiers. Lectures 18–20 remain optional. Homework assignments are unchanged, and homework solutions remain private.

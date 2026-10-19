@@ -14,7 +14,7 @@
         "assets/figures/lect-2/review-20261014/partition-panel-2.svg"
       ],
       "sha256": {
-        "svg": "44f5965135c4e3d13572afccc3415b291056ebbac50155fba059f42ab23b3df7",
+        "svg": "baa3a0631a1a4645ec060d1e3d8de553923043ff3b82e0f3b667db298916119d",
         "png": "7b7d9d17d2e7e1d1e01e9067198afd68c99cf4525d817316c794973df1e148df"
       }
     },
@@ -30,7 +30,7 @@
         "assets/figures/lect-2/review-20261014/continuity-panel-2.svg"
       ],
       "sha256": {
-        "svg": "bba8a11c39bee0651f886d84dd2068f5dd547c35e8a04de2397520748a104612",
+        "svg": "d73058effbe8c210f13b707bc1861a515184171df1adfa15f476ff48a2badf00",
         "png": "a6f45f47de981e42278bd1ba32133d5249c2550e1b8e37ec01f686cf8aa35d53"
       }
     },
@@ -47,7 +47,7 @@
         "assets/figures/lect-2/review-20261014/product-panel-3.svg"
       ],
       "sha256": {
-        "svg": "972243a3a4c2a84ba59c08988304a75e584f096d02ec2d6b9ea214206b8a5fb6",
+        "svg": "8ef9c764b7c118d0f727e5530be942669b55b64479f5a858873957a70018d80f",
         "png": "7eacc2d8c891a4f3e81c81b2f5f3d057048860dc59e6357edb0c155e94d19d44"
       }
     },
@@ -60,7 +60,7 @@
       "png": "assets/figures/lect-2/review-20261014/maps.png",
       "panels": [],
       "sha256": {
-        "svg": "791fc88c906f1cea25ebffd9cac8de91026ede4530d5064037579b3dac155488",
+        "svg": "975653ec3573d1483abd69c6c425a8f7751248ea2c826bb3895f2bd917f338ec",
         "png": "e7e6121fa98d8e11463af162510d6d4ab6684e313dafb91db9e38a6e7784d9f6"
       }
     }

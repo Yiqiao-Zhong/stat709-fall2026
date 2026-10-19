@@ -47,7 +47,7 @@ function setExerciseMode(mode) {
   document.getElementById('practice-count').textContent=`${rows.filter(row=>!row.hidden).length} exercises in ${practiceName} practice`;
 }
 
-function openHashTarget() {
+function openHashTarget({instant=false}={}) {
   if(!location.hash) return;
   let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
   const target=document.getElementById(id);
@@ -60,7 +60,7 @@ function openHashTarget() {
   let node=target;
   while(node) {if(node.tagName==='DETAILS')node.open=true;node=node.parentElement;}
   document.getElementById('navigation-status').textContent='Linked content is visible; other solution choices are preserved.';
-  requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));
+  requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:instant?'instant':'auto'}));
 }
 
 function setupSidebar() {
@@ -120,8 +120,18 @@ document.addEventListener('DOMContentLoaded',()=>{
   if (body.dataset.lecture === '10') mountLecture10();
   if (Number(body.dataset.lecture)>=11 && Number(body.dataset.lecture)<=20) mountLectureBatch();
   mountDiscussion();
-  setPriorityMode('supporting');setExerciseMode('exam');setupPrint();openHashTarget();
+  setPriorityMode('supporting');setExerciseMode('exam');setupPrint();openHashTarget({instant:true});
   window.addEventListener('hashchange',openHashTarget);
+  // Math typesetting, fonts and images can change the location of a deep link.
+  // Do not pull a reader back after they have deliberately started scrolling.
+  let readingStarted=false;
+  for(const type of ['wheel','touchstart','pointerdown','keydown'])
+    window.addEventListener(type,()=>{readingStarted=true;},{once:true,passive:true});
+  const settleHash=()=>{if(!readingStarted)requestAnimationFrame(()=>requestAnimationFrame(()=>openHashTarget({instant:true})));};
+  document.addEventListener('stat709:math-ready',settleHash);
+  document.fonts?.ready.then(settleHash);
+  window.addEventListener('load',settleHash,{once:true});
+  for(const img of document.images)if(!img.complete)img.addEventListener('load',settleHash,{once:true});
   document.addEventListener('click',event=>{
     const link=event.target.closest('a[href^="#"]');
     if(link && link.hash===location.hash)openHashTarget();
