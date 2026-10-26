@@ -35,6 +35,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - [Homework 4 assignment](homework/HW4.pdf)
 - [Homework 5 assignment](homework/HW5.pdf)
 - [Homework 6 assignment](homework/HW6.pdf)
+- [Homework 7 assignment](homework/HW7.pdf)
 
 Homework solutions are not included. The homepage and seven part-overview pages organize Lectures 1–20. Part VI (Lectures 18–20) is optional and not examined; its student HTML and PDF notes are available. Part VII has no lecture entries yet.
 
