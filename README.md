@@ -123,3 +123,7 @@ Lecture 21 opens [Part VII](part-7.html) with hypothesis tests, typeset p-values
 ## October 28: Lecture 22
 
 Lecture 22 completes [Part VII](part-7.html) and the course with confidence sets and asymptotic tests. Most content is adapted from Bickel–Doksum; Part VII is newly prepared rather than inherited from prior years. The approved priorities, original coverage figure, twenty-three-row supplemental table and six complete solutions are retained. The homepage and Part VII provide HTML/PDF links. Lecture 21 links forward to Lecture 22, and Lecture 22 ends at the course home. The Part VII checkpoint links existing approved exercises and their complete solutions. Earlier lecture content, optional Lectures 18–20 and HW1–7 are preserved.
+
+## October 28: reviewed corrections to Lectures 21 and 22
+
+The approved joint review clarifies the Wald proof on exceptional samples, the Wilson interval boundary cases, likelihood and null-CDF notation, and exact versus approximate coverage. The BD reading range and Lecture 21 reference links are corrected. Both student HTML/PDF editions are consistent with the canonical TeX kept in preparation. All BD attribution, priorities, three figures, supplemental tables and twelve complete solutions are preserved. Homepage and Part VII links, earlier lectures, optional Lectures 18–20 and HW1–7 are unchanged.
