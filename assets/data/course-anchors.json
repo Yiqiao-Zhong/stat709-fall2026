@@ -23643,6 +23643,881 @@
     },
     {
       "id": "issue-report-config",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "issue-report-config",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-map-heading",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Lecture map",
+      "tag": "h2"
+    },
+    {
+      "id": "lecture-map",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "01 · HighHypotheses and errorsSpecify two distributions and control false rejection. 02 · High / midA Normal exampleRead size and power from sampling distributions. 03 · High\\(p\\)-valuesInterpret and ",
+      "tag": "nav"
+    },
+    {
+      "id": "priority-filter-heading",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Reading view",
+      "tag": "h2"
+    },
+    {
+      "id": "priority-description",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "High and mid priority are visible; both are in examination scope.",
+      "tag": "p"
+    },
+    {
+      "id": "goals-heading",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Study links",
+      "tag": "h2"
+    },
+    {
+      "id": "sidebar-goals",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Recap · Learning goals · Key ideas · Practice",
+      "tag": "nav"
+    },
+    {
+      "id": "contents-heading",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "On this page",
+      "tag": "h2"
+    },
+    {
+      "id": "section-navigation",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Hypotheses, decisions, and errorsAn example of normal distribution\\(p\\)-valuesWhy likelihood ratios give powerful testsGeneralized likelihood ratiosKey ideas and supplemental referencePractice and com",
+      "tag": "ol"
+    },
+    {
+      "id": "lecture-content",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Source and provenance. Most of the contents of the Part VII lectures are taken from Bickel and Doksum (BD), Mathematical Statistics: Basic Ideas and Selected Topics, Volume I, second edition [2], and ",
+      "tag": "main"
+    },
+    {
+      "id": "reading.",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Reading.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-overview",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "On this page",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-recap",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Recap from earlier lecturesFrom Lectures 6, 8 and 10: earlier ideas used here · 1 minReminder only: this block introduces no new exam requirements.Tests as decisions. A test maps data to reject or do ",
+      "tag": "details"
+    },
+    {
+      "id": "learning-goals",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Learning goals",
+      "tag": "h3"
+    },
+    {
+      "id": "sec-lec21-errors",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "1. Hypotheses, decisions, and errors",
+      "tag": "h2"
+    },
+    {
+      "id": "lec21-model",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "1. Hypotheses, decisions, and errors",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-def-hypotheses",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Definition 1Simple and composite hypotheses; BD Section 4.1, p. 215A hypothesis is simple if it specifies one distribution of the data, and composite if it allows more than one.",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l21-decision-rule",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Decision. A nonrandomized test is a measurable function \\(\\varphi:\\mathcal X\\to\\{0,1\\}\\). The decision \\(\\varphi(X)=1\\) means reject \\(H_0\\); \\(\\varphi(X)=0\\) means do not reject.Rejection region. Its",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-decision-table",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "\\(H_0\\) true\\(H_1\\) trueReject \\(H_0\\)Type I errorCorrect detectionDo not reject \\(H_0\\)Correct nonrejectionType II error",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-def-power",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Definition 2Power, size, and level for simple hypotheses; BD Definition 4.1.1, specializedFor a test \\(\\varphi\\), its size and power are, respectively, \\[P_0\\{\\varphi(X)=1\\},\\qquad P_1\\{\\varphi(X)=1\\}",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l21-notation",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Notation. BD writes \\(\\beta\\) for the power function; here \\(\\pi\\) denotes power and \\(\\beta\\) denotes Type II error.Size and level. The size is a property of the rule; \\(\\alpha\\) is its chosen error ",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-note-budget",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Instructor’s NoteA false-alarm budgetThink of a smoke alarm. Lowering the trigger threshold helps detect small fires, but also produces more false alarms. The significance level sets a false-alarm bud",
+      "tag": "details"
+    },
+    {
+      "id": "lec21-prompt-errors",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec21-calibration",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "2. An example of normal distribution",
+      "tag": "h2"
+    },
+    {
+      "id": "lec21-normal-test",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "2. An example of normal distribution",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-eq-power",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "\\[\\pi_c(\\mu)=1-\\Phi(c-d).\\](1)",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-eq-z-rule",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "\\[\\overline X\\ge\\mu_0+z_{1-\\alpha}\\frac{\\sigma}{\\sqrt n}.\\](2)",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-fig-errors",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "2. An example of normal distribution",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-prompt-power",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-binomial-test",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "2. An example of normal distribution",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-exact-versus-asymptotic",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "2. An example of normal distribution",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l21-calibration",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exact model. The Normal calculation above is exact for every \\(n\\) under its Normal model.Large-sample approximation. For general i.i.d. observations with mean \\(\\mu\\), finite known variance \\(\\sigma^",
+      "tag": "div"
+    },
+    {
+      "id": "sec-lec21-pvalues",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "3. \\(p\\)-values",
+      "tag": "h2"
+    },
+    {
+      "id": "lec21-tail-pvalue",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "3. \\(p\\)-values",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-eq-simple-pvalue",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "\\[p(x)=P_0\\{T(X')\\ge T(x)\\}.\\](3)",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l21-extremeness",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Observed and new data. Here \\(x\\) is the observed data and \\(X'\\) denotes a fresh sample from the null model.Extremeness. “At least as extreme” means \\(T(X')\\ge T(x)\\) according to this chosen statist",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l21-tail-rule",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Tail probability. Thus \\(p(x)\\) is the size of the tail region starting at the observed statistic. It is the smallest size among the upper-tail tests that reject this observation (BD Proposition 4.1.2",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-alpha-versus-p",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "The significance level and the \\(p\\)-value have different jobs.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-level-table",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Level \\(\\alpha\\)Reject when \\(Z\\ge z_{1-\\alpha}\\)Decision at \\(Z=2\\)\\(.10\\)\\(Z\\ge1.282\\)Reject\\(.05\\)\\(Z\\ge1.645\\)Reject\\(.025\\)\\(Z\\ge1.960\\)Reject\\(.01\\)\\(Z\\ge2.326\\)Do not reject",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-def-valid-pvalue",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Definition 3ValidityA statistic \\(p(X)\\in[0,1]\\) is a valid \\(p\\)-value for \\(H_0\\) if, for every \\(u\\in[0,1]\\),\\[P_0\\{p(X)\\le u\\}\\le u.\\](4)",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-eq-validity",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "\\[P_0\\{p(X)\\le u\\}\\le u.\\](4)",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l21-validity",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Error control. This inequality immediately guarantees that rejecting at \\(p\\le\\alpha\\) controls Type I error at level \\(\\alpha\\).Repeated samples. For example, if a null model is true, at most \\(5\\%\\)",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-normal-pvalues",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Normal examples.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-pvalue-interpretation",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "3. \\(p\\)-values",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l21-interpretation",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Small values. A small \\(p\\)-value says that the observed statistic lies in a tail that has small probability under \\(P_0\\), using the chosen ordering of outcomes.What it does not mean. It is not the p",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l21-reporting",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Scientific interpretation. Statistical significance also does not measure effect size or scientific importance. Report the estimate, its uncertainty, the model, and how the analysis was chosen.Analysi",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-note-repeats",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Instructor’s NoteOne observation, many possible repeatsImagine replaying the experiment while the null model stays fixed. The \\(p\\)-value asks how often that replay would produce a test statistic at l",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec21-np",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "4. Why likelihood ratios give powerful tests",
+      "tag": "h2"
+    },
+    {
+      "id": "lec21-randomization",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "4. Why likelihood ratios give powerful tests",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-thm-np",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Theorem 1BD Theorem 4.2.1(a), pp. 224–225, restatedSuppose \\(0<\\alpha<1\\) and there are \\(k\\ge0\\) finite and a test \\(\\varphi^*\\) with \\(E_0\\varphi^*=\\alpha\\) such that \\[\\varphi^*(x)= \\begin{cases} 1",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-proof-np",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "4. Why likelihood ratios give powerful tests",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-note-np",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Instructor’s NoteWhere to spend the error budgetEach region where we reject spends some probability under the null and gains some probability under the alternative. The likelihood ratio measures that ",
+      "tag": "details"
+    },
+    {
+      "id": "lec21-np-illustration",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "A four-outcome illustration.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-fig-np",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "4. Why likelihood ratios give powerful tests",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-normal-mp",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "4. Why likelihood ratios give powerful tests",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-eq-normal-lr",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "\\[\\log\\frac{f_{\\mu_1}(x)}{f_{\\mu_0}(x)} =\\frac{\\mu_1-\\mu_0}{\\sigma^2}\\sum_{i=1}^n x_i -\\frac{n(\\mu_1^2-\\mu_0^2)}{2\\sigma^2}.\\](5)",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-prompt-lr",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec21-glr",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5. Generalized likelihood ratios",
+      "tag": "h2"
+    },
+    {
+      "id": "sec-lec21-composite-errors",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.1. Composite hypotheses and error control",
+      "tag": "h3"
+    },
+    {
+      "id": "lec21-composite-model",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.1. Composite hypotheses and error control",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l21-composite-model",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Known variance. Each hypothesis is simple or composite according to the number of data distributions it permits. For Normal data with known variance, \\(H_0:\\mu=\\mu_0\\) is simple even when \\(H_1:\\mu\\ne",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-general-power",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Definition 4General power function and size; BD Definition 4.1.1, p. 217For an ordinary test, define \\[\\pi_\\varphi(\\theta)=P_\\theta\\{\\varphi(X)=1\\},\\qquad \\operatorname{size}(\\varphi)=\\sup_{\\theta\\in\\",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l21-composite-control",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Uniform error control. For a composite null, controlling error at one convenient parameter is insufficient: the bound must hold at every null parameter.Power varies. Power can likewise differ across a",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-normal-composite",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Extend the Normal test.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-binomial-composite",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.1. Composite hypotheses and error control",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec21-composite-pvalues",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.2. \\(p\\)-values for a composite null",
+      "tag": "h3"
+    },
+    {
+      "id": "lec21-composite-pvalue",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.2. \\(p\\)-values for a composite null",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-eq-pvalue",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "\\[p(x)=\\sup_{\\theta\\in\\Theta_0}P_\\theta\\{T(X')\\ge T(x)\\},\\](6)",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-eq-composite-validity",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "\\[P_\\theta\\{p(X)\\le u\\}\\le u \\quad\\text{for every }\\theta\\in\\Theta_0,\\quad 0\\le u\\le1.\\](7)",
+      "tag": "div"
+    },
+    {
+      "id": "sec-lec21-ump",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.3. From most powerful to uniformly most powerful",
+      "tag": "h3"
+    },
+    {
+      "id": "lec21-ump",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.3. From most powerful to uniformly most powerful",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-def-ump",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Definition 5BD Definition 4.3.1, p. 227A level-\\(\\alpha\\) test is uniformly most powerful (UMP) if it is most powerful at every parameter value in the alternative.",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l21-ump-proof",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "One valid rule. Our upper-tail rule is the same for every \\(\\mu_1>\\mu_0\\). It has level \\(\\alpha\\) over the composite null \\(\\mu\\le\\mu_0\\), as already checked.Compare competitors. Every competitor val",
+      "tag": "div"
+    },
+    {
+      "id": "sec-lec21-glr-fits",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.4. Compare the best null and full-model fits",
+      "tag": "h3"
+    },
+    {
+      "id": "lec21-glr-definition",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.4. Compare the best null and full-model fits",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-eq-glr",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "\\[\\Lambda(x)=\\frac{\\sup_{\\theta\\in\\Theta_0}f_\\theta(x)} {\\sup_{\\theta\\in\\Theta}f_\\theta(x)}, \\qquad W(x)=-2\\log\\Lambda(x),\\](8)",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l21-glr-convention",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Rejection direction. Since \\(\\Theta_0\\subset\\Theta\\), \\(0\\le\\Lambda\\le1\\). Reject for small \\(\\Lambda\\), equivalently large \\(W\\); set \\(W=\\infty\\) if \\(\\Lambda=0\\).Likelihood comparison. When the sup",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-glr-normal",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Two-sided Normal test, derived directly.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-glr-family",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "One rejection rule, a family of alternatives.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-fig-composite-errors",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.4. Compare the best null and full-model fits",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-two-sided-pvalues",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.4. Compare the best null and full-model fits",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-prompt-pvalues",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-glr-illustration",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Compute the two best fits.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-fig-glr",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.4. Compare the best null and full-model fits",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-ci-preview",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.4. Compare the best null and full-model fits",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-key-ideas",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Key ideasA level-\\(\\alpha\\) rule controls false rejection for every null parameter; its attained size can be smaller than \\(\\alpha\\).Power depends on the alternative, effect size, and sample size. Non",
+      "tag": "section"
+    },
+    {
+      "id": "sec-lec21-summary",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Supplemental reference: key notions and definitions",
+      "tag": "h2"
+    },
+    {
+      "id": "lec21-looking-ahead",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Looking aheadThe next lecture will make the interval interpretation precise: what is random, what coverage guarantees, and how pivots and tests produce confidence sets. We will then use the earlier CL",
+      "tag": "section"
+    },
+    {
+      "id": "practice-index",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "PracticeHigh and mid exercises are both in examination scope. Select a problem to open its statement; solutions stay closed until requested.Core practiceExam practiceAll practice4 exercises in exam pr",
+      "tag": "nav"
+    },
+    {
+      "id": "practice-heading",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "h2"
+    },
+    {
+      "id": "practice-count",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "4 exercises in exam practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercises-and-complete-solutions",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "6. Exercises and complete solutions6 exercises · complete solutionsReveal all solutions◆ High priorityErrors for a small binomial experimentExercise 1Original practice using BD Section 4.1# Let \\(S\\si",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec21-exercises",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-1",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exercise 1Original practice using BD Section 4.1# Let \\(S\\sim\\operatorname{Bin}(4,\\theta)\\). First test \\(H_0:\\theta=1/2\\) against \\(H_1:\\theta=3/4\\) by rejecting when \\(S=4\\). Find its size, determin",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-ex-errors",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-sol-errors",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-2",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exercise 2Adapted from BD Example 4.2.1, p. 226; new numerical values# For i.i.d. \\(N(\\mu,\\sigma^2)\\) data with known \\(\\sigma\\), test \\(\\mu=\\mu_0\\) against the specified \\(\\mu_1=\\mu_0+\\Delta\\) at lev",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-ex-power",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-sol-power",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-3",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exercise 3Adapted from BD equation (4.2.1), p. 223# Let \\(X_i\\) be i.i.d. \\(\\operatorname{Bernoulli}(\\theta)\\), \\(S=\\sum_{i=1}^nX_i\\), and \\(0<\\theta_0<\\theta_1<1\\). Show that the simple likelihood ra",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-ex-lr",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-sol-lr",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-4",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exercise 4Original practice using BD’s Normal \\(p\\)-value example# For the known-variance Normal model, an observation gives \\(z_{\\rm obs}=-2\\). Find the \\(p\\)-values for the prespecified alternatives",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-ex-pvalues",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-sol-pvalues",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-5",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exercise 5BD Problem 4.1.5, p. 270, with discrete and composite extensions# For a real-valued statistic \\(T\\) under a simple null \\(P_0\\), put \\(G(t)=P_0(T\\ge t)\\) and \\(p=G(T)\\). Prove \\(P_0(p\\le u)\\",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-ex-validity",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-sol-validity",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-6",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Exercise 6Adapted from BD Section 4.2, p. 224# Let \\(S\\sim\\operatorname{Bin}(10,\\theta)\\) and test \\(\\theta\\le.3\\) against \\(\\theta>.3\\). Reject for \\(S\\ge6\\), reject with probability \\(\\gamma\\) when ",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-ex-randomize",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-sol-randomize",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "reference-guide.",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Reference guide.",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l21-reference-guide",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Textbook basis. BD Section 4.1 supplies the testing vocabulary, binomial and Normal examples, and Proposition 4.1.2 on \\(p\\)-values; Theorem 4.2.1 supplies the Neyman–Pearson lemma and its proof; Defi",
+      "tag": "div"
+    },
+    {
+      "id": "bibliography",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "References",
+      "tag": "h2"
+    },
+    {
+      "id": "refs",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "[1] American Statistical Association. American statistical association releases statement on statistical significance and \\(p\\)-values. https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf. 2016",
+      "tag": "div"
+    },
+    {
+      "id": "ref-asa2016release",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "[1] American Statistical Association. American statistical association releases statement on statistical significance and \\(p\\)-values. https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf. 2016",
+      "tag": "div"
+    },
+    {
+      "id": "ref-bd2001vol1",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "[2] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, volume i. Prentice Hall, Upper Saddle River, NJ. 2001.",
+      "tag": "div"
+    },
+    {
+      "id": "ref-rigollet2016testing",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "[3] P. Rigollet. Parametric hypothesis testing. MIT OpenCourseWare, 18.650 Statistics for Applications, Fall 2016. 2016.",
+      "tag": "div"
+    },
+    {
+      "id": "ref-berkeley2024testing",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "[4] UC Berkeley Stat 210A. Hypothesis testing and the Neyman–Pearson lemma. Fall 2024 course reader, Sections 2.2 and 3.1. 2024.",
+      "tag": "div"
+    },
+    {
+      "id": "what-changed",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "What changedOctober 27, 2026: lecture revised and approved for publication. Added the Part VII provenance statement, clearer \\(p\\)-value explanations and the supplemental reference table; renamed Sect",
+      "tag": "details"
+    },
+    {
+      "id": "discussion",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Comments Discuss an idea or ask a public question. Include a section or exercise number when relevant. For errors in the notes or website, Report an issue. Public comments use Disqus. Enable JavaScrip",
+      "tag": "section"
+    },
+    {
+      "id": "discussion-heading",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Comments",
+      "tag": "h2"
+    },
+    {
+      "id": "discussion-config",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-components",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-explanations",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "issue-report-config",
       "page": "part-1.html",
       "lecture": null,
       "label": "issue-report-config",
@@ -24051,7 +24926,7 @@
       "id": "part-content",
       "page": "part-7.html",
       "lecture": null,
-      "label": "Why this part mattersThis part is reserved for hypothesis testing and confidence sets. Lecture notes have not yet been added. The intended connection is to the large-sample tools in Part III and the l",
+      "label": "Why this part mattersMost of the contents of the Part VII lectures are taken from Bickel and Doksum (BD), Mathematical Statistics: Basic Ideas and Selected Topics, Volume I, second edition, and adapte",
       "tag": "main"
     },
     {
@@ -24338,15 +25213,22 @@
       "id": "part-7",
       "page": "index.html",
       "lecture": null,
-      "label": "Part VII · Coming laterTesting and confidence sets Part overview How do we turn estimates into decisions and uncertainty statements? Hypothesis testing and confidence sets. Lecture notes will be added",
+      "label": "Part VIITesting and confidence sets Part overview How do we turn estimates into decisions and uncertainty statements? Hypothesis tests, p-values and likelihood-ratio methods. Lecture 22 will cover con",
       "tag": "section"
     },
     {
       "id": "part-7-heading",
       "page": "index.html",
       "lecture": null,
-      "label": "Part VII · Coming laterTesting and confidence sets",
+      "label": "Part VIITesting and confidence sets",
       "tag": "h3"
+    },
+    {
+      "id": "lecture-21",
+      "page": "index.html",
+      "lecture": null,
+      "label": "Lecture 21 — Hypothesis tests and p-values HTMLPDF",
+      "tag": "li"
     },
     {
       "id": "grading",

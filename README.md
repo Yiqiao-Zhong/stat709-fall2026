@@ -28,6 +28,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 18 (optional): [HTML](lect-18.html) · [Student PDF](lect-18.pdf)
 - Lecture 19 (optional): [HTML](lect-19.html) · [Student PDF](lect-19.pdf)
 - Lecture 20 (optional): [HTML](lect-20.html) · [Student PDF](lect-20.pdf)
+- Lecture 21: [HTML](lect-21.html) · [Student PDF](lect-21.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 - [Homework 2 assignment](homework/HW2.pdf)
@@ -113,3 +114,7 @@ The 14 selected figures retain credits and provenance under `assets/figures/lect
 ## October 19 corrections
 
 The current student pages and PDFs include the approved course-wide errata and policy follow-up. The TA office hour is Friday, 1:00–2:00 p.m., Morgridge Hall 2517. Lecture 4 omits the spatial log-gradient exercise; Lecture 7 uses an original minimum-norm drawing with its provenance in `assets/figures/lect-7/minimum-norm-v2/`; Lecture 9 Section 7.1 is mid priority; and Lecture 17 community detection is optional and not examined, retaining its reading tiers. Lectures 18–20 remain optional. Homework assignments are unchanged, and homework solutions remain private.
+
+## October 27: Lecture 21
+
+Lecture 21 opens [Part VII](part-7.html) with hypothesis tests, typeset p-values, Neyman–Pearson and generalized likelihood ratios. Most content is adapted from Bickel–Doksum; Part VII is newly prepared rather than inherited from prior years. The approved priorities, complete optional proof, both figures and nineteen-row supplemental table are retained. Figure 2 credits Berkeley Stat 210A and CC BY 4.0; panel provenance is in `assets/figures/lect-21/provenance.json`. Lecture 22 remains planned. The homepage and Part VII provide HTML/PDF links, Lecture 20 links forward, and issue reporting includes Lecture 21. Earlier lecture content, optional Lectures 18–20 and HW1–7 are preserved.

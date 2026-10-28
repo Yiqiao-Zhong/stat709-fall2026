@@ -1,0 +1,27 @@
+{
+  "sourceFile": "source_lectures/lect-21.tex",
+  "sourceRevision": "sha256:c9ca49b6fb8b7e7f6a77cad8505b249cd4ec419775e0d45db5ea2679afae45ea",
+  "method": "Exact PGFPlots panels extracted from the canonical figures; DVI to SVG with outlined fonts.",
+  "figures": [
+    {
+      "label": "lec21-fig-errors",
+      "credit": "Original course illustration of BD Example 4.1.4.",
+      "panels": [
+        "simple-null",
+        "simple-alternative"
+      ]
+    },
+    {
+      "label": "lec21-fig-composite-errors",
+      "credit": "Course adaptation of Berkeley Stat 210A, Section 2.2, CC BY 4.0.",
+      "url": "https://stat210a.berkeley.edu/fall-2024/reader/hypothesis-testing.html",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Three panels; alpha .05; shifts \u00b12; beta denotes Type II error.",
+      "panels": [
+        "composite-null",
+        "composite-negative",
+        "composite-positive"
+      ]
+    }
+  ]
+}
