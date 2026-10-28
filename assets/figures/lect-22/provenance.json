@@ -1,0 +1,14 @@
+{
+  "sourceFile": "source_lectures/lect-22.tex",
+  "sourceRevision": "sha256:78e8fddf918a11842ae719995b2d2832962f90b3d6519bdcb0dc3704a4722c94",
+  "sourceFigureSha256": "f28aa273ae92328fa7da5f4ec1f36ba93f0dfab439cbf900c544b2d9aff79a96",
+  "method": "Exact canonical TikZ/PGFPlots figure compiled to DVI and exported to SVG with outlined fonts.",
+  "figures": [
+    {
+      "label": "lec22-fig-coverage",
+      "file": "coverage.svg",
+      "credit": "Original course drawing of the repeated-sampling interpretation in BD Section 4.4.",
+      "interpretation": "Eight selected possible outputs, not a simulation or an estimate of coverage."
+    }
+  ]
+}

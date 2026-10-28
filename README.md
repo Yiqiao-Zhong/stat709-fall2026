@@ -29,6 +29,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - Lecture 19 (optional): [HTML](lect-19.html) · [Student PDF](lect-19.pdf)
 - Lecture 20 (optional): [HTML](lect-20.html) · [Student PDF](lect-20.pdf)
 - Lecture 21: [HTML](lect-21.html) · [Student PDF](lect-21.pdf)
+- Lecture 22: [HTML](lect-22.html) · [Student PDF](lect-22.pdf)
 - [Original lecture notes: Lectures 1–20 (ZIP)](resources/Lectures-STAT709.zip)
 - [Homework 1 assignment](homework/HW1.pdf)
 - [Homework 2 assignment](homework/HW2.pdf)
@@ -118,3 +119,7 @@ The current student pages and PDFs include the approved course-wide errata and p
 ## October 27: Lecture 21
 
 Lecture 21 opens [Part VII](part-7.html) with hypothesis tests, typeset p-values, Neyman–Pearson and generalized likelihood ratios. Most content is adapted from Bickel–Doksum; Part VII is newly prepared rather than inherited from prior years. The approved priorities, complete optional proof, both figures and nineteen-row supplemental table are retained. Figure 2 credits Berkeley Stat 210A and CC BY 4.0; panel provenance is in `assets/figures/lect-21/provenance.json`. Lecture 22 remains planned. The homepage and Part VII provide HTML/PDF links, Lecture 20 links forward, and issue reporting includes Lecture 21. Earlier lecture content, optional Lectures 18–20 and HW1–7 are preserved.
+
+## October 28: Lecture 22
+
+Lecture 22 completes [Part VII](part-7.html) and the course with confidence sets and asymptotic tests. Most content is adapted from Bickel–Doksum; Part VII is newly prepared rather than inherited from prior years. The approved priorities, original coverage figure, twenty-three-row supplemental table and six complete solutions are retained. The homepage and Part VII provide HTML/PDF links. Lecture 21 links forward to Lecture 22, and Lecture 22 ends at the course home. The Part VII checkpoint links existing approved exercises and their complete solutions. Earlier lecture content, optional Lectures 18–20 and HW1–7 are preserved.

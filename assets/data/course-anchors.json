@@ -24518,6 +24518,804 @@
     },
     {
       "id": "issue-report-config",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "issue-report-config",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-map-heading",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Lecture map",
+      "tag": "h2"
+    },
+    {
+      "id": "lecture-map",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "01 · HighConfidence sets and coverageInterpret coverage and construct an exact Normal interval. 02 · High / midPivotal quantitiesInvert parameter-free sampling laws, including Student t. 03 · HighTest",
+      "tag": "nav"
+    },
+    {
+      "id": "priority-filter-heading",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Reading view",
+      "tag": "h2"
+    },
+    {
+      "id": "priority-description",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "High and mid priority are visible; both are in examination scope.",
+      "tag": "p"
+    },
+    {
+      "id": "goals-heading",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Study links",
+      "tag": "h2"
+    },
+    {
+      "id": "sidebar-goals",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Recap · Learning goals · Key ideas · Practice",
+      "tag": "nav"
+    },
+    {
+      "id": "contents-heading",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "On this page",
+      "tag": "h2"
+    },
+    {
+      "id": "section-navigation",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Confidence sets and coveragePivotal quantitiesThe duality between tests and confidence setsLarge-sample intervals and testsLikelihood and chi-square testsKey ideas and supplemental referencePractice a",
+      "tag": "ol"
+    },
+    {
+      "id": "lecture-content",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Source and provenance. Most of the contents of the Part VII lectures are taken from Bickel and Doksum (BD), Mathematical Statistics: Basic Ideas and Selected Topics, Volume I, second edition (2001) [1",
+      "tag": "main"
+    },
+    {
+      "id": "reading.",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Reading.",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-overview",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "On this page",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-recap",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Recap from earlier lecturesFrom earlier lectures: the tools used here · 1 minReminder only: this block introduces no new exam requirements.Level and error control. A level-\\(\\alpha\\) test has rejectio",
+      "tag": "details"
+    },
+    {
+      "id": "learning-goals",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Learning goals",
+      "tag": "h3"
+    },
+    {
+      "id": "sec-lec22-coverage",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "1. Confidence sets and coverage",
+      "tag": "h2"
+    },
+    {
+      "id": "lec22-coverage",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "1. Confidence sets and coverage",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-def-confidence",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Definition 1Confidence set; BD Definition 4.4.1 and Section 4.4A data-dependent set \\(C(X)\\) is a level-\\((1-\\alpha)\\) confidence set for \\(\\tau(\\theta)\\) if the relevant events are measurable and \\[P",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-note-coverage",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Instructor’s NoteKeep the parameter fixedImagine marking the true mean on a number line, then collecting a fresh sample and drawing a new interval each time. The mark stays still; the interval moves. ",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec22-normal",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "1.1. An exact Normal interval",
+      "tag": "h3"
+    },
+    {
+      "id": "lec22-normal-known",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "1.1. An exact Normal interval",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l22-normal-law",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Model and notation. Suppose \\(X_1,\\ldots,X_n\\) are i.i.d. \\(N(\\mu,\\sigma^2)\\), with known \\(\\sigma>0\\). Write \\(z_q=\\Phi^{-1}(q)\\), where \\(\\Phi\\) is the standard Normal CDF.Sampling law. The sampling",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-eq-normal-ci",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "\\[C(X)=\\left[\\overline X-z_{1-\\alpha/2}\\frac{\\sigma}{\\sqrt n},\\; \\overline X+z_{1-\\alpha/2}\\frac{\\sigma}{\\sqrt n}\\right].\\](1)",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-normal-numerical",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Continuation of Lecture 21’s Normal example.",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-fig-coverage",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "1.1. An exact Normal interval",
+      "tag": "img"
+    },
+    {
+      "id": "lec22-prompt-width",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec22-pivots",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "2. Pivotal quantities",
+      "tag": "h2"
+    },
+    {
+      "id": "lec22-pivot",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "2. Pivotal quantities",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-def-pivot",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Definition 2Pivot; BD Section 4.4, p. 235A pivotal quantity is a function \\(Q(X,\\theta)\\) whose sampling distribution is known and does not depend on the unknown parameter \\(\\theta\\). It may involve u",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l22-pivot-inversion",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Probability statement. If \\(P_\\theta\\{a\\leq Q(X,\\theta)\\leq b\\}=1-\\alpha\\) for every \\(\\theta\\), then \\[C(X)=\\{\\theta\\in\\Theta:a\\leq Q(X,\\theta)\\leq b\\}\\] has exact coverage \\(1-\\alpha\\) for the full ",
+      "tag": "div"
+    },
+    {
+      "id": "sec-lec22-t",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "2.1. The mean when the variance is unknown",
+      "tag": "h3"
+    },
+    {
+      "id": "lec22-t-interval",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "2.1. The mean when the variance is unknown",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-eq-t-ci",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "\\[\\left[\\overline X-t_{n-1,1-\\alpha/2}\\frac{S}{\\sqrt n},\\; \\overline X+t_{n-1,1-\\alpha/2}\\frac{S}{\\sqrt n}\\right].\\](2)",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-note-t",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Instructor’s NoteEstimating the scale costs somethingThe denominator \\(S\\) moves from sample to sample too. Student’s distribution accounts for that extra variation, using a larger critical value than",
+      "tag": "details"
+    },
+    {
+      "id": "lec22-variance-interval",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "2.1. The mean when the variance is unknown",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-eq-variance-ci",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "\\[\\left[\\frac{(n-1)S^2}{\\chi^2_{n-1,1-\\alpha/2}},\\; \\frac{(n-1)S^2}{\\chi^2_{n-1,\\alpha/2}}\\right].\\](3)",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-prompt-uniform",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec22-duality",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "3. The duality between tests and confidence sets",
+      "tag": "h2"
+    },
+    {
+      "id": "lec22-inversion",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "3. The duality between tests and confidence sets",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-thm-duality",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Theorem 1Test–confidence-set duality; BD’s Duality Theorem, p. 243The set \\(C(X)=\\{t:\\varphi_t(X)=0\\}\\) is a level-\\((1-\\alpha)\\) confidence set for \\(\\tau(\\theta)\\). Conversely, a level-\\((1-\\alpha)\\",
+      "tag": "div"
+    },
+    {
+      "id": "sec-lec22-normal-duality",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "3.1. Normal tests, intervals, and \\(p\\)-values",
+      "tag": "h3"
+    },
+    {
+      "id": "lec22-normal-duality",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "3.1. Normal tests, intervals, and \\(p\\)-values",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l22-normal-interpretation",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Invert the test. For fixed data, the values \\(\\mu_0\\) not rejected satisfy \\(|\\overline x-\\mu_0|\\leq z_{1-\\alpha/2}\\sigma/\\sqrt n\\), exactly the interval in (1). The same argument with \\(T(\\mu_0)\\) an",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-prompt-one-sided",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec22-asymptotic",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "4. Large-sample intervals and tests",
+      "tag": "h2"
+    },
+    {
+      "id": "sec-lec22-wald",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "4.1. An approximate pivot",
+      "tag": "h3"
+    },
+    {
+      "id": "lec22-wald",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "4.1. An approximate pivot",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-thm-wald-coverage",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Proposition 1Asymptotic Wald coverage; BD Section 5.4.5Under these assumptions, \\[Z_n(\\theta)=\\frac{\\widehat\\theta_n-\\theta} {\\widehat{\\operatorname{se}}_n}\\xrightarrow{d}N(0,1),\\] and the Wald interv",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-eq-wald-ci",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "\\[C_n(X)=\\left[\\widehat\\theta_n-z_{1-\\alpha/2}\\widehat{\\operatorname{se}}_n, \\widehat\\theta_n+z_{1-\\alpha/2}\\widehat{\\operatorname{se}}_n\\right]\\](4)",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-bernoulli-wald",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "4.1. An approximate pivot",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l22-bernoulli-limit",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Sampling limit. For i.i.d. \\(\\operatorname{Bernoulli}(p)\\) data, with fixed \\(0<p<1\\), let \\(\\widehat p=\\overline X\\). The CLT gives asymptotic variance \\(p(1-p)\\) and consistency gives \\(\\widehat p(1",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-prompt-bernoulli",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec22-mle",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "4.2. Likelihood, information, and efficiency",
+      "tag": "h3"
+    },
+    {
+      "id": "lec22-regularity",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "4.2. Likelihood, information, and efficiency",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-mle",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "4.2. Likelihood, information, and efficiency",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-eq-mle-limit",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "\\[\\sqrt n(\\widehat\\theta_n-\\theta)\\xrightarrow{d} N\\left(0,I(\\theta)^{-1}\\right).\\](5)",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l22-regular-mle",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Expand the score. Here is the basic argument. Taylor-expand the score about \\(\\theta\\): \\[0=U_n(\\widehat\\theta_n) =U_n(\\theta)-nJ_n(\\widetilde\\theta_n)(\\widehat\\theta_n-\\theta),\\] with \\(\\widetilde\\th",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-efficiency",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "What efficiency means here.",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-efficiency-proof",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "4.2. Likelihood, information, and efficiency",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec22-likelihood",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5. Likelihood and chi-square tests",
+      "tag": "h2"
+    },
+    {
+      "id": "sec-lec22-wilks",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.1. Calibrating a likelihood ratio",
+      "tag": "h3"
+    },
+    {
+      "id": "lec22-wilks",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.1. Calibrating a likelihood ratio",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-thm-wilks",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Theorem 2Scalar Wilks limit; BD Theorem 6.3.1, p. 394Under the regularity conditions at \\(\\theta_0\\) in Section 4.2, under \\(H_0\\), \\[W_{\\mathrm{LR}}\\xrightarrow{d}\\chi^2_1.\\] Thus rejecting when \\(W_",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l22-wilks-explanation",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Why chi-square appears. The explanation is local quadratic curvature: twice the log-likelihood loss is approximately the squared estimation error measured in information units, \\(nI(\\theta_0)(\\widehat",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-proof-wilks",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.1. Calibrating a likelihood ratio",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec22-three-tests",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.2. Wald, score, and likelihood-ratio statistics",
+      "tag": "h3"
+    },
+    {
+      "id": "lec22-three-tests",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.2. Wald, score, and likelihood-ratio statistics",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-tests-table",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "TestStatisticWhat is measured?Wald\\(W_{\\mathrm W}=nI(\\widehat\\theta_n)(\\widehat\\theta_n-\\theta_0)^2\\)Distance of estimate from nullScore (Rao)\\(W_{\\mathrm S}=U_n(\\theta_0)^2/[nI(\\theta_0)]\\)Slope at t",
+      "tag": "div"
+    },
+    {
+      "id": "sec-lec22-likelihood-sets",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.3. Likelihood confidence sets",
+      "tag": "h3"
+    },
+    {
+      "id": "lec22-likelihood-set",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.3. Likelihood confidence sets",
+      "tag": "span"
+    },
+    {
+      "id": "classroom-l22-likelihood-set",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Candidate values. The same duality applies to approximate tests. For each candidate \\(t\\) in the regular scalar model, write \\(W_{\\mathrm{LR}}(t)=2\\{\\ell_n(\\widehat\\theta_n)-\\ell_n(t)\\}\\).Invert the s",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-wilks-extension",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.3. Likelihood confidence sets",
+      "tag": "span"
+    },
+    {
+      "id": "sec-lec22-pearson",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.4. Pearson’s chi-square goodness-of-fit test",
+      "tag": "h3"
+    },
+    {
+      "id": "lec22-pearson",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.4. Pearson’s chi-square goodness-of-fit test",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-eq-pearson",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "\\[X^2=\\sum_{j=1}^k\\frac{(N_j-np_j^0)^2}{np_j^0} \\underset{H_0}{\\overset{d}{\\longrightarrow}}\\chi^2_{k-1}.\\](6)",
+      "tag": "div"
+    },
+    {
+      "id": "classroom-l22-pearson-lr",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Likelihood-ratio statistic. For the same multinomial model, the likelihood-ratio statistic is \\[G^2=2\\sum_{j=1}^kN_j\\log\\frac{N_j}{np_j^0},\\qquad 0\\log0:=0.\\]Same limiting calibration. A Taylor expans",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-mendel",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "BD Example 6.4.1: Mendel’s four categories.",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-mendel-table",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "CategoryObservedExpected under \\(H_0\\)Round yellow315312.75Wrinkled yellow101104.25Round green108104.25Wrinkled green3234.75",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-pearson-proof",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.4. Pearson’s chi-square goodness-of-fit test",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-key-ideas",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Key ideasCoverage describes a random set under repeated sampling; the parameter is fixed.Exact pivots give finite-sample coverage. Approximate pivots require a limit argument and a reliable standard e",
+      "tag": "section"
+    },
+    {
+      "id": "sec-lec22-summary",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Supplemental reference: key notions and definitions",
+      "tag": "h2"
+    },
+    {
+      "id": "lec22-looking-ahead",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Looking aheadThis completes STAT 709. The course’s recurring chain is: specify a model, understand a statistic’s sampling law, and use that law to assess estimation error or calibrate a decision. Furt",
+      "tag": "section"
+    },
+    {
+      "id": "practice-index",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "PracticeHigh and mid exercises are both in examination scope. Select a problem to open its statement; solutions stay closed until requested.Core practiceExam practiceAll practice6 exercises in exam pr",
+      "tag": "nav"
+    },
+    {
+      "id": "practice-heading",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "h2"
+    },
+    {
+      "id": "practice-count",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "6 exercises in exam practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercises-and-complete-solutions",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "6. Exercises and complete solutions6 exercises · complete solutionsReveal all solutions◆ High priorityPlan precision before collecting dataExercise 1Original practice using the Normal interval# Let \\(",
+      "tag": "details"
+    },
+    {
+      "id": "sec-lec22-exercises",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-1",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Exercise 1Original practice using the Normal interval# Let \\(X_i\\) be i.i.d. \\(N(\\mu,4)\\). Find the smallest integer \\(n\\) for which the usual 95% interval has half-width at most \\(.25\\). Explain why ",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-ex-width",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-sol-width",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-2",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Exercise 2Original pivotal practice# Suppose \\(X_1,\\ldots,X_n\\) are i.i.d. \\(\\operatorname{Uniform}(0,\\theta)\\), \\(\\theta>0\\), and \\(M=\\max_iX_i\\). Find the CDF of \\(Q=M/\\theta\\). Construct an exact l",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-ex-uniform",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-sol-uniform",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-3",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Exercise 3Original practice using BD’s duality theorem# For i.i.d. \\(N(\\mu,\\sigma^2)\\) data with known \\(\\sigma>0\\), invert the level-\\(\\alpha\\) tests that reject \\(\\mu=\\mu_0\\) against \\(\\mu>\\mu_0\\) w",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-ex-one-sided",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-sol-one-sided",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-4",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Exercise 4Adapted from BD Example 4.4.3; new numerical values# There are 58 successes in 100 independent Bernoulli trials. Compute a 95% Wald interval for \\(p\\) and the two-sided Wald test statistic a",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-ex-bernoulli",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-sol-bernoulli",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-5",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Exercise 5BD Example 4.4.3, equations (4.4.3)–(4.4.4), restated# Let \\(\\widehat p=S/n\\) in the Bernoulli model and \\(z=z_{1-\\alpha/2}\\). Invert the score-test inequalities \\(n(\\widehat p-p)^2\\leq z^2p",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-ex-score",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-sol-score",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "exercise-6",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Exercise 6Original practice using BD Section 6.4.1# In 100 independent trials with four possible categories, the observed counts are \\((18,22,28,32)\\). Test the hypothesis that all four probabilities ",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-ex-pearson",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-sol-pearson",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Practice",
+      "tag": "span"
+    },
+    {
+      "id": "bibliography",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "References",
+      "tag": "h2"
+    },
+    {
+      "id": "refs",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, volume i. Prentice Hall, Upper Saddle River, NJ. 2001.[2] UC Berkeley Stat 210A. \\(p\\)-values, confidence r",
+      "tag": "div"
+    },
+    {
+      "id": "ref-bd2001vol1",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "[1] P. J. Bickel and K. A. Doksum. Mathematical statistics: Basic ideas and selected topics, volume i. Prentice Hall, Upper Saddle River, NJ. 2001.",
+      "tag": "div"
+    },
+    {
+      "id": "ref-berkeley2025confidence",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "[2] UC Berkeley Stat 210A. \\(p\\)-values, confidence regions, and (mis-)interpreting tests. Fall 2025 course reader, “Confidence Regions.” 2025.",
+      "tag": "div"
+    },
+    {
+      "id": "what-changed",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "What changedOctober 27, 2026: first local TeX draft of the final course lecture, based primarily on BD and the confidence-interval/asymptotic-inference topics in the 2025 course policy. Added an origi",
+      "tag": "details"
+    },
+    {
+      "id": "discussion",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Comments Discuss an idea or ask a public question. Include a section or exercise number when relevant. For errors in the notes or website, Report an issue. Public comments use Disqus. Enable JavaScrip",
+      "tag": "section"
+    },
+    {
+      "id": "discussion-heading",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Comments",
+      "tag": "h2"
+    },
+    {
+      "id": "discussion-config",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-components",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "lecture-explanations",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Comments",
+      "tag": "script"
+    },
+    {
+      "id": "issue-report-config",
       "page": "part-1.html",
       "lecture": null,
       "label": "issue-report-config",
@@ -24968,7 +25766,7 @@
       "id": "checkpoint",
       "page": "part-7.html",
       "lecture": null,
-      "label": "Checkpoint status",
+      "label": "End-of-part checkpoint",
       "tag": "h2"
     },
     {
@@ -25213,7 +26011,7 @@
       "id": "part-7",
       "page": "index.html",
       "lecture": null,
-      "label": "Part VIITesting and confidence sets Part overview How do we turn estimates into decisions and uncertainty statements? Hypothesis tests, p-values and likelihood-ratio methods. Lecture 22 will cover con",
+      "label": "Part VIITesting and confidence sets Part overview How do we turn estimates into decisions and uncertainty statements? Hypothesis tests, p-values, confidence sets, and asymptotic likelihood and chi-squ",
       "tag": "section"
     },
     {
@@ -25228,6 +26026,13 @@
       "page": "index.html",
       "lecture": null,
       "label": "Lecture 21 — Hypothesis tests and p-values HTMLPDF",
+      "tag": "li"
+    },
+    {
+      "id": "lecture-22",
+      "page": "index.html",
+      "lecture": null,
+      "label": "Lecture 22 — Confidence sets and asymptotic tests HTMLPDF",
       "tag": "li"
     },
     {
