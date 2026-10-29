@@ -127,3 +127,7 @@ Lecture 22 completes [Part VII](part-7.html) and the course with confidence sets
 ## October 28: reviewed corrections to Lectures 21 and 22
 
 The approved joint review clarifies the Wald proof on exceptional samples, the Wilson interval boundary cases, likelihood and null-CDF notation, and exact versus approximate coverage. The BD reading range and Lecture 21 reference links are corrected. Both student HTML/PDF editions are consistent with the canonical TeX kept in preparation. All BD attribution, priorities, three figures, supplemental tables and twelve complete solutions are preserved. Homepage and Part VII links, earlier lectures, optional Lectures 18–20 and HW1–7 are unchanged.
+
+## October 29: selected improvements to Lectures 21 and 22
+
+The lectures now connect one-sided optimal testing through monotone likelihood ratios and compare Wald, Wilson, and likelihood intervals numerically. Lecture 22 includes a delta-method interval and an optional exact counterexample to regular likelihood-ratio calibration. Notation, reading references, exercise headings, and endpoint explanations are clarified. Optional external visualizations are credited links. Both student HTML/PDF pairs and the Part VII overview are refreshed, retaining BD attribution, every existing priority and label, all three figures, and twelve complete solutions. Earlier lectures and HW1–7 remain unchanged. Canonical sources and author/offline editions remain in preparation.

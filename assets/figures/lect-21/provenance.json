@@ -1,6 +1,6 @@
 {
   "sourceFile": "source_lectures/lect-21.tex",
-  "sourceRevision": "sha256:56e4301a3a4009c613789af610793a01444cb31e4d4fe73240e4f51dc756a88f",
+  "sourceRevision": "sha256:61adfd2347fc0380c14f7463ef7bcc78532fed0e966fd16fe05c80df601e5c32",
   "method": "Exact PGFPlots panels extracted from the canonical figures; DVI to SVG with outlined fonts.",
   "figures": [
     {

@@ -1,6 +1,6 @@
 {
   "sourceFile": "source_lectures/lect-22.tex",
-  "sourceRevision": "sha256:b75d9809c6913fafed5cba57c66de1d07308b8b00f4d6c169455beb765435dba",
+  "sourceRevision": "sha256:63f276d7b0e84e99e253e522b97ac27401576a391f02b710b0e59441b376a54c",
   "sourceFigureSha256": "f28aa273ae92328fa7da5f4ec1f36ba93f0dfab439cbf900c544b2d9aff79a96",
   "method": "Exact canonical TikZ/PGFPlots figure compiled to DVI and exported to SVG with outlined fonts.",
   "figures": [

@@ -23659,7 +23659,7 @@
       "id": "lecture-map",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "01 · HighHypotheses and errorsSpecify two distributions and control false rejection. 02 · High / midA Normal exampleRead size and power from sampling distributions. 03 · High\\(p\\)-valuesInterpret and ",
+      "label": "01 · HighHypotheses and errorsSpecify two distributions and control false rejection. 02 · High / midNormal and binomial examplesRead size and power from sampling distributions. 03 · High\\(p\\)-valuesIn",
       "tag": "nav"
     },
     {
@@ -23701,7 +23701,7 @@
       "id": "section-navigation",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "Hypotheses, decisions, and errorsAn example of normal distribution\\(p\\)-valuesWhy likelihood ratios give powerful testsGeneralized likelihood ratiosKey ideas and supplemental referencePractice and com",
+      "label": "Hypotheses, decisions, and errorsTwo examples: Normal and binomial\\(p\\)-valuesWhy likelihood ratios give powerful testsGeneralized likelihood ratiosKey ideas and supplemental referencePractice and com",
       "tag": "ol"
     },
     {
@@ -23806,14 +23806,14 @@
       "id": "sec-lec21-calibration",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "2. An example of normal distribution",
+      "label": "2. Two examples: Normal and binomial",
       "tag": "h2"
     },
     {
       "id": "lec21-normal-test",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "2. An example of normal distribution",
+      "label": "2. Two examples: Normal and binomial",
       "tag": "span"
     },
     {
@@ -23834,7 +23834,7 @@
       "id": "lec21-fig-errors",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "2. An example of normal distribution",
+      "label": "2. Two examples: Normal and binomial",
       "tag": "div"
     },
     {
@@ -23848,14 +23848,21 @@
       "id": "lec21-binomial-test",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "2. An example of normal distribution",
+      "label": "2. Two examples: Normal and binomial",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-explore-power",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "2. Two examples: Normal and binomial",
       "tag": "span"
     },
     {
       "id": "lec21-exact-versus-asymptotic",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "2. An example of normal distribution",
+      "label": "2. Two examples: Normal and binomial",
       "tag": "span"
     },
     {
@@ -23940,6 +23947,13 @@
       "page": "lect-21.html",
       "lecture": 21,
       "label": "Normal examples.",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-explore-pvalues",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "3. \\(p\\)-values",
       "tag": "span"
     },
     {
@@ -24153,6 +24167,27 @@
       "tag": "div"
     },
     {
+      "id": "lec21-mlr",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.3. From most powerful to uniformly most powerful",
+      "tag": "span"
+    },
+    {
+      "id": "lec21-thm-mlr",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "Theorem 2MLR and one-sided UMP tests; BD Theorem 4.3.1, pp. 228–229Under these assumptions, let \\[\\varphi^*(x)=\\mathbf{1}\\{T(x)>c\\}+\\gamma\\mathbf{1}\\{T(x)=c\\},\\qquad 0\\leq\\gamma\\leq1,\\] where \\(c\\) an",
+      "tag": "div"
+    },
+    {
+      "id": "lec21-proof-mlr",
+      "page": "lect-21.html",
+      "lecture": 21,
+      "label": "5.3. From most powerful to uniformly most powerful",
+      "tag": "span"
+    },
+    {
       "id": "sec-lec21-glr-fits",
       "page": "lect-21.html",
       "lecture": 21,
@@ -24282,7 +24317,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "6. Exercises and complete solutions6 exercises · complete solutionsReveal all solutions◆ High priorityErrors for a small binomial experimentExercise 1Original practice using BD Section 4.1# Let \\(S\\si",
+      "label": "6. Exercises and complete solutions6 exercises · complete solutionsReveal all solutions◆ High priorityErrors for a small binomial experimentExercise 1Size and Type II error of a binomial rule# Origina",
       "tag": "details"
     },
     {
@@ -24296,7 +24331,7 @@
       "id": "exercise-1",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "Exercise 1Original practice using BD Section 4.1# Let \\(S\\sim\\operatorname{Bin}(4,\\theta)\\). First test \\(H_0:\\theta=1/2\\) against \\(H_1:\\theta=3/4\\) by rejecting when \\(S=4\\). Find its size, determin",
+      "label": "Exercise 1Size and Type II error of a binomial rule# Original practice using BD Section 4.1. Let \\(S\\sim\\operatorname{Bin}(4,\\theta)\\). First test \\(H_0:\\theta=1/2\\) against \\(H_1:\\theta=3/4\\) by reje",
       "tag": "div"
     },
     {
@@ -24317,7 +24352,7 @@
       "id": "exercise-2",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "Exercise 2Adapted from BD Example 4.2.1, p. 226; new numerical values# For i.i.d. \\(N(\\mu,\\sigma^2)\\) data with known \\(\\sigma\\), test \\(\\mu=\\mu_0\\) against the specified \\(\\mu_1=\\mu_0+\\Delta\\) at lev",
+      "label": "Exercise 2Sample size for target power# Adapted from BD Example 4.2.1, p. 226; new numerical values. For i.i.d. \\(N(\\mu,\\sigma^2)\\) data with known \\(\\sigma\\), test \\(\\mu=\\mu_0\\) against the specified",
       "tag": "div"
     },
     {
@@ -24338,7 +24373,7 @@
       "id": "exercise-3",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "Exercise 3Adapted from BD equation (4.2.1), p. 223# Let \\(X_i\\) be i.i.d. \\(\\operatorname{Bernoulli}(\\theta)\\), \\(S=\\sum_{i=1}^nX_i\\), and \\(0<\\theta_0<\\theta_1<1\\). Show that the simple likelihood ra",
+      "label": "Exercise 3Bernoulli likelihood ratio# Adapted from BD equation (4.2.1), p. 223. Let \\(X_i\\) be i.i.d. \\(\\operatorname{Bernoulli}(\\theta)\\), \\(S=\\sum_{i=1}^nX_i\\), and \\(0<\\theta_0<\\theta_1<1\\). Show t",
       "tag": "div"
     },
     {
@@ -24359,7 +24394,7 @@
       "id": "exercise-4",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "Exercise 4Original practice using BD’s Normal \\(p\\)-value example# For the known-variance Normal model, an observation gives \\(z_{\\rm obs}=-2\\). Find the \\(p\\)-values for the prespecified alternatives",
+      "label": "Exercise 4Choosing the direction after seeing the data# Original practice using BD’s Normal \\(p\\)-value example. For the known-variance Normal model, an observation gives \\(z_{\\rm obs}=-2\\). Find the ",
       "tag": "div"
     },
     {
@@ -24380,7 +24415,7 @@
       "id": "exercise-5",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "Exercise 5BD Problem 4.1.5, p. 270, with discrete and composite extensions# For a real-valued statistic \\(T\\) under a simple null \\(P_0\\), put \\(G(t)=P_0(T\\ge t)\\) and \\(p=G(T)\\). Prove \\(P_0(p\\le u)\\",
+      "label": "Exercise 5Validity of a tail \\(p\\)-value# BD Problem 4.1.5, p. 270, with discrete and composite extensions. For a real-valued statistic \\(T\\) under a simple null \\(P_0\\), put \\(G(t)=P_0(T\\ge t)\\) and ",
       "tag": "div"
     },
     {
@@ -24401,7 +24436,7 @@
       "id": "exercise-6",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "Exercise 6Adapted from BD Section 4.2, p. 224# Let \\(S\\sim\\operatorname{Bin}(10,\\theta)\\) and test \\(\\theta\\le.3\\) against \\(\\theta>.3\\). Reject for \\(S\\ge6\\), reject with probability \\(\\gamma\\) when ",
+      "label": "Exercise 6The gap between binomial cutoffs# Adapted from BD Section 4.2, p. 224. Let \\(S\\sim\\operatorname{Bin}(10,\\theta)\\) and test \\(\\theta\\le.3\\) against \\(\\theta>.3\\). Reject for \\(S\\ge6\\), reject",
       "tag": "div"
     },
     {
@@ -24478,7 +24513,7 @@
       "id": "what-changed",
       "page": "lect-21.html",
       "lecture": 21,
-      "label": "What changedOctober 27, 2026: lecture revised and approved for publication. Added the Part VII provenance statement, clearer \\(p\\)-value explanations and the supplemental reference table; renamed Sect",
+      "label": "What changedOctober 27, 2026: added the Part VII attribution, expanded \\(p\\)-value explanations, the supplemental table, and the simple-to-composite sequence. The two current sampling-density figures ",
       "tag": "details"
     },
     {
@@ -24604,7 +24639,7 @@
       "id": "lec22-recap",
       "page": "lect-22.html",
       "lecture": 22,
-      "label": "Recap from earlier lecturesFrom earlier lectures: the tools used here · 1 minReminder only: this block introduces no new exam requirements.Level and error control. A level-\\(\\alpha\\) test has rejectio",
+      "label": "Recap from earlier lecturesFrom Lectures 10, 11, 13, and 21: the tools used here · 1 minReminder only: this block introduces no new exam requirements.Level and error control. A level-\\(\\alpha\\) test h",
       "tag": "details"
     },
     {
@@ -24689,6 +24724,13 @@
       "page": "lect-22.html",
       "lecture": 22,
       "label": "Exercise prompt.",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-explore-coverage",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "1.1. An exact Normal interval",
       "tag": "span"
     },
     {
@@ -24874,6 +24916,13 @@
       "tag": "span"
     },
     {
+      "id": "lec22-delta-interval",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "4.1. An approximate pivot",
+      "tag": "span"
+    },
+    {
       "id": "sec-lec22-mle",
       "page": "lect-22.html",
       "lecture": 22,
@@ -24947,7 +24996,7 @@
       "id": "lec22-thm-wilks",
       "page": "lect-22.html",
       "lecture": 22,
-      "label": "Theorem 2Scalar Wilks limit; BD Theorem 6.3.1, p. 394Under the regularity conditions at \\(\\theta_0\\) in Section 4.2, under \\(H_0\\), \\[W_{\\mathrm{LR}}\\xrightarrow{d}\\chi^2_1.\\] Thus rejecting when \\(W_",
+      "label": "Theorem 2Scalar Wilks limit; BD Theorem 6.3.1, p. 394If the regularity conditions in Section 4.2 hold at \\(\\theta_0\\) and \\(H_0\\) is true, then \\[W_{\\mathrm{LR}}\\xrightarrow{d}\\chi^2_1.\\] Thus rejecti",
       "tag": "div"
     },
     {
@@ -25007,7 +25056,42 @@
       "tag": "div"
     },
     {
+      "id": "lec22-numerical-comparison",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "The same data, three methods.",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-numerical-table",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "MethodStatistic\\(p\\)-value95% intervalWald\\(2.627\\)\\(.105\\)\\([.483,.677]\\)Score (Wilson interval)\\(2.560\\)\\(.110\\)\\([.482,.672]\\)Likelihood ratio\\(2.571\\)\\(.109\\)\\([.482,.674]\\)",
+      "tag": "div"
+    },
+    {
+      "id": "lec22-boundary-table",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "Method95% intervalWald (before intersecting with \\([0,1]\\))\\([-.006,.306]\\)Score (Wilson interval)\\([.052,.360]\\)Likelihood ratio\\([.040,.344]\\)",
+      "tag": "div"
+    },
+    {
       "id": "lec22-wilks-extension",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "5.3. Likelihood confidence sets",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-uniform-lr",
+      "page": "lect-22.html",
+      "lecture": 22,
+      "label": "An exact nonregular likelihood-ratio law.",
+      "tag": "span"
+    },
+    {
+      "id": "lec22-explore-likelihood",
       "page": "lect-22.html",
       "lecture": 22,
       "label": "5.3. Likelihood confidence sets",
@@ -25108,7 +25192,7 @@
       "id": "exercises-and-complete-solutions",
       "page": "lect-22.html",
       "lecture": 22,
-      "label": "6. Exercises and complete solutions6 exercises · complete solutionsReveal all solutions◆ High priorityPlan precision before collecting dataExercise 1Original practice using the Normal interval# Let \\(",
+      "label": "6. Exercises and complete solutions6 exercises · complete solutionsReveal all solutions◆ High priorityPlan precision before collecting dataExercise 1Sample size for a target half-width# Original pract",
       "tag": "details"
     },
     {
@@ -25122,7 +25206,7 @@
       "id": "exercise-1",
       "page": "lect-22.html",
       "lecture": 22,
-      "label": "Exercise 1Original practice using the Normal interval# Let \\(X_i\\) be i.i.d. \\(N(\\mu,4)\\). Find the smallest integer \\(n\\) for which the usual 95% interval has half-width at most \\(.25\\). Explain why ",
+      "label": "Exercise 1Sample size for a target half-width# Original practice using the Normal interval. Let \\(X_i\\) be i.i.d. \\(N(\\mu,4)\\). Find the smallest integer \\(n\\) for which the usual 95% interval has hal",
       "tag": "div"
     },
     {
@@ -25143,7 +25227,7 @@
       "id": "exercise-2",
       "page": "lect-22.html",
       "lecture": 22,
-      "label": "Exercise 2Original pivotal practice# Suppose \\(X_1,\\ldots,X_n\\) are i.i.d. \\(\\operatorname{Uniform}(0,\\theta)\\), \\(\\theta>0\\), and \\(M=\\max_iX_i\\). Find the CDF of \\(Q=M/\\theta\\). Construct an exact l",
+      "label": "Exercise 2An exact interval for a Uniform endpoint# Original pivotal practice. Suppose \\(X_1,\\ldots,X_n\\) are i.i.d. \\(\\operatorname{Uniform}(0,\\theta)\\), \\(\\theta>0\\), and \\(M=\\max_iX_i\\). Find the C",
       "tag": "div"
     },
     {
@@ -25164,7 +25248,7 @@
       "id": "exercise-3",
       "page": "lect-22.html",
       "lecture": 22,
-      "label": "Exercise 3Original practice using BD’s duality theorem# For i.i.d. \\(N(\\mu,\\sigma^2)\\) data with known \\(\\sigma>0\\), invert the level-\\(\\alpha\\) tests that reject \\(\\mu=\\mu_0\\) against \\(\\mu>\\mu_0\\) w",
+      "label": "Exercise 3Inverting one-sided tests# Original practice using BD’s duality theorem. For i.i.d. \\(N(\\mu,\\sigma^2)\\) data with known \\(\\sigma>0\\), invert the level-\\(\\alpha\\) tests that reject \\(\\mu=\\mu_",
       "tag": "div"
     },
     {
@@ -25185,7 +25269,7 @@
       "id": "exercise-4",
       "page": "lect-22.html",
       "lecture": 22,
-      "label": "Exercise 4Adapted from BD Example 4.4.3; new numerical values# There are 58 successes in 100 independent Bernoulli trials. Compute a 95% Wald interval for \\(p\\) and the two-sided Wald test statistic a",
+      "label": "Exercise 4Wald interval and test for a proportion# Adapted from BD Example 4.4.3; new numerical values. There are 58 successes in 100 independent Bernoulli trials. Compute a 95% Wald interval for \\(p\\",
       "tag": "div"
     },
     {
@@ -25206,7 +25290,7 @@
       "id": "exercise-5",
       "page": "lect-22.html",
       "lecture": 22,
-      "label": "Exercise 5BD Example 4.4.3, equations (4.4.3)–(4.4.4), restated# Let \\(\\widehat p=S/n\\) in the Bernoulli model and \\(z=z_{1-\\alpha/2}\\). Invert the score-test inequalities \\(n(\\widehat p-p)^2\\leq z^2p",
+      "label": "Exercise 5The Wilson score interval# BD Example 4.4.3, equations (4.4.3)–(4.4.4), restated. Let \\(\\widehat p=S/n\\) in the Bernoulli model and \\(z=z_{1-\\alpha/2}\\). Invert the score-test inequalities \\",
       "tag": "div"
     },
     {
@@ -25227,7 +25311,7 @@
       "id": "exercise-6",
       "page": "lect-22.html",
       "lecture": 22,
-      "label": "Exercise 6Original practice using BD Section 6.4.1# In 100 independent trials with four possible categories, the observed counts are \\((18,22,28,32)\\). Test the hypothesis that all four probabilities ",
+      "label": "Exercise 6Pearson testing with four categories# Original practice using BD Section 6.4.1. In 100 independent trials with four possible categories, the observed counts are \\((18,22,28,32)\\). Test the h",
       "tag": "div"
     },
     {
@@ -25276,7 +25360,7 @@
       "id": "what-changed",
       "page": "lect-22.html",
       "lecture": 22,
-      "label": "What changedOctober 27, 2026: first local TeX draft of the final course lecture, based primarily on BD and the confidence-interval/asymptotic-inference topics in the 2025 course policy. Added an origi",
+      "label": "What changedOctober 27, 2026: added confidence sets, asymptotic inference, the original coverage illustration, six complete exercises, and a supplemental reference. October 28, 2026: clarified coverag",
       "tag": "details"
     },
     {
