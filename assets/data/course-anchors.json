@@ -25878,7 +25878,7 @@
       "id": "page-navigation",
       "page": "index.html",
       "lecture": null,
-      "label": "On this page Syllabus · Full course policies Course information Lecture notes Grading Homework Examinations Communication References and resources",
+      "label": "On this page Syllabus · Full course policies Course information Lecture notes Grading Homework Examinations Communication References and resources Questions and extensions · Outside the syllabus",
       "tag": "details"
     },
     {
@@ -26202,6 +26202,27 @@
       "lecture": null,
       "label": "References and resources",
       "tag": "h2"
+    },
+    {
+      "id": "questions-and-extensions",
+      "page": "index.html",
+      "lecture": null,
+      "label": "Questions and extensions Optional reading outside the course syllabus, separate from the seven course parts and the numbered lectures. Demystifying normal distribution Why does the Gaussian curve appe",
+      "tag": "section"
+    },
+    {
+      "id": "extensions-heading",
+      "page": "index.html",
+      "lecture": null,
+      "label": "Questions and extensions",
+      "tag": "h2"
+    },
+    {
+      "id": "normal-topic-heading",
+      "page": "index.html",
+      "lecture": null,
+      "label": "Demystifying normal distribution",
+      "tag": "h3"
     },
     {
       "id": "issue-report-config",

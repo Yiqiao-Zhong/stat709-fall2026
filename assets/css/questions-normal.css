@@ -1,0 +1,42 @@
+.questions-normal .course-header nav,.questions-normal .topic-links{font-size:.93rem}
+.questions-normal .course-header a{color:#deedf7}
+.questions-normal .course-header h1{max-width:24ch;margin:.3rem 0 .7rem;font-size:clamp(2rem,4vw,3.1rem);line-height:1.15}
+.questions-normal .topic-scope{margin:.6rem 0 1.2rem;color:#ebf1f6}
+.questions-normal .topic-links{display:flex;gap:.6rem 1.5rem;flex-wrap:wrap}
+.topic-layout{max-width:1260px;margin:2rem auto;display:grid;grid-template-columns:245px minmax(0,1fr);gap:2rem;padding:0 1.5rem}
+.topic-sidebar{align-self:start;position:sticky;top:1rem;font-size:.9rem;line-height:1.5}
+.topic-sidebar summary{cursor:pointer;font-weight:700}
+.topic-sidebar ol{list-style:none;padding:0;margin:1rem 0}
+.topic-sidebar li{margin:.65rem 0}
+.topic-sidebar a{color:var(--navy)}
+.topic-review{color:var(--ink-soft);font-size:.8rem;border-top:1px solid var(--line);padding-top:1rem}
+.topic-main{min-width:0;background:var(--paper);padding:2rem 2.2rem;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);line-height:1.75}
+.topic-main h2{margin:2.8rem 0 1rem;padding-top:1rem;border-top:1px solid var(--line);font-size:1.65rem;line-height:1.3;color:var(--navy)}
+.topic-main h3{margin:2rem 0 .75rem;font-size:1.2rem;line-height:1.4;color:var(--navy)}
+.topic-main p{margin:.9rem 0}
+.topic-main li{margin:.7rem 0}
+.topic-main a{overflow-wrap:anywhere}
+.topic-main .numbered-equation{display:flex;gap:.5rem;align-items:center;min-width:0;margin:1rem 0}
+.topic-main .numbered-equation>p{min-width:0;flex:1;margin:0}
+.topic-main .equation-number{flex:none;font-size:.9rem;color:var(--ink-soft)}
+.topic-main .normal-prompt{margin:1.5rem 0;padding:.2rem 1rem;border-left:3px solid #7c98a8;background:#edf2f4}
+.topic-main .source-figure{margin:1.8rem 0;padding:1rem;background:white;border:1px solid var(--line);border-radius:8px}
+.normal-figure-panels{display:grid;gap:.7rem;align-items:start}
+.panels-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.panels-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.normal-figure-panels img{width:100%;height:auto;display:block}
+.topic-main figcaption{margin-top:1rem;color:var(--ink-soft);font-size:.88rem;font-weight:400;line-height:1.6;text-align:left}
+.normal-reference{border:1px solid var(--line);border-radius:8px;padding:.8rem 1rem;margin:1rem 0}
+.normal-reference>summary{cursor:pointer;font-weight:600}
+.normal-table-scroll{overflow-x:auto;margin-top:1rem}
+.normal-table-scroll table{border-collapse:collapse;min-width:32rem;width:100%;font-size:.92rem}
+.normal-table-scroll th,.normal-table-scroll td{padding:.75rem .85rem;border:1px solid var(--line);text-align:left;vertical-align:top}
+.normal-table-scroll th{background:#edf2f4}
+.normal-table-scroll td:first-child{width:25%;font-weight:600}
+.topic-main .exercise{margin:1.5rem 0;padding:1.1rem;border:1px solid var(--line);border-radius:8px}
+.topic-main .solution{margin-top:1rem}
+.topic-main .solution-body{padding-top:.3rem}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media(max-width:950px){.topic-layout{grid-template-columns:1fr}.topic-sidebar{position:static}.topic-sidebar nav ol{display:grid;grid-template-columns:1fr 1fr;gap:0 1.5rem}.topic-review{margin-bottom:0}.topic-main{padding:1.5rem}}
+@media(max-width:600px){.topic-layout{padding:0 .7rem;margin:1rem 0;gap:1rem}.topic-main{padding:1.1rem}.topic-sidebar nav ol{display:block}.topic-main h2{font-size:1.4rem}.topic-main .source-figure{padding:.7rem}.normal-figure-panels{grid-template-columns:1fr;gap:1.2rem}.normal-figure-panels img{max-width:360px;margin:auto}.topic-main .math-pair.inline{display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.topic-main .exercise{padding:.8rem}.normal-reference{padding:.6rem}.topic-main .normal-prompt{padding:0 .7rem}}
+@media print{.topic-sidebar,.topic-links{display:none}.topic-layout{display:block;margin:0;padding:0}.topic-main{border:0;box-shadow:none;padding:0}.topic-main .source-figure{break-inside:avoid}.normal-table-scroll{overflow:visible}.normal-table-scroll table{min-width:0}.normal-table-scroll tr{break-inside:avoid}.topic-main .exercise{break-inside:auto}.normal-figure-panels.panels-3{grid-template-columns:repeat(3,1fr)}.normal-figure-panels.panels-2{grid-template-columns:repeat(2,1fr)}}

@@ -1,0 +1,65 @@
+{
+  "title": "Demystifying normal distribution: original course figures",
+  "sourceProject": "source_lectures/questions-and-extensions/demystifying-normal",
+  "credit": "Original course figures. Accepted PGFPlots axes exported without changing their mathematical content.",
+  "figures": [
+    {
+      "name": "binomial-standardization",
+      "label": "qenormal-fig-binomial",
+      "alts": [
+        "Exact standardized fair-binomial probability bars for n = 8, with the standard normal density in red. Bar areas equal probabilities.",
+        "Exact standardized fair-binomial probability bars for n = 32, with the standard normal density in red. Bar areas equal probabilities.",
+        "Exact standardized fair-binomial probability bars for n = 128, with the standard normal density in red. Bar areas equal probabilities."
+      ],
+      "panels": [
+        {
+          "src": "assets/figures/questions-normal/binomial-standardization-1.svg",
+          "alt": "Exact standardized fair-binomial probability bars for n = 8, with the standard normal density in red. Bar areas equal probabilities.",
+          "width": 479,
+          "height": 494,
+          "sha256": "a22c94e61e0345ae607cc8cca5d59639c6babb4eab3b5ada1824db162fcb528f"
+        },
+        {
+          "src": "assets/figures/questions-normal/binomial-standardization-2.svg",
+          "alt": "Exact standardized fair-binomial probability bars for n = 32, with the standard normal density in red. Bar areas equal probabilities.",
+          "width": 479,
+          "height": 494,
+          "sha256": "0af27c08135924db1f29e10f85bf66460bab79fcdbb9dae54c80e623fead2b90"
+        },
+        {
+          "src": "assets/figures/questions-normal/binomial-standardization-3.svg",
+          "alt": "Exact standardized fair-binomial probability bars for n = 128, with the standard normal density in red. Bar areas equal probabilities.",
+          "width": 479,
+          "height": 494,
+          "sha256": "49cfc8241cabe96efaac49c76f796ec3458fb5d416b0123dea2614c939dea760"
+        }
+      ],
+      "sourceSha256": "513ed0778c971053cb8d993bf2b739c2a5c806d662dcc6552b141936c9ed9722"
+    },
+    {
+      "name": "heat-rescaling",
+      "label": "qenormal-fig-heat",
+      "alts": [
+        "Heat densities at times 1/4, 1, and 4: equal total mass, with wider, shorter curves at later times.",
+        "After dividing position by the square root of time and rescaling the density, all three heat profiles coincide with the standard normal curve."
+      ],
+      "panels": [
+        {
+          "src": "assets/figures/questions-normal/heat-rescaling-1.svg",
+          "alt": "Heat densities at times 1/4, 1, and 4: equal total mass, with wider, shorter curves at later times.",
+          "width": 794,
+          "height": 531,
+          "sha256": "3522c169257f42c2e0f5932f725fcbf49f7ab353272c239f3755be811ea90d09"
+        },
+        {
+          "src": "assets/figures/questions-normal/heat-rescaling-2.svg",
+          "alt": "After dividing position by the square root of time and rescaling the density, all three heat profiles coincide with the standard normal curve.",
+          "width": 801,
+          "height": 556,
+          "sha256": "e5faa312e083d985108d5b08226f270adb5d3baaea9bdb1e399b78dc08f0029c"
+        }
+      ],
+      "sourceSha256": "8d11bfcc06e6565e02fafe05389ff9e7b7f3e5901005edc4cbfe814cffe94dc8"
+    }
+  ]
+}
