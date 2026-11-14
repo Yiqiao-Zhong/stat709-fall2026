@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceRevision": "sha256:fa954bbc01021814f8b22a18fbfb21ce2ee5aa116c744fa12ecd6daa5966b9ee",
+  "sourceRevision": "sha256:f15bebd5c97bce958732f7e3f516e22e29de12ab39a567766e411fdcedfbae9a",
   "generator": "scripts/lecture10-figures.mjs",
   "provenance": "Original course diagrams derived from canonical Lecture 10. Synthetic sign distributions and illustrative index diagrams, no external artwork or data.",
   "figures": [
@@ -40,7 +40,7 @@
       "id": "lec10-fig-ramps",
       "sourceLabel": "lec10-sol-tests",
       "title": "A continuous sandwich for an indicator",
-      "caption": "Solid teal: lower ramp. Dotted gold: indicator of (−∞,0]. Dashed plum: upper ramp. The complete limiting argument is in this solution.",
+      "caption": "Solid teal: lower ramp. Dotted gold: indicator of (\u2212\u221e,0]. Dashed plum: upper ramp. The complete limiting argument is in this solution.",
       "files": [
         {
           "path": "assets/figures/lect-10/web-v1/lec10-fig-ramps-1.svg",
@@ -52,7 +52,7 @@
       "id": "lec10-fig-quadratic",
       "sourceLabel": "lec10-instructor-quadratic",
       "title": "Centering, scaling and the Gaussian exponent",
-      "caption": "This is the expansion of one factor ψ(t/√n). The product of n factors tends to exp(−t²/2).",
+      "caption": "This is the expansion of one factor \u03c8(t/\u221an). The product of n factors tends to exp(\u2212t\u00b2/2).",
       "files": [
         {
           "path": "assets/figures/lect-10/web-v1/lec10-fig-quadratic-1.svg",
@@ -64,7 +64,7 @@
       "id": "lec10-fig-pairings",
       "sourceLabel": "lec10-instructor-pairings",
       "title": "Pairing six positions",
-      "caption": "For a sixth moment, pairings have three free indices. Their order n³ balances the normalization n⁻³. A singleton would contribute a zero mean.",
+      "caption": "For a sixth moment, pairings have three free indices. Their order n\u00b3 balances the normalization n\u207b\u00b3. A singleton would contribute a zero mean.",
       "files": [
         {
           "path": "assets/figures/lect-10/web-v1/lec10-fig-pairings-1.svg",
@@ -76,7 +76,7 @@
       "id": "lec10-fig-replacement",
       "sourceLabel": "lec10-instructor-swapping",
       "title": "Intermediate sums in the replacement proof",
-      "caption": "The proof runs from all Gaussian inputs to all original inputs. For one replacement, remove the changing slot to form Tₙ,ᵢ; matching means and variances cancels the first two Taylor terms.",
+      "caption": "The proof runs from all Gaussian inputs to all original inputs. For one replacement, remove the changing slot to form T\u2099,\u1d62; matching means and variances cancels the first two Taylor terms.",
       "files": [
         {
           "path": "assets/figures/lect-10/web-v1/lec10-fig-replacement-1.svg",

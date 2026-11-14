@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceRevision": "sha256:071baa868a3cf080ec76cb71178b7039b1696bb506317072f9bc5e153940cb35",
+  "sourceRevision": "sha256:b6d2275b3bf235690eb2594b21fefe86f800574e13327323f3aa8312b41e6dda",
   "sourceLabel": "lec04-markov-area-fallback",
   "priority": "high",
   "instanceId": "lec04-markov-rectangle",

@@ -40,7 +40,7 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - [Homework 7 assignment](homework/HW7.pdf)
 - [Homework 8 assignment](homework/HW8.pdf)
 
-Homework solutions are not included. The homepage and seven part-overview pages organize Lectures 1–20. Part VI (Lectures 18–20) is optional and not examined; its student HTML and PDF notes are available. Part VII has no lecture entries yet.
+Homework solutions are not included. The homepage and seven part-overview pages organize Lectures 1–22. Part VI (Lectures 18–20) is optional and not examined; its student HTML and PDF notes are available. Part VII contains Lectures 21–22 on testing and confidence sets.
 
 The website syllabus is authoritative. The homepage links it alongside the preface, part checkpoints and current lecture downloads.
 
@@ -136,3 +136,7 @@ The lectures now connect one-sided optimal testing through monotone likelihood r
 ## October 29: Questions and extensions
 
 [Demystifying normal distribution](questions-demystifying-normal.html) is available as optional reading outside the syllabus, in a separate Questions and extensions section near the bottom of the [homepage](index.html#questions-and-extensions). Its [PDF](questions-demystifying-normal.pdf), six sections, two original figures, twenty references, twenty-row supplemental table and nine complete solutions accompany the HTML. Figure panels stack on phones; the tables scroll on narrow screens and solutions open individually. The seven course parts and twenty-two numbered lectures are unchanged. Canonical TeX and the source-based conversion workflow remain in preparation; homework solutions remain private.
+
+## November 14 course review
+
+The approved course-wide review updates the student HTML/PDF notes for Lectures 1–22 and the normal-distribution supplement, corrects the syllabus wording about optional Part VI, and repairs citation headings, proof titles, figure numbers and navigation. The course priorities, lecture-specific exam exemptions, original figures, complete lecture exercise solutions and all eight published homework assignments are preserved. Homework solutions and author/source/standalone downloads remain private to preparation.

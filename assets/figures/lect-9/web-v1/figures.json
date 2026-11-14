@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceRevision": "sha256:8ec442f9f181e4fc50f42de6ba7ef04603c37f5a76ef8b2016da33c0924539ff",
+  "sourceRevision": "sha256:29d6edcde36e1ae7b11afd028f6551dc2b9df845b92f8daa1d19d6984000ff13",
   "generator": "scripts/lecture9-figures.mjs",
   "provenance": "Original course diagrams derived from canonical Lecture 9. Synthetic ECDF fixtures, no external artwork or data.",
   "figures": [
@@ -68,7 +68,7 @@
       "id": "lec09-fig-argmin",
       "sourceLabel": "lec09-instructor-argmin",
       "title": "Uniform error and a separated minimum",
-      "caption": "Outside |θ| < 0.8 the population gap is at least 0.64. Two errors of size 0.1 leave a positive gap. This is the comparison in the proof; an approximate minimizer also requires its optimization error to vanish.",
+      "caption": "Outside |\u03b8| < 0.8 the population gap is at least 0.64. Two errors of size 0.1 leave a positive gap. This is the comparison in the proof; an approximate minimizer also requires its optimization error to vanish.",
       "files": [
         {
           "path": "assets/figures/lect-9/web-v1/lec09-fig-argmin-1.svg",

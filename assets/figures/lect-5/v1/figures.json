@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceRevision": "sha256:f87418905de70318ce1c5be4b08b713663c3ba790cad56391c2d538fc5498c62",
+  "sourceRevision": "sha256:126ef35817d07ef4d4ac0ced9690c698b97fc7fefaf6ece0b696e5767567843b",
   "figures": [
     {
       "id": "lec05-fig-mixture",
@@ -8,7 +8,7 @@
       "solutionLabel": "lec05-sol-mixture",
       "priority": "mid",
       "title": "Average the two conditional laws",
-      "alt": "A fair selector gives a discrete law μ₀ or a density h, each with weight one half. Their weighted sum is the marginal law.",
+      "alt": "A fair selector gives a discrete law \u03bc\u2080 or a density h, each with weight one half. Their weighted sum is the marginal law.",
       "path": "assets/figures/lect-5/v1/lec05-fig-mixture.svg",
       "sha256": "7a54f0f9783f321e000552cf6b934d20d9dbe407df9492a4c06c1e9ae5a10e12"
     },
@@ -28,7 +28,7 @@
       "solutionLabel": "lec05-sol-graph",
       "priority": "low",
       "title": "A Gaussian chain after accounting for the middle variable",
-      "alt": "The chain X₁—X₂—X₃ has precision entry Θ₁₃=0. The first and third variables are conditionally independent given the middle variable, although their marginal covariance is 1.",
+      "alt": "The chain X\u2081\u2014X\u2082\u2014X\u2083 has precision entry \u0398\u2081\u2083=0. The first and third variables are conditionally independent given the middle variable, although their marginal covariance is 1.",
       "path": "assets/figures/lect-5/v1/lec05-fig-graph.svg",
       "sha256": "e0e8167c03269bb4901d7cab25b24b20c98d28edc6f260cdb40bc27e66f5a0d9"
     }
@@ -37,7 +37,7 @@
     "path": "assets/figures/lect-5/v1/gaussian-points.json",
     "sha256": "fedd0a19dce82a95477d3475711aad40aa90ccb4a93df53e37b8365d9c5276c9",
     "seed": "stat709-lec05-direction-v1",
-    "generator": "seedrandom 3.0.5, ARC4; paired Box–Muller",
+    "generator": "seedrandom 3.0.5, ARC4; paired Box\u2013Muller",
     "count": 600
   }
 }

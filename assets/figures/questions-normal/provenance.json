@@ -1,5 +1,5 @@
 {
-  "title": "Demystifying normal distribution: original course figures",
+  "title": "Demystifying the normal distribution: original course figures",
   "sourceProject": "source_lectures/questions-and-extensions/demystifying-normal",
   "credit": "Original course figures. Accepted PGFPlots axes exported without changing their mathematical content.",
   "figures": [
@@ -17,7 +17,7 @@
           "alt": "Exact standardized fair-binomial probability bars for n = 8, with the standard normal density in red. Bar areas equal probabilities.",
           "width": 479,
           "height": 494,
-          "sha256": "a22c94e61e0345ae607cc8cca5d59639c6babb4eab3b5ada1824db162fcb528f"
+          "sha256": "977f6cda576b40b0fefc79fd73deb5b92f2d1851dac3d3241d480e4f7c081f21"
         },
         {
           "src": "assets/figures/questions-normal/binomial-standardization-2.svg",
@@ -31,7 +31,7 @@
           "alt": "Exact standardized fair-binomial probability bars for n = 128, with the standard normal density in red. Bar areas equal probabilities.",
           "width": 479,
           "height": 494,
-          "sha256": "49cfc8241cabe96efaac49c76f796ec3458fb5d416b0123dea2614c939dea760"
+          "sha256": "1196fb34f9c55edcd9ab80a3589a2e331661575f9e3fa831a8c9ef68c052bd59"
         }
       ],
       "sourceSha256": "513ed0778c971053cb8d993bf2b739c2a5c806d662dcc6552b141936c9ed9722"
@@ -49,14 +49,14 @@
           "alt": "Heat densities at times 1/4, 1, and 4: equal total mass, with wider, shorter curves at later times.",
           "width": 794,
           "height": 531,
-          "sha256": "3522c169257f42c2e0f5932f725fcbf49f7ab353272c239f3755be811ea90d09"
+          "sha256": "185ab7b48f00b9a2a0fe1a87614eebf971faf2f10eb76c60f9bc859e543513c8"
         },
         {
           "src": "assets/figures/questions-normal/heat-rescaling-2.svg",
           "alt": "After dividing position by the square root of time and rescaling the density, all three heat profiles coincide with the standard normal curve.",
           "width": 801,
           "height": 556,
-          "sha256": "e5faa312e083d985108d5b08226f270adb5d3baaea9bdb1e399b78dc08f0029c"
+          "sha256": "7dba08b2519d15d5834332d58046219bf82b5b102f9a7b312b7359ac7a63aed8"
         }
       ],
       "sourceSha256": "8d11bfcc06e6565e02fafe05389ff9e7b7f3e5901005edc4cbfe814cffe94dc8"
