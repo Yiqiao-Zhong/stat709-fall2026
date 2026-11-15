@@ -39,6 +39,9 @@ This repository contains the finished student website for STAT 709 Mathematical 
 - [Homework 6 assignment](homework/HW6.pdf)
 - [Homework 7 assignment](homework/HW7.pdf)
 - [Homework 8 assignment](homework/HW8.pdf)
+- [Homework 9 assignment](homework/HW9.pdf)
+- [Homework 10 assignment](homework/HW10.pdf)
+- [Homework 11 assignment](homework/HW11.pdf)
 
 Homework solutions are not included. The homepage and seven part-overview pages organize Lectures 1–22. Part VI (Lectures 18–20) is optional and not examined; its student HTML and PDF notes are available. Part VII contains Lectures 21–22 on testing and confidence sets.
 
@@ -140,3 +143,7 @@ The lectures now connect one-sided optimal testing through monotone likelihood r
 ## November 14 course review
 
 The approved course-wide review updates the student HTML/PDF notes for Lectures 1–22 and the normal-distribution supplement, corrects the syllabus wording about optional Part VI, and repairs citation headings, proof titles, figure numbers and navigation. The course priorities, lecture-specific exam exemptions, original figures, complete lecture exercise solutions and all eight published homework assignments are preserved. Homework solutions and author/source/standalone downloads remain private to preparation.
+
+## November 14: remaining homework and textbook access
+
+Homework 9–11 are available from the homepage, completing the eleven assignments. HW9 and HW10 use the linked official second edition of Vershynin's High-Dimensional Probability; HW11 uses Casella–Berger. Homework solutions remain private. The book is linked from its author's website and is not redistributed here.
